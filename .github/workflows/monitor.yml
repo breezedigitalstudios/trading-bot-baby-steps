@@ -2,13 +2,10 @@ name: Position Monitor
 
 on:
   schedule:
-    # Intraday checks at 1 PM and 3 PM EDT (UTC-4)
-    # 1 PM EDT = 17:00 UTC | 1 PM EST = 18:00 UTC
-    # 3 PM EDT = 19:00 UTC | 3 PM EST = 20:00 UTC
+    # 17:00 UTC = 1:00 PM EDT (summer) / 12:00 PM EST (winter)
+    # 19:00 UTC = 3:00 PM EDT (summer) / 2:00 PM EST (winter)
     - cron: '0 17 * * 1-5'
-    - cron: '0 18 * * 1-5'
     - cron: '0 19 * * 1-5'
-    - cron: '0 20 * * 1-5'
   workflow_dispatch:
 
 jobs:

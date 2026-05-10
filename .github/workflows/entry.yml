@@ -2,11 +2,9 @@ name: Entry Executor
 
 on:
   schedule:
-    # 11:35 AM EDT (UTC-4, summer) = 15:35 UTC
-    # 11:35 AM EST (UTC-5, winter) = 16:35 UTC
-    # Run at both so it fires in either timezone offset
+    # 15:35 UTC = 11:35 AM EDT (summer) / 10:35 AM EST (winter)
+    # entry_executor.py gates itself to not run before 10:30 AM ET
     - cron: '35 15 * * 1-5'
-    - cron: '35 16 * * 1-5'
   workflow_dispatch:
 
 jobs:
