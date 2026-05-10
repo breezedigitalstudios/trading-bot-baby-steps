@@ -1,0 +1,68 @@
+name: EOD Pipeline
+
+on:
+  schedule:
+    # 5:30 PM EDT (UTC-4) = 21:30 UTC
+    # 5:30 PM EST (UTC-5) = 22:30 UTC
+    - cron: '30 21 * * 1-5'
+    - cron: '30 22 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scanner
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python scanner.py
+
+      - name: Setup detector
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python setup_detector.py
+
+      - name: Regime filter
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python regime_filter.py
+
+      - name: Position manager (EOD)
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python position_manager.py
+
+      - name: Logger
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python logger.py
+
+      - name: Dashboard
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python generate_dashboard_v2.py
+
+      - name: Commit state
+        run: |
+          git config user.name  "trading-bot"
+          git config user.email "bot@github-actions"
+          git add watchlist.json setup_scores.json regime.json trades.json \
+                  dashboard_v2.html archive/
+          git diff --staged --quiet || git commit -m "eod: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

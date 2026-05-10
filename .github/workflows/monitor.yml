@@ -1,0 +1,40 @@
+name: Position Monitor
+
+on:
+  schedule:
+    # Intraday checks at 1 PM and 3 PM EDT (UTC-4)
+    # 1 PM EDT = 17:00 UTC | 1 PM EST = 18:00 UTC
+    # 3 PM EDT = 19:00 UTC | 3 PM EST = 20:00 UTC
+    - cron: '0 17 * * 1-5'
+    - cron: '0 18 * * 1-5'
+    - cron: '0 19 * * 1-5'
+    - cron: '0 20 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Position manager (intraday)
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python position_manager.py
+
+      - name: Commit state
+        run: |
+          git config user.name  "trading-bot"
+          git config user.email "bot@github-actions"
+          git add trades.json
+          git diff --staged --quiet || git commit -m "monitor: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

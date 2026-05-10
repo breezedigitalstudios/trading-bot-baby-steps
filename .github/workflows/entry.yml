@@ -1,0 +1,44 @@
+name: Entry Executor
+
+on:
+  schedule:
+    # 11:35 AM EDT (UTC-4, summer) = 15:35 UTC
+    # 11:35 AM EST (UTC-5, winter) = 16:35 UTC
+    # Run at both so it fires in either timezone offset
+    - cron: '35 15 * * 1-5'
+    - cron: '35 16 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Regime filter
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python regime_filter.py
+
+      - name: Entry executor
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python entry_executor.py
+
+      - name: Commit state
+        run: |
+          git config user.name  "trading-bot"
+          git config user.email "bot@github-actions"
+          git add regime.json trades.json
+          git diff --staged --quiet || git commit -m "entry: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
