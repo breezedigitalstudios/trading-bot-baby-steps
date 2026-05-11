@@ -2,9 +2,9 @@ name: EOD Pipeline
 
 on:
   schedule:
-    # 22:30 UTC = 6:30 PM EDT (summer) / 5:30 PM EST (winter)
+    # 21:30 UTC = 5:30 PM EDT (summer) / 4:30 PM EST (winter)
     # Always after market close; position_manager checks is_eod via hour >= 16 ET
-    - cron: '30 22 * * 1-5'
+    - cron: '30 21 * * 1-5'
   workflow_dispatch:
 
 jobs:
