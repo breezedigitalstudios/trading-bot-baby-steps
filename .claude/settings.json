@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python scanner.py)",
+      "Bash(python generate_dashboard.py)",
+      "Bash(open \"/Users/ca/Trading Bot: baby steps/dashboard.html\")",
+      "Bash(python generate_dashboard_v2.py)",
+      "Bash(python setup_detector.py)",
+      "Bash(python entry_executor.py)",
+      "Bash(python logger.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -L -H 'Authorization: token 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' https://api.github.com/repos/breezedigitalstudios/trading-bot-baby-steps/actions/jobs/75411596175/logs)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}
