@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name  "trading-bot"
           git config user.email "bot@github-actions"
-          git add trades.json
+          [ -f trades.json ] && git add trades.json || true
           git diff --staged --quiet || git commit -m "monitor: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
