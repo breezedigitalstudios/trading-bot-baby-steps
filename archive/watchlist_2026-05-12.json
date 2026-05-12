@@ -1,672 +1,717 @@
 {
-  "generated_at": "2026-05-12T04:31:36.140414+00:00",
-  "count": 74,
+  "generated_at": "2026-05-12T22:42:40.523969+00:00",
+  "count": 79,
   "candidates": [
     {
       "symbol": "CUE",
-      "close": 31.32,
-      "momentum_22": 107.8512,
-      "momentum_67": 189.0163,
-      "momentum_126": 189.0163,
-      "adr_pct": 28.94,
-      "dollar_volume": 42879508.0
-    },
-    {
-      "symbol": "AKAN",
-      "close": 24.79,
-      "momentum_22": 39.9581,
-      "momentum_67": 48.6078,
-      "momentum_126": 59.62,
-      "adr_pct": 34.57,
-      "dollar_volume": 140469896.0
+      "close": 29.26,
+      "momentum_22": 76.9797,
+      "momentum_67": 176.5842,
+      "momentum_126": 176.5842,
+      "adr_pct": 29.13,
+      "dollar_volume": 42948388.0
     },
     {
       "symbol": "SMCL",
-      "close": 66.06,
-      "momentum_22": 36.2973,
-      "momentum_67": 51.2062,
-      "momentum_126": 51.2062,
-      "adr_pct": 11.22,
-      "dollar_volume": 47763668.0
+      "close": 63.18,
+      "momentum_22": 32.7305,
+      "momentum_67": 48.9702,
+      "momentum_126": 48.9702,
+      "adr_pct": 11.42,
+      "dollar_volume": 44062298.0
     },
     {
       "symbol": "BMNG",
-      "close": 30.98,
-      "momentum_22": 25.6033,
-      "momentum_67": 30.98,
-      "momentum_126": 30.98,
-      "adr_pct": 9.94,
-      "dollar_volume": 74838016.0
+      "close": 27.44,
+      "momentum_22": 22.6777,
+      "momentum_67": 27.44,
+      "momentum_126": 27.44,
+      "adr_pct": 9.58,
+      "dollar_volume": 70814694.0
     },
     {
       "symbol": "CRCG",
-      "close": 44.87,
-      "momentum_22": 21.2654,
-      "momentum_67": 47.073,
-      "momentum_126": 47.073,
-      "adr_pct": 14.94,
-      "dollar_volume": 92898715.0
+      "close": 39.51,
+      "momentum_22": 18.1655,
+      "momentum_67": 41.4499,
+      "momentum_126": 41.4499,
+      "adr_pct": 15.82,
+      "dollar_volume": 93877967.0
     },
     {
       "symbol": "CRWG",
-      "close": 46.95,
-      "momentum_22": 13.87,
-      "momentum_67": 26.156,
-      "momentum_126": 26.156,
-      "adr_pct": 13.83,
-      "dollar_volume": 110977831.0
+      "close": 41.23,
+      "momentum_22": 10.3854,
+      "momentum_67": 22.9694,
+      "momentum_126": 22.9694,
+      "adr_pct": 14.34,
+      "dollar_volume": 102189408.0
     },
     {
       "symbol": "MXL",
-      "close": 102.27,
-      "momentum_22": 5.1263,
-      "momentum_67": 6.9571,
-      "momentum_126": 8.0086,
-      "adr_pct": 11.64,
-      "dollar_volume": 450767304.0
-    },
-    {
-      "symbol": "LINT",
-      "close": 247.5,
-      "momentum_22": 4.125,
-      "momentum_67": 8.9286,
-      "momentum_126": NaN,
-      "adr_pct": 11.45,
-      "dollar_volume": 33913122.0
-    },
-    {
-      "symbol": "INTW",
-      "close": 390.07,
-      "momentum_22": 4.083,
-      "momentum_67": 8.8652,
-      "momentum_126": 10.908,
-      "adr_pct": 11.58,
-      "dollar_volume": 203792145.0
+      "close": 91.93,
+      "momentum_22": 4.4605,
+      "momentum_67": 6.2537,
+      "momentum_126": 7.1989,
+      "adr_pct": 12.18,
+      "dollar_volume": 476596656.0
     },
     {
       "symbol": "MRAM",
-      "close": 39.86,
-      "momentum_22": 3.9622,
-      "momentum_67": 4.9825,
-      "momentum_126": 5.4231,
-      "adr_pct": 10.81,
-      "dollar_volume": 100486006.0
-    },
-    {
-      "symbol": "VCX",
-      "close": 276.0,
-      "momentum_22": 3.68,
-      "momentum_67": NaN,
-      "momentum_126": NaN,
-      "adr_pct": 15.21,
-      "dollar_volume": 50470774.0
-    },
-    {
-      "symbol": "IONL",
-      "close": 36.3,
-      "momentum_22": 3.6427,
-      "momentum_67": 4.1438,
-      "momentum_126": 4.1438,
-      "adr_pct": 17.1,
-      "dollar_volume": 50026073.0
-    },
-    {
-      "symbol": "IONX",
-      "close": 69.02,
-      "momentum_22": 3.6117,
-      "momentum_67": 8.2167,
-      "momentum_126": 8.2167,
-      "adr_pct": 17.14,
-      "dollar_volume": 167430056.0
-    },
-    {
-      "symbol": "MUU",
-      "close": 613.59,
-      "momentum_22": 3.5674,
-      "momentum_67": 5.988,
-      "momentum_126": 12.1841,
-      "adr_pct": 11.37,
-      "dollar_volume": 775926606.0
-    },
-    {
-      "symbol": "MULL",
-      "close": 538.36,
-      "momentum_22": 3.5524,
-      "momentum_67": 5.9459,
-      "momentum_126": 12.3619,
-      "adr_pct": 11.2,
-      "dollar_volume": 108624742.0
-    },
-    {
-      "symbol": "AMUU",
-      "close": 198.4,
-      "momentum_22": 3.4019,
-      "momentum_67": 5.2279,
-      "momentum_126": 5.2279,
-      "adr_pct": 9.36,
-      "dollar_volume": 23177844.0
-    },
-    {
-      "symbol": "AMDL",
-      "close": 56.59,
-      "momentum_22": 3.3846,
-      "momentum_67": 5.2398,
-      "momentum_126": 5.2398,
-      "adr_pct": 9.78,
-      "dollar_volume": 554414994.0
-    },
-    {
-      "symbol": "QCML",
-      "close": 37.08,
-      "momentum_22": 3.3078,
-      "momentum_67": 3.5449,
-      "momentum_126": 3.5449,
-      "adr_pct": 11.08,
-      "dollar_volume": 50557325.0
+      "close": 44.01,
+      "momentum_22": 4.3317,
+      "momentum_67": 5.5012,
+      "momentum_126": 5.9878,
+      "adr_pct": 11.73,
+      "dollar_volume": 130509631.0
     },
     {
       "symbol": "AGL",
-      "close": 59.61,
-      "momentum_22": 3.2309,
-      "momentum_67": 196.0855,
-      "momentum_126": 196.0855,
-      "adr_pct": 14.46,
-      "dollar_volume": 25287940.0
+      "close": 69.54,
+      "momentum_22": 3.7167,
+      "momentum_67": 228.75,
+      "momentum_126": 228.75,
+      "adr_pct": 15.1,
+      "dollar_volume": 27266409.0
+    },
+    {
+      "symbol": "VCX",
+      "close": 275.0,
+      "momentum_22": 3.6667,
+      "momentum_67": NaN,
+      "momentum_126": NaN,
+      "adr_pct": 16.25,
+      "dollar_volume": 61734731.0
+    },
+    {
+      "symbol": "IONL",
+      "close": 34.86,
+      "momentum_22": 3.4983,
+      "momentum_67": 3.9795,
+      "momentum_126": 3.9795,
+      "adr_pct": 17.28,
+      "dollar_volume": 52239107.0
+    },
+    {
+      "symbol": "IONX",
+      "close": 66.62,
+      "momentum_22": 3.4861,
+      "momentum_67": 7.931,
+      "momentum_126": 7.931,
+      "adr_pct": 17.33,
+      "dollar_volume": 170933311.0
+    },
+    {
+      "symbol": "INTW",
+      "close": 337.6,
+      "momentum_22": 3.4066,
+      "momentum_67": 7.6727,
+      "momentum_126": 9.4407,
+      "adr_pct": 12.24,
+      "dollar_volume": 223182240.0
+    },
+    {
+      "symbol": "LINT",
+      "close": 212.5,
+      "momentum_22": 3.3984,
+      "momentum_67": 7.6659,
+      "momentum_126": NaN,
+      "adr_pct": 12.11,
+      "dollar_volume": 36927115.0
+    },
+    {
+      "symbol": "MUU",
+      "close": 568.35,
+      "momentum_22": 3.3044,
+      "momentum_67": 5.5465,
+      "momentum_126": 11.2857,
+      "adr_pct": 11.59,
+      "dollar_volume": 850008634.0
+    },
+    {
+      "symbol": "MULL",
+      "close": 498.05,
+      "momentum_22": 3.2864,
+      "momentum_67": 5.5007,
+      "momentum_126": 11.4363,
+      "adr_pct": 11.41,
+      "dollar_volume": 118633923.0
+    },
+    {
+      "symbol": "AMUU",
+      "close": 189.27,
+      "momentum_22": 3.1556,
+      "momentum_67": 4.9874,
+      "momentum_126": 4.9874,
+      "adr_pct": 9.73,
+      "dollar_volume": 24351016.0
+    },
+    {
+      "symbol": "AMDL",
+      "close": 54.07,
+      "momentum_22": 3.1546,
+      "momentum_67": 5.0065,
+      "momentum_126": 5.0065,
+      "adr_pct": 10.16,
+      "dollar_volume": 576602984.0
     },
     {
       "symbol": "BAND",
-      "close": 49.95,
-      "momentum_22": 3.1435,
-      "momentum_67": 3.996,
-      "momentum_126": 3.996,
-      "adr_pct": 8.13,
-      "dollar_volume": 46504795.0
-    },
-    {
-      "symbol": "INOD",
-      "close": 103.83,
-      "momentum_22": 3.0096,
-      "momentum_67": 3.0333,
-      "momentum_126": 3.0333,
-      "adr_pct": 8.14,
-      "dollar_volume": 182983787.0
+      "close": 49.44,
+      "momentum_22": 3.0861,
+      "momentum_67": 3.9552,
+      "momentum_126": 3.9552,
+      "adr_pct": 7.95,
+      "dollar_volume": 48288171.0
     },
     {
       "symbol": "RKLX",
-      "close": 72.57,
-      "momentum_22": 2.6918,
-      "momentum_67": 3.6652,
-      "momentum_126": 3.6652,
-      "adr_pct": 15.58,
-      "dollar_volume": 152701829.0
+      "close": 72.85,
+      "momentum_22": 2.6823,
+      "momentum_67": 3.6793,
+      "momentum_126": 3.6793,
+      "adr_pct": 15.73,
+      "dollar_volume": 161285646.0
     },
     {
-      "symbol": "ALMU",
-      "close": 28.18,
-      "momentum_22": 2.6214,
-      "momentum_67": 2.752,
-      "momentum_126": 2.752,
-      "adr_pct": 14.92,
-      "dollar_volume": 43047773.0
+      "symbol": "INOD",
+      "close": 92.09,
+      "momentum_22": 2.6693,
+      "momentum_67": 2.6903,
+      "momentum_126": 2.6903,
+      "adr_pct": 9.02,
+      "dollar_volume": 201377748.0
     },
     {
-      "symbol": "DXYZ",
-      "close": 71.24,
-      "momentum_22": 2.5746,
-      "momentum_67": 2.992,
-      "momentum_126": 3.6143,
-      "adr_pct": 7.14,
-      "dollar_volume": 126277165.0
-    },
-    {
-      "symbol": "NVTS",
-      "close": 22.65,
-      "momentum_22": 2.4836,
-      "momentum_67": 3.0816,
-      "momentum_126": 3.3066,
-      "adr_pct": 12.91,
-      "dollar_volume": 677690916.0
+      "symbol": "QCML",
+      "close": 28.53,
+      "momentum_22": 2.545,
+      "momentum_67": 2.7275,
+      "momentum_126": 2.7275,
+      "adr_pct": 12.48,
+      "dollar_volume": 58071678.0
     },
     {
       "symbol": "WOLF",
-      "close": 50.31,
-      "momentum_22": 2.34,
-      "momentum_67": 3.7308,
-      "momentum_126": 3.7308,
-      "adr_pct": 13.7,
-      "dollar_volume": 226567499.0
+      "close": 53.72,
+      "momentum_22": 2.4986,
+      "momentum_67": 3.9837,
+      "momentum_126": 3.9837,
+      "adr_pct": 14.01,
+      "dollar_volume": 256435534.0
     },
     {
-      "symbol": "MSTX",
-      "close": 44.22,
-      "momentum_22": 2.2995,
-      "momentum_67": 28.1656,
-      "momentum_126": 28.1656,
-      "adr_pct": 10.66,
-      "dollar_volume": 130566119.0
+      "symbol": "AMBQ",
+      "close": 66.37,
+      "momentum_22": 2.3403,
+      "momentum_67": 2.9174,
+      "momentum_126": 3.0005,
+      "adr_pct": 6.78,
+      "dollar_volume": 25523625.0
     },
     {
-      "symbol": "HIMX",
-      "close": 20.65,
-      "momentum_22": 2.2792,
-      "momentum_67": 2.9416,
-      "momentum_126": 3.0146,
-      "adr_pct": 8.27,
-      "dollar_volume": 75700257.0
+      "symbol": "RVI",
+      "close": 53.49,
+      "momentum_22": 2.204,
+      "momentum_67": NaN,
+      "momentum_126": NaN,
+      "adr_pct": 8.44,
+      "dollar_volume": 25815065.0
     },
     {
       "symbol": "DOCN",
-      "close": 162.72,
-      "momentum_22": 2.2547,
-      "momentum_67": 3.1887,
-      "momentum_126": 3.878,
-      "adr_pct": 8.33,
-      "dollar_volume": 520695357.0
-    },
-    {
-      "symbol": "FLNC",
-      "close": 25.23,
-      "momentum_22": 2.2258,
-      "momentum_67": 2.2258,
-      "momentum_126": 2.2258,
-      "adr_pct": 9.01,
-      "dollar_volume": 186507710.0
-    },
-    {
-      "symbol": "SITM",
-      "close": 901.48,
-      "momentum_22": 2.2095,
-      "momentum_67": 2.9536,
-      "momentum_126": 3.6995,
-      "adr_pct": 5.69,
-      "dollar_volume": 277635617.0
+      "close": 155.72,
+      "momentum_22": 2.1577,
+      "momentum_67": 3.0515,
+      "momentum_126": 3.7112,
+      "adr_pct": 8.04,
+      "dollar_volume": 527813509.0
     },
     {
       "symbol": "AXTI",
-      "close": 125.81,
-      "momentum_22": 2.1676,
-      "momentum_67": 7.6248,
-      "momentum_126": 16.1088,
-      "adr_pct": 13.65,
-      "dollar_volume": 1128655614.0
-    },
-    {
-      "symbol": "INTC",
-      "close": 129.44,
-      "momentum_22": 2.1307,
-      "momentum_67": 3.1858,
-      "momentum_126": 3.9355,
-      "adr_pct": 6.26,
-      "dollar_volume": 13870395850.0
-    },
-    {
-      "symbol": "SIMO",
-      "close": 262.05,
-      "momentum_22": 2.1131,
-      "momentum_67": 2.496,
-      "momentum_126": 3.2855,
-      "adr_pct": 7.19,
-      "dollar_volume": 249259021.0
-    },
-    {
-      "symbol": "HIMZ",
-      "close": 40.41,
-      "momentum_22": 2.0994,
-      "momentum_67": 45.692,
-      "momentum_126": 45.692,
-      "adr_pct": 15.03,
-      "dollar_volume": 56308246.0
-    },
-    {
-      "symbol": "QURE",
-      "close": 27.64,
-      "momentum_22": 2.0924,
-      "momentum_67": 3.1661,
-      "momentum_126": 3.1661,
-      "adr_pct": 8.05,
-      "dollar_volume": 42374376.0
+      "close": 122.9,
+      "momentum_22": 2.1175,
+      "momentum_67": 7.4485,
+      "momentum_126": 14.5616,
+      "adr_pct": 13.72,
+      "dollar_volume": 1148892164.0
     },
     {
       "symbol": "XMTR",
-      "close": 80.73,
-      "momentum_22": 2.0495,
-      "momentum_67": 2.2514,
-      "momentum_126": 2.2514,
-      "adr_pct": 6.29,
-      "dollar_volume": 53694926.0
+      "close": 83.92,
+      "momentum_22": 2.1064,
+      "momentum_67": 2.3402,
+      "momentum_126": 2.3402,
+      "adr_pct": 6.45,
+      "dollar_volume": 56420189.0
+    },
+    {
+      "symbol": "SIMO",
+      "close": 258.71,
+      "momentum_22": 2.0862,
+      "momentum_67": 2.4641,
+      "momentum_126": 3.2436,
+      "adr_pct": 7.34,
+      "dollar_volume": 257516078.0
+    },
+    {
+      "symbol": "SITM",
+      "close": 847.19,
+      "momentum_22": 2.0367,
+      "momentum_67": 2.7758,
+      "momentum_126": 3.4767,
+      "adr_pct": 6.02,
+      "dollar_volume": 297400293.0
+    },
+    {
+      "symbol": "MSTX",
+      "close": 39.01,
+      "momentum_22": 2.0286,
+      "momentum_67": 24.8471,
+      "momentum_126": 24.8471,
+      "adr_pct": 10.84,
+      "dollar_volume": 130275414.0
     },
     {
       "symbol": "IONQ",
-      "close": 56.89,
-      "momentum_22": 2.0412,
-      "momentum_67": 2.1974,
-      "momentum_126": 2.1974,
-      "adr_pct": 8.98,
-      "dollar_volume": 1916279611.0
+      "close": 55.87,
+      "momentum_22": 2.0046,
+      "momentum_67": 2.158,
+      "momentum_126": 2.158,
+      "adr_pct": 8.93,
+      "dollar_volume": 1938904668.0
     },
     {
-      "symbol": "STRL",
-      "close": 868.18,
-      "momentum_22": 2.019,
-      "momentum_67": 2.5225,
-      "momentum_126": 3.0833,
-      "adr_pct": 5.35,
-      "dollar_volume": 417682327.0
+      "symbol": "ALMU",
+      "close": 27.11,
+      "momentum_22": 1.9504,
+      "momentum_67": 2.6475,
+      "momentum_126": 2.6475,
+      "adr_pct": 14.82,
+      "dollar_volume": 43125207.0
+    },
+    {
+      "symbol": "INTC",
+      "close": 120.61,
+      "momentum_22": 1.9425,
+      "momentum_67": 2.9685,
+      "momentum_126": 3.6671,
+      "adr_pct": 6.55,
+      "dollar_volume": 14554601232.0
     },
     {
       "symbol": "DDOG",
-      "close": 202.32,
-      "momentum_22": 2.0072,
-      "momentum_67": 2.0643,
-      "momentum_126": 2.0643,
-      "adr_pct": 5.1,
-      "dollar_volume": 1020371895.0
-    },
-    {
-      "symbol": "ORCX",
-      "close": 44.25,
-      "momentum_22": 1.9781,
-      "momentum_67": 5.5312,
-      "momentum_126": 5.5312,
-      "adr_pct": 8.36,
-      "dollar_volume": 145622626.0
-    },
-    {
-      "symbol": "MU",
-      "close": 795.33,
-      "momentum_22": 1.947,
-      "momentum_67": 2.5533,
-      "momentum_126": 4.1297,
-      "adr_pct": 5.86,
-      "dollar_volume": 25184441765.0
-    },
-    {
-      "symbol": "CRDO",
-      "close": 210.22,
-      "momentum_22": 1.9432,
-      "momentum_67": 2.4307,
-      "momentum_126": 2.4307,
-      "adr_pct": 7.41,
-      "dollar_volume": 1285346965.0
-    },
-    {
-      "symbol": "WYFI",
-      "close": 26.98,
-      "momentum_22": 1.941,
-      "momentum_67": 2.5671,
-      "momentum_126": 2.5671,
-      "adr_pct": 8.68,
-      "dollar_volume": 21979547.0
-    },
-    {
-      "symbol": "FLEX",
-      "close": 145.07,
-      "momentum_22": 1.9335,
-      "momentum_67": 2.63,
-      "momentum_126": 2.7336,
-      "adr_pct": 4.37,
-      "dollar_volume": 622059481.0
-    },
-    {
-      "symbol": "AMD",
-      "close": 458.79,
-      "momentum_22": 1.9199,
-      "momentum_67": 2.4375,
-      "momentum_126": 2.4375,
-      "adr_pct": 5.09,
-      "dollar_volume": 16616199939.0
+      "close": 199.94,
+      "momentum_22": 1.9355,
+      "momentum_67": 2.04,
+      "momentum_126": 2.04,
+      "adr_pct": 5.11,
+      "dollar_volume": 1045331804.0
     },
     {
       "symbol": "PENG",
-      "close": 43.54,
-      "momentum_22": 1.9138,
-      "momentum_67": 2.7145,
-      "momentum_126": 2.7145,
-      "adr_pct": 6.77,
-      "dollar_volume": 83720559.0
+      "close": 44.13,
+      "momentum_22": 1.9355,
+      "momentum_67": 2.7512,
+      "momentum_126": 2.7512,
+      "adr_pct": 7.02,
+      "dollar_volume": 91979144.0
     },
     {
-      "symbol": "GLWG",
-      "close": 34.43,
-      "momentum_22": 1.8886,
-      "momentum_67": NaN,
-      "momentum_126": NaN,
-      "adr_pct": 11.32,
-      "dollar_volume": 24562283.0
+      "symbol": "STRL",
+      "close": 851.35,
+      "momentum_22": 1.9349,
+      "momentum_67": 2.4677,
+      "momentum_126": 3.0235,
+      "adr_pct": 5.48,
+      "dollar_volume": 435392719.0
     },
     {
-      "symbol": "RGTX",
-      "close": 27.67,
-      "momentum_22": 1.8862,
-      "momentum_67": 6.0349,
-      "momentum_126": 6.0349,
-      "adr_pct": 15.06,
-      "dollar_volume": 22027353.0
+      "symbol": "DXYZ",
+      "close": 53.4,
+      "momentum_22": 1.9099,
+      "momentum_67": 2.2428,
+      "momentum_126": 2.7092,
+      "adr_pct": 7.94,
+      "dollar_volume": 155839644.0
+    },
+    {
+      "symbol": "QURE",
+      "close": 29.1,
+      "momentum_22": 1.8896,
+      "momentum_67": 3.3333,
+      "momentum_126": 3.3333,
+      "adr_pct": 8.2,
+      "dollar_volume": 47284694.0
+    },
+    {
+      "symbol": "FLNC",
+      "close": 21.28,
+      "momentum_22": 1.8774,
+      "momentum_67": 1.8774,
+      "momentum_126": 1.8774,
+      "adr_pct": 9.49,
+      "dollar_volume": 205272426.0
+    },
+    {
+      "symbol": "WYFI",
+      "close": 26.09,
+      "momentum_22": 1.877,
+      "momentum_67": 2.4824,
+      "momentum_126": 2.4824,
+      "adr_pct": 9.04,
+      "dollar_volume": 24705436.0
+    },
+    {
+      "symbol": "MU",
+      "close": 766.58,
+      "momentum_22": 1.8766,
+      "momentum_67": 2.461,
+      "momentum_126": 3.9804,
+      "adr_pct": 5.92,
+      "dollar_volume": 26766885939.0
+    },
+    {
+      "symbol": "FLEX",
+      "close": 139.69,
+      "momentum_22": 1.8559,
+      "momentum_67": 2.4193,
+      "momentum_126": 2.6322,
+      "adr_pct": 4.52,
+      "dollar_volume": 663164596.0
+    },
+    {
+      "symbol": "AMD",
+      "close": 448.29,
+      "momentum_22": 1.8522,
+      "momentum_67": 2.3817,
+      "momentum_126": 2.3817,
+      "adr_pct": 5.27,
+      "dollar_volume": 17162362797.0
+    },
+    {
+      "symbol": "CEVA",
+      "close": 37.08,
+      "momentum_22": 1.8266,
+      "momentum_67": 2.1786,
+      "momentum_126": 2.1786,
+      "adr_pct": 7.15,
+      "dollar_volume": 29288233.0
+    },
+    {
+      "symbol": "RKLB",
+      "close": 117.56,
+      "momentum_22": 1.7654,
+      "momentum_67": 2.0943,
+      "momentum_126": 3.1291,
+      "adr_pct": 8.16,
+      "dollar_volume": 2488820187.0
     },
     {
       "symbol": "NBIL",
-      "close": 30.32,
-      "momentum_22": 1.8797,
-      "momentum_67": 4.7598,
-      "momentum_126": 4.7598,
-      "adr_pct": 15.12,
-      "dollar_volume": 34205667.0
+      "close": 28.07,
+      "momentum_22": 1.7402,
+      "momentum_67": 4.4066,
+      "momentum_126": 4.4066,
+      "adr_pct": 15.45,
+      "dollar_volume": 33467149.0
     },
     {
-      "symbol": "SNDK",
-      "close": 1547.56,
-      "momentum_22": 1.8528,
-      "momentum_67": 2.9933,
-      "momentum_126": 8.4566,
-      "adr_pct": 6.61,
-      "dollar_volume": 18659894662.0
+      "symbol": "SEZL",
+      "close": 99.63,
+      "momentum_22": 1.7297,
+      "momentum_67": 1.8115,
+      "momentum_126": 2.0127,
+      "adr_pct": 7.25,
+      "dollar_volume": 70634981.0
     },
     {
-      "symbol": "MVLL",
-      "close": 72.49,
-      "momentum_22": 1.8319,
-      "momentum_67": 5.0079,
-      "momentum_126": 5.0079,
-      "adr_pct": 10.46,
-      "dollar_volume": 66639978.0
-    },
-    {
-      "symbol": "MANE",
-      "close": 108.13,
-      "momentum_22": 1.8253,
-      "momentum_67": 3.3791,
+      "symbol": "GLWG",
+      "close": 31.47,
+      "momentum_22": 1.7263,
+      "momentum_67": NaN,
       "momentum_126": NaN,
-      "adr_pct": 9.61,
-      "dollar_volume": 75523921.0
+      "adr_pct": 11.69,
+      "dollar_volume": 28747598.0
+    },
+    {
+      "symbol": "VPG",
+      "close": 85.57,
+      "momentum_22": 1.7217,
+      "momentum_67": 2.1851,
+      "momentum_126": 2.9431,
+      "adr_pct": 5.46,
+      "dollar_volume": 20392891.0
     },
     {
       "symbol": "BE",
-      "close": 283.92,
-      "momentum_22": 1.7706,
-      "momentum_67": 2.437,
-      "momentum_126": 3.7506,
-      "adr_pct": 7.7,
-      "dollar_volume": 2861973198.0
+      "close": 280.69,
+      "momentum_22": 1.7197,
+      "momentum_67": 2.4093,
+      "momentum_126": 3.7079,
+      "adr_pct": 7.63,
+      "dollar_volume": 2692439185.0
+    },
+    {
+      "symbol": "ORCX",
+      "close": 40.99,
+      "momentum_22": 1.7093,
+      "momentum_67": 5.1238,
+      "momentum_126": 5.1238,
+      "adr_pct": 8.57,
+      "dollar_volume": 134546686.0
+    },
+    {
+      "symbol": "HUT",
+      "close": 107.31,
+      "momentum_22": 1.6971,
+      "momentum_67": 2.5514,
+      "momentum_126": 3.3884,
+      "adr_pct": 6.84,
+      "dollar_volume": 464439401.0
+    },
+    {
+      "symbol": "SNDK",
+      "close": 1452.02,
+      "momentum_22": 1.6749,
+      "momentum_67": 2.8085,
+      "momentum_126": 7.9345,
+      "adr_pct": 6.76,
+      "dollar_volume": 18960968831.0
+    },
+    {
+      "symbol": "RGTX",
+      "close": 23.82,
+      "momentum_22": 1.6237,
+      "momentum_67": 5.1952,
+      "momentum_126": 5.1952,
+      "adr_pct": 15.71,
+      "dollar_volume": 22635155.0
     },
     {
       "symbol": "VICR",
-      "close": 312.96,
-      "momentum_22": 1.7316,
-      "momentum_67": 2.4838,
-      "momentum_126": 3.8979,
-      "adr_pct": 8.75,
-      "dollar_volume": 247374612.0
+      "close": 292.53,
+      "momentum_22": 1.6186,
+      "momentum_67": 2.3217,
+      "momentum_126": 3.6434,
+      "adr_pct": 9.09,
+      "dollar_volume": 262630411.0
+    },
+    {
+      "symbol": "MVLL",
+      "close": 67.3,
+      "momentum_22": 1.5858,
+      "momentum_67": 4.6494,
+      "momentum_126": 4.6494,
+      "adr_pct": 10.7,
+      "dollar_volume": 65056101.0
+    },
+    {
+      "symbol": "MANE",
+      "close": 103.9,
+      "momentum_22": 1.579,
+      "momentum_67": 2.961,
+      "momentum_126": NaN,
+      "adr_pct": 9.63,
+      "dollar_volume": 76648349.0
+    },
+    {
+      "symbol": "HIMZ",
+      "close": 28.9,
+      "momentum_22": 1.4897,
+      "momentum_67": 32.6775,
+      "momentum_126": 32.6775,
+      "adr_pct": 15.65,
+      "dollar_volume": 58896487.0
     },
     {
       "symbol": "APPX",
-      "close": 37.57,
-      "momentum_22": 1.6543,
-      "momentum_67": 4.6326,
-      "momentum_126": 4.6326,
-      "adr_pct": 10.48,
-      "dollar_volume": 36958595.0
-    },
-    {
-      "symbol": "AEHR",
-      "close": 104.56,
-      "momentum_22": 1.5939,
-      "momentum_67": 4.6143,
-      "momentum_126": 5.5914,
-      "adr_pct": 10.56,
-      "dollar_volume": 304488946.0
+      "close": 39.5,
+      "momentum_22": 1.4872,
+      "momentum_67": 4.8705,
+      "momentum_126": 4.8705,
+      "adr_pct": 10.52,
+      "dollar_volume": 36967577.0
     },
     {
       "symbol": "WDC",
-      "close": 515.83,
-      "momentum_22": 1.5631,
-      "momentum_67": 2.1674,
-      "momentum_126": 3.8951,
-      "adr_pct": 5.46,
-      "dollar_volume": 3401614862.0
+      "close": 488.74,
+      "momentum_22": 1.4396,
+      "momentum_67": 2.0535,
+      "momentum_126": 3.6906,
+      "adr_pct": 5.55,
+      "dollar_volume": 3457294006.0
     },
     {
       "symbol": "CRCL",
-      "close": 131.76,
-      "momentum_22": 1.5518,
-      "momentum_67": 2.6405,
-      "momentum_126": 2.6405,
-      "adr_pct": 7.74,
-      "dollar_volume": 1734379923.0
+      "close": 123.65,
+      "momentum_22": 1.4333,
+      "momentum_67": 2.478,
+      "momentum_126": 2.478,
+      "adr_pct": 8.1,
+      "dollar_volume": 1823580734.0
     },
     {
       "symbol": "LUNR",
-      "close": 32.42,
-      "momentum_22": 1.4777,
-      "momentum_67": 2.2297,
-      "momentum_126": 4.1671,
-      "adr_pct": 10.0,
-      "dollar_volume": 341903914.0
-    },
-    {
-      "symbol": "SOLT",
-      "close": 62.4,
-      "momentum_22": 1.4529,
-      "momentum_67": 30.439,
-      "momentum_126": 30.439,
-      "adr_pct": 5.49,
-      "dollar_volume": 29760600.0
+      "close": 32.09,
+      "momentum_22": 1.4218,
+      "momentum_67": 2.207,
+      "momentum_126": 4.1247,
+      "adr_pct": 9.78,
+      "dollar_volume": 333184084.0
     },
     {
       "symbol": "AAOI",
-      "close": 184.9,
-      "momentum_22": 1.4443,
-      "momentum_67": 4.9948,
-      "momentum_126": 9.9946,
-      "adr_pct": 12.19,
-      "dollar_volume": 1725876349.0
+      "close": 188.28,
+      "momentum_22": 1.4196,
+      "momentum_67": 5.0861,
+      "momentum_126": 10.1773,
+      "adr_pct": 12.68,
+      "dollar_volume": 1800538067.0
+    },
+    {
+      "symbol": "AEHR",
+      "close": 96.72,
+      "momentum_22": 1.412,
+      "momentum_67": 4.2683,
+      "momentum_126": 5.1722,
+      "adr_pct": 10.83,
+      "dollar_volume": 312134838.0
     },
     {
       "symbol": "SGML",
-      "close": 20.3,
-      "momentum_22": 1.4346,
-      "momentum_67": 2.2745,
-      "momentum_126": 4.2204,
-      "adr_pct": 8.09,
-      "dollar_volume": 75799803.0
-    },
-    {
-      "symbol": "ICHR",
-      "close": 76.95,
-      "momentum_22": 1.4097,
-      "momentum_67": 2.8468,
-      "momentum_126": 5.473,
-      "adr_pct": 6.99,
-      "dollar_volume": 71458105.0
-    },
-    {
-      "symbol": "NBIS",
-      "close": 186.1,
-      "momentum_22": 1.4024,
-      "momentum_67": 2.5313,
-      "momentum_126": 2.5313,
-      "adr_pct": 7.77,
-      "dollar_volume": 2537611016.0
-    },
-    {
-      "symbol": "LITE",
-      "close": 1053.09,
-      "momentum_22": 1.3493,
-      "momentum_67": 2.4778,
-      "momentum_126": 4.8901,
-      "adr_pct": 7.68,
-      "dollar_volume": 5299743892.0
+      "close": 20.88,
+      "momentum_22": 1.3647,
+      "momentum_67": 2.3395,
+      "momentum_126": 3.9471,
+      "adr_pct": 8.2,
+      "dollar_volume": 75892975.0
     },
     {
       "symbol": "HYMC",
-      "close": 43.71,
-      "momentum_22": 1.3152,
-      "momentum_67": 1.4964,
-      "momentum_126": 6.1825,
-      "adr_pct": 7.25,
-      "dollar_volume": 83005821.0
+      "close": 45.16,
+      "momentum_22": 1.3588,
+      "momentum_67": 1.546,
+      "momentum_126": 5.8715,
+      "adr_pct": 7.56,
+      "dollar_volume": 82954577.0
+    },
+    {
+      "symbol": "SOLT",
+      "close": 58.24,
+      "momentum_22": 1.356,
+      "momentum_67": 28.4098,
+      "momentum_126": 28.4098,
+      "adr_pct": 5.2,
+      "dollar_volume": 29390387.0
+    },
+    {
+      "symbol": "NBIS",
+      "close": 179.11,
+      "momentum_22": 1.3497,
+      "momentum_67": 2.4362,
+      "momentum_126": 2.4362,
+      "adr_pct": 7.91,
+      "dollar_volume": 2463472200.0
+    },
+    {
+      "symbol": "ICHR",
+      "close": 73.28,
+      "momentum_22": 1.2947,
+      "momentum_67": 2.6897,
+      "momentum_126": 5.2082,
+      "adr_pct": 6.92,
+      "dollar_volume": 71254189.0
+    },
+    {
+      "symbol": "PACS",
+      "close": 41.01,
+      "momentum_22": 1.2876,
+      "momentum_67": 1.397,
+      "momentum_126": 3.9777,
+      "adr_pct": 4.63,
+      "dollar_volume": 30734039.0
     },
     {
       "symbol": "PL",
-      "close": 41.84,
-      "momentum_22": 1.3124,
-      "momentum_67": 2.0941,
-      "momentum_126": 3.9772,
-      "adr_pct": 9.24,
-      "dollar_volume": 394727900.0
+      "close": 40.68,
+      "momentum_22": 1.276,
+      "momentum_67": 2.036,
+      "momentum_126": 3.8669,
+      "adr_pct": 9.01,
+      "dollar_volume": 385182031.0
     },
     {
-      "symbol": "UCTT",
-      "close": 85.45,
-      "momentum_22": 1.2395,
-      "momentum_67": 2.0408,
-      "momentum_126": 3.9772,
-      "adr_pct": 6.39,
-      "dollar_volume": 83360117.0
+      "symbol": "LITE",
+      "close": 992.37,
+      "momentum_22": 1.2715,
+      "momentum_67": 2.3349,
+      "momentum_126": 4.6082,
+      "adr_pct": 8.02,
+      "dollar_volume": 5441014209.0
     },
     {
       "symbol": "ALM",
-      "close": 20.92,
-      "momentum_22": 1.2023,
-      "momentum_67": 1.7008,
-      "momentum_126": 3.8491,
-      "adr_pct": 7.79,
-      "dollar_volume": 108294951.0
+      "close": 22.12,
+      "momentum_22": 1.2713,
+      "momentum_67": 1.7984,
+      "momentum_126": 4.0699,
+      "adr_pct": 7.98,
+      "dollar_volume": 107625076.0
     },
     {
       "symbol": "PLTZ",
-      "close": 30.38,
-      "momentum_22": 1.1932,
-      "momentum_67": 1.24,
-      "momentum_126": 5.4493,
-      "adr_pct": 7.31,
-      "dollar_volume": 23710414.0
+      "close": 30.75,
+      "momentum_22": 1.2078,
+      "momentum_67": 1.2551,
+      "momentum_126": 5.5157,
+      "adr_pct": 7.24,
+      "dollar_volume": 22688022.0
     },
     {
-      "symbol": "CAPR",
-      "close": 31.9,
-      "momentum_22": 1.1213,
-      "momentum_67": 1.4467,
-      "momentum_126": 7.4186,
-      "adr_pct": 6.03,
-      "dollar_volume": 35108888.0
+      "symbol": "UCTT",
+      "close": 82.99,
+      "momentum_22": 1.2038,
+      "momentum_67": 1.964,
+      "momentum_126": 3.8627,
+      "adr_pct": 6.54,
+      "dollar_volume": 84201187.0
     },
     {
       "symbol": "BNAI",
-      "close": 23.56,
-      "momentum_22": 1.1113,
-      "momentum_67": 1.4498,
-      "momentum_126": 91.9953,
-      "adr_pct": 11.29,
-      "dollar_volume": 25235111.0
+      "close": 23.8,
+      "momentum_22": 1.1226,
+      "momentum_67": 1.4646,
+      "momentum_126": 92.9324,
+      "adr_pct": 11.67,
+      "dollar_volume": 24344627.0
+    },
+    {
+      "symbol": "CAPR",
+      "close": 31.52,
+      "momentum_22": 1.1079,
+      "momentum_67": 1.4295,
+      "momentum_126": 7.3302,
+      "adr_pct": 6.0,
+      "dollar_volume": 35122437.0
     },
     {
       "symbol": "ALMS",
-      "close": 23.66,
-      "momentum_22": 1.0658,
-      "momentum_67": 1.1913,
-      "momentum_126": 5.3773,
-      "adr_pct": 5.61,
-      "dollar_volume": 27807045.0
+      "close": 23.51,
+      "momentum_22": 1.059,
+      "momentum_67": 1.1838,
+      "momentum_126": 5.1276,
+      "adr_pct": 5.49,
+      "dollar_volume": 27128233.0
+    },
+    {
+      "symbol": "TSLS",
+      "close": 51.04,
+      "momentum_22": 1.0363,
+      "momentum_67": 9.8343,
+      "momentum_126": 11.0476,
+      "adr_pct": 4.05,
+      "dollar_volume": 47756743.0
     }
   ]
 }
