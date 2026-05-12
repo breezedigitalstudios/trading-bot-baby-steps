@@ -568,7 +568,8 @@ for (const [sym, d] of Object.entries(chartData)) {{
     save_html(html, DASHBOARD_PATH)
 
     print(f"Dashboard written → dashboard_v2.html")
-    os.system(f'open "{DASHBOARD_PATH}"')
+    if os.uname().sysname == "Darwin":
+        os.system(f'open "{DASHBOARD_PATH}"')
 
 
 if __name__ == "__main__":
