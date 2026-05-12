@@ -320,6 +320,13 @@ def build_email_html(trades, setups, live, account, now_et) -> str:
       <div style="color:#8fa3c8;font-size:13px">
         {now_et.strftime('%A, %B %d %Y  ·  %H:%M %Z')}
       </div>
+      <div style="margin-top:12px">
+        <a href="https://breezedigitalstudios.github.io/trading-bot-baby-steps/dashboard_v2.html"
+           style="display:inline-block;background:white;color:{NAVY};font-size:12px;font-weight:700;
+                  padding:6px 16px;border-radius:4px;text-decoration:none">
+          View Dashboard →
+        </a>
+      </div>
     </div>
 
     <div style="padding:24px 16px 8px">
