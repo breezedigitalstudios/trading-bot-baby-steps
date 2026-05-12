@@ -1,5 +1,36 @@
 {
-  "trades": [],
+  "trades": [
+    {
+      "id": "7b60c8ca-ff9f-44d8-be74-aad206befdac",
+      "date": "2026-05-12",
+      "symbol": "CUE",
+      "stars": 4,
+      "orb_high": 32.15,
+      "orb_low": 30.01,
+      "orb_range": 2.14,
+      "atr": 7.87,
+      "shares": 777,
+      "entry_order_id": "9edff717-082e-482d-916d-a27db72edc62",
+      "stop_price": 30.01,
+      "status": "pending",
+      "timestamp": "2026-05-12T17:37:14.622232+00:00"
+    },
+    {
+      "id": "db8c822e-e24e-4e01-b7be-16cbc6a41f06",
+      "date": "2026-05-12",
+      "symbol": "MANE",
+      "stars": 4,
+      "orb_high": 112.48,
+      "orb_low": 107.35,
+      "orb_range": 5.13,
+      "atr": 10.69,
+      "shares": 222,
+      "entry_order_id": "76601c2a-6ad0-4444-a4a8-ae745bbf1996",
+      "stop_price": 107.35,
+      "status": "pending",
+      "timestamp": "2026-05-12T17:37:14.668532+00:00"
+    }
+  ],
   "skipped": [
     {
       "id": "b51188eb-502b-423a-9d38-011e3cf54b86",
@@ -24,6 +55,14 @@
       "stars": 4,
       "reason": "no ORB data available (market closed or pre-10:30 AM)",
       "timestamp": "2026-05-10T20:37:00.827626+00:00"
+    },
+    {
+      "id": "ef245b6f-5612-484d-ae35-7d8c61feeed2",
+      "date": "2026-05-12",
+      "symbol": "ALMS",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-05-12T17:37:14.668562+00:00"
     }
   ]
 }
