@@ -14,7 +14,13 @@
       "Bash(git remote *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git commit -m 'fix: move EOD cron to 21:30 UTC \\(23:30 Geneva summer, 22:30 winter\\) *)",
+      "Bash(git commit -m 'fix: skip browser-open on Linux runner *)",
+      "Bash(curl -v -H 'Authorization: token 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' 'https://api.github.com/repos/breezedigitalstudios/trading-bot-baby-steps/actions/runs?per_page=30')",
+      "Bash(git pull *)",
+      "Bash(git commit -m 'fix: entry workflow reads EOD setup_scores.json instead of re-scanning *)",
+      "Bash(git stash *)"
     ]
   }
 }
