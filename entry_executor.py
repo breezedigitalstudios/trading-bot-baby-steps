@@ -222,12 +222,12 @@ def size_position(portfolio_value: float, orb_high: float, orb_low: float) -> in
 
 # ── Order placement ────────────────────────────────────────────────────────────
 
-def place_entry_order(symbol: str, shares: int, orb_high: float) -> Optional[str]:
-    """Place a DAY buy-stop order at orb_high. Returns order ID."""
+def place_entry_order(symbol: str, shares: int, orb_high: float) -> Tuple[Optional[str], Optional[str]]:
+    """Place a DAY buy-stop order at orb_high. Returns (order_id, error_reason)."""
     if DRY_RUN:
         fake_id = f"dry-run-{uuid.uuid4().hex[:8]}"
         print(f"    [DRY RUN] Would place buy-stop {shares} {symbol} @ ${orb_high:.2f}")
-        return fake_id
+        return fake_id, None
 
     try:
         order = trading_client.submit_order(
@@ -239,10 +239,22 @@ def place_entry_order(symbol: str, shares: int, orb_high: float) -> Optional[str
                 time_in_force=TimeInForce.DAY,
             )
         )
-        return str(order.id)
+        return str(order.id), None
     except Exception as e:
-        print(f"    ERROR placing order for {symbol}: {e}")
-        return None
+        import json as _json
+        reason = str(e)
+        try:
+            err = _json.loads(str(e))
+            if err.get("code") == 42210000:
+                market = err.get("market_price", "?")
+                reason = (f"breakout already occurred — "
+                          f"market ${market} already above ORB high ${orb_high:.2f}")
+            else:
+                reason = err.get("message", reason)
+        except Exception:
+            pass
+        print(f"    ERROR placing order for {symbol}: {reason}")
+        return None, reason
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -367,10 +379,13 @@ def run() -> None:
         print(f"    Size: {shares} shares  risk/share=${risk_per_share:.2f}  total risk=${total_risk:.2f}")
 
         # Place order
-        order_id = place_entry_order(symbol, shares, orb_high)
+        order_id, order_error = place_entry_order(symbol, shares, orb_high)
         if order_id is None:
-            reason = "order submission failed — see console for error"
-            new_skips.append(make_skip(symbol, stars, reason))
+            reason = order_error or "order submission failed"
+            new_skips.append(make_skip(
+                symbol, stars, reason,
+                orb_high=round(orb_high, 2), orb_low=round(orb_low, 2),
+            ))
             continue
 
         trade = {
