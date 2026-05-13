@@ -2,8 +2,9 @@ name: Entry Executor
 
 on:
   schedule:
-    # 15:35 UTC = 11:35 AM EDT (summer) / 10:35 AM EST (winter)
-    # entry_executor.py gates itself to not run before 10:30 AM ET
+    # 14:35 UTC = 10:35 AM EDT (summer) — 5 min after ORB closes
+    # 15:35 UTC = 10:35 AM EST (winter) — entry_executor exits early if before 10:30 AM ET
+    - cron: '35 14 * * 1-5'
     - cron: '35 15 * * 1-5'
   workflow_dispatch:
 

@@ -168,6 +168,15 @@ def handle_pending(trade: Dict) -> bool:
     if order is None:
         return False
 
+    if str(order.status) in ("expired", "canceled", "cancelled"):
+        print(f"    Entry order expired/cancelled — skipping trade")
+        trade.update({
+            "status":      "expired",
+            "exit_date":   str(date.today()),
+            "exit_reason": "entry_order_expired",
+        })
+        return True
+
     if str(order.status) not in ("filled", "partially_filled"):
         return False
 
