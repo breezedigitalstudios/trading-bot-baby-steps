@@ -63,6 +63,30 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-05-12T17:37:14.668562+00:00"
+    },
+    {
+      "id": "b653f9bf-6bbc-4d44-8ef1-b6bbb20249f8",
+      "date": "2026-05-13",
+      "symbol": "CUE",
+      "stars": 4,
+      "reason": "order submission failed \u2014 see console for error",
+      "timestamp": "2026-05-13T17:37:02.509962+00:00"
+    },
+    {
+      "id": "cdbc6a6f-cd01-4da9-9631-1d0556200218",
+      "date": "2026-05-13",
+      "symbol": "MANE",
+      "stars": 4,
+      "reason": "order submission failed \u2014 see console for error",
+      "timestamp": "2026-05-13T17:37:02.758473+00:00"
+    },
+    {
+      "id": "e4548175-25e4-4962-a1cc-83f96d64c7d1",
+      "date": "2026-05-13",
+      "symbol": "ALMS",
+      "stars": 4,
+      "reason": "order submission failed \u2014 see console for error",
+      "timestamp": "2026-05-13T17:37:03.066208+00:00"
     }
   ]
 }
