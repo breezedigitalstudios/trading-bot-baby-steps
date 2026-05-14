@@ -166,7 +166,13 @@ def handle_pending(trade: Dict) -> bool:
     """Check if entry order filled. If yes, place stop-loss and mark open."""
     order = get_order(trade["entry_order_id"])
     if order is None:
-        return False
+        print(f"    Entry order not found on Alpaca — marking as expired")
+        trade.update({
+            "status":      "expired",
+            "exit_date":   str(date.today()),
+            "exit_reason": "entry_order_not_found",
+        })
+        return True
 
     if str(order.status) in ("expired", "canceled", "cancelled"):
         print(f"    Entry order expired/cancelled — skipping trade")
