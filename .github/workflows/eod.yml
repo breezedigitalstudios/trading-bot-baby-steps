@@ -23,6 +23,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Run tests
+        run: python -m pytest test_bot.py -v
+
       - name: Scanner
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
