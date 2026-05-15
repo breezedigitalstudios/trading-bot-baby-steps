@@ -59,6 +59,36 @@
       "stop_price": 106.44,
       "status": "pending",
       "timestamp": "2026-05-14T16:29:33.646356+00:00"
+    },
+    {
+      "id": "401159b4-6d5f-4f2e-a52e-7a3218844164",
+      "date": "2026-05-15",
+      "symbol": "CUE",
+      "stars": 4,
+      "orb_high": 24.14,
+      "orb_low": 22.23,
+      "orb_range": 1.91,
+      "atr": 6.47,
+      "shares": 1035,
+      "entry_order_id": "3a43dc29-27fa-4ac9-a64c-830a7794ab0b",
+      "stop_price": 22.23,
+      "status": "pending",
+      "timestamp": "2026-05-15T16:20:47.368926+00:00"
+    },
+    {
+      "id": "3132ad54-2124-45b2-b7c3-7dc3b8bb5a36",
+      "date": "2026-05-15",
+      "symbol": "MANE",
+      "stars": 4,
+      "orb_high": 104.81,
+      "orb_low": 100.06,
+      "orb_range": 4.75,
+      "atr": 9.12,
+      "shares": 238,
+      "entry_order_id": "c8dfff6d-e5fe-41b4-8678-a2827c72f297",
+      "stop_price": 100.06,
+      "status": "pending",
+      "timestamp": "2026-05-15T16:20:47.514515+00:00"
     }
   ],
   "skipped": [
@@ -133,6 +163,14 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-05-14T17:23:19.779323+00:00"
+    },
+    {
+      "id": "5d0b61f3-10c2-4619-b475-f6444d3f45aa",
+      "date": "2026-05-15",
+      "symbol": "UCTT",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-05-15T16:20:47.514546+00:00"
     }
   ]
 }
