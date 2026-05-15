@@ -272,6 +272,14 @@ def section_closed_today(trades: List[Dict]) -> str:
     return section("Closed Today", table(cols, rows, aligns))
 
 
+_CRITERIA_LABELS = {
+    "ma_aligned":       "Trend alignment",
+    "higher_lows":      "Higher lows",
+    "range_tightening": "Range tightening",
+    "narrow_candle":    "Narrow candle",
+    "volume_dryup":     "Volume dry-up",
+}
+
 def section_setups(setups: List[Dict], prices: Dict[str, float]) -> str:
     if not setups:
         return section("Tomorrow's Setups",
@@ -282,7 +290,8 @@ def section_setups(setups: List[Dict], prices: Dict[str, float]) -> str:
         sym   = s["symbol"]
         price = prices.get(sym)
         price_str = f"${price:.2f}" if price else "—"
-        criteria  = ", ".join(s.get("criteria", []))
+        breakdown = s.get("breakdown", {})
+        criteria  = ", ".join(label for k, label in _CRITERIA_LABELS.items() if breakdown.get(k))
         rows.append([
             f"<strong>{sym}</strong>",
             stars_html(s["stars"]),

@@ -392,6 +392,8 @@ def run() -> None:
         # 2. Position disappeared without a filled stop order → externally closed
         if symbol not in positions:
             print(f"    Position no longer exists — marking closed (external or manual)")
+            if trade.get("stop_order_id"):
+                cancel_order(trade["stop_order_id"])
             trade.update({
                 "status":     "closed",
                 "exit_date":  str(date.today()),

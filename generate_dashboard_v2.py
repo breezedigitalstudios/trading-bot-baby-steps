@@ -213,10 +213,14 @@ def generate():
 
     symbols = [c["symbol"] for c in high_quality]
 
-    print(f"Fetching 12-month price data for {len(symbols)} stocks...")
-    bars       = fetch_chart_bars(symbols)
-    chart_data = prepare_chart_data(bars, symbols)
-    print(f"Chart data ready for {len(chart_data)} stocks.")
+    if symbols:
+        print(f"Fetching 12-month price data for {len(symbols)} stocks...")
+        bars       = fetch_chart_bars(symbols)
+        chart_data = prepare_chart_data(bars, symbols)
+        print(f"Chart data ready for {len(chart_data)} stocks.")
+    else:
+        print("No high-quality setups — skipping chart data fetch.")
+        chart_data = {}
 
     sections = "\n".join(render_section(c) for c in high_quality)
 
