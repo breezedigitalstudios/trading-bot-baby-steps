@@ -164,6 +164,16 @@ def sell_market(symbol: str, shares: int, reason: str) -> Optional[str]:
 
 def handle_pending(trade: Dict) -> bool:
     """Check if entry order filled. If yes, place stop-loss and mark open."""
+    # DAY orders expire at market close — any pending trade from a prior date is stale
+    if trade.get("date") and trade["date"] < str(date.today()):
+        print(f"    Pending trade is from {trade['date']} — DAY order must have expired")
+        trade.update({
+            "status":      "expired",
+            "exit_date":   str(date.today()),
+            "exit_reason": "entry_order_stale",
+        })
+        return True
+
     order = get_order(trade["entry_order_id"])
     if order is None:
         print(f"    Entry order not found on Alpaca — marking as expired")

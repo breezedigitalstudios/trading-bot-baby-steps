@@ -327,6 +327,18 @@ def run() -> None:
             new_skips.append(make_skip(symbol, stars, reason))
             continue
 
+        # Skip if already have a pending trade for this symbol today in trades.json
+        already_pending = any(
+            t.get("symbol") == symbol and t.get("status") == "pending"
+            and t.get("date") == str(date.today())
+            for t in trades
+        )
+        if already_pending:
+            reason = "already placed entry order today"
+            print(f"    Skip: {reason}")
+            new_skips.append(make_skip(symbol, stars, reason))
+            continue
+
         # Fetch ORB
         orb = fetch_orb(symbol)
         if orb is None:
