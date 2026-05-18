@@ -97,6 +97,36 @@
       "stop_price": 100.06,
       "status": "pending",
       "timestamp": "2026-05-15T16:20:47.514515+00:00"
+    },
+    {
+      "id": "d6bcc2b2-9e00-42d5-908a-223a7ce6082c",
+      "date": "2026-05-18",
+      "symbol": "CUE",
+      "stars": 5,
+      "orb_high": 24.35,
+      "orb_low": 22.85,
+      "orb_range": 1.5,
+      "atr": 6.11,
+      "shares": 1026,
+      "entry_order_id": "c6260c43-f766-407f-b787-445927f1d7da",
+      "stop_price": 22.85,
+      "status": "pending",
+      "timestamp": "2026-05-18T17:18:52.793835+00:00"
+    },
+    {
+      "id": "a310565c-ff7e-4ae5-9362-20b13e5cb32b",
+      "date": "2026-05-18",
+      "symbol": "DOCN",
+      "stars": 4,
+      "orb_high": 155.0,
+      "orb_low": 144.4,
+      "orb_range": 10.6,
+      "atr": 12.9,
+      "shares": 161,
+      "entry_order_id": "421b617d-e7ab-4dee-b246-81541bfafc7b",
+      "stop_price": 144.4,
+      "status": "pending",
+      "timestamp": "2026-05-18T17:18:53.266311+00:00"
     }
   ],
   "skipped": [
@@ -187,6 +217,26 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-05-15T17:13:23.783575+00:00"
+    },
+    {
+      "id": "dd1191c3-4779-4d45-958d-7dc34c74aa7b",
+      "date": "2026-05-18",
+      "symbol": "AKAN",
+      "stars": 4,
+      "reason": "breakout already occurred \u2014 market $? already above ORB high $19.99",
+      "timestamp": "2026-05-18T17:18:53.034849+00:00",
+      "detail": {
+        "orb_high": 19.99,
+        "orb_low": 17.0
+      }
+    },
+    {
+      "id": "3abfbd1b-1189-4752-8fa7-0bbe43598b5e",
+      "date": "2026-05-18",
+      "symbol": "SIMO",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-05-18T17:18:53.266350+00:00"
     }
   ]
 }
