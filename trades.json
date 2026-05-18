@@ -237,6 +237,14 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-05-18T17:18:53.266350+00:00"
+    },
+    {
+      "id": "80eb4b38-34eb-45e3-94e3-6dfc8a2f9816",
+      "date": "2026-05-18",
+      "symbol": "CUE",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-05-18T17:40:10.349609+00:00"
     }
   ]
 }
