@@ -1,0 +1,38 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Tuesday, May 19 2026   18:46 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $   99,966.36
+  Cash             $   75,036.80
+  Buying power     $  175,003.16
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised          $+0.00
+  Open unrealised           $-33.64
+  Net (realised+open)       $-33.64
+
+  Closed trades                   0
+  Win rate                     0.0%
+  Avg winner                      —
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (3)
+────────────────────────────────────────────────────────────────
+  SIMO    ★★★★☆  breakout already occurred — market $257.26 already above ORB high $242.93
+  MANE    ★★★★☆  max daily entries reached (2)
+  CUE     ★★★★☆  max daily entries reached (2)
+
+════════════════════════════════════════════════════════════════
