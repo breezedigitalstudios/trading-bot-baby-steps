@@ -361,6 +361,14 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-05-20T17:41:33.207227+00:00"
+    },
+    {
+      "id": "43f37cdd-2648-446b-91f5-1c2a13551aaf",
+      "date": "2026-05-20",
+      "symbol": "MANE",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-05-20T18:04:55.891346+00:00"
     }
   ]
 }
