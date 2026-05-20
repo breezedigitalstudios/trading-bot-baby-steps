@@ -165,6 +165,36 @@
       "stop_price": 207.1,
       "status": "pending",
       "timestamp": "2026-05-19T17:27:09.490173+00:00"
+    },
+    {
+      "id": "f774a8ea-cc83-443d-85e7-c04dd5699053",
+      "date": "2026-05-20",
+      "symbol": "QURE",
+      "stars": 5,
+      "orb_high": 25.82,
+      "orb_low": 24.8,
+      "orb_range": 1.02,
+      "atr": 2.29,
+      "shares": 965,
+      "entry_order_id": "bcbb0566-36f8-467d-97af-d71cd879bbb4",
+      "stop_price": 24.8,
+      "status": "pending",
+      "timestamp": "2026-05-20T17:41:33.023529+00:00"
+    },
+    {
+      "id": "569ad6fd-5df2-41b8-b9c1-2e655b34c580",
+      "date": "2026-05-20",
+      "symbol": "CUE",
+      "stars": 4,
+      "orb_high": 20.83,
+      "orb_low": 20.38,
+      "orb_range": 0.45,
+      "atr": 6.15,
+      "shares": 1196,
+      "entry_order_id": "d20db20d-74be-4de6-89cb-ed6e055dcf69",
+      "stop_price": 20.38,
+      "status": "pending",
+      "timestamp": "2026-05-20T17:41:33.207193+00:00"
     }
   ],
   "skipped": [
@@ -311,6 +341,26 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-05-19T17:52:43.856477+00:00"
+    },
+    {
+      "id": "f3b737cd-8bab-41bc-9a3a-2319782d6cc5",
+      "date": "2026-05-20",
+      "symbol": "MANE",
+      "stars": 5,
+      "reason": "breakout already occurred \u2014 market $103.77 already above ORB high $102.65",
+      "timestamp": "2026-05-20T17:41:32.971284+00:00",
+      "detail": {
+        "orb_high": 102.65,
+        "orb_low": 99.53
+      }
+    },
+    {
+      "id": "504c0d54-a5f3-4a61-bc58-34e757777b6b",
+      "date": "2026-05-20",
+      "symbol": "SMCL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-05-20T17:41:33.207227+00:00"
     }
   ]
 }
