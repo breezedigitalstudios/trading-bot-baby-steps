@@ -164,19 +164,14 @@ def sell_market(symbol: str, shares: int, reason: str) -> Optional[str]:
 
 def handle_pending(trade: Dict) -> bool:
     """Check if entry order filled. If yes, place stop-loss and mark open."""
-    # DAY orders expire at market close — any pending trade from a prior date is stale
-    if trade.get("date") and trade["date"] < str(date.today()):
-        print(f"    Pending trade is from {trade['date']} — DAY order must have expired")
-        trade.update({
-            "status":      "expired",
-            "exit_date":   str(date.today()),
-            "exit_reason": "entry_order_stale",
-        })
-        return True
+    # Always check Alpaca first — a prior-day order may have been filled before expiry
+    is_stale = trade.get("date") and trade["date"] < str(date.today())
 
-    order = get_order(trade["entry_order_id"])
     if order is None:
-        print(f"    Entry order not found on Alpaca — marking as expired")
+        if is_stale:
+            print(f"    Pending trade from {trade['date']} — order not found, marking expired")
+        else:
+            print(f"    Entry order not found on Alpaca — marking as expired")
         trade.update({
             "status":      "expired",
             "exit_date":   str(date.today()),
@@ -185,7 +180,10 @@ def handle_pending(trade: Dict) -> bool:
         return True
 
     if str(order.status) in ("expired", "canceled", "cancelled"):
-        print(f"    Entry order expired/cancelled — skipping trade")
+        if is_stale:
+            print(f"    Pending trade from {trade['date']} — order expired/cancelled, marking expired")
+        else:
+            print(f"    Entry order expired/cancelled — skipping trade")
         trade.update({
             "status":      "expired",
             "exit_date":   str(date.today()),
@@ -194,6 +192,16 @@ def handle_pending(trade: Dict) -> bool:
         return True
 
     if str(order.status) not in ("filled", "partially_filled"):
+        if is_stale:
+            # Order still shows as active on Alpaca despite being from a prior day.
+            # Mark expired rather than leaving it in limbo indefinitely.
+            print(f"    Pending trade from {trade['date']} — order status={order.status}, marking expired")
+            trade.update({
+                "status":      "expired",
+                "exit_date":   str(date.today()),
+                "exit_reason": "entry_order_stale",
+            })
+            return True
         return False
 
     fill_price = float(order.filled_avg_price or trade["orb_high"])
