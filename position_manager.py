@@ -166,6 +166,7 @@ def handle_pending(trade: Dict) -> bool:
     """Check if entry order filled. If yes, place stop-loss and mark open."""
     # Always check Alpaca first — a prior-day order may have been filled before expiry
     is_stale = trade.get("date") and trade["date"] < str(date.today())
+    order    = get_order(trade["entry_order_id"])
 
     if order is None:
         if is_stale:
