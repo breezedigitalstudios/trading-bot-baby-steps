@@ -9,3 +9,6 @@ __pycache__/
 
 # Editor files
 .vscode/
+
+# Claude Code local settings (may contain tokens)
+.claude/
