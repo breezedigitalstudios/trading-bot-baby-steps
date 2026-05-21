@@ -358,6 +358,67 @@ def handle_sma_exit(trade: Dict) -> bool:
     return True
 
 
+# ── Stop-loss safety net ───────────────────────────────────────────────────────
+
+_INACTIVE_ORDER_STATUSES = frozenset({
+    "filled", "canceled", "cancelled", "expired", "replaced", "done_for_day"
+})
+
+
+def ensure_stop_loss(trade: Dict, positions: Dict) -> bool:
+    """
+    Verify the stop-loss order for an open trade is still active on Alpaca.
+    - Missing or inactive + price above stop  → place a new stop-loss.
+    - Missing or inactive + price at/below stop → close at market immediately.
+    Returns True if the trade state changed.
+    """
+    symbol     = trade["symbol"]
+    stop_price = float(trade.get("current_stop") or trade.get("stop_price") or 0)
+    shares     = trade.get("shares_remaining", trade["shares"])
+
+    if stop_price <= 0:
+        return False
+
+    # Check whether the existing stop order is still live
+    stop_id = trade.get("stop_order_id")
+    if stop_id:
+        order = get_order(stop_id)
+        if order is not None and str(order.status) not in _INACTIVE_ORDER_STATUSES:
+            return False  # stop is healthy
+
+    # Stop is absent or no longer active
+    pos = positions.get(symbol)
+    if pos is None:
+        return False
+
+    current_price = float(pos.current_price)
+
+    if current_price <= stop_price:
+        print(f"    ⚠ Stop-loss missing and price ${current_price:.2f} ≤ stop ${stop_price:.2f} "
+              f"— closing at market")
+        sell_id = sell_market(symbol, shares, "stop_missed_close")
+        if sell_id is None:
+            return False
+        fill_price = trade.get("fill_price", trade.get("orb_high", current_price))
+        phase1_pnl = trade.get("phase1_pnl", 0.0) or 0.0
+        runner_pnl = round((current_price - fill_price) * shares, 2)
+        trade.update({
+            "status":     "closed",
+            "exit_price": round(current_price, 2),
+            "exit_date":  str(date.today()),
+            "exit_reason": "stop_missed_close",
+            "pnl":        round(phase1_pnl + runner_pnl, 2),
+        })
+        return True
+    else:
+        print(f"    ⚠ Stop-loss missing — placing new stop at ${stop_price:.2f}")
+        new_stop_id = place_stop_loss(symbol, shares, stop_price)
+        if new_stop_id is None:
+            return False
+        trade["stop_order_id"] = new_stop_id
+        return True
+
+
 # ── Alpaca reconciliation ──────────────────────────────────────────────────────
 
 def reconcile_alpaca(trades: List[Dict]) -> Dict:
@@ -483,12 +544,18 @@ def run() -> None:
             changed = True
             continue
 
-        # 3. Phase 1 (only from 'open' status, not already partial)
+        # 3. Ensure stop-loss is active (place or close if price already through stop)
+        if ensure_stop_loss(trade, positions):
+            changed = True
+            if trade.get("status") == "closed":
+                continue
+
+        # 4. Phase 1 (only from 'open' status, not already partial)
         if status == "open":
             if handle_phase1(trade, positions):
                 changed = True
 
-        # 4. EOD SMA10 trailing exit
+        # 5. EOD SMA10 trailing exit
         if is_eod:
             if trade.get("status") in ("open", "partial_exit"):
                 if handle_sma_exit(trade):
