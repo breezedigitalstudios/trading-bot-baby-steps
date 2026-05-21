@@ -358,6 +358,78 @@ def handle_sma_exit(trade: Dict) -> bool:
     return True
 
 
+# ── Alpaca reconciliation ──────────────────────────────────────────────────────
+
+def reconcile_alpaca(trades: List[Dict]) -> Dict:
+    """
+    Print a full snapshot of the live Alpaca account and flag anything that
+    doesn't match trades.json.  Returns the live positions dict for reuse.
+    """
+    print("\n── Alpaca Account ────────────────────────────────────────────────────")
+    try:
+        acct = trading_client.get_account()
+        print(f"  Portfolio value : ${float(acct.portfolio_value):>12,.2f}")
+        print(f"  Cash            : ${float(acct.cash):>12,.2f}")
+        print(f"  Buying power    : ${float(acct.buying_power):>12,.2f}")
+    except Exception as e:
+        print(f"  WARNING: could not fetch account — {e}")
+
+    # Live positions
+    try:
+        raw_positions = trading_client.get_all_positions()
+    except Exception as e:
+        print(f"  WARNING: could not fetch positions — {e}")
+        raw_positions = []
+
+    tracked_open_symbols = {
+        t["symbol"] for t in trades
+        if t.get("status") in ("open", "partial_exit")
+    }
+
+    print(f"\n  Live positions  : {len(raw_positions)}")
+    positions = {}
+    for p in raw_positions:
+        positions[p.symbol] = p
+        unrlzd  = float(p.unrealized_pl)
+        tracked = "✓" if p.symbol in tracked_open_symbols else "⚠  NOT IN TRADES.JSON"
+        print(f"    {p.symbol:<7}  {int(float(p.qty)):>6} shares  "
+              f"@ ${float(p.current_price):.2f}  unrlzd: ${unrlzd:+,.2f}  {tracked}")
+
+    # Open orders
+    try:
+        open_orders = trading_client.get_orders(
+            GetOrdersRequest(status=QueryOrderStatus.OPEN, limit=100)
+        )
+    except Exception as e:
+        print(f"  WARNING: could not fetch open orders — {e}")
+        open_orders = []
+
+    tracked_pending_ids = {
+        t["entry_order_id"] for t in trades if t.get("status") == "pending"
+    }
+    tracked_stop_ids = {
+        t.get("stop_order_id") for t in trades
+        if t.get("status") in ("open", "partial_exit") and t.get("stop_order_id")
+    }
+
+    print(f"\n  Open orders     : {len(open_orders)}")
+    for o in open_orders:
+        oid     = str(o.id)
+        stop    = f"${float(o.stop_price):.2f}" if o.stop_price else "—"
+        qty     = int(float(o.qty or 0))
+        if oid in tracked_pending_ids:
+            label = "✓ entry"
+        elif oid in tracked_stop_ids:
+            label = "✓ stop-loss"
+        else:
+            label = "⚠  NOT IN TRADES.JSON"
+        print(f"    {o.symbol:<7}  {str(o.side):<14}  {qty:>6} shares  "
+              f"stop={stop:<10}  {o.status}  {label}")
+
+    print("──────────────────────────────────────────────────────────────────────\n")
+    return positions
+
+
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def run() -> None:
@@ -367,6 +439,10 @@ def run() -> None:
     print(f"Time (ET): {now_et.strftime('%H:%M:%S %Z')}  {'[EOD mode]' if is_eod else '[intraday mode]'}")
 
     trades, skipped = load_trades()
+
+    # Always audit full Alpaca state first
+    positions = reconcile_alpaca(trades)
+
     active = [t for t in trades if t.get("status") in ("pending", "open", "partial_exit")]
 
     if not active:
@@ -374,9 +450,6 @@ def run() -> None:
         return
 
     print(f"Active trades: {len(active)}")
-
-    # Fetch current positions once
-    positions = {p.symbol: p for p in trading_client.get_all_positions()}
 
     changed   = False
     for trade in active:
