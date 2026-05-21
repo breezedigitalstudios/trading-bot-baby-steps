@@ -199,6 +199,36 @@
       "stop_price": 20.38,
       "status": "pending",
       "timestamp": "2026-05-20T17:41:33.207193+00:00"
+    },
+    {
+      "id": "3ed2a383-af4b-4a7a-92fd-ead8b701bb01",
+      "date": "2026-05-21",
+      "symbol": "SIMO",
+      "stars": 5,
+      "orb_high": 264.73,
+      "orb_low": 253.2,
+      "orb_range": 11.53,
+      "atr": 18.99,
+      "shares": 94,
+      "entry_order_id": "cf939483-6781-4e48-ba1d-1a30e699bbad",
+      "stop_price": 253.2,
+      "status": "pending",
+      "timestamp": "2026-05-21T17:17:27.709766+00:00"
+    },
+    {
+      "id": "31fcce1c-098d-4fec-b88a-8812a9edd7ad",
+      "date": "2026-05-21",
+      "symbol": "CUE",
+      "stars": 4,
+      "orb_high": 20.53,
+      "orb_low": 18.44,
+      "orb_range": 2.09,
+      "atr": 4.68,
+      "shares": 1220,
+      "entry_order_id": "3e817ce2-b85c-45fe-976f-719fc0897756",
+      "stop_price": 18.44,
+      "status": "pending",
+      "timestamp": "2026-05-21T17:17:27.841856+00:00"
     }
   ],
   "skipped": [
@@ -373,6 +403,38 @@
       "stars": 5,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-05-20T18:04:55.891346+00:00"
+    },
+    {
+      "id": "536db1b5-11ba-47bf-a157-8c21570c442a",
+      "date": "2026-05-21",
+      "symbol": "CRCG",
+      "stars": 5,
+      "reason": "breakout already occurred \u2014 market $35.05 already above ORB high $34.00",
+      "timestamp": "2026-05-21T17:17:27.630139+00:00",
+      "detail": {
+        "orb_high": 34.0,
+        "orb_low": 31.0
+      }
+    },
+    {
+      "id": "b84b4ec6-dc90-4e45-b1ef-ff8c22fc824f",
+      "date": "2026-05-21",
+      "symbol": "WDC",
+      "stars": 5,
+      "reason": "breakout already occurred \u2014 market $482.8 already above ORB high $479.62",
+      "timestamp": "2026-05-21T17:17:27.787028+00:00",
+      "detail": {
+        "orb_high": 479.62,
+        "orb_low": 457.0
+      }
+    },
+    {
+      "id": "d9881bea-04b6-4a61-a603-133717f3464b",
+      "date": "2026-05-21",
+      "symbol": "CRWG",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-05-21T17:17:27.841885+00:00"
     }
   ]
 }
