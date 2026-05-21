@@ -435,6 +435,14 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-05-21T17:17:27.841885+00:00"
+    },
+    {
+      "id": "babb490d-6b1b-4f6f-ba47-0666c2a66674",
+      "date": "2026-05-21",
+      "symbol": "CRCG",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-05-21T17:38:15.684655+00:00"
     }
   ]
 }
