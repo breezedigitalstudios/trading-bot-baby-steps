@@ -1,0 +1,39 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Thursday, May 21 2026   18:51 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $   99,877.28
+  Cash             $   25,007.98
+  Buying power     $  124,885.26
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised          $+0.00
+  Open unrealised          $-122.72
+  Net (realised+open)      $-122.72
+
+  Closed trades                   0
+  Win rate                     0.0%
+  Avg winner                      —
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (4)
+────────────────────────────────────────────────────────────────
+  CRCG    ★★★★★  breakout already occurred — market $35.05 already above ORB high $34.00
+  WDC     ★★★★★  breakout already occurred — market $482.8 already above ORB high $479.62
+  CRWG    ★★★★☆  max daily entries reached (2)
+  CRCG    ★★★★★  max daily entries reached (2)
+
+════════════════════════════════════════════════════════════════
