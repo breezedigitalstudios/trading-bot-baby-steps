@@ -699,6 +699,254 @@
         "cost_estimate": 25550.03,
         "available": 0.0
       }
+    },
+    {
+      "id": "b6c72dd4-1bd0-45ca-8466-eac44fb533d8",
+      "date": "2026-05-22",
+      "symbol": "MANE",
+      "stars": 5,
+      "reason": "estimated cost $25,573.00 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:40.728083+00:00",
+      "detail": {
+        "cost_estimate": 25573.0,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "141dd654-abff-4056-a94f-e8b4f0ec7ae5",
+      "date": "2026-05-22",
+      "symbol": "ORCX",
+      "stars": 5,
+      "reason": "estimated cost $25,588.71 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:40.768567+00:00",
+      "detail": {
+        "cost_estimate": 25588.71,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "155a08b5-b8d3-43e2-9e74-375b1d1501ac",
+      "date": "2026-05-22",
+      "symbol": "SMCL",
+      "stars": 4,
+      "reason": "estimated cost $25,550.00 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:40.834496+00:00",
+      "detail": {
+        "cost_estimate": 25550.0,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "fbe3da23-ec6d-4b95-b235-72e657978c78",
+      "date": "2026-05-22",
+      "symbol": "BMNG",
+      "stars": 4,
+      "reason": "estimated cost $25,586.73 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:40.876271+00:00",
+      "detail": {
+        "cost_estimate": 25586.73,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "82028acf-227b-48c2-b7f0-8b9492572d38",
+      "date": "2026-05-22",
+      "symbol": "CRCG",
+      "stars": 4,
+      "reason": "estimated cost $25,575.52 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:40.942404+00:00",
+      "detail": {
+        "cost_estimate": 25575.52,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "af632193-f367-4ad3-a87e-70597b1e3b18",
+      "date": "2026-05-22",
+      "symbol": "CRWG",
+      "stars": 4,
+      "reason": "estimated cost $25,579.26 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:40.971390+00:00",
+      "detail": {
+        "cost_estimate": 25579.26,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "53aa2df8-24e1-424d-ae1a-5d7c6da5c74b",
+      "date": "2026-05-22",
+      "symbol": "INTW",
+      "stars": 4,
+      "reason": "estimated cost $25,437.20 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.020068+00:00",
+      "detail": {
+        "cost_estimate": 25437.2,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "0efa4a4a-dcef-4cb1-9c8f-ac7c64fe2e6f",
+      "date": "2026-05-22",
+      "symbol": "LINT",
+      "stars": 4,
+      "reason": "estimated cost $25,440.00 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.053018+00:00",
+      "detail": {
+        "cost_estimate": 25440.0,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "615ff487-5a12-429a-9033-45debafe6c51",
+      "date": "2026-05-22",
+      "symbol": "MRAM",
+      "stars": 4,
+      "reason": "estimated cost $25,572.86 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.082200+00:00",
+      "detail": {
+        "cost_estimate": 25572.86,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "c8b484f0-2d7b-49f9-a29e-c39f05c3eaf2",
+      "date": "2026-05-22",
+      "symbol": "INOD",
+      "stars": 4,
+      "reason": "estimated cost $25,578.00 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.132369+00:00",
+      "detail": {
+        "cost_estimate": 25578.0,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "252674c7-54c7-44c0-a9ad-bfd7908cca25",
+      "date": "2026-05-22",
+      "symbol": "QCML",
+      "stars": 4,
+      "reason": "estimated cost $25,591.80 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.174519+00:00",
+      "detail": {
+        "cost_estimate": 25591.8,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "0214292f-2e68-4f55-82d1-4c711d742f76",
+      "date": "2026-05-22",
+      "symbol": "INTC",
+      "stars": 4,
+      "reason": "estimated cost $25,583.75 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.212615+00:00",
+      "detail": {
+        "cost_estimate": 25583.75,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "d13abd05-b48c-441a-9865-eaf612dc4950",
+      "date": "2026-05-22",
+      "symbol": "FLNC",
+      "stars": 4,
+      "reason": "estimated cost $25,584.00 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.243474+00:00",
+      "detail": {
+        "cost_estimate": 25584.0,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "53ca4e2f-e912-4ebe-819a-c8ba6a0e4a13",
+      "date": "2026-05-22",
+      "symbol": "DOCN",
+      "stars": 4,
+      "reason": "estimated cost $25,517.80 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.279630+00:00",
+      "detail": {
+        "cost_estimate": 25517.8,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "77b4929a-65e9-4583-be9d-88d8fdd2ec84",
+      "date": "2026-05-22",
+      "symbol": "DDOG",
+      "stars": 4,
+      "reason": "already holding this stock",
+      "timestamp": "2026-05-22T17:26:41.279654+00:00"
+    },
+    {
+      "id": "3e9e73b0-4619-4a55-b618-20112498a28e",
+      "date": "2026-05-22",
+      "symbol": "AEVA",
+      "stars": 4,
+      "reason": "estimated cost $25,588.65 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.316311+00:00",
+      "detail": {
+        "cost_estimate": 25588.65,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "231229a0-97f3-4e2c-9150-03cc2280c958",
+      "date": "2026-05-22",
+      "symbol": "COCO",
+      "stars": 4,
+      "reason": "estimated cost $25,561.20 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.354908+00:00",
+      "detail": {
+        "cost_estimate": 25561.2,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "0a52a5e7-8cd1-42ae-9201-08817324cc31",
+      "date": "2026-05-22",
+      "symbol": "QURE",
+      "stars": 4,
+      "reason": "estimated cost $25,591.08 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.388961+00:00",
+      "detail": {
+        "cost_estimate": 25591.08,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "0fb9a27b-bdc1-4894-aebe-d2c3aa8a2bd1",
+      "date": "2026-05-22",
+      "symbol": "AAOI",
+      "stars": 4,
+      "reason": "estimated cost $25,551.24 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.525188+00:00",
+      "detail": {
+        "cost_estimate": 25551.24,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "e9edab1f-04f0-4fc7-9d99-7cb6484c7b73",
+      "date": "2026-05-22",
+      "symbol": "WDC",
+      "stars": 4,
+      "reason": "estimated cost $25,480.00 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.620177+00:00",
+      "detail": {
+        "cost_estimate": 25480.0,
+        "available": 0.0
+      }
+    },
+    {
+      "id": "dfc14bad-2a28-461a-b85b-f01b6e29b933",
+      "date": "2026-05-22",
+      "symbol": "APPX",
+      "stars": 4,
+      "reason": "estimated cost $25,589.52 exceeds available capital $0.00",
+      "timestamp": "2026-05-22T17:26:41.669653+00:00",
+      "detail": {
+        "cost_estimate": 25589.52,
+        "available": 0.0
+      }
     }
   ]
 }
