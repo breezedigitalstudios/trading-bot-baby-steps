@@ -180,7 +180,7 @@ def handle_pending(trade: Dict) -> bool:
         })
         return True
 
-    if str(order.status) in ("expired", "canceled", "cancelled"):
+    if order.status in ("expired", "canceled", "cancelled"):
         if is_stale:
             print(f"    Pending trade from {trade['date']} — order expired/cancelled, marking expired")
         else:
@@ -192,7 +192,7 @@ def handle_pending(trade: Dict) -> bool:
         })
         return True
 
-    if str(order.status) not in ("filled", "partially_filled"):
+    if order.status not in ("filled", "partially_filled"):
         if is_stale:
             # Order still shows as active on Alpaca despite being from a prior day.
             # Mark expired rather than leaving it in limbo indefinitely.
@@ -236,7 +236,7 @@ def handle_stop_hit(trade: Dict) -> bool:
     if order is None:
         return False
 
-    if str(order.status) != "filled":
+    if order.status != "filled":
         return False
 
     exit_price = float(order.filled_avg_price or trade["current_stop"])
@@ -384,7 +384,7 @@ def ensure_stop_loss(trade: Dict, positions: Dict) -> bool:
     stop_id = trade.get("stop_order_id")
     if stop_id:
         order = get_order(stop_id)
-        if order is not None and str(order.status) not in _INACTIVE_ORDER_STATUSES:
+        if order is not None and order.status not in _INACTIVE_ORDER_STATUSES:
             return False  # stop is healthy
 
     # Stop is absent or no longer active
