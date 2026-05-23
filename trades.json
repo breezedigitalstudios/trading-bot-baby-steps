@@ -166,7 +166,8 @@
       "entry_order_id": "f26040bc-414b-4632-9334-087f365bc7f1",
       "stop_price": 207.1,
       "status": "pending",
-      "timestamp": "2026-05-19T17:27:09.490173+00:00"
+      "timestamp": "2026-05-19T17:27:09.490173+00:00",
+      "stop_order_id": "35bc8c82-7074-49e6-aed0-c527b8dcb220"
     },
     {
       "id": "f774a8ea-cc83-443d-85e7-c04dd5699053",
@@ -215,7 +216,8 @@
       "entry_order_id": "cf939483-6781-4e48-ba1d-1a30e699bbad",
       "stop_price": 253.2,
       "status": "pending",
-      "timestamp": "2026-05-21T17:17:27.709766+00:00"
+      "timestamp": "2026-05-21T17:17:27.709766+00:00",
+      "stop_order_id": "bbc93465-a4b9-48ec-a24c-e95f0e010147"
     },
     {
       "id": "31fcce1c-098d-4fec-b88a-8812a9edd7ad",
@@ -230,7 +232,8 @@
       "entry_order_id": "3e817ce2-b85c-45fe-976f-719fc0897756",
       "stop_price": 18.44,
       "status": "pending",
-      "timestamp": "2026-05-21T17:17:27.841856+00:00"
+      "timestamp": "2026-05-21T17:17:27.841856+00:00",
+      "stop_order_id": "70e9d290-0a0e-45d4-9319-2d8a617ff2e1"
     }
   ],
   "skipped": [
