@@ -1148,6 +1148,198 @@
       "stars": 4,
       "reason": "no ORB data available (market closed or pre-10:30 AM)",
       "timestamp": "2026-05-25T16:39:22.126288+00:00"
+    },
+    {
+      "id": "bea38f5b-a454-4ecc-883f-29e70961f2eb",
+      "date": "2026-05-25",
+      "symbol": "INTW",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.381653+00:00"
+    },
+    {
+      "id": "5db849f7-ddce-48e2-a61f-16f217c205de",
+      "date": "2026-05-25",
+      "symbol": "LINT",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.400274+00:00"
+    },
+    {
+      "id": "5176e474-c615-4089-ad22-79202651edf9",
+      "date": "2026-05-25",
+      "symbol": "XMTR",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.418036+00:00"
+    },
+    {
+      "id": "3f52dcf1-e0ac-4732-98ed-d9e0f551e86e",
+      "date": "2026-05-25",
+      "symbol": "INTC",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.436001+00:00"
+    },
+    {
+      "id": "6fcfbdfc-2f71-47e6-ae56-e6748d2990d1",
+      "date": "2026-05-25",
+      "symbol": "DDOG",
+      "stars": 5,
+      "reason": "already holding this stock",
+      "timestamp": "2026-05-25T17:20:57.436023+00:00"
+    },
+    {
+      "id": "1dfda4fb-a14a-421b-8af4-e114b721edb2",
+      "date": "2026-05-25",
+      "symbol": "WDC",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.458068+00:00"
+    },
+    {
+      "id": "f2ce3119-fd00-4d17-8388-97aaa07f4fdd",
+      "date": "2026-05-25",
+      "symbol": "BMNG",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.479875+00:00"
+    },
+    {
+      "id": "7a4dea44-8983-4cf8-b3ef-9c92b875bcb5",
+      "date": "2026-05-25",
+      "symbol": "CRCG",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.493519+00:00"
+    },
+    {
+      "id": "4943b112-9f39-47fe-b0b9-cecb49edbf05",
+      "date": "2026-05-25",
+      "symbol": "CRWG",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.548024+00:00"
+    },
+    {
+      "id": "cbf6bd52-d7aa-4e97-b6c1-1c2abbc558ed",
+      "date": "2026-05-25",
+      "symbol": "MXL",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.564129+00:00"
+    },
+    {
+      "id": "82440cbf-2e87-41b2-9a67-f35b99ac5d63",
+      "date": "2026-05-25",
+      "symbol": "QCML",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.587310+00:00"
+    },
+    {
+      "id": "d4d46a3a-fe00-420b-be49-7e4e86ed0a40",
+      "date": "2026-05-25",
+      "symbol": "QCMU",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.605623+00:00"
+    },
+    {
+      "id": "82d5f5c4-f80f-4468-a88e-bf928bbda713",
+      "date": "2026-05-25",
+      "symbol": "MRAM",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.623696+00:00"
+    },
+    {
+      "id": "fe6f7429-e911-468b-af42-34ce7eb1dc50",
+      "date": "2026-05-25",
+      "symbol": "INOD",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.640210+00:00"
+    },
+    {
+      "id": "91172d87-0338-4bce-abef-79a47da960bc",
+      "date": "2026-05-25",
+      "symbol": "HIMX",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.655732+00:00"
+    },
+    {
+      "id": "85320ca5-4761-4a4d-8a32-1ad2b80fa780",
+      "date": "2026-05-25",
+      "symbol": "FLNC",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.684512+00:00"
+    },
+    {
+      "id": "deb3409b-5e27-4e6b-8c45-bdf4ec9e86de",
+      "date": "2026-05-25",
+      "symbol": "QCOM",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.712117+00:00"
+    },
+    {
+      "id": "1544bd04-6aea-4315-ae3c-740630d9de7c",
+      "date": "2026-05-25",
+      "symbol": "DOCN",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.730093+00:00"
+    },
+    {
+      "id": "023e5569-68a9-48c8-8366-fd4c8d54ff6a",
+      "date": "2026-05-25",
+      "symbol": "SNDK",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.752540+00:00"
+    },
+    {
+      "id": "33c03660-0afc-4a27-a5dc-d5fd1c3c76dd",
+      "date": "2026-05-25",
+      "symbol": "ORCX",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.765446+00:00"
+    },
+    {
+      "id": "c8b437fe-5e7e-44e4-a6cd-4b3c93549a01",
+      "date": "2026-05-25",
+      "symbol": "PL",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.810492+00:00"
+    },
+    {
+      "id": "96ee39a4-0a23-4643-98d8-54fc5bc4c307",
+      "date": "2026-05-25",
+      "symbol": "AEHR",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.824247+00:00"
+    },
+    {
+      "id": "97a6cd1f-98ea-480d-9f02-cd6be1525e62",
+      "date": "2026-05-25",
+      "symbol": "APPX",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.837399+00:00"
+    },
+    {
+      "id": "4fc04003-71c0-425a-b97a-882c2e49b876",
+      "date": "2026-05-25",
+      "symbol": "LITE",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-05-25T17:20:57.855042+00:00"
     }
   ]
 }
