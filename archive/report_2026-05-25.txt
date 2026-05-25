@@ -1,0 +1,87 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Monday, May 25 2026   18:36 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  102,947.66
+  Cash             $   25,007.98
+  Buying power     $  127,955.64
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  DDOG    $ 215.20 $ 222.32  $+825.92     116 $ 207.10     4  trailing
+  SIMO    $ 264.73 $ 276.14 $+1,072.54      94 $ 253.20     2  trailing
+  CUE     $  20.61 $  21.47 $+1,049.20    1220 $  18.44     2  trailing
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised          $+0.00
+  Open unrealised        $+2,947.66
+  Net (realised+open)    $+2,947.66
+
+  Closed trades                   0
+  Win rate                     0.0%
+  Avg winner                      —
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (48)
+────────────────────────────────────────────────────────────────
+  INTW    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  LINT    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  XMTR    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  INTC    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  DDOG    ★★★★★  already holding this stock
+  WDC     ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  BMNG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CRCG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CRWG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MXL     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QCML    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QCMU    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MRAM    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  INOD    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  HIMX    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  FLNC    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QCOM    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  DOCN    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  SNDK    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  ORCX    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PL      ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  AEHR    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  APPX    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  LITE    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  INTW    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  LINT    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  XMTR    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  INTC    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  DDOG    ★★★★★  already holding this stock
+  WDC     ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  BMNG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CRCG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CRWG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MXL     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QCML    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QCMU    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MRAM    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  INOD    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  HIMX    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  FLNC    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QCOM    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  DOCN    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  SNDK    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  ORCX    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PL      ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  AEHR    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  APPX    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  LITE    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+
+════════════════════════════════════════════════════════════════
