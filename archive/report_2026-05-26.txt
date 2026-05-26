@@ -1,0 +1,87 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Tuesday, May 26 2026   18:51 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  101,673.38
+  Cash             $   25,007.98
+  Buying power     $  126,681.36
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  DDOG    $ 215.20 $ 223.65  $+980.20     116 $ 207.10     5  trailing
+  SIMO    $ 264.73 $ 293.00 $+2,657.38      94 $ 253.20     3  trailing
+  CUE     $  20.61 $  19.00 $-1,964.20    1220 $  18.44     3  trailing
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised          $+0.00
+  Open unrealised        $+1,673.38
+  Net (realised+open)    $+1,673.38
+
+  Closed trades                   0
+  Win rate                     0.0%
+  Avg winner                      —
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (48)
+────────────────────────────────────────────────────────────────
+  INTW    ★★★★★  estimated cost $25,418.00 exceeds available capital $0.00  [cost $25,418 vs avail $0]
+  LINT    ★★★★★  estimated cost $25,538.00 exceeds available capital $0.00  [cost $25,538 vs avail $0]
+  XMTR    ★★★★★  estimated cost $25,656.40 exceeds available capital $0.00  [cost $25,656 vs avail $0]
+  INTC    ★★★★★  estimated cost $25,626.48 exceeds available capital $0.00  [cost $25,626 vs avail $0]
+  DDOG    ★★★★★  already holding this stock
+  WDC     ★★★★★  estimated cost $25,417.20 exceeds available capital $0.00  [cost $25,417 vs avail $0]
+  BMNG    ★★★★☆  estimated cost $25,734.08 exceeds available capital $0.00  [cost $25,734 vs avail $0]
+  CRCG    ★★★★☆  estimated cost $25,717.66 exceeds available capital $0.00  [cost $25,718 vs avail $0]
+  CRWG    ★★★★☆  estimated cost $25,730.00 exceeds available capital $0.00  [cost $25,730 vs avail $0]
+  MXL     ★★★★☆  estimated cost $25,740.00 exceeds available capital $0.00  [cost $25,740 vs avail $0]
+  QCML    ★★★★☆  estimated cost $25,705.62 exceeds available capital $0.00  [cost $25,706 vs avail $0]
+  QCMU    ★★★★☆  estimated cost $25,742.08 exceeds available capital $0.00  [cost $25,742 vs avail $0]
+  MRAM    ★★★★☆  estimated cost $25,727.52 exceeds available capital $0.00  [cost $25,728 vs avail $0]
+  INOD    ★★★★☆  estimated cost $25,666.90 exceeds available capital $0.00  [cost $25,667 vs avail $0]
+  HIMX    ★★★★☆  estimated cost $25,726.57 exceeds available capital $0.00  [cost $25,727 vs avail $0]
+  FLNC    ★★★★☆  estimated cost $25,727.70 exceeds available capital $0.00  [cost $25,728 vs avail $0]
+  QCOM    ★★★★☆  estimated cost $25,583.99 exceeds available capital $0.00  [cost $25,584 vs avail $0]
+  DOCN    ★★★★☆  ORB range $12.84 > ATR $11.83 — risk too wide  [ORB $12.84 vs ATR $11.83]
+  SNDK    ★★★★☆  estimated cost $25,572.96 exceeds available capital $0.00  [cost $25,573 vs avail $0]
+  ORCX    ★★★★☆  estimated cost $25,701.96 exceeds available capital $0.00  [cost $25,702 vs avail $0]
+  PL      ★★★★☆  estimated cost $25,725.00 exceeds available capital $0.00  [cost $25,725 vs avail $0]
+  AEHR    ★★★★☆  estimated cost $25,680.59 exceeds available capital $0.00  [cost $25,681 vs avail $0]
+  APPX    ★★★★☆  estimated cost $25,723.47 exceeds available capital $0.00  [cost $25,723 vs avail $0]
+  LITE    ★★★★☆  estimated cost $25,168.00 exceeds available capital $0.00  [cost $25,168 vs avail $0]
+  INTW    ★★★★★  estimated cost $25,418.00 exceeds available capital $0.00  [cost $25,418 vs avail $0]
+  LINT    ★★★★★  estimated cost $25,538.00 exceeds available capital $0.00  [cost $25,538 vs avail $0]
+  XMTR    ★★★★★  estimated cost $25,656.40 exceeds available capital $0.00  [cost $25,656 vs avail $0]
+  INTC    ★★★★★  estimated cost $25,626.48 exceeds available capital $0.00  [cost $25,626 vs avail $0]
+  DDOG    ★★★★★  already holding this stock
+  WDC     ★★★★★  estimated cost $25,417.20 exceeds available capital $0.00  [cost $25,417 vs avail $0]
+  BMNG    ★★★★☆  estimated cost $25,646.40 exceeds available capital $0.00  [cost $25,646 vs avail $0]
+  CRCG    ★★★★☆  estimated cost $25,652.88 exceeds available capital $0.00  [cost $25,653 vs avail $0]
+  CRWG    ★★★★☆  estimated cost $25,647.00 exceeds available capital $0.00  [cost $25,647 vs avail $0]
+  MXL     ★★★★☆  estimated cost $25,632.75 exceeds available capital $0.00  [cost $25,633 vs avail $0]
+  QCML    ★★★★☆  estimated cost $25,629.68 exceeds available capital $0.00  [cost $25,630 vs avail $0]
+  QCMU    ★★★★☆  estimated cost $25,647.44 exceeds available capital $0.00  [cost $25,647 vs avail $0]
+  MRAM    ★★★★☆  estimated cost $25,656.84 exceeds available capital $0.00  [cost $25,657 vs avail $0]
+  INOD    ★★★★☆  estimated cost $25,567.80 exceeds available capital $0.00  [cost $25,568 vs avail $0]
+  HIMX    ★★★★☆  estimated cost $25,659.34 exceeds available capital $0.00  [cost $25,659 vs avail $0]
+  FLNC    ★★★★☆  estimated cost $25,660.35 exceeds available capital $0.00  [cost $25,660 vs avail $0]
+  QCOM    ★★★★☆  estimated cost $25,583.99 exceeds available capital $0.00  [cost $25,584 vs avail $0]
+  DOCN    ★★★★☆  ORB range $12.84 > ATR $11.83 — risk too wide  [ORB $12.84 vs ATR $11.83]
+  SNDK    ★★★★☆  estimated cost $25,572.96 exceeds available capital $0.00  [cost $25,573 vs avail $0]
+  ORCX    ★★★★☆  estimated cost $25,658.10 exceeds available capital $0.00  [cost $25,658 vs avail $0]
+  PL      ★★★★☆  estimated cost $25,627.00 exceeds available capital $0.00  [cost $25,627 vs avail $0]
+  AEHR    ★★★★☆  estimated cost $25,576.62 exceeds available capital $0.00  [cost $25,577 vs avail $0]
+  APPX    ★★★★☆  estimated cost $25,632.09 exceeds available capital $0.00  [cost $25,632 vs avail $0]
+  LITE    ★★★★☆  estimated cost $25,168.00 exceeds available capital $0.00  [cost $25,168 vs avail $0]
+
+════════════════════════════════════════════════════════════════
