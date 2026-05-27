@@ -1,0 +1,83 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Wednesday, May 27 2026   18:58 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  103,397.79
+  Cash             $   25,007.98
+  Buying power     $  128,405.77
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  DDOG    $ 215.20 $ 231.50 $+1,890.80     116 $ 207.10     6  trailing
+  SIMO    $ 264.73 $ 283.03 $+1,720.49      94 $ 253.20     4  trailing
+  CUE     $  20.61 $  20.43  $-213.50    1220 $  18.44     4  trailing
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised          $+0.00
+  Open unrealised        $+3,397.79
+  Net (realised+open)    $+3,397.79
+
+  Closed trades                   0
+  Win rate                     0.0%
+  Avg winner                      —
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (44)
+────────────────────────────────────────────────────────────────
+  BAND    ★★★★★  estimated cost $25,343.75 exceeds available capital $0.00  [cost $25,344 vs avail $0]
+  RVI     ★★★★★  estimated cost $25,365.00 exceeds available capital $0.00  [cost $25,365 vs avail $0]
+  BMNG    ★★★★☆  estimated cost $25,375.14 exceeds available capital $0.00  [cost $25,375 vs avail $0]
+  CRWG    ★★★★☆  estimated cost $25,361.40 exceeds available capital $0.00  [cost $25,361 vs avail $0]
+  AGL     ★★★★☆  estimated cost $25,370.00 exceeds available capital $0.00  [cost $25,370 vs avail $0]
+  QCMU    ★★★★☆  ORB range $7.79 > ATR $7.17 — risk too wide  [ORB $7.79 vs ATR $7.17]
+  MRAM    ★★★★☆  estimated cost $25,359.68 exceeds available capital $0.00  [cost $25,360 vs avail $0]
+  INOD    ★★★★☆  estimated cost $25,325.70 exceeds available capital $0.00  [cost $25,326 vs avail $0]
+  WYFI    ★★★★☆  estimated cost $25,376.00 exceeds available capital $0.00  [cost $25,376 vs avail $0]
+  NBIL    ★★★★☆  estimated cost $25,363.83 exceeds available capital $0.00  [cost $25,364 vs avail $0]
+  NBIG    ★★★★☆  estimated cost $25,374.60 exceeds available capital $0.00  [cost $25,375 vs avail $0]
+  XMTR    ★★★★☆  estimated cost $25,312.50 exceeds available capital $0.00  [cost $25,312 vs avail $0]
+  SIMO    ★★★★☆  already holding this stock
+  HIMX    ★★★★☆  estimated cost $25,375.20 exceeds available capital $0.00  [cost $25,375 vs avail $0]
+  FLNC    ★★★★☆  estimated cost $25,383.82 exceeds available capital $0.00  [cost $25,384 vs avail $0]
+  DOCN    ★★★★☆  estimated cost $25,281.00 exceeds available capital $0.00  [cost $25,281 vs avail $0]
+  SNDK    ★★★★☆  estimated cost $24,881.55 exceeds available capital $0.00  [cost $24,882 vs avail $0]
+  INTC    ★★★★☆  estimated cost $25,304.54 exceeds available capital $0.00  [cost $25,305 vs avail $0]
+  ORCX    ★★★★☆  estimated cost $25,356.85 exceeds available capital $0.00  [cost $25,357 vs avail $0]
+  APPX    ★★★★☆  estimated cost $25,373.25 exceeds available capital $0.00  [cost $25,373 vs avail $0]
+  AAOI    ★★★★☆  estimated cost $25,235.40 exceeds available capital $0.00  [cost $25,235 vs avail $0]
+  UCTT    ★★★★☆  estimated cost $25,387.05 exceeds available capital $0.00  [cost $25,387 vs avail $0]
+  BAND    ★★★★★  estimated cost $25,282.38 exceeds available capital $0.00  [cost $25,282 vs avail $0]
+  RVI     ★★★★★  estimated cost $25,251.00 exceeds available capital $0.00  [cost $25,251 vs avail $0]
+  BMNG    ★★★★☆  estimated cost $25,272.24 exceeds available capital $0.00  [cost $25,272 vs avail $0]
+  CRWG    ★★★★☆  estimated cost $25,282.76 exceeds available capital $0.00  [cost $25,283 vs avail $0]
+  AGL     ★★★★☆  estimated cost $25,284.00 exceeds available capital $0.00  [cost $25,284 vs avail $0]
+  QCMU    ★★★★☆  ORB range $7.79 > ATR $7.17 — risk too wide  [ORB $7.79 vs ATR $7.17]
+  MRAM    ★★★★☆  estimated cost $25,261.64 exceeds available capital $0.00  [cost $25,262 vs avail $0]
+  INOD    ★★★★☆  estimated cost $25,229.77 exceeds available capital $0.00  [cost $25,230 vs avail $0]
+  WYFI    ★★★★☆  estimated cost $25,280.00 exceeds available capital $0.00  [cost $25,280 vs avail $0]
+  NBIL    ★★★★☆  estimated cost $25,254.66 exceeds available capital $0.00  [cost $25,255 vs avail $0]
+  NBIG    ★★★★☆  estimated cost $25,273.00 exceeds available capital $0.00  [cost $25,273 vs avail $0]
+  XMTR    ★★★★☆  estimated cost $25,218.75 exceeds available capital $0.00  [cost $25,219 vs avail $0]
+  SIMO    ★★★★☆  already holding this stock
+  HIMX    ★★★★☆  estimated cost $25,288.00 exceeds available capital $0.00  [cost $25,288 vs avail $0]
+  FLNC    ★★★★☆  estimated cost $25,274.97 exceeds available capital $0.00  [cost $25,275 vs avail $0]
+  DOCN    ★★★★☆  estimated cost $25,281.00 exceeds available capital $0.00  [cost $25,281 vs avail $0]
+  SNDK    ★★★★☆  estimated cost $24,881.55 exceeds available capital $0.00  [cost $24,882 vs avail $0]
+  INTC    ★★★★☆  estimated cost $25,179.27 exceeds available capital $0.00  [cost $25,179 vs avail $0]
+  ORCX    ★★★★☆  estimated cost $25,271.05 exceeds available capital $0.00  [cost $25,271 vs avail $0]
+  APPX    ★★★★☆  estimated cost $25,276.59 exceeds available capital $0.00  [cost $25,277 vs avail $0]
+  AAOI    ★★★★☆  estimated cost $25,235.40 exceeds available capital $0.00  [cost $25,235 vs avail $0]
+  UCTT    ★★★★☆  estimated cost $25,203.75 exceeds available capital $0.00  [cost $25,204 vs avail $0]
+
+════════════════════════════════════════════════════════════════
