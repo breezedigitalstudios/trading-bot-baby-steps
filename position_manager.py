@@ -300,7 +300,10 @@ def handle_phase1(trade: Dict, positions: Dict) -> bool:
     print(f"    Sold {shares_to_sell} shares @ ~${current_price:.2f}  partial PnL ${phase1_pnl:+.2f}")
 
     new_stop_id = place_stop_loss(trade["symbol"], shares_after, fill_price)
-    print(f"    Stop moved to breakeven ${fill_price:.2f}  ({shares_after} shares remaining)")
+    if new_stop_id:
+        print(f"    Stop moved to breakeven ${fill_price:.2f}  ({shares_after} shares remaining)")
+    else:
+        print(f"    ⚠ Breakeven stop placement FAILED for {trade['symbol']} — will retry next run")
 
     trade.update({
         "status":           "partial_exit",
