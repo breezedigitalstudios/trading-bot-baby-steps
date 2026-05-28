@@ -284,17 +284,20 @@ def handle_phase1(trade: Dict, positions: Dict) -> bool:
 
     print(f"    Phase 1: day {days_held}, price ${current_price:.2f} > entry ${fill_price:.2f}")
 
+    # Cancel existing stop first so the partial sell isn't blocked
+    if trade.get("stop_order_id"):
+        cancel_order(trade["stop_order_id"])
+
     # Sell 1/3
     sell_id = sell_market(trade["symbol"], shares_to_sell, "phase1_partial")
     if sell_id is None:
+        # Sell failed — re-place the stop we just cancelled so position stays protected
+        new_stop_id = place_stop_loss(trade["symbol"], shares_remaining, trade.get("current_stop") or fill_price)
+        trade["stop_order_id"] = new_stop_id
         return False
 
     phase1_pnl = round((current_price - fill_price) * shares_to_sell, 2)
     print(f"    Sold {shares_to_sell} shares @ ~${current_price:.2f}  partial PnL ${phase1_pnl:+.2f}")
-
-    # Cancel old stop, place new stop at breakeven
-    if trade.get("stop_order_id"):
-        cancel_order(trade["stop_order_id"])
 
     new_stop_id = place_stop_loss(trade["symbol"], shares_after, fill_price)
     print(f"    Stop moved to breakeven ${fill_price:.2f}  ({shares_after} shares remaining)")
@@ -563,8 +566,11 @@ def run() -> None:
                     changed = True
 
     if changed:
-        save_trades(trades, skipped)
-        print("\nTrades updated → trades.json")
+        if DRY_RUN:
+            print("\n[DRY RUN] trades.json NOT written (changes shown above)")
+        else:
+            save_trades(trades, skipped)
+            print("\nTrades updated → trades.json")
     else:
         print("\nNo changes.")
 
