@@ -165,13 +165,16 @@
       "shares": 116,
       "entry_order_id": "f26040bc-414b-4632-9334-087f365bc7f1",
       "stop_price": 207.1,
-      "status": "open",
+      "status": "partial_exit",
       "timestamp": "2026-05-19T17:27:09.490173+00:00",
-      "stop_order_id": "35bc8c82-7074-49e6-aed0-c527b8dcb220",
+      "stop_order_id": "5d017552-371a-4b9e-9b84-e47feef0e068",
       "fill_price": 215.2,
       "fill_date": "2026-05-19",
-      "shares_remaining": 116,
-      "current_stop": 207.1
+      "shares_remaining": 78,
+      "current_stop": 215.2,
+      "phase1_sell_id": "beaf67ef-1c32-48ad-b08d-06af58fcf8dc",
+      "phase1_pnl": 570.32,
+      "phase1_date": "2026-05-28"
     },
     {
       "id": "f774a8ea-cc83-443d-85e7-c04dd5699053",
@@ -219,13 +222,16 @@
       "shares": 94,
       "entry_order_id": "cf939483-6781-4e48-ba1d-1a30e699bbad",
       "stop_price": 253.2,
-      "status": "open",
+      "status": "partial_exit",
       "timestamp": "2026-05-21T17:17:27.709766+00:00",
-      "stop_order_id": "bbc93465-a4b9-48ec-a24c-e95f0e010147",
+      "stop_order_id": "df1fa9ee-5778-4d92-a283-196b2624d51a",
       "fill_price": 264.73,
       "fill_date": "2026-05-21",
-      "shares_remaining": 94,
-      "current_stop": 253.2
+      "shares_remaining": 63,
+      "current_stop": 264.73,
+      "phase1_sell_id": "7f9e769a-0349-4c89-a429-05e16b217936",
+      "phase1_pnl": 494.64,
+      "phase1_date": "2026-05-28"
     },
     {
       "id": "31fcce1c-098d-4fec-b88a-8812a9edd7ad",
@@ -239,13 +245,16 @@
       "shares": 1220,
       "entry_order_id": "3e817ce2-b85c-45fe-976f-719fc0897756",
       "stop_price": 18.44,
-      "status": "open",
+      "status": "partial_exit",
       "timestamp": "2026-05-21T17:17:27.841856+00:00",
-      "stop_order_id": "70e9d290-0a0e-45d4-9319-2d8a617ff2e1",
+      "stop_order_id": "85d9acd7-cd3d-4c1b-9c77-b87e2cc0fd1e",
       "fill_price": 20.61,
       "fill_date": "2026-05-21",
-      "shares_remaining": 1220,
-      "current_stop": 18.44
+      "shares_remaining": 814,
+      "current_stop": 20.61,
+      "phase1_sell_id": "3ee31c79-4f49-4fa3-9e2a-5f8237e154b3",
+      "phase1_pnl": 824.18,
+      "phase1_date": "2026-05-28"
     }
   ],
   "skipped": [
