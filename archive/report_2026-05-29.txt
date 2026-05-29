@@ -1,0 +1,75 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Friday, May 29 2026   18:53 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  105,994.01
+  Cash             $   51,396.10
+  Buying power     $  157,390.11
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  DDOG    $ 215.20 $ 247.00 $+2,480.40      78 $ 215.20     8  partial
+  SIMO    $ 264.73 $ 277.86  $+827.32      63 $ 264.73     6  partial
+  CUE     $  20.61 $  21.90 $+1,050.06     814 $  20.61     6  partial
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised          $+0.00
+  Open unrealised        $+4,357.78
+  Net (realised+open)    $+4,357.78
+
+  Closed trades                   0
+  Win rate                     0.0%
+  Avg winner                      —
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (36)
+────────────────────────────────────────────────────────────────
+  BAND    ★★★★★  estimated cost $26,414.08 exceeds available capital $24,966.83  [cost $26,414 vs avail $24,967]
+  XMTR    ★★★★★  estimated cost $26,334.00 exceeds available capital $24,966.83  [cost $26,334 vs avail $24,967]
+  AEHR    ★★★★★  estimated cost $26,390.00 exceeds available capital $24,966.83  [cost $26,390 vs avail $24,967]
+  CRWG    ★★★★☆  estimated cost $26,390.70 exceeds available capital $24,966.83  [cost $26,391 vs avail $24,967]
+  AGL     ★★★★☆  estimated cost $26,340.48 exceeds available capital $24,966.83  [cost $26,340 vs avail $24,967]
+  NBIL    ★★★★☆  estimated cost $26,403.20 exceeds available capital $24,966.83  [cost $26,403 vs avail $24,967]
+  AMBQ    ★★★★☆  estimated cost $26,397.00 exceeds available capital $24,966.83  [cost $26,397 vs avail $24,967]
+  MRAM    ★★★★☆  estimated cost $26,407.68 exceeds available capital $24,966.83  [cost $26,408 vs avail $24,967]
+  INOD    ★★★★☆  estimated cost $26,355.00 exceeds available capital $24,966.83  [cost $26,355 vs avail $24,967]
+  WYFI    ★★★★☆  estimated cost $26,427.30 exceeds available capital $24,966.83  [cost $26,427 vs avail $24,967]
+  LINT    ★★★★☆  estimated cost $26,220.00 exceeds available capital $24,966.83  [cost $26,220 vs avail $24,967]
+  INTW    ★★★★☆  estimated cost $26,128.80 exceeds available capital $24,966.83  [cost $26,129 vs avail $24,967]
+  SIMO    ★★★★☆  already holding this stock
+  PENG    ★★★★☆  estimated cost $26,403.84 exceeds available capital $24,966.83  [cost $26,404 vs avail $24,967]
+  MXL     ★★★★☆  estimated cost $26,339.45 exceeds available capital $24,966.83  [cost $26,339 vs avail $24,967]
+  ORCX    ★★★★☆  ORB range $4.81 > ATR $4.23 — risk too wide  [ORB $4.81 vs ATR $4.23]
+  UCTT    ★★★★☆  estimated cost $26,355.27 exceeds available capital $24,966.83  [cost $26,355 vs avail $24,967]
+  CAPR    ★★★★☆  estimated cost $26,399.80 exceeds available capital $24,966.83  [cost $26,400 vs avail $24,967]
+  BAND    ★★★★★  estimated cost $26,414.08 exceeds available capital $24,968.65  [cost $26,414 vs avail $24,969]
+  XMTR    ★★★★★  estimated cost $26,334.00 exceeds available capital $24,968.65  [cost $26,334 vs avail $24,969]
+  AEHR    ★★★★★  estimated cost $26,390.00 exceeds available capital $24,968.65  [cost $26,390 vs avail $24,969]
+  CRWG    ★★★★☆  estimated cost $26,390.70 exceeds available capital $24,968.65  [cost $26,391 vs avail $24,969]
+  AGL     ★★★★☆  estimated cost $26,340.48 exceeds available capital $24,968.65  [cost $26,340 vs avail $24,969]
+  NBIL    ★★★★☆  estimated cost $26,403.20 exceeds available capital $24,968.65  [cost $26,403 vs avail $24,969]
+  AMBQ    ★★★★☆  estimated cost $26,397.00 exceeds available capital $24,968.65  [cost $26,397 vs avail $24,969]
+  MRAM    ★★★★☆  estimated cost $26,407.68 exceeds available capital $24,968.65  [cost $26,408 vs avail $24,969]
+  INOD    ★★★★☆  estimated cost $26,355.00 exceeds available capital $24,968.65  [cost $26,355 vs avail $24,969]
+  WYFI    ★★★★☆  estimated cost $26,427.30 exceeds available capital $24,968.65  [cost $26,427 vs avail $24,969]
+  LINT    ★★★★☆  estimated cost $26,220.00 exceeds available capital $24,968.65  [cost $26,220 vs avail $24,969]
+  INTW    ★★★★☆  estimated cost $26,128.80 exceeds available capital $24,968.65  [cost $26,129 vs avail $24,969]
+  SIMO    ★★★★☆  already holding this stock
+  PENG    ★★★★☆  estimated cost $26,403.84 exceeds available capital $24,968.65  [cost $26,404 vs avail $24,969]
+  MXL     ★★★★☆  estimated cost $26,339.45 exceeds available capital $24,968.65  [cost $26,339 vs avail $24,969]
+  ORCX    ★★★★☆  ORB range $4.81 > ATR $4.23 — risk too wide  [ORB $4.81 vs ATR $4.23]
+  UCTT    ★★★★☆  estimated cost $26,355.27 exceeds available capital $24,968.65  [cost $26,355 vs avail $24,969]
+  CAPR    ★★★★☆  estimated cost $26,399.80 exceeds available capital $24,968.65  [cost $26,400 vs avail $24,969]
+
+════════════════════════════════════════════════════════════════
