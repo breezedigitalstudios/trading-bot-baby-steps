@@ -557,8 +557,8 @@ def run() -> None:
             if trade.get("status") == "closed":
                 continue
 
-        # 4. Phase 1 (only from 'open' status, not already partial)
-        if status == "open":
+        # 4. Phase 1 — intraday only (DAY sell orders won't fill after market close)
+        if status == "open" and not is_eod:
             if handle_phase1(trade, positions):
                 changed = True
 
