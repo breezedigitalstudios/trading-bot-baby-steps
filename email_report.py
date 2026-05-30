@@ -187,13 +187,19 @@ def section_account(account: Dict) -> str:
 def section_pnl(trades: List[Dict], live: Dict) -> str:
     today    = str(date.today())
     closed   = [t for t in trades if t.get("status") == "closed"]
+    partial  = [t for t in trades if t.get("status") == "partial_exit"]
     today_cl = [t for t in closed  if t.get("exit_date") == today]
+    today_p1 = [t for t in partial if t.get("phase1_date") == today]
 
-    realised_today = sum(t.get("pnl") or 0 for t in today_cl)
-    realised_total = sum(t.get("pnl") or 0 for t in closed)
+    # Realised = fully-closed trade pnl + locked-in phase1 partial profits
+    realised_today = (sum(t.get("pnl")        or 0 for t in today_cl) +
+                      sum(t.get("phase1_pnl") or 0 for t in today_p1))
+    realised_total = (sum(t.get("pnl")        or 0 for t in closed) +
+                      sum(t.get("phase1_pnl") or 0 for t in partial))
     unrealised     = sum(p.get("unrealized_pl", 0) for p in live.values())
     net            = realised_total + unrealised
 
+    # Win-rate stats on fully closed trades only
     winners  = [t for t in closed if (t.get("pnl") or 0) > 0]
     losers   = [t for t in closed if (t.get("pnl") or 0) <= 0]
     win_rate = len(winners) / len(closed) * 100 if closed else 0
@@ -249,14 +255,21 @@ def section_open(trades: List[Dict], live: Dict) -> str:
 
 
 def section_closed_today(trades: List[Dict]) -> str:
-    today  = str(date.today())
-    closed = [t for t in trades if t.get("status") == "closed" and t.get("exit_date") == today]
-    if not closed:
+    today = str(date.today())
+
+    # Fully closed trades exited today
+    fully_closed = [t for t in trades
+                    if t.get("status") == "closed" and t.get("exit_date") == today]
+    # Partial exits that locked in profit today (phase1)
+    partial_today = [t for t in trades
+                     if t.get("status") == "partial_exit" and t.get("phase1_date") == today]
+
+    if not fully_closed and not partial_today:
         return section("Closed Today",
                         '<p style="padding:12px 20px;color:#9ca3af;font-size:13px;margin:0">None.</p>')
 
     rows = []
-    for t in sorted(closed, key=lambda x: x.get("exit_date", ""), reverse=True):
+    for t in sorted(fully_closed, key=lambda x: x.get("exit_date", ""), reverse=True):
         entry  = t.get("fill_price") or t.get("orb_high", 0)
         exit_p = t.get("exit_price", 0) or 0
         rows.append([
@@ -266,6 +279,17 @@ def section_closed_today(trades: List[Dict]) -> str:
             f"${exit_p:.2f}",
             pnl_html(t.get("pnl")),
             t.get("exit_reason", "?"),
+        ])
+    for t in sorted(partial_today, key=lambda x: x.get("phase1_date", ""), reverse=True):
+        entry    = t.get("fill_price") or t.get("orb_high", 0)
+        shares   = t["shares"] - t.get("shares_remaining", t["shares"])
+        rows.append([
+            f"<strong>{t['symbol']}</strong>",
+            stars_html(t.get("stars", 0)),
+            f"${entry:.2f}",
+            "~mkt",
+            pnl_html(t.get("phase1_pnl")),
+            f"phase1 partial ({shares} shares)",
         ])
     cols   = ["Symbol", "Stars", "Entry", "Exit", "P&L", "Reason"]
     aligns = ["left", "left", "right", "right", "right", "left"]
