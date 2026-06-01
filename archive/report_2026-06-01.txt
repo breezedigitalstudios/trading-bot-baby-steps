@@ -1,0 +1,68 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Monday, June 01 2026   19:14 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  109,444.92
+  Cash             $   51,396.02
+  Buying power     $  160,840.94
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  DDOG    $ 215.20 $ 275.20 $+4,680.00      78 $ 215.20     9  partial
+  CUE     $  20.61 $  24.10 $+2,840.86     814 $  20.61     7  partial
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised          $+0.00
+  Open unrealised        $+7,808.77
+  Net (realised+open)    $+7,808.77
+
+  Closed trades                   0
+  Win rate                     0.0%
+  Avg winner                      —
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (30)
+────────────────────────────────────────────────────────────────
+  AMBQ    ★★★★★  estimated cost $27,338.82 exceeds available capital $23,976.70  [cost $27,339 vs avail $23,977]
+  XMTR    ★★★★★  estimated cost $27,405.40 exceeds available capital $23,976.70  [cost $27,405 vs avail $23,977]
+  SNDK    ★★★★★  estimated cost $27,060.00 exceeds available capital $23,976.70  [cost $27,060 vs avail $23,977]
+  AGL     ★★★★☆  estimated cost $27,413.10 exceeds available capital $23,976.70  [cost $27,413 vs avail $23,977]
+  VCX     ★★★★☆  estimated cost $27,287.50 exceeds available capital $23,976.70  [cost $27,288 vs avail $23,977]
+  INOD    ★★★★☆  estimated cost $27,390.00 exceeds available capital $23,976.70  [cost $27,390 vs avail $23,977]
+  NBIL    ★★★★☆  estimated cost $27,367.20 exceeds available capital $23,976.70  [cost $27,367 vs avail $23,977]
+  NBIG    ★★★★☆  estimated cost $27,416.16 exceeds available capital $23,976.70  [cost $27,416 vs avail $23,977]
+  WYFI    ★★★★☆  estimated cost $27,407.21 exceeds available capital $23,976.70  [cost $27,407 vs avail $23,977]
+  PENG    ★★★★☆  estimated cost $27,363.05 exceeds available capital $23,976.70  [cost $27,363 vs avail $23,977]
+  FCEL    ★★★★☆  estimated cost $27,405.92 exceeds available capital $23,976.70  [cost $27,406 vs avail $23,977]
+  CUE     ★★★★☆  already holding this stock
+  HUT     ★★★★☆  estimated cost $27,312.99 exceeds available capital $23,976.70  [cost $27,313 vs avail $23,977]
+  QURE    ★★★★☆  estimated cost $27,392.80 exceeds available capital $23,976.70  [cost $27,393 vs avail $23,977]
+  CAPR    ★★★★☆  estimated cost $27,394.56 exceeds available capital $23,976.70  [cost $27,395 vs avail $23,977]
+  AMBQ    ★★★★★  estimated cost $27,338.82 exceeds available capital $23,973.65  [cost $27,339 vs avail $23,974]
+  XMTR    ★★★★★  estimated cost $27,405.40 exceeds available capital $23,973.65  [cost $27,405 vs avail $23,974]
+  SNDK    ★★★★★  estimated cost $27,060.00 exceeds available capital $23,973.65  [cost $27,060 vs avail $23,974]
+  AGL     ★★★★☆  estimated cost $27,413.10 exceeds available capital $23,973.65  [cost $27,413 vs avail $23,974]
+  VCX     ★★★★☆  estimated cost $27,287.50 exceeds available capital $23,973.65  [cost $27,288 vs avail $23,974]
+  INOD    ★★★★☆  estimated cost $27,390.00 exceeds available capital $23,973.65  [cost $27,390 vs avail $23,974]
+  NBIL    ★★★★☆  estimated cost $27,421.50 exceeds available capital $23,973.65  [cost $27,422 vs avail $23,974]
+  NBIG    ★★★★☆  estimated cost $27,416.16 exceeds available capital $23,973.65  [cost $27,416 vs avail $23,974]
+  WYFI    ★★★★☆  estimated cost $27,407.21 exceeds available capital $23,973.65  [cost $27,407 vs avail $23,974]
+  PENG    ★★★★☆  estimated cost $27,420.90 exceeds available capital $23,973.65  [cost $27,421 vs avail $23,974]
+  FCEL    ★★★★☆  estimated cost $27,405.92 exceeds available capital $23,973.65  [cost $27,406 vs avail $23,974]
+  CUE     ★★★★☆  already holding this stock
+  HUT     ★★★★☆  estimated cost $27,312.99 exceeds available capital $23,973.65  [cost $27,313 vs avail $23,974]
+  QURE    ★★★★☆  estimated cost $27,421.04 exceeds available capital $23,973.65  [cost $27,421 vs avail $23,974]
+  CAPR    ★★★★☆  estimated cost $27,394.56 exceeds available capital $23,973.65  [cost $27,395 vs avail $23,974]
+
+════════════════════════════════════════════════════════════════
