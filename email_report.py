@@ -185,7 +185,7 @@ def section_account(account: Dict) -> str:
 def section_pnl(trades: List[Dict], live: Dict) -> str:
     today    = str(date.today())
     closed   = [t for t in trades if t.get("status") == "closed"]
-    partial  = [t for t in trades if t.get("status") == "partial_exit"]
+    partial  = [t for t in trades if t.get("status") in ("partial_exit", "sma_exit_pending")]
     today_cl = [t for t in closed  if t.get("exit_date") == today]
     today_p1 = [t for t in partial if t.get("phase1_date") == today]
 
@@ -221,7 +221,7 @@ def section_pnl(trades: List[Dict], live: Dict) -> str:
 
 
 def section_open(trades: List[Dict], live: Dict) -> str:
-    open_trades = [t for t in trades if t.get("status") in ("open", "partial_exit")]
+    open_trades = [t for t in trades if t.get("status") in ("open", "partial_exit", "sma_exit_pending")]
     if not open_trades:
         return section("Open Positions",
                         '<p style="padding:12px 20px;color:#9ca3af;font-size:13px;margin:0">None.</p>')
@@ -234,7 +234,7 @@ def section_open(trades: List[Dict], live: Dict) -> str:
         curr   = pos.get("current_price", entry)
         unrlzd = pos.get("unrealized_pl")
         shares = t.get("shares_remaining", t["shares"])
-        phase  = "partial" if t["status"] == "partial_exit" else "trailing"
+        phase  = "partial" if t["status"] == "partial_exit" else ("closing" if t["status"] == "sma_exit_pending" else "trailing")
         fill_date = t.get("fill_date", str(date.today()))
         days   = int(np.busday_count(fill_date, str(date.today())))
         rows.append([

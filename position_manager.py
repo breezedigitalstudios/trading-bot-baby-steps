@@ -347,21 +347,58 @@ def handle_sma_exit(trade: Dict) -> bool:
     if sell_id is None:
         return False
 
-    fill_price = trade.get("fill_price", trade["orb_high"])
-    pnl_runner = round((today_close - fill_price) * shares_remaining, 2)
+    # Mark as pending fill — actual close happens when the DAY order fills
+    trade.update({
+        "status":           "sma_exit_pending",
+        "sma_exit_sell_id": sell_id,
+        "sma_exit_close":   round(today_close, 2),
+        "sma10_at_exit":    round(sma10, 2),
+        "stop_order_id":    None,
+    })
+    print(f"    Sell order submitted (DAY) — awaiting fill confirmation next run")
+    return True
 
+
+def handle_sma_exit_fill(trade: Dict) -> bool:
+    """
+    Check whether the SMA-exit DAY sell order has filled.
+    If filled  → mark closed with actual fill price.
+    If expired → re-submit the sell order.
+    """
+    sell_id = trade.get("sma_exit_sell_id")
+    if not sell_id:
+        return False
+
+    order = get_order(sell_id)
+
+    if order is None or order.status in ("expired", "canceled", "cancelled"):
+        # Order gone — re-submit
+        shares = trade.get("shares_remaining", trade["shares"])
+        print(f"    SMA exit order expired/missing — re-submitting sell for {shares} shares")
+        new_id = sell_market(trade["symbol"], shares, "sma10_close_retry")
+        if new_id:
+            trade["sma_exit_sell_id"] = new_id
+        return bool(new_id)
+
+    if order.status not in ("filled", "partially_filled"):
+        print(f"    SMA exit order still pending ({order.status})")
+        return False
+
+    exit_price = float(order.filled_avg_price or trade.get("sma_exit_close", trade["fill_price"]))
+    shares     = trade.get("shares_remaining", trade["shares"])
+    fill_price = trade.get("fill_price", trade["orb_high"])
+    pnl_runner = round((exit_price - fill_price) * shares, 2)
     phase1_pnl = trade.get("phase1_pnl", 0.0) or 0.0
     total_pnl  = round(phase1_pnl + pnl_runner, 2)
 
+    print(f"    SMA exit filled: {shares} shares @ ${exit_price:.2f}  runner PnL ${pnl_runner:+.2f}  total PnL ${total_pnl:+.2f}")
     trade.update({
-        "status":           "closed",
-        "exit_price":       round(today_close, 2),
-        "exit_date":        str(date.today()),
-        "exit_reason":      "sma10_close",
-        "sma10_at_exit":    round(sma10, 2),
-        "pnl":              total_pnl,
+        "status":     "closed",
+        "exit_price": round(exit_price, 2),
+        "exit_date":  str(date.today()),
+        "exit_reason": "sma10_close",
+        "pnl":        total_pnl,
     })
-    print(f"    Exit order submitted  runner PnL ${pnl_runner:+.2f}  total PnL ${total_pnl:+.2f}")
     return True
 
 
@@ -451,7 +488,7 @@ def reconcile_alpaca(trades: List[Dict]) -> Dict:
 
     tracked_open_symbols = {
         t["symbol"] for t in trades
-        if t.get("status") in ("open", "partial_exit")
+        if t.get("status") in ("open", "partial_exit", "sma_exit_pending")
     }
 
     print(f"\n  Live positions  : {len(raw_positions)}")
@@ -511,7 +548,7 @@ def run() -> None:
     # Always audit full Alpaca state first
     positions = reconcile_alpaca(trades)
 
-    active = [t for t in trades if t.get("status") in ("pending", "open", "partial_exit")]
+    active = [t for t in trades if t.get("status") in ("pending", "open", "partial_exit", "sma_exit_pending")]
 
     if not active:
         print("No active trades to manage.")
@@ -528,6 +565,12 @@ def run() -> None:
         # ── Pending: check for fill ──
         if status == "pending":
             if handle_pending(trade):
+                changed = True
+            continue
+
+        # ── SMA exit pending: waiting for DAY sell order to fill ──
+        if status == "sma_exit_pending":
+            if handle_sma_exit_fill(trade):
                 changed = True
             continue
 
