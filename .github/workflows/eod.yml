@@ -60,6 +60,7 @@ jobs:
         run: python generate_dashboard_v2.py
 
       - name: Email report
+        continue-on-error: true
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}

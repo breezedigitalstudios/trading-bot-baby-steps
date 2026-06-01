@@ -29,8 +29,6 @@ TO_EMAIL           = os.getenv("REPORT_EMAIL", GMAIL_USER)
 
 if not API_KEY or not SECRET_KEY:
     raise RuntimeError("Set ALPACA_API_KEY and ALPACA_SECRET_KEY in .env")
-if not GMAIL_USER or not GMAIL_APP_PASSWORD:
-    raise RuntimeError("Set GMAIL_USER and GMAIL_APP_PASSWORD in .env")
 
 trading_client = TradingClient(API_KEY, SECRET_KEY, paper=True)
 data_client    = StockHistoricalDataClient(API_KEY, SECRET_KEY)
@@ -402,6 +400,9 @@ def send(html: str, subject: str) -> None:
 
 
 def run() -> None:
+    if not GMAIL_USER or not GMAIL_APP_PASSWORD:
+        raise RuntimeError("Set GMAIL_USER and GMAIL_APP_PASSWORD in .env or GitHub secrets")
+
     now_et  = datetime.now(ET)
     trades, _ = load_trades()
     setups    = load_setups()
