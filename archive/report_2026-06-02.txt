@@ -1,0 +1,43 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Tuesday, June 02 2026   19:17 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  112,227.00
+  Cash             $   68,833.16
+  Buying power     $  181,060.16
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  DDOG    $ 215.20 $ 263.50 $+3,767.40      78 $ 215.20    10  partial
+  CUE     $  20.61 $  28.06 $+6,064.30     814 $  20.61     8  partial
+
+CLOSED TODAY (1)
+────────────────────────────────────────────────────────────────
+  Symbol  Date            Entry     Exit       P&L Stars   Reason
+  ······························································
+  SIMO    2026-06-02   $ 264.73 $ 276.78 $+1,253.79  ★★★★★  sma10_close
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised         $+1,253.79
+  All-time realised      $+1,253.79
+  Open unrealised        $+9,831.70
+  Net (realised+open)   $+11,085.49
+
+  Closed trades                   1
+  Win rate                   100.0%
+  Avg winner             $+1,253.79
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (3)
+────────────────────────────────────────────────────────────────
+  FCEL    ★★★★★  breakout already occurred — market $24.65 already above ORB high $23.38
+  INOD    ★★★★☆  max positions reached (4)
+  AGL     ★★★★★  max daily entries reached (2)
+
+════════════════════════════════════════════════════════════════
