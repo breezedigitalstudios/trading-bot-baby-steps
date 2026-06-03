@@ -1,0 +1,42 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Wednesday, June 03 2026   19:19 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  109,923.96
+  Cash             $   41,385.24
+  Buying power     $  151,309.20
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  DDOG    $ 215.20 $ 247.86 $+2,547.48      78 $ 215.20    11  partial
+  CUE     $  20.61 $  26.91 $+5,128.20     814 $  20.61     9  partial
+  AMBQ    $  83.18 $  82.73  $-147.00     330 $  78.81     0  trailing
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+1,253.79
+  Open unrealised        $+7,528.68
+  Net (realised+open)    $+8,782.47
+
+  Closed trades                   1
+  Win rate                   100.0%
+  Avg winner             $+1,253.79
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (3)
+────────────────────────────────────────────────────────────────
+  SNDK    ★★★★★  breakout already occurred — market $1821.48 already above ORB high $1763.25
+  WOLF    ★★★★☆  max positions reached (4)
+  SNDK    ★★★★★  max daily entries reached (2)
+
+════════════════════════════════════════════════════════════════
