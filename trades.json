@@ -296,6 +296,36 @@
       "timestamp": "2026-06-02T18:22:34.009390+00:00",
       "exit_date": "2026-06-02",
       "exit_reason": "entry_order_expired"
+    },
+    {
+      "id": "37243689-092c-4d03-a3e6-ccf53fd37f9d",
+      "date": "2026-06-03",
+      "symbol": "AGL",
+      "stars": 4,
+      "orb_high": 86.3,
+      "orb_low": 81.48,
+      "orb_range": 4.82,
+      "atr": 8.43,
+      "shares": 317,
+      "entry_order_id": "b08fbe5a-9dfe-49a7-b697-fae90f8a8195",
+      "stop_price": 81.48,
+      "status": "pending",
+      "timestamp": "2026-06-03T18:35:57.824867+00:00"
+    },
+    {
+      "id": "335f4b5c-7be1-4bb5-9626-c8aaa7ba9c7b",
+      "date": "2026-06-03",
+      "symbol": "AMBQ",
+      "stars": 4,
+      "orb_high": 82.93,
+      "orb_low": 78.81,
+      "orb_range": 4.12,
+      "atr": 6.07,
+      "shares": 330,
+      "entry_order_id": "f561ac51-caea-4ff4-8ab9-5dd8d429116c",
+      "stop_price": 78.81,
+      "status": "pending",
+      "timestamp": "2026-06-03T18:35:58.292430+00:00"
     }
   ],
   "skipped": [
@@ -3986,6 +4016,26 @@
       "stars": 5,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-06-02T19:01:39.599732+00:00"
+    },
+    {
+      "id": "0ba21135-2929-44e0-a1ec-10f780f1863d",
+      "date": "2026-06-03",
+      "symbol": "SNDK",
+      "stars": 5,
+      "reason": "breakout already occurred \u2014 market $1821.48 already above ORB high $1763.25",
+      "timestamp": "2026-06-03T18:35:57.765248+00:00",
+      "detail": {
+        "orb_high": 1763.25,
+        "orb_low": 1708.88
+      }
+    },
+    {
+      "id": "a1e54d9b-6d9e-4381-88ed-c0219807aba3",
+      "date": "2026-06-03",
+      "symbol": "WOLF",
+      "stars": 4,
+      "reason": "max positions reached (4)",
+      "timestamp": "2026-06-03T18:35:58.292464+00:00"
     }
   ]
 }
