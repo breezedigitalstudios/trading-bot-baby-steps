@@ -4036,6 +4036,14 @@
       "stars": 4,
       "reason": "max positions reached (4)",
       "timestamp": "2026-06-03T18:35:58.292464+00:00"
+    },
+    {
+      "id": "44cafe8b-0268-4103-853b-2224e3e0a2e5",
+      "date": "2026-06-03",
+      "symbol": "SNDK",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-06-03T19:10:23.694992+00:00"
     }
   ]
 }
