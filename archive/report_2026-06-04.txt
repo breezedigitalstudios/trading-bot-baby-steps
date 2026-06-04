@@ -1,0 +1,65 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Thursday, June 04 2026   18:54 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  112,073.23
+  Cash             $   41,385.23
+  Buying power     $  306,916.92
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  DDOG    $ 215.20 $ 244.00 $+2,246.40      78 $ 215.20    12  partial
+  CUE     $  20.61 $  29.00 $+6,829.46     814 $  20.61    10  partial
+  AMBQ    $  83.18 $  85.00  $+602.10     330 $  78.81     1  trailing
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+1,253.79
+  Open unrealised        $+9,677.96
+  Net (realised+open)   $+10,931.75
+
+  Closed trades                   1
+  Win rate                   100.0%
+  Avg winner             $+1,253.79
+  Avg loser                       —
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (26)
+────────────────────────────────────────────────────────────────
+  FCEL    ★★★★★  estimated cost $27,802.75 exceeds available capital $13,568.19  [cost $27,803 vs avail $13,568]
+  AGL     ★★★★☆  ORB range $10.49 > ATR $8.92 — risk too wide  [ORB $10.49 vs ATR $8.92]
+  AMBQ    ★★★★☆  already holding this stock
+  VPG     ★★★★☆  estimated cost $27,725.40 exceeds available capital $13,568.19  [cost $27,725 vs avail $13,568]
+  ENPH    ★★★★☆  estimated cost $27,792.96 exceeds available capital $13,568.19  [cost $27,793 vs avail $13,568]
+  SEDG    ★★★★☆  estimated cost $27,781.14 exceeds available capital $13,568.19  [cost $27,781 vs avail $13,568]
+  WOLF    ★★★★☆  estimated cost $27,788.25 exceeds available capital $13,568.19  [cost $27,788 vs avail $13,568]
+  OUST    ★★★★☆  estimated cost $27,799.58 exceeds available capital $13,568.19  [cost $27,800 vs avail $13,568]
+  SNDK    ★★★★☆  estimated cost $27,334.95 exceeds available capital $13,568.19  [cost $27,335 vs avail $13,568]
+  AEHR    ★★★★☆  estimated cost $27,741.42 exceeds available capital $13,568.19  [cost $27,741 vs avail $13,568]
+  VICR    ★★★★☆  estimated cost $27,811.52 exceeds available capital $13,568.19  [cost $27,812 vs avail $13,568]
+  BE      ★★★★☆  estimated cost $27,592.88 exceeds available capital $13,568.19  [cost $27,593 vs avail $13,568]
+  CAPR    ★★★★☆  estimated cost $27,816.40 exceeds available capital $13,568.19  [cost $27,816 vs avail $13,568]
+  FCEL    ★★★★★  estimated cost $27,781.27 exceeds available capital $13,583.84  [cost $27,781 vs avail $13,584]
+  AGL     ★★★★☆  ORB range $10.49 > ATR $8.92 — risk too wide  [ORB $10.49 vs ATR $8.92]
+  AMBQ    ★★★★☆  already holding this stock
+  VPG     ★★★★☆  estimated cost $27,725.40 exceeds available capital $13,583.84  [cost $27,725 vs avail $13,584]
+  ENPH    ★★★★☆  estimated cost $27,792.96 exceeds available capital $13,583.84  [cost $27,793 vs avail $13,584]
+  SEDG    ★★★★☆  estimated cost $27,781.14 exceeds available capital $13,583.84  [cost $27,781 vs avail $13,584]
+  WOLF    ★★★★☆  estimated cost $27,788.25 exceeds available capital $13,583.84  [cost $27,788 vs avail $13,584]
+  OUST    ★★★★☆  estimated cost $27,799.58 exceeds available capital $13,583.84  [cost $27,800 vs avail $13,584]
+  SNDK    ★★★★☆  estimated cost $27,334.95 exceeds available capital $13,583.84  [cost $27,335 vs avail $13,584]
+  AEHR    ★★★★☆  estimated cost $27,741.42 exceeds available capital $13,583.84  [cost $27,741 vs avail $13,584]
+  VICR    ★★★★☆  estimated cost $27,495.48 exceeds available capital $13,583.84  [cost $27,495 vs avail $13,584]
+  BE      ★★★★☆  estimated cost $27,592.88 exceeds available capital $13,583.84  [cost $27,593 vs avail $13,584]
+  CAPR    ★★★★☆  estimated cost $27,788.16 exceeds available capital $13,583.84  [cost $27,788 vs avail $13,584]
+
+════════════════════════════════════════════════════════════════
