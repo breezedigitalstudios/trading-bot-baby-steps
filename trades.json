@@ -4051,6 +4051,160 @@
       "stars": 5,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-06-03T19:10:23.694992+00:00"
+    },
+    {
+      "id": "78ee8b10-1c33-4b65-bcee-988b62c1b3c4",
+      "date": "2026-06-04",
+      "symbol": "FCEL",
+      "stars": 5,
+      "reason": "estimated cost $27,802.75 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:46.643571+00:00",
+      "detail": {
+        "cost_estimate": 27802.75,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "464c5b66-a12d-4d91-bc1f-bce4744455a8",
+      "date": "2026-06-04",
+      "symbol": "AGL",
+      "stars": 4,
+      "reason": "ORB range $10.49 > ATR $8.92 \u2014 risk too wide",
+      "timestamp": "2026-06-04T17:32:46.678555+00:00",
+      "detail": {
+        "orb_high": 93.78,
+        "orb_low": 83.3,
+        "orb_range": 10.49,
+        "atr": 8.92
+      }
+    },
+    {
+      "id": "9c007777-c7e0-467c-b34a-cdb595357611",
+      "date": "2026-06-04",
+      "symbol": "AMBQ",
+      "stars": 4,
+      "reason": "already holding this stock",
+      "timestamp": "2026-06-04T17:32:46.678576+00:00"
+    },
+    {
+      "id": "8b47422d-10f4-4f4a-8df9-46bb29bea6c9",
+      "date": "2026-06-04",
+      "symbol": "VPG",
+      "stars": 4,
+      "reason": "estimated cost $27,725.40 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:46.739095+00:00",
+      "detail": {
+        "cost_estimate": 27725.4,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "d70876de-4522-477e-89ae-cd8ee97903fa",
+      "date": "2026-06-04",
+      "symbol": "ENPH",
+      "stars": 4,
+      "reason": "estimated cost $27,792.96 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:46.769158+00:00",
+      "detail": {
+        "cost_estimate": 27792.96,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "3cd3e9d9-7509-4000-b128-0af4bf8c8861",
+      "date": "2026-06-04",
+      "symbol": "SEDG",
+      "stars": 4,
+      "reason": "estimated cost $27,781.14 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:46.868955+00:00",
+      "detail": {
+        "cost_estimate": 27781.14,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "d3b46fa5-89e2-4576-8132-1bfdad8199c0",
+      "date": "2026-06-04",
+      "symbol": "WOLF",
+      "stars": 4,
+      "reason": "estimated cost $27,788.25 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:46.905497+00:00",
+      "detail": {
+        "cost_estimate": 27788.25,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "36653928-fcaa-4edd-b1f1-047249d19bc8",
+      "date": "2026-06-04",
+      "symbol": "OUST",
+      "stars": 4,
+      "reason": "estimated cost $27,799.58 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:47.129429+00:00",
+      "detail": {
+        "cost_estimate": 27799.58,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "3aa5cf02-ee4e-4a2b-a87b-d20c4f097a16",
+      "date": "2026-06-04",
+      "symbol": "SNDK",
+      "stars": 4,
+      "reason": "estimated cost $27,334.95 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:47.231436+00:00",
+      "detail": {
+        "cost_estimate": 27334.95,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "c4dadc9c-3944-48a6-bc0c-d1ad812b29bb",
+      "date": "2026-06-04",
+      "symbol": "AEHR",
+      "stars": 4,
+      "reason": "estimated cost $27,741.42 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:47.343841+00:00",
+      "detail": {
+        "cost_estimate": 27741.42,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "fa419662-946d-4276-80e6-a4ab5bd649e9",
+      "date": "2026-06-04",
+      "symbol": "VICR",
+      "stars": 4,
+      "reason": "estimated cost $27,811.52 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:47.424120+00:00",
+      "detail": {
+        "cost_estimate": 27811.52,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "f6b2e83c-9994-4801-9eff-12279d13710f",
+      "date": "2026-06-04",
+      "symbol": "BE",
+      "stars": 4,
+      "reason": "estimated cost $27,592.88 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:47.822913+00:00",
+      "detail": {
+        "cost_estimate": 27592.88,
+        "available": 13568.19
+      }
+    },
+    {
+      "id": "f8b28e3f-5ef5-4f0d-b209-44ea08824d15",
+      "date": "2026-06-04",
+      "symbol": "CAPR",
+      "stars": 4,
+      "reason": "estimated cost $27,816.40 exceeds available capital $13,568.19",
+      "timestamp": "2026-06-04T17:32:47.845461+00:00",
+      "detail": {
+        "cost_estimate": 27816.4,
+        "available": 13568.19
+      }
     }
   ]
 }
