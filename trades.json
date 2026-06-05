@@ -333,6 +333,36 @@
       "shares_remaining": 330,
       "current_stop": 78.81,
       "stop_order_id": "3df158b2-f8e2-4c28-8d97-5b8378c5c7f0"
+    },
+    {
+      "id": "552dfbc1-6c09-42e2-8e60-d4da07612254",
+      "date": "2026-06-05",
+      "symbol": "QCML",
+      "stars": 5,
+      "orb_high": 35.0,
+      "orb_low": 31.52,
+      "orb_range": 3.48,
+      "atr": 5.57,
+      "shares": 766,
+      "entry_order_id": "62d14d69-f99d-433f-ba58-06f6c66d2a54",
+      "stop_price": 31.52,
+      "status": "pending",
+      "timestamp": "2026-06-05T17:00:46.997133+00:00"
+    },
+    {
+      "id": "e44d89a2-a5c6-42f6-af7b-01da959dae9f",
+      "date": "2026-06-05",
+      "symbol": "QCMU",
+      "stars": 5,
+      "orb_high": 43.52,
+      "orb_low": 39.5,
+      "orb_range": 4.02,
+      "atr": 6.82,
+      "shares": 616,
+      "entry_order_id": "add63735-5264-46d4-8be3-b68bd0f4d749",
+      "stop_price": 39.5,
+      "status": "pending",
+      "timestamp": "2026-06-05T17:00:47.643145+00:00"
     }
   ],
   "skipped": [
@@ -4359,6 +4389,14 @@
         "cost_estimate": 27788.16,
         "available": 13583.84
       }
+    },
+    {
+      "id": "0ce1031e-c082-447b-b980-59c08176dee3",
+      "date": "2026-06-05",
+      "symbol": "SEDG",
+      "stars": 5,
+      "reason": "max positions reached (4)",
+      "timestamp": "2026-06-05T17:00:47.643221+00:00"
     }
   ]
 }

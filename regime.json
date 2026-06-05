@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-04T22:54:18.823465+00:00",
+  "generated_at": "2026-06-05T17:00:44.837656+00:00",
   "regime": "TRADE",
-  "qqq_close": 740.61,
-  "sma10": 733.94,
-  "sma20": 721.5,
+  "qqq_close": 716.81,
+  "sma10": 734.17,
+  "sma20": 722.6,
   "sma10_above_sma20": true,
-  "sma10_slope_5d": 16.28,
-  "sma20_slope_5d": 15.99,
+  "sma10_slope_5d": 14.65,
+  "sma20_slope_5d": 13.56,
   "sma10_sloping_up": true,
   "sma20_sloping_up": true
 }
