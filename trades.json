@@ -165,16 +165,19 @@
       "shares": 116,
       "entry_order_id": "f26040bc-414b-4632-9334-087f365bc7f1",
       "stop_price": 207.1,
-      "status": "partial_exit",
+      "status": "sma_exit_pending",
       "timestamp": "2026-05-19T17:27:09.490173+00:00",
-      "stop_order_id": "5d017552-371a-4b9e-9b84-e47feef0e068",
+      "stop_order_id": null,
       "fill_price": 215.2,
       "fill_date": "2026-05-19",
       "shares_remaining": 78,
       "current_stop": 215.2,
       "phase1_sell_id": "beaf67ef-1c32-48ad-b08d-06af58fcf8dc",
       "phase1_pnl": 570.32,
-      "phase1_date": "2026-05-28"
+      "phase1_date": "2026-05-28",
+      "sma_exit_sell_id": "d1993b9f-637b-4f4f-bc98-f49bf983889f",
+      "sma_exit_close": 234.11,
+      "sma10_at_exit": 241.5
     },
     {
       "id": "f774a8ea-cc83-443d-85e7-c04dd5699053",
@@ -350,8 +353,10 @@
       "shares": 766,
       "entry_order_id": "62d14d69-f99d-433f-ba58-06f6c66d2a54",
       "stop_price": 31.52,
-      "status": "pending",
-      "timestamp": "2026-06-05T17:00:46.997133+00:00"
+      "status": "expired",
+      "timestamp": "2026-06-05T17:00:46.997133+00:00",
+      "exit_date": "2026-06-05",
+      "exit_reason": "entry_order_expired"
     },
     {
       "id": "e44d89a2-a5c6-42f6-af7b-01da959dae9f",
@@ -365,8 +370,10 @@
       "shares": 616,
       "entry_order_id": "add63735-5264-46d4-8be3-b68bd0f4d749",
       "stop_price": 39.5,
-      "status": "pending",
-      "timestamp": "2026-06-05T17:00:47.643145+00:00"
+      "status": "expired",
+      "timestamp": "2026-06-05T17:00:47.643145+00:00",
+      "exit_date": "2026-06-05",
+      "exit_reason": "entry_order_expired"
     }
   ],
   "skipped": [
