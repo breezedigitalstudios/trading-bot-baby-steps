@@ -326,13 +326,17 @@
       "shares": 330,
       "entry_order_id": "f561ac51-caea-4ff4-8ab9-5dd8d429116c",
       "stop_price": 78.81,
-      "status": "open",
+      "status": "closed",
       "timestamp": "2026-06-03T18:35:58.292430+00:00",
       "fill_price": 83.18,
       "fill_date": "2026-06-03",
       "shares_remaining": 330,
       "current_stop": 78.81,
-      "stop_order_id": "3df158b2-f8e2-4c28-8d97-5b8378c5c7f0"
+      "stop_order_id": "3df158b2-f8e2-4c28-8d97-5b8378c5c7f0",
+      "exit_price": 78.63,
+      "exit_date": "2026-06-05",
+      "exit_reason": "stop_hit",
+      "pnl": -1501.5
     },
     {
       "id": "552dfbc1-6c09-42e2-8e60-d4da07612254",
