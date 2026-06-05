@@ -4401,6 +4401,14 @@
       "stars": 5,
       "reason": "max positions reached (4)",
       "timestamp": "2026-06-05T17:00:47.643221+00:00"
+    },
+    {
+      "id": "9f46d84e-21e1-44de-b3c6-171dff03a942",
+      "date": "2026-06-05",
+      "symbol": "QCML",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-06-05T17:29:31.979055+00:00"
     }
   ]
 }
