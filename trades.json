@@ -391,8 +391,10 @@
       "shares": 1121,
       "entry_order_id": "4df5f910-a30c-4de6-8bf2-ca16ac0054c5",
       "stop_price": 22.21,
-      "status": "pending",
-      "timestamp": "2026-06-08T17:36:03.505255+00:00"
+      "status": "expired",
+      "timestamp": "2026-06-08T17:36:03.505255+00:00",
+      "exit_date": "2026-06-08",
+      "exit_reason": "entry_order_expired"
     },
     {
       "id": "ef68a058-a420-43ce-b17b-5d00e1979c94",
@@ -406,8 +408,10 @@
       "shares": 277,
       "entry_order_id": "999cd413-61b1-464d-a5a9-fb7fa9fdc2a6",
       "stop_price": 93.77,
-      "status": "pending",
-      "timestamp": "2026-06-08T17:36:03.572494+00:00"
+      "status": "expired",
+      "timestamp": "2026-06-08T17:36:03.572494+00:00",
+      "exit_date": "2026-06-08",
+      "exit_reason": "entry_order_expired"
     }
   ],
   "skipped": [
