@@ -412,6 +412,14 @@ def run() -> None:
             ))
             continue
 
+        # Skip if stock is underperforming SPY over the last month
+        rs = setup.get("breakdown", {}).get("rs_vs_spy_1m")
+        if rs is not None and rs <= 1.0:
+            reason = f"relative strength below market (RS={rs:.2f} vs SPY 1-month)"
+            print(f"    Skip: {reason}")
+            new_skips.append(make_skip(symbol, stars, reason, rs_vs_spy_1m=rs))
+            continue
+
         # Skip if earnings are within 3 trading days
         earnings_date = has_earnings_soon(symbol)
         if earnings_date:

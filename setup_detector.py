@@ -32,8 +32,8 @@ def load_watchlist() -> List[Dict]:
 
 
 def fetch_bars(symbols: List[str]) -> pd.DataFrame:
-    # Include QQQ for relative strength; fetch ~90 calendar days for 60+ trading days
-    all_syms = sorted(set(symbols + ["QQQ"]))
+    # Include SPY for relative strength; fetch ~90 calendar days for 60+ trading days
+    all_syms = sorted(set(symbols + ["SPY"]))
     start = datetime.now(timezone.utc) - timedelta(days=90)
     req = StockBarsRequest(
         symbol_or_symbols=all_syms,
@@ -44,7 +44,7 @@ def fetch_bars(symbols: List[str]) -> pd.DataFrame:
     return df[~df.index.duplicated(keep="last")]
 
 
-def score_setup(g: pd.DataFrame, qqq_close: pd.Series) -> Tuple[int, Dict]:
+def score_setup(g: pd.DataFrame, spy_close: pd.Series) -> Tuple[int, Dict]:
     n = len(g)
     if n < 50:
         return 1, {"skip_reason": f"only {n} bars (need 50)"}
@@ -80,12 +80,17 @@ def score_setup(g: pd.DataFrame, qqq_close: pd.Series) -> Tuple[int, Dict]:
     prior_vol  = vol.iloc[-20:-5].mean()
     vol_dryup = int(recent_vol < prior_vol * 0.85)
 
-    # Relative strength vs QQQ (last 10 days) — logged only, not scored
-    rel_strength: Optional[bool] = None
-    if len(qqq_close) >= 10:
-        stock_ret = float(close.iloc[-1] / close.iloc[-10] - 1)
-        mkt_ret   = float(qqq_close.iloc[-1] / qqq_close.iloc[-10] - 1)
-        rel_strength = stock_ret > mkt_ret
+    # Relative strength vs SPY (last 21 trading days ≈ 1 month).
+    # Formula: (stock price ratio) / (SPY price ratio) — both indexed to 1.0 at start.
+    # >1.0 = stock outperformed SPY, <1.0 = underperformed. Avoids sign issues from
+    # dividing percentage returns when either can be negative.
+    # Used as a hard entry gate in entry_executor — not a scoring factor.
+    rs_vs_spy_1m: Optional[float] = None
+    if len(spy_close) >= 21:
+        stock_perf = float(close.iloc[-1] / close.iloc[-21])
+        spy_perf   = float(spy_close.iloc[-1] / spy_close.iloc[-21])
+        if spy_perf > 0:
+            rs_vs_spy_1m = round(stock_perf / spy_perf, 3)
 
     score = ma_aligned + higher_lows + tightening + narrow_candle + vol_dryup
     stars = max(1, min(5, score))
@@ -96,7 +101,7 @@ def score_setup(g: pd.DataFrame, qqq_close: pd.Series) -> Tuple[int, Dict]:
         "range_tightening": bool(tightening),
         "narrow_candle":    bool(narrow_candle),
         "volume_dryup":     bool(vol_dryup),
-        "relative_strength_vs_qqq": rel_strength,
+        "rs_vs_spy_1m":     rs_vs_spy_1m,
         "sma10": round(float(sma10), 2),
         "sma20": round(float(sma20), 2),
         "sma50": round(float(sma50), 2),
@@ -115,12 +120,12 @@ def run_detector() -> List[Dict]:
     print("[2/3] Fetching daily bars...")
     bars = fetch_bars(symbols)
 
-    # Extract QQQ close series
+    # Extract SPY close series for relative strength
     try:
-        qqq_close = bars.loc["QQQ"]["close"].sort_index()
+        spy_close = bars.loc["SPY"]["close"].sort_index()
     except KeyError:
-        print("      Warning: QQQ data unavailable, skipping relative strength")
-        qqq_close = pd.Series(dtype=float)
+        print("      Warning: SPY data unavailable, rs_vs_spy_1m will be None")
+        spy_close = pd.Series(dtype=float)
 
     print("[3/3] Scoring setups...")
     meta = {c["symbol"]: c for c in candidates}
@@ -135,7 +140,7 @@ def run_detector() -> List[Dict]:
         if g.empty:
             stars, breakdown = 1, {"skip_reason": "no bar data"}
         else:
-            stars, breakdown = score_setup(g, qqq_close)
+            stars, breakdown = score_setup(g, spy_close)
 
         entry = {
             "symbol":        symbol,
@@ -174,12 +179,14 @@ if __name__ == "__main__":
             b = c["breakdown"]
             flags = "  ".join(
                 k for k, v in b.items()
-                if isinstance(v, bool) and v and k != "relative_strength_vs_qqq"
+                if isinstance(v, bool) and v
             )
+            rs = b.get("rs_vs_spy_1m")
+            rs_str = f"  RS={rs:.2f}" if rs is not None else ""
             print(
                 f"  {'★' * c['stars']}  {c['symbol']:<6}  "
                 f"close=${c['close']:>8.2f}  adr={c['adr_pct']:>5.1f}%  "
-                f"[{flags}]"
+                f"[{flags}]{rs_str}"
             )
     else:
         print("No setups scored ≥4 stars today.")
