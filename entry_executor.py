@@ -23,8 +23,8 @@ from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
 
 from alpaca.trading.client import TradingClient
-from alpaca.trading.requests import GetOrdersRequest, StopOrderRequest
-from alpaca.trading.enums import OrderSide, TimeInForce, QueryOrderStatus
+from alpaca.trading.requests import GetOrdersRequest, StopOrderRequest, StopLossRequest
+from alpaca.trading.enums import OrderSide, TimeInForce, QueryOrderStatus, OrderClass
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
@@ -222,12 +222,18 @@ def size_position(portfolio_value: float, orb_high: float, orb_low: float) -> in
 
 # ── Order placement ────────────────────────────────────────────────────────────
 
-def place_entry_order(symbol: str, shares: int, orb_high: float) -> Tuple[Optional[str], Optional[str]]:
-    """Place a DAY buy-stop order at orb_high. Returns (order_id, error_reason)."""
+def place_entry_order(symbol: str, shares: int, orb_high: float, stop_price: float) -> Tuple[Optional[str], Optional[str], Optional[str]]:
+    """
+    Place a DAY buy-stop at orb_high with an OTO stop-loss at stop_price.
+    Returns (entry_order_id, stop_order_id, error_reason).
+    The stop-loss leg is held by Alpaca and activates automatically when the entry fills.
+    """
     if DRY_RUN:
-        fake_id = f"dry-run-{uuid.uuid4().hex[:8]}"
-        print(f"    [DRY RUN] Would place buy-stop {shares} {symbol} @ ${orb_high:.2f}")
-        return fake_id, None
+        entry_id = f"dry-run-{uuid.uuid4().hex[:8]}"
+        stop_id  = f"dry-sl-{uuid.uuid4().hex[:8]}"
+        print(f"    [DRY RUN] Would place OTO bracket: buy-stop {shares} {symbol} "
+              f"@ ${orb_high:.2f} / stop-loss @ ${stop_price:.2f}")
+        return entry_id, stop_id, None
 
     try:
         order = trading_client.submit_order(
@@ -237,9 +243,17 @@ def place_entry_order(symbol: str, shares: int, orb_high: float) -> Tuple[Option
                 side=OrderSide.BUY,
                 stop_price=round(orb_high, 2),
                 time_in_force=TimeInForce.DAY,
+                order_class=OrderClass.OTO,
+                stop_loss=StopLossRequest(stop_price=round(stop_price, 2)),
             )
         )
-        return str(order.id), None
+        # Extract child stop-loss order ID from bracket legs
+        legs = order.legs or []
+        stop_leg = next((leg for leg in legs if leg.side == OrderSide.SELL), None)
+        stop_order_id = str(stop_leg.id) if stop_leg else None
+        if stop_order_id is None:
+            print(f"    Warning: could not extract stop-loss leg ID for {symbol} — will place on fill")
+        return str(order.id), stop_order_id, None
     except Exception as e:
         import json as _json
         reason = str(e)
@@ -254,7 +268,7 @@ def place_entry_order(symbol: str, shares: int, orb_high: float) -> Tuple[Option
         except Exception:
             pass
         print(f"    ERROR placing order for {symbol}: {reason}")
-        return None, reason
+        return None, None, reason
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -390,8 +404,8 @@ def run() -> None:
         total_risk     = shares * risk_per_share
         print(f"    Size: {shares} shares  risk/share=${risk_per_share:.2f}  total risk=${total_risk:.2f}")
 
-        # Place order
-        order_id, order_error = place_entry_order(symbol, shares, orb_high)
+        # Place OTO bracket order (entry + stop-loss in one atomic submission)
+        order_id, stop_order_id, order_error = place_entry_order(symbol, shares, orb_high, orb_low)
         if order_id is None:
             reason = order_error or "order submission failed"
             new_skips.append(make_skip(
@@ -411,12 +425,14 @@ def run() -> None:
             "atr":            round(atr, 2),
             "shares":         shares,
             "entry_order_id": order_id,
+            "stop_order_id":  stop_order_id,
             "stop_price":     round(orb_low, 2),
             "status":         "pending",
             "timestamp":      datetime.now(timezone.utc).isoformat(),
         }
         new_trades.append(trade)
-        print(f"    ✓ Order placed: buy-stop {shares} @ ${orb_high:.2f}  stop @ ${orb_low:.2f}  [id: {order_id}]")
+        stop_info = f"stop-loss @ ${orb_low:.2f}" if stop_order_id else "WARNING: stop-loss leg missing"
+        print(f"    ✓ OTO bracket placed: buy-stop {shares} @ ${orb_high:.2f}  {stop_info}  [entry: {order_id}]")
 
     trades.extend(new_trades)
     skipped.extend(new_skips)

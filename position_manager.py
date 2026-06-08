@@ -49,6 +49,10 @@ PHASE1_SELL_FRAC = 1/3  # fraction to sell at phase 1
 SMA_PERIOD       = 10   # trailing SMA for phase 2 exit
 DRY_RUN          = False
 
+_INACTIVE_ORDER_STATUSES = frozenset({
+    "filled", "canceled", "cancelled", "expired", "replaced", "done_for_day"
+})
+
 
 # ── Persistence ────────────────────────────────────────────────────────────────
 
@@ -112,6 +116,7 @@ def place_stop_loss(symbol: str, shares: int, stop_price: float) -> Optional[str
         oid = f"dry-sl-{uuid.uuid4().hex[:8]}"
         print(f"    [DRY RUN] Would place GTC stop-loss {shares} {symbol} @ ${stop_price:.2f}")
         return oid
+    cancel_open_sell_stops(symbol)  # purge any existing stops before placing new one
     try:
         order = trading_client.submit_order(
             StopOrderRequest(
@@ -140,7 +145,29 @@ def cancel_order(order_id: str) -> bool:
         return False
 
 
-def sell_market(symbol: str, shares: int, reason: str) -> Optional[str]:
+def cancel_open_sell_stops(symbol: str, except_id: Optional[str] = None) -> int:
+    """Cancel every open stop-sell order for symbol (optionally preserving except_id).
+    Called by place_stop_loss to guarantee no duplicate stops are ever active."""
+    try:
+        open_orders = trading_client.get_orders(
+            GetOrdersRequest(status=QueryOrderStatus.OPEN, symbols=[symbol], limit=50)
+        )
+    except Exception as e:
+        print(f"    Warning: could not fetch open orders for {symbol}: {e}")
+        return 0
+    cancelled = 0
+    for o in open_orders:
+        if o.side != OrderSide.SELL or o.stop_price is None:
+            continue
+        if except_id and str(o.id) == except_id:
+            continue
+        print(f"    Cancelling duplicate stop-sell {o.id} @ ${float(o.stop_price):.2f}")
+        if cancel_order(str(o.id)):
+            cancelled += 1
+    return cancelled
+
+
+def place_stop_loss(symbol: str, shares: int, reason: str) -> Optional[str]:
     if DRY_RUN:
         oid = f"dry-sell-{uuid.uuid4().hex[:8]}"
         print(f"    [DRY RUN] Would sell {shares} {symbol} at market ({reason})")
@@ -163,8 +190,7 @@ def sell_market(symbol: str, shares: int, reason: str) -> Optional[str]:
 # ── Trade state handlers ───────────────────────────────────────────────────────
 
 def handle_pending(trade: Dict) -> bool:
-    """Check if entry order filled. If yes, place stop-loss and mark open."""
-    # Always check Alpaca first — a prior-day order may have been filled before expiry
+    """Check if entry order filled. If yes, activate stop-loss and mark open."""
     is_stale = trade.get("date") and trade["date"] < str(date.today())
     order    = get_order(trade["entry_order_id"])
 
@@ -194,8 +220,6 @@ def handle_pending(trade: Dict) -> bool:
 
     if order.status not in ("filled", "partially_filled"):
         if is_stale:
-            # Order still shows as active on Alpaca despite being from a prior day.
-            # Mark expired rather than leaving it in limbo indefinitely.
             print(f"    Pending trade from {trade['date']} — order status={order.status}, marking expired")
             trade.update({
                 "status":      "expired",
@@ -211,7 +235,21 @@ def handle_pending(trade: Dict) -> bool:
 
     print(f"    Entry filled: {shares} shares @ ${fill_price:.2f} on {fill_date}")
 
-    stop_order_id = place_stop_loss(trade["symbol"], shares, trade["stop_price"])
+    # Stop-loss was submitted as the OTO bracket leg at entry time.
+    # Verify it's still active; only fall back to a fresh stop if it's gone.
+    stop_order_id = trade.get("stop_order_id")
+    if stop_order_id:
+        stop_order = get_order(stop_order_id)
+        if stop_order is not None and stop_order.status not in _INACTIVE_ORDER_STATUSES:
+            print(f"    Stop-loss active (bracket leg) @ ${trade['stop_price']:.2f}  [id: {stop_order_id}]")
+        else:
+            status_str = stop_order.status if stop_order else "not found"
+            print(f"    Bracket stop-loss {status_str} — placing fresh stop @ ${trade['stop_price']:.2f}")
+            stop_order_id = place_stop_loss(trade["symbol"], shares, trade["stop_price"])
+    else:
+        # Pre-bracket trade or leg extraction failed at entry time
+        stop_order_id = place_stop_loss(trade["symbol"], shares, trade["stop_price"])
+        print(f"    Stop-loss placed @ ${trade['stop_price']:.2f}  [id: {stop_order_id}]")
 
     trade.update({
         "status":           "open",
@@ -222,7 +260,6 @@ def handle_pending(trade: Dict) -> bool:
         "current_stop":     trade["stop_price"],
         "stop_order_id":    stop_order_id,
     })
-    print(f"    Stop-loss placed @ ${trade['stop_price']:.2f}  [id: {stop_order_id}]")
     return True
 
 
@@ -403,10 +440,6 @@ def handle_sma_exit_fill(trade: Dict) -> bool:
 
 
 # ── Stop-loss safety net ───────────────────────────────────────────────────────
-
-_INACTIVE_ORDER_STATUSES = frozenset({
-    "filled", "canceled", "cancelled", "expired", "replaced", "done_for_day"
-})
 
 
 def ensure_stop_loss(trade: Dict, positions: Dict) -> bool:
