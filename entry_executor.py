@@ -18,6 +18,7 @@ import json
 import uuid
 import pandas as pd
 import pytz
+import yfinance as yf
 from datetime import datetime, date, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
@@ -174,6 +175,32 @@ def fetch_atr(symbol: str) -> Optional[float]:
 
     atr = tr.rolling(ATR_PERIOD).mean().iloc[-1]
     return float(atr)
+
+
+def has_earnings_soon(symbol: str, days: int = 3) -> Optional[str]:
+    """
+    Return the upcoming earnings date string if it falls within `days` trading days,
+    else None. Fails open on any data error so a yfinance outage never blocks entries.
+    """
+    try:
+        cal = yf.Ticker(symbol).calendar
+        if not cal:
+            return None
+        raw = cal.get('Earnings Date')
+        if not raw:
+            return None
+        all_dates = raw if isinstance(raw, list) else [raw]
+        all_dates = [d.date() if hasattr(d, 'date') else d for d in all_dates]
+        upcoming = [d for d in all_dates if d >= date.today()]
+        if not upcoming:
+            return None
+        nearest = min(upcoming)
+        import numpy as np
+        trading_days = int(np.busday_count(str(date.today()), str(nearest)))
+        return str(nearest) if trading_days <= days else None
+    except Exception as e:
+        print(f"    Warning: could not check earnings for {symbol}: {e}")
+        return None
 
 
 # ── Account state ──────────────────────────────────────────────────────────────
@@ -382,6 +409,14 @@ def run() -> None:
                 orb_high=round(orb_high, 2), orb_low=round(orb_low, 2),
                 orb_range=round(orb_range, 2), atr=round(atr, 2),
             ))
+            continue
+
+        # Skip if earnings are within 3 trading days
+        earnings_date = has_earnings_soon(symbol)
+        if earnings_date:
+            reason = f"earnings within 3 trading days ({earnings_date})"
+            print(f"    Skip: {reason}")
+            new_skips.append(make_skip(symbol, stars, reason, earnings_date=earnings_date))
             continue
 
         # Check available capital
