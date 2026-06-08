@@ -374,6 +374,36 @@
       "timestamp": "2026-06-05T17:00:47.643145+00:00",
       "exit_date": "2026-06-05",
       "exit_reason": "entry_order_expired"
+    },
+    {
+      "id": "4139c434-f7ae-40f4-92e2-879809ef4070",
+      "date": "2026-06-08",
+      "symbol": "AEVA",
+      "stars": 5,
+      "orb_high": 24.48,
+      "orb_low": 22.21,
+      "orb_range": 2.27,
+      "atr": 2.85,
+      "shares": 1121,
+      "entry_order_id": "4df5f910-a30c-4de6-8bf2-ca16ac0054c5",
+      "stop_price": 22.21,
+      "status": "pending",
+      "timestamp": "2026-06-08T17:36:03.505255+00:00"
+    },
+    {
+      "id": "ef68a058-a420-43ce-b17b-5d00e1979c94",
+      "date": "2026-06-08",
+      "symbol": "AGL",
+      "stars": 4,
+      "orb_high": 98.99,
+      "orb_low": 93.77,
+      "orb_range": 5.22,
+      "atr": 8.35,
+      "shares": 277,
+      "entry_order_id": "999cd413-61b1-464d-a5a9-fb7fa9fdc2a6",
+      "stop_price": 93.77,
+      "status": "pending",
+      "timestamp": "2026-06-08T17:36:03.572494+00:00"
     }
   ],
   "skipped": [
@@ -4416,6 +4446,14 @@
       "stars": 5,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-06-05T17:29:31.979055+00:00"
+    },
+    {
+      "id": "2730e806-d066-4341-986a-be38584f7ad2",
+      "date": "2026-06-08",
+      "symbol": "SEDG",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-06-08T17:36:03.572523+00:00"
     }
   ]
 }
