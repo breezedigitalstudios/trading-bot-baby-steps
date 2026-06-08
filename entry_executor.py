@@ -58,6 +58,37 @@ DRY_RUN           = False  # set True to log without placing orders
 
 # ── Loaders ────────────────────────────────────────────────────────────────────
 
+def validate_state_files(max_age_hours: int = 24) -> None:
+    """Abort if setup_scores.json or regime.json are missing or older than max_age_hours."""
+    now = datetime.now(timezone.utc)
+    files = {
+        "setup_scores.json": SCORES_PATH,
+        "regime.json":       REGIME_PATH,
+    }
+    for name, path in files.items():
+        if not os.path.exists(path):
+            raise RuntimeError(f"State file missing: {name} — run the EOD pipeline first")
+        try:
+            with open(path) as f:
+                generated_at = json.load(f).get("generated_at")
+            if not generated_at:
+                raise ValueError("missing generated_at field")
+            ts = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+            if ts.tzinfo is None:
+                ts = ts.replace(tzinfo=timezone.utc)
+            age_hours = (now - ts).total_seconds() / 3600
+            if age_hours > max_age_hours:
+                raise RuntimeError(
+                    f"Stale state file: {name} is {age_hours:.1f}h old (max {max_age_hours}h) — "
+                    f"generated at {generated_at}"
+                )
+            print(f"  {name}: {age_hours:.1f}h old — OK")
+        except RuntimeError:
+            raise
+        except Exception as e:
+            raise RuntimeError(f"Could not validate {name}: {e}")
+
+
 def load_setups() -> List[Dict]:
     if not os.path.exists(SCORES_PATH):
         raise FileNotFoundError("setup_scores.json not found — run setup_detector.py first")
@@ -201,6 +232,22 @@ def fetch_atr(symbol: str) -> Optional[Tuple[float, float]]:
     return atr, avg_daily_volume
 
 
+MAX_POSITIONS_PER_SECTOR = 2
+
+
+def fetch_sector(symbol: str, cache: Dict) -> Optional[str]:
+    """Return the sector string for symbol, using cache to avoid duplicate API calls.
+    Fails open (returns None) so an unavailable sector never blocks an entry."""
+    if symbol in cache:
+        return cache[symbol]
+    try:
+        sector = yf.Ticker(symbol).info.get("sector") or None
+    except Exception:
+        sector = None
+    cache[symbol] = sector
+    return sector
+
+
 def has_earnings_soon(symbol: str, days: int = 3) -> Optional[str]:
     """
     Return the upcoming earnings date string if it falls within `days` trading days,
@@ -327,6 +374,10 @@ def run() -> None:
     now_et = datetime.now(ET)
     print(f"Time (ET): {now_et.strftime('%H:%M:%S %Z')}")
 
+    # 0. State file freshness check — abort early if upstream pipeline failed
+    print("Validating state files...")
+    validate_state_files()
+
     if now_et.hour < 10 or (now_et.hour == 10 and now_et.minute < 30):
         print("Market: ORB not yet complete (need 10:30 AM ET). Exiting.")
         return
@@ -335,8 +386,9 @@ def run() -> None:
     regime, regime_reason = load_regime()
     print(f"Regime:    {regime} [{regime_reason}]")
     trades, skipped = load_trades()
-    new_trades: List[Dict] = []
-    new_skips:  List[Dict] = []
+    new_trades:   List[Dict] = []
+    new_skips:    List[Dict] = []
+    sector_cache: Dict       = {}
 
     if regime != "TRADE":
         print("Regime is CASH — no new entries today.")
@@ -369,7 +421,8 @@ def run() -> None:
         print(f"\nCircuit breaker PAUSED: {stops_this_week} stop-outs this week (≥3) — no new entries.")
         for s in setups:
             new_skips.append(make_skip(s["symbol"], s["stars"],
-                                       f"circuit_breaker_paused ({stops_this_week} stops this week)"))
+                                       f"circuit_breaker_paused ({stops_this_week} stops this week)",
+                                       stops_this_week=stops_this_week))
         skipped.extend(new_skips)
         save_trades(trades, skipped)
         send_alert(
@@ -454,7 +507,10 @@ def run() -> None:
         if rvol is not None and rvol < 1.5:
             reason = f"low opening volume (RVOL={rvol:.2f}x, need ≥1.5x)"
             print(f"    Skip: {reason}")
-            new_skips.append(make_skip(symbol, stars, reason, rvol=rvol))
+            new_skips.append(make_skip(symbol, stars, reason,
+                                       rvol=rvol,
+                                       orb_volume=int(orb_volume),
+                                       avg_hourly_volume=round(avg_hourly_volume, 0)))
             continue
         print(f"    RVOL: {rvol:.2f}x" if rvol is not None else "    RVOL: n/a")
 
@@ -477,18 +533,44 @@ def run() -> None:
             new_skips.append(make_skip(symbol, stars, reason, rs_vs_spy_1m=rs))
             continue
 
-        # Skip if earnings are within 3 trading days
-        earnings_date = has_earnings_soon(symbol)
+        # Skip if earnings are within 7 trading days
+        earnings_date = has_earnings_soon(symbol, days=7)
         if earnings_date:
-            reason = f"earnings within 3 trading days ({earnings_date})"
+            reason = f"earnings within 7 trading days ({earnings_date})"
             print(f"    Skip: {reason}")
             new_skips.append(make_skip(symbol, stars, reason, earnings_date=earnings_date))
             continue
 
+        # Sector concentration gate
+        sector = fetch_sector(symbol, sector_cache)
+        if sector:
+            open_statuses = {"pending", "open", "partial_exit", "sma_exit_pending"}
+            sector_count = sum(
+                1 for t in trades + new_trades
+                if t.get("status") in open_statuses
+                and fetch_sector(t["symbol"], sector_cache) == sector
+            )
+            if sector_count >= MAX_POSITIONS_PER_SECTOR:
+                reason = f"sector concentration ({sector}: already {sector_count} positions)"
+                print(f"    Skip: {reason}")
+                new_skips.append(make_skip(symbol, stars, reason,
+                                           sector=sector, sector_count=sector_count))
+                continue
+            print(f"    Sector: {sector} ({sector_count}/{MAX_POSITIONS_PER_SECTOR})")
+        else:
+            print(f"    Sector: unknown — skipping concentration check")
+
         # Check available capital (apply circuit-breaker size multiplier before cost check)
         shares_est = size_position(state["portfolio_value"], orb_high, atr)
+        if shares_est == 0:
+            reason = f"position size computed as 0 (ATR=${atr:.2f}, price=${orb_high:.2f})"
+            print(f"    Skip: {reason}")
+            new_skips.append(make_skip(symbol, stars, reason, atr=round(atr, 2), price=round(orb_high, 2)))
+            continue
+        cb_halved = False
         if size_multiplier < 1.0:
             shares_est = max(1, int(shares_est * size_multiplier))
+            cb_halved  = True
             print(f"    Circuit breaker: size reduced to {shares_est} shares (×{size_multiplier})")
         cost_estimate = orb_high * shares_est
         if cost_estimate > state["available_to_deploy"]:
@@ -532,6 +614,7 @@ def run() -> None:
             "stop_order_id":         stop_order_id,
             "stop_price":            round(orb_low, 2),
             "initial_risk_per_share": round(risk_per_share, 2),
+            "circuit_breaker_halved": cb_halved,
             "status":                "pending",
             "timestamp":             datetime.now(timezone.utc).isoformat(),
         }
