@@ -49,8 +49,8 @@ TRADES_PATH = os.path.join(os.path.dirname(__file__), "trades.json")
 
 MAX_POSITIONS    = 4
 MAX_DAILY_ENTRIES = 2
-ACCOUNT_RISK_PCT  = 0.10   # 10% of account risked per trade
-MAX_POSITION_PCT  = 0.25   # hard cap: 25% of account per stock
+ACCOUNT_RISK_PCT  = 0.05   # 5% of account risked per trade
+MAX_POSITION_PCT  = 0.20   # hard cap: 20% of account per stock
 CASH_BUFFER_PCT   = 0.25   # always keep 25% in cash
 ATR_PERIOD        = 14
 DRY_RUN           = False  # set True to log without placing orders
@@ -65,11 +65,13 @@ def load_setups() -> List[Dict]:
         return json.load(f).get("high_quality", [])
 
 
-def load_regime() -> str:
+def load_regime() -> Tuple[str, str]:
+    """Return (regime, regime_reason) from regime.json."""
     if not os.path.exists(REGIME_PATH):
         raise FileNotFoundError("regime.json not found — run regime_filter.py first")
     with open(REGIME_PATH) as f:
-        return json.load(f).get("regime", "UNKNOWN")
+        data = json.load(f)
+    return data.get("regime", "UNKNOWN"), data.get("regime_reason", "unknown")
 
 
 def load_trades() -> Tuple[List[Dict], List[Dict]]:
@@ -83,6 +85,25 @@ def load_trades() -> Tuple[List[Dict], List[Dict]]:
 def save_trades(trades: List[Dict], skipped: List[Dict]) -> None:
     with open(TRADES_PATH, "w") as f:
         json.dump({"trades": trades, "skipped": skipped}, f, indent=2, default=str)
+
+
+def count_stops_this_week(trades: List[Dict]) -> int:
+    """Count stop_hit exits recorded since Monday of the current week."""
+    today  = date.today()
+    monday = today - timedelta(days=today.weekday())  # weekday(): Mon=0, Sun=6
+    count  = 0
+    for t in trades:
+        if t.get("exit_reason") != "stop_hit":
+            continue
+        exit_str = t.get("exit_date")
+        if not exit_str:
+            continue
+        try:
+            if date.fromisoformat(str(exit_str)) >= monday:
+                count += 1
+        except ValueError:
+            continue
+    return count
 
 
 def make_skip(symbol: str, stars: int, reason: str, **detail) -> Dict:
@@ -139,11 +160,12 @@ def fetch_orb(symbol: str) -> Optional[Tuple[float, float]]:
         return None
 
     first = sym_bars.iloc[0]
-    return float(first["high"]), float(first["low"])
+    return float(first["high"]), float(first["low"]), float(first["volume"])
 
 
-def fetch_atr(symbol: str) -> Optional[float]:
-    """Compute 14-day ATR from recent daily bars."""
+def fetch_atr(symbol: str) -> Optional[Tuple[float, float]]:
+    """Compute 14-day ATR and 20-day avg daily volume from recent daily bars.
+    Returns (atr, avg_daily_volume) or None if unavailable."""
     start = datetime.now(timezone.utc) - timedelta(days=40)
     try:
         req  = StockBarsRequest(
@@ -174,8 +196,9 @@ def fetch_atr(symbol: str) -> Optional[float]:
         (g["low"]  - prev_close).abs(),
     ], axis=1).max(axis=1)
 
-    atr = tr.rolling(ATR_PERIOD).mean().iloc[-1]
-    return float(atr)
+    atr = float(tr.rolling(ATR_PERIOD).mean().iloc[-1])
+    avg_daily_volume = float(g["volume"].iloc[-20:].mean())
+    return atr, avg_daily_volume
 
 
 def has_earnings_soon(symbol: str, days: int = 3) -> Optional[str]:
@@ -238,13 +261,11 @@ def get_account_state() -> Dict:
 
 # ── Position sizing ────────────────────────────────────────────────────────────
 
-def size_position(portfolio_value: float, orb_high: float, orb_low: float) -> int:
-    risk_per_share = orb_high - orb_low
-    if risk_per_share <= 0:
+def size_position(portfolio_value: float, entry_price: float, atr: float) -> int:
+    if atr <= 0 or entry_price <= 0:
         return 0
-
-    shares_by_risk = (portfolio_value * ACCOUNT_RISK_PCT) / risk_per_share
-    shares_by_cap  = (portfolio_value * MAX_POSITION_PCT)  / orb_high
+    shares_by_risk = (portfolio_value * ACCOUNT_RISK_PCT) / atr
+    shares_by_cap  = (portfolio_value * MAX_POSITION_PCT) / entry_price
     return max(1, int(min(shares_by_risk, shares_by_cap)))
 
 
@@ -311,8 +332,8 @@ def run() -> None:
         return
 
     # 1. Regime gate
-    regime = load_regime()
-    print(f"Regime:    {regime}")
+    regime, regime_reason = load_regime()
+    print(f"Regime:    {regime} [{regime_reason}]")
     trades, skipped = load_trades()
     new_trades: List[Dict] = []
     new_skips:  List[Dict] = []
@@ -320,11 +341,12 @@ def run() -> None:
     if regime != "TRADE":
         print("Regime is CASH — no new entries today.")
         setups = load_setups()
+        skip_reason = f"regime_cash: {regime_reason}"
         for s in setups:
-            new_skips.append(make_skip(s["symbol"], s["stars"], "regime_cash"))
+            new_skips.append(make_skip(s["symbol"], s["stars"], skip_reason))
         skipped.extend(new_skips)
         save_trades(trades, skipped)
-        print(f"Logged {len(new_skips)} skips (regime_cash) → trades.json")
+        print(f"Logged {len(new_skips)} skips ({skip_reason}) → trades.json")
         return
 
     # 2. Load candidates
@@ -340,6 +362,30 @@ def run() -> None:
     print(f"Entries:   {state['entries_today']}/{MAX_DAILY_ENTRIES} today")
     print(f"Capital:   ${state['portfolio_value']:,.2f} portfolio  "
           f"${state['available_to_deploy']:,.2f} deployable")
+
+    # 4. Circuit breaker
+    stops_this_week = count_stops_this_week(trades)
+    if stops_this_week >= 3:
+        print(f"\nCircuit breaker PAUSED: {stops_this_week} stop-outs this week (≥3) — no new entries.")
+        for s in setups:
+            new_skips.append(make_skip(s["symbol"], s["stars"],
+                                       f"circuit_breaker_paused ({stops_this_week} stops this week)"))
+        skipped.extend(new_skips)
+        save_trades(trades, skipped)
+        send_alert(
+            f"🛑 <b>CIRCUIT BREAKER — PAUSED</b>\n"
+            f"{stops_this_week} stop-outs this week — no new entries until Monday"
+        )
+        return
+    elif stops_this_week == 2:
+        size_multiplier = 0.5
+        print(f"\nCircuit breaker HALF-SIZE: {stops_this_week} stop-outs this week — position sizes halved.")
+        send_alert(
+            f"⚠️ <b>CIRCUIT BREAKER — HALF SIZE</b>\n"
+            f"{stops_this_week} stop-outs this week — new positions sized at 50%"
+        )
+    else:
+        size_multiplier = 1.0
 
     for setup in setups:
         symbol = setup["symbol"]
@@ -388,18 +434,29 @@ def run() -> None:
             print(f"    Skip: {reason}")
             new_skips.append(make_skip(symbol, stars, reason))
             continue
-        orb_high, orb_low = orb
+        orb_high, orb_low, orb_volume = orb
         orb_range = orb_high - orb_low
         print(f"    ORB: high=${orb_high:.2f}  low=${orb_low:.2f}  range=${orb_range:.2f}")
 
-        # Fetch ATR
-        atr = fetch_atr(symbol)
-        if atr is None:
+        # Fetch ATR + avg daily volume
+        atr_result = fetch_atr(symbol)
+        if atr_result is None:
             reason = "could not compute ATR"
             print(f"    Skip: {reason}")
             new_skips.append(make_skip(symbol, stars, reason))
             continue
+        atr, avg_daily_volume = atr_result
         print(f"    ATR: ${atr:.2f}")
+
+        # Relative volume gate: opening-hour volume must be ≥1.5× average hourly volume
+        avg_hourly_volume = avg_daily_volume / 6.5
+        rvol = round(orb_volume / avg_hourly_volume, 2) if avg_hourly_volume > 0 else None
+        if rvol is not None and rvol < 1.5:
+            reason = f"low opening volume (RVOL={rvol:.2f}x, need ≥1.5x)"
+            print(f"    Skip: {reason}")
+            new_skips.append(make_skip(symbol, stars, reason, rvol=rvol))
+            continue
+        print(f"    RVOL: {rvol:.2f}x" if rvol is not None else "    RVOL: n/a")
 
         # Validate ORB range <= ATR
         if orb_range > atr:
@@ -428,8 +485,11 @@ def run() -> None:
             new_skips.append(make_skip(symbol, stars, reason, earnings_date=earnings_date))
             continue
 
-        # Check available capital
-        shares_est    = size_position(state["portfolio_value"], orb_high, orb_low)
+        # Check available capital (apply circuit-breaker size multiplier before cost check)
+        shares_est = size_position(state["portfolio_value"], orb_high, atr)
+        if size_multiplier < 1.0:
+            shares_est = max(1, int(shares_est * size_multiplier))
+            print(f"    Circuit breaker: size reduced to {shares_est} shares (×{size_multiplier})")
         cost_estimate = orb_high * shares_est
         if cost_estimate > state["available_to_deploy"]:
             reason = (f"estimated cost ${cost_estimate:,.2f} exceeds "
@@ -442,11 +502,11 @@ def run() -> None:
             ))
             continue
 
-        # Size position
+        # Size position (risk_per_share = ATR, stop placed at orb_low)
         shares         = shares_est
-        risk_per_share = orb_high - orb_low
+        risk_per_share = atr
         total_risk     = shares * risk_per_share
-        print(f"    Size: {shares} shares  risk/share=${risk_per_share:.2f}  total risk=${total_risk:.2f}")
+        print(f"    Size: {shares} shares  ATR=${risk_per_share:.2f}  total risk=${total_risk:.2f}")
 
         # Place OTO bracket order (entry + stop-loss in one atomic submission)
         order_id, stop_order_id, order_error = place_entry_order(symbol, shares, orb_high, orb_low)
@@ -459,20 +519,21 @@ def run() -> None:
             continue
 
         trade = {
-            "id":             str(uuid.uuid4()),
-            "date":           str(date.today()),
-            "symbol":         symbol,
-            "stars":          stars,
-            "orb_high":       round(orb_high, 2),
-            "orb_low":        round(orb_low, 2),
-            "orb_range":      round(orb_range, 2),
-            "atr":            round(atr, 2),
-            "shares":         shares,
-            "entry_order_id": order_id,
-            "stop_order_id":  stop_order_id,
-            "stop_price":     round(orb_low, 2),
-            "status":         "pending",
-            "timestamp":      datetime.now(timezone.utc).isoformat(),
+            "id":                    str(uuid.uuid4()),
+            "date":                  str(date.today()),
+            "symbol":                symbol,
+            "stars":                 stars,
+            "orb_high":              round(orb_high, 2),
+            "orb_low":               round(orb_low, 2),
+            "orb_range":             round(orb_range, 2),
+            "atr":                   round(atr, 2),
+            "shares":                shares,
+            "entry_order_id":        order_id,
+            "stop_order_id":         stop_order_id,
+            "stop_price":            round(orb_low, 2),
+            "initial_risk_per_share": round(risk_per_share, 2),
+            "status":                "pending",
+            "timestamp":             datetime.now(timezone.utc).isoformat(),
         }
         new_trades.append(trade)
         stop_info = f"stop-loss @ ${orb_low:.2f}" if stop_order_id else "WARNING: stop-loss leg missing"

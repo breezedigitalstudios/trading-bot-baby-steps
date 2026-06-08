@@ -103,6 +103,16 @@ def trading_days_since(entry_date_str: str) -> int:
     return int(np.busday_count(entry_date_str, str(date.today())))
 
 
+def _r_multiple(trade: Dict, total_pnl: float) -> Optional[float]:
+    """R = total_pnl / initial_dollar_risk.  Returns None if risk data unavailable."""
+    risk_per_share = trade.get("initial_risk_per_share") or 0
+    original_shares = trade.get("shares") or 0
+    initial_risk = risk_per_share * original_shares
+    if initial_risk <= 0:
+        return None
+    return round(total_pnl / initial_risk, 2)
+
+
 # ── Order helpers ──────────────────────────────────────────────────────────────
 
 def get_order(order_id: str):
@@ -168,7 +178,7 @@ def cancel_open_sell_stops(symbol: str, except_id: Optional[str] = None) -> int:
     return cancelled
 
 
-def place_stop_loss(symbol: str, shares: int, reason: str) -> Optional[str]:
+def sell_market(symbol: str, shares: int, reason: str) -> Optional[str]:
     if DRY_RUN:
         oid = f"dry-sell-{uuid.uuid4().hex[:8]}"
         print(f"    [DRY RUN] Would sell {shares} {symbol} at market ({reason})")
@@ -285,21 +295,27 @@ def handle_stop_hit(trade: Dict) -> bool:
 
     exit_price = float(order.filled_avg_price or trade["current_stop"])
     shares     = trade.get("shares_remaining", trade["shares"])
-    pnl        = round((exit_price - trade["fill_price"]) * shares, 2)
+    runner_pnl = round((exit_price - trade["fill_price"]) * shares, 2)
+    phase1_pnl = trade.get("phase1_pnl") or 0.0
+    total_pnl  = round(phase1_pnl + runner_pnl, 2)
+    r_mult     = _r_multiple(trade, total_pnl)
 
-    print(f"    Stop hit: sold {shares} shares @ ${exit_price:.2f}  PnL ${pnl:+.2f}")
+    print(f"    Stop hit: sold {shares} shares @ ${exit_price:.2f}  P&L ${total_pnl:+.2f}"
+          + (f"  ({r_mult:+.2f}R)" if r_mult is not None else ""))
     trade.update({
         "status":     "closed",
         "exit_price": round(exit_price, 2),
         "exit_date":  str(date.today()),
         "exit_reason": "stop_hit",
-        "pnl":        pnl,
+        "pnl":        total_pnl,
+        "r_multiple": r_mult,
     })
     pct = round((exit_price - trade["fill_price"]) / trade["fill_price"] * 100, 2)
+    r_str = f"  |  R: {r_mult:+.2f}R" if r_mult is not None else ""
     send_alert(
         f"🔴 <b>STOP HIT — CLOSED</b>\n"
         f"{trade['symbol']}: {shares} shares @ ${exit_price:.2f}\n"
-        f"P&amp;L: ${pnl:+,.2f} ({pct:+.2f}%)"
+        f"P&amp;L: ${total_pnl:+,.2f} ({pct:+.2f}%){r_str}"
     )
     return True
 
@@ -452,18 +468,22 @@ def handle_sma_exit_fill(trade: Dict) -> bool:
     phase1_pnl = trade.get("phase1_pnl", 0.0) or 0.0
     total_pnl  = round(phase1_pnl + pnl_runner, 2)
 
-    print(f"    SMA exit filled: {shares} shares @ ${exit_price:.2f}  runner PnL ${pnl_runner:+.2f}  total PnL ${total_pnl:+.2f}")
+    r_mult = _r_multiple(trade, total_pnl)
+    print(f"    SMA exit filled: {shares} shares @ ${exit_price:.2f}  runner P&L ${pnl_runner:+.2f}  total P&L ${total_pnl:+.2f}"
+          + (f"  ({r_mult:+.2f}R)" if r_mult is not None else ""))
     trade.update({
         "status":     "closed",
         "exit_price": round(exit_price, 2),
         "exit_date":  str(date.today()),
         "exit_reason": "sma10_close",
         "pnl":        total_pnl,
+        "r_multiple": r_mult,
     })
+    r_str = f"  |  R: {r_mult:+.2f}R" if r_mult is not None else ""
     send_alert(
         f"🔴 <b>POSITION CLOSED</b> (SMA exit)\n"
         f"{trade['symbol']}: {shares} shares @ ${exit_price:.2f}\n"
-        f"Runner P&amp;L: ${pnl_runner:+,.2f}  |  Total P&amp;L: ${total_pnl:+,.2f}"
+        f"Runner P&amp;L: ${pnl_runner:+,.2f}  |  Total P&amp;L: ${total_pnl:+,.2f}{r_str}"
     )
     return True
 
@@ -513,12 +533,15 @@ def ensure_stop_loss(trade: Dict, positions: Dict) -> bool:
         fill_price = trade.get("fill_price", trade.get("orb_high", current_price))
         phase1_pnl = trade.get("phase1_pnl", 0.0) or 0.0
         runner_pnl = round((current_price - fill_price) * shares, 2)
+        total_pnl  = round(phase1_pnl + runner_pnl, 2)
+        r_mult     = _r_multiple(trade, total_pnl)
         trade.update({
             "status":     "closed",
             "exit_price": round(current_price, 2),
             "exit_date":  str(date.today()),
             "exit_reason": "stop_missed_close",
-            "pnl":        round(phase1_pnl + runner_pnl, 2),
+            "pnl":        total_pnl,
+            "r_multiple": r_mult,
         })
         return True
     else:
@@ -707,12 +730,20 @@ def run() -> None:
         print("(DRY RUN — no real orders submitted)")
 
     if is_eod:
-        total_pnl = sum(t.get("pnl") or 0 for t in closed)
+        total_pnl    = sum(t.get("pnl") or 0 for t in closed)
         open_symbols = ", ".join(t["symbol"] for t in open_) or "none"
+        closed_today = [t for t in closed if t.get("exit_date") == str(date.today())]
+        trade_lines  = ""
+        for t in closed_today:
+            r    = t.get("r_multiple")
+            r_str = f" ({r:+.2f}R)" if r is not None else ""
+            pnl_val = t.get("pnl") or 0
+            trade_lines += f"\n  {t['symbol']}: ${pnl_val:+,.2f}{r_str} [{t.get('exit_reason', '?')}]"
         send_alert(
             f"📊 <b>EOD SUMMARY</b>\n"
             f"Open: {len(open_)} ({open_symbols})  |  Pending: {len(pending)}  |  Closed: {len(closed)}\n"
             f"Realised P&amp;L (all time): ${total_pnl:+,.2f}"
+            + (f"\n\nToday's closes:{trade_lines}" if trade_lines else "")
         )
 
 
