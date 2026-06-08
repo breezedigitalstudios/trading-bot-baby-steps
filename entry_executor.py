@@ -22,6 +22,7 @@ import yfinance as yf
 from datetime import datetime, date, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
+from telegram_alert import send_alert
 
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import GetOrdersRequest, StopOrderRequest, StopLossRequest
@@ -468,6 +469,11 @@ def run() -> None:
         new_trades.append(trade)
         stop_info = f"stop-loss @ ${orb_low:.2f}" if stop_order_id else "WARNING: stop-loss leg missing"
         print(f"    ✓ OTO bracket placed: buy-stop {shares} @ ${orb_high:.2f}  {stop_info}  [entry: {order_id}]")
+        send_alert(
+            f"🟢 <b>ENTRY PLACED</b>\n"
+            f"{symbol}: buy-stop {shares} shares @ ${orb_high:.2f}\n"
+            f"Stop-loss: ${orb_low:.2f} (ORB low)  |  Risk/share: ${orb_high - orb_low:.2f}"
+        )
 
     trades.extend(new_trades)
     skipped.extend(new_skips)

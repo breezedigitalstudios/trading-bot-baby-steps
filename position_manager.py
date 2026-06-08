@@ -21,6 +21,7 @@ import pytz
 from datetime import datetime, date, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
+from telegram_alert import send_alert
 
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import (
@@ -260,6 +261,12 @@ def handle_pending(trade: Dict) -> bool:
         "current_stop":     trade["stop_price"],
         "stop_order_id":    stop_order_id,
     })
+    risk = round((fill_price - trade["stop_price"]) * shares, 2)
+    send_alert(
+        f"🟢 <b>POSITION OPEN</b>\n"
+        f"{trade['symbol']}: {shares} shares filled @ ${fill_price:.2f}\n"
+        f"Stop: ${trade['stop_price']:.2f}  |  Risk: ${risk:,.2f}"
+    )
     return True
 
 
@@ -288,6 +295,12 @@ def handle_stop_hit(trade: Dict) -> bool:
         "exit_reason": "stop_hit",
         "pnl":        pnl,
     })
+    pct = round((exit_price - trade["fill_price"]) / trade["fill_price"] * 100, 2)
+    send_alert(
+        f"🔴 <b>STOP HIT — CLOSED</b>\n"
+        f"{trade['symbol']}: {shares} shares @ ${exit_price:.2f}\n"
+        f"P&amp;L: ${pnl:+,.2f} ({pct:+.2f}%)"
+    )
     return True
 
 
@@ -351,6 +364,12 @@ def handle_phase1(trade: Dict, positions: Dict) -> bool:
         "phase1_pnl":       phase1_pnl,
         "phase1_date":      str(date.today()),
     })
+    send_alert(
+        f"🟡 <b>PHASE 1 EXIT</b>\n"
+        f"{trade['symbol']}: sold {shares_to_sell} shares @ ~${current_price:.2f}\n"
+        f"Partial P&amp;L: ${phase1_pnl:+,.2f}  |  {shares_after} shares remain\n"
+        f"Stop moved to breakeven: ${fill_price:.2f}"
+    )
     return True
 
 
@@ -393,6 +412,11 @@ def handle_sma_exit(trade: Dict) -> bool:
         "stop_order_id":    None,
     })
     print(f"    Sell order submitted (DAY) — awaiting fill confirmation next run")
+    send_alert(
+        f"🟡 <b>SMA EXIT TRIGGERED</b>\n"
+        f"{trade['symbol']}: selling {shares_remaining} shares\n"
+        f"Close ${today_close:.2f} &lt; SMA10 ${sma10:.2f}  |  Awaiting fill"
+    )
     return True
 
 
@@ -436,6 +460,11 @@ def handle_sma_exit_fill(trade: Dict) -> bool:
         "exit_reason": "sma10_close",
         "pnl":        total_pnl,
     })
+    send_alert(
+        f"🔴 <b>POSITION CLOSED</b> (SMA exit)\n"
+        f"{trade['symbol']}: {shares} shares @ ${exit_price:.2f}\n"
+        f"Runner P&amp;L: ${pnl_runner:+,.2f}  |  Total P&amp;L: ${total_pnl:+,.2f}"
+    )
     return True
 
 
@@ -473,6 +502,11 @@ def ensure_stop_loss(trade: Dict, positions: Dict) -> bool:
     if current_price <= stop_price:
         print(f"    ⚠ Stop-loss missing and price ${current_price:.2f} ≤ stop ${stop_price:.2f} "
               f"— closing at market")
+        send_alert(
+            f"🚨 <b>EMERGENCY CLOSE</b>\n"
+            f"{symbol}: stop-loss was missing, price ${current_price:.2f} ≤ stop ${stop_price:.2f}\n"
+            f"Closing {shares} shares at market"
+        )
         sell_id = sell_market(symbol, shares, "stop_missed_close")
         if sell_id is None:
             return False
@@ -489,6 +523,10 @@ def ensure_stop_loss(trade: Dict, positions: Dict) -> bool:
         return True
     else:
         print(f"    ⚠ Stop-loss missing — placing new stop at ${stop_price:.2f}")
+        send_alert(
+            f"⚠️ <b>STOP-LOSS MISSING</b>\n"
+            f"{symbol}: no active stop found — placing fresh stop @ ${stop_price:.2f}"
+        )
         new_stop_id = place_stop_loss(symbol, shares, stop_price)
         if new_stop_id is None:
             return False
@@ -624,6 +662,10 @@ def run() -> None:
                 "exit_date":  str(date.today()),
                 "exit_reason": "position_gone",
             })
+            send_alert(
+                f"⚠️ <b>POSITION EXTERNALLY CLOSED</b>\n"
+                f"{symbol}: no longer on Alpaca — closed manually or by broker"
+            )
             changed = True
             continue
 
@@ -663,6 +705,15 @@ def run() -> None:
         print(f"Realised P&L: ${total_pnl:+.2f}")
     if DRY_RUN:
         print("(DRY RUN — no real orders submitted)")
+
+    if is_eod:
+        total_pnl = sum(t.get("pnl") or 0 for t in closed)
+        open_symbols = ", ".join(t["symbol"] for t in open_) or "none"
+        send_alert(
+            f"📊 <b>EOD SUMMARY</b>\n"
+            f"Open: {len(open_)} ({open_symbols})  |  Pending: {len(pending)}  |  Closed: {len(closed)}\n"
+            f"Realised P&amp;L (all time): ${total_pnl:+,.2f}"
+        )
 
 
 if __name__ == "__main__":
