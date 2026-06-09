@@ -4548,6 +4548,84 @@
         "orb_volume": 1031638,
         "avg_hourly_volume": 1670633.0
       }
+    },
+    {
+      "id": "07e60d0b-a556-4e66-b79d-8b27166cd466",
+      "date": "2026-06-09",
+      "symbol": "APPX",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.44x, need \u22651.5x)",
+      "timestamp": "2026-06-09T17:34:46.651240+00:00",
+      "detail": {
+        "rvol": 0.44,
+        "orb_volume": 44805,
+        "avg_hourly_volume": 101673.0
+      }
+    },
+    {
+      "id": "b6fe5415-6a2e-4d2d-94a4-94e22bc22341",
+      "date": "2026-06-09",
+      "symbol": "SEDG",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.63x, need \u22651.5x)",
+      "timestamp": "2026-06-09T17:34:46.712669+00:00",
+      "detail": {
+        "rvol": 0.63,
+        "orb_volume": 462099,
+        "avg_hourly_volume": 728061.0
+      }
+    },
+    {
+      "id": "3d202acf-dc9e-4f10-ba29-5c8a422a19c4",
+      "date": "2026-06-09",
+      "symbol": "RXO",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.34x, need \u22651.5x)",
+      "timestamp": "2026-06-09T17:34:46.823485+00:00",
+      "detail": {
+        "rvol": 0.34,
+        "orb_volume": 142353,
+        "avg_hourly_volume": 417555.0
+      }
+    },
+    {
+      "id": "81a405e0-d03e-48db-b77e-eadab8598799",
+      "date": "2026-06-09",
+      "symbol": "VOYG",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.65x, need \u22651.5x)",
+      "timestamp": "2026-06-09T17:34:46.894939+00:00",
+      "detail": {
+        "rvol": 0.65,
+        "orb_volume": 273264,
+        "avg_hourly_volume": 422570.0
+      }
+    },
+    {
+      "id": "5c13c466-cb5c-4063-bd19-87e05d9a96ec",
+      "date": "2026-06-09",
+      "symbol": "AMDL",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=1.16x, need \u22651.5x)",
+      "timestamp": "2026-06-09T17:34:46.962174+00:00",
+      "detail": {
+        "rvol": 1.16,
+        "orb_volume": 1141381,
+        "avg_hourly_volume": 983306.0
+      }
+    },
+    {
+      "id": "d60c2f47-7a33-4125-8188-cc668923a0f8",
+      "date": "2026-06-09",
+      "symbol": "WOLF",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.62x, need \u22651.5x)",
+      "timestamp": "2026-06-09T17:34:47.048053+00:00",
+      "detail": {
+        "rvol": 0.62,
+        "orb_volume": 1031638,
+        "avg_hourly_volume": 1673571.0
+      }
     }
   ]
 }
