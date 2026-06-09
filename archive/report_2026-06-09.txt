@@ -1,0 +1,50 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Tuesday, June 09 2026   19:00 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  110,237.69
+  Cash             $   85,369.99
+  Buying power     $  411,109.52
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  CUE     $  20.61 $  30.55 $+8,091.16     814 $  20.61    13  partial
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+1,573.97
+  Open unrealised        $+8,091.16
+  Net (realised+open)    $+9,665.13
+
+  Closed trades                   3
+  Win rate                    66.7%
+  Avg winner             $+1,537.74
+  Avg loser              $-1,501.50
+  Reward/risk ratio           1.02×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (12)
+────────────────────────────────────────────────────────────────
+  APPX    ★★★★★  low opening volume (RVOL=0.44x, need ≥1.5x)
+  SEDG    ★★★★☆  low opening volume (RVOL=0.64x, need ≥1.5x)
+  RXO     ★★★★☆  low opening volume (RVOL=0.34x, need ≥1.5x)
+  VOYG    ★★★★☆  low opening volume (RVOL=0.65x, need ≥1.5x)
+  AMDL    ★★★★☆  low opening volume (RVOL=1.16x, need ≥1.5x)
+  WOLF    ★★★★☆  low opening volume (RVOL=0.62x, need ≥1.5x)
+  APPX    ★★★★★  low opening volume (RVOL=0.44x, need ≥1.5x)
+  SEDG    ★★★★☆  low opening volume (RVOL=0.63x, need ≥1.5x)
+  RXO     ★★★★☆  low opening volume (RVOL=0.34x, need ≥1.5x)
+  VOYG    ★★★★☆  low opening volume (RVOL=0.65x, need ≥1.5x)
+  AMDL    ★★★★☆  low opening volume (RVOL=1.16x, need ≥1.5x)
+  WOLF    ★★★★☆  low opening volume (RVOL=0.62x, need ≥1.5x)
+
+════════════════════════════════════════════════════════════════
