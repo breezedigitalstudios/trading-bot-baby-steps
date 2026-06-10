@@ -66,6 +66,12 @@ jobs:
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
         run: python generate_dashboard_v2.py
 
+      - name: Funnel
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python funnel.py
+
       - name: Email report
         continue-on-error: true
         env:
@@ -80,7 +86,7 @@ jobs:
         run: |
           git config user.name  "trading-bot"
           git config user.email "bot@github-actions"
-          for f in watchlist.json setup_scores.json regime.json trades.json dashboard_v2.html; do
+          for f in watchlist.json setup_scores.json regime.json trades.json funnel.json dashboard_v2.html; do
             [ -f "$f" ] && git add "$f" || true
           done
           [ -d archive ] && git add archive/ || true

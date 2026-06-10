@@ -33,9 +33,10 @@ if not API_KEY or not SECRET_KEY:
 trading_client = TradingClient(API_KEY, SECRET_KEY, paper=True)
 data_client    = StockHistoricalDataClient(API_KEY, SECRET_KEY)
 
-ET          = pytz.timezone("America/New_York")
-TRADES_PATH = os.path.join(os.path.dirname(__file__), "trades.json")
-SCORES_PATH = os.path.join(os.path.dirname(__file__), "setup_scores.json")
+ET           = pytz.timezone("America/New_York")
+TRADES_PATH  = os.path.join(os.path.dirname(__file__), "trades.json")
+SCORES_PATH  = os.path.join(os.path.dirname(__file__), "setup_scores.json")
+FUNNEL_PATH  = os.path.join(os.path.dirname(__file__), "funnel.json")
 
 
 # ── Loaders ────────────────────────────────────────────────────────────────────
@@ -325,14 +326,154 @@ def section_setups(setups: List[Dict], prices: Dict[str, float]) -> str:
     return section("Tomorrow's High-Quality Setups", table(cols, rows, aligns))
 
 
+# ── Funnel section ────────────────────────────────────────────────────────────
+
+_FUNNEL_REASON_LABELS: Dict[str, str] = {
+    "regime_cash":          "Regime: CASH",
+    "no_orb_data":          "No ORB data",
+    "low_rvol":             "Low RVOL",
+    "risk_too_wide":        "Risk too wide (ORB > ATR)",
+    "already_broken_out":   "Already broken out",
+    "earnings_window":      "Earnings window",
+    "sector_limit":         "Sector limit",
+    "circuit_breaker":      "Circuit breaker",
+    "already_holding":      "Already holding",
+    "max_positions":        "Max positions",
+    "max_daily_entries":    "Max daily entries",
+    "insufficient_capital": "Insufficient capital",
+    "zero_shares":          "Zero shares computed",
+    "other":                "Other",
+}
+
+
+def _fmt_syms(syms: List[dict], max_show: int = 6) -> str:
+    if not syms:
+        return f'<span style="color:{GRAY}">—</span>'
+    names = [s["symbol"] for s in syms]
+    shown = "  ".join(f"<strong>{n}</strong>" for n in names[:max_show])
+    if len(names) > max_show:
+        shown += f' <span style="color:{GRAY}">+{len(names) - max_show} more</span>'
+    return shown
+
+
+def section_funnel(today: str) -> str:
+    if not os.path.exists(FUNNEL_PATH):
+        return ""
+    with open(FUNNEL_PATH) as f:
+        funnel_data = json.load(f)
+    if today not in funnel_data:
+        return ""
+
+    e = funnel_data[today]
+    regime        = e.get("regime", "?")
+    regime_reason = e.get("regime_reason", "")
+    regime_color  = GREEN if regime == "TRADE" else RED
+
+    td_main = (f"padding:8px 14px;font-size:13px;font-weight:600;"
+               f"border-bottom:1px solid #f3f4f6")
+    td_sub  = (f"padding:5px 14px 5px 30px;font-size:12px;color:#374151;"
+               f"border-bottom:1px solid #f3f4f6")
+    td_num  = (f"padding:8px 14px;font-size:13px;font-weight:700;text-align:right;"
+               f"white-space:nowrap;border-bottom:1px solid #f3f4f6")
+    td_num_sub = (f"padding:5px 14px;font-size:12px;text-align:right;"
+                  f"white-space:nowrap;border-bottom:1px solid #f3f4f6")
+    td_sym  = (f"padding:8px 14px;font-size:12px;border-bottom:1px solid #f3f4f6")
+    td_sym_sub = (f"padding:5px 14px;font-size:12px;color:#6b7280;"
+                  f"border-bottom:1px solid #f3f4f6")
+
+    def main_row(label, count, sym_html, bg="white"):
+        return (f'<tr style="background:{bg}">'
+                f'<td style="{td_main}">{label}</td>'
+                f'<td style="{td_num}">{count}</td>'
+                f'<td style="{td_sym}">{sym_html}</td>'
+                f'</tr>')
+
+    def sub_row(label, count, sym_html):
+        return (f'<tr style="background:#f9fafb">'
+                f'<td style="{td_sub}">↳ {label}</td>'
+                f'<td style="{td_num_sub}">{count}</td>'
+                f'<td style="{td_sym_sub}">{sym_html}</td>'
+                f'</tr>')
+
+    regime_badge = (f'<span style="background:{regime_color};color:white;font-size:11px;'
+                    f'padding:2px 7px;border-radius:3px;font-weight:700">{regime}</span>')
+    if regime_reason:
+        regime_badge += f' <span style="color:{GRAY};font-size:11px">[{regime_reason}]</span>'
+
+    rows = ""
+
+    # Regime header row
+    rows += (f'<tr style="background:#f0f4ff">'
+             f'<td colspan="3" style="padding:8px 14px;font-size:12px;'
+             f'border-bottom:1px solid #e5e7eb">Market regime: {regime_badge}</td>'
+             f'</tr>')
+
+    # Scan pass
+    rows += main_row(
+        "Scan pass (watchlist)",
+        e["scan_pass"]["count"],
+        f'<span style="color:{GRAY};font-size:11px">all candidates</span>',
+        bg="white",
+    )
+
+    # Setups
+    rows += sub_row("4★ setups", e["setups_4star"]["count"],
+                    _fmt_syms(e["setups_4star"]["symbols"]))
+    rows += sub_row("5★ setups", e["setups_5star"]["count"],
+                    _fmt_syms(e["setups_5star"]["symbols"]))
+
+    # Skipped
+    skipped = e.get("skipped", {})
+    if skipped:
+        rows += (f'<tr style="background:#fff7ed">'
+                 f'<td colspan="3" style="padding:6px 14px;font-size:11px;font-weight:700;'
+                 f'color:#92400e;letter-spacing:0.5px;border-bottom:1px solid #f3f4f6">'
+                 f'SKIPPED TODAY</td></tr>')
+        for key, val in skipped.items():
+            label = _FUNNEL_REASON_LABELS.get(key, key)
+            rows += sub_row(label, val["count"], _fmt_syms(val["symbols"]))
+
+    # Orders
+    fill_color = GREEN if e["orders_filled"]["count"] > 0 else GRAY
+    rows += main_row(
+        "Orders placed",
+        e["orders_placed"]["count"],
+        _fmt_syms(e["orders_placed"]["symbols"]),
+        bg="white",
+    )
+    rows += (f'<tr style="background:white">'
+             f'<td style="{td_main};padding-left:30px">↳ Filled</td>'
+             f'<td style="{td_num};color:{fill_color}">{e["orders_filled"]["count"]}</td>'
+             f'<td style="{td_sym}">{_fmt_syms(e["orders_filled"]["symbols"])}</td>'
+             f'</tr>')
+
+    header_row = (f'<tr>'
+                  f'<th style="padding:8px 14px;text-align:left;font-size:12px;'
+                  f'font-weight:600;color:{GRAY};border-bottom:2px solid #e5e7eb">Stage</th>'
+                  f'<th style="padding:8px 14px;text-align:right;font-size:12px;'
+                  f'font-weight:600;color:{GRAY};border-bottom:2px solid #e5e7eb">Count</th>'
+                  f'<th style="padding:8px 14px;text-align:left;font-size:12px;'
+                  f'font-weight:600;color:{GRAY};border-bottom:2px solid #e5e7eb">Symbols</th>'
+                  f'</tr>')
+
+    body = (f'<table style="width:100%;border-collapse:collapse;font-family:Arial,sans-serif">'
+            f'<thead>{header_row}</thead>'
+            f'<tbody>{rows}</tbody>'
+            f'</table>')
+
+    return section(f"Today's Pipeline Funnel", body)
+
+
 # ── Build full HTML email ──────────────────────────────────────────────────────
 
 def build_email_html(trades, setups, live, account, now_et) -> str:
     setup_prices = get_last_close_prices([s["symbol"] for s in setups])
 
+    today_str = now_et.strftime("%Y-%m-%d")
     body_sections = (
         section_account(account)
         + section_pnl(trades, live)
+        + section_funnel(today_str)
         + section_open(trades, live)
         + section_closed_today(trades)
         + section_setups(setups, setup_prices)
