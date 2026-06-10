@@ -4626,6 +4626,38 @@
         "orb_volume": 1031638,
         "avg_hourly_volume": 1673571.0
       }
+    },
+    {
+      "id": "6be9362c-a321-423c-9c5e-6dc9dc58674f",
+      "date": "2026-06-10",
+      "symbol": "ASTC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-10T17:42:56.416252+00:00"
+    },
+    {
+      "id": "221d853a-7a46-4dcf-a5df-c41af45d734f",
+      "date": "2026-06-10",
+      "symbol": "RXO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-10T17:42:56.416270+00:00"
+    },
+    {
+      "id": "1e995050-5a21-424f-b437-d13d3146abdc",
+      "date": "2026-06-10",
+      "symbol": "OKTA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-10T17:42:56.416280+00:00"
+    },
+    {
+      "id": "bce19cac-deac-4eab-87fd-cf9963d8c1d7",
+      "date": "2026-06-10",
+      "symbol": "NTAP",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-10T17:42:56.416293+00:00"
     }
   ]
 }
