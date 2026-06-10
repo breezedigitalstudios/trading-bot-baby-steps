@@ -447,17 +447,17 @@ def run() -> None:
 
         print(f"\n  [{symbol}] ★{'★' * (stars-1)}")
 
-        # Gate checks
+        # Gate checks (continue — not break — so all remaining symbols are still logged)
         if state["open_positions"] + len(new_trades) >= MAX_POSITIONS:
             reason = f"max positions reached ({MAX_POSITIONS})"
             print(f"    Skip: {reason}")
             new_skips.append(make_skip(symbol, stars, reason))
-            break
+            continue
         if state["entries_today"] + len(new_trades) >= MAX_DAILY_ENTRIES:
             reason = f"max daily entries reached ({MAX_DAILY_ENTRIES})"
             print(f"    Skip: {reason}")
             new_skips.append(make_skip(symbol, stars, reason))
-            break
+            continue
         if symbol in state["open_symbols"]:
             reason = "already holding this stock"
             print(f"    Skip: {reason}")
