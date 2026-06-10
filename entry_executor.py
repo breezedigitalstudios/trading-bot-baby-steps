@@ -58,8 +58,9 @@ DRY_RUN           = False  # set True to log without placing orders
 
 # ── Loaders ────────────────────────────────────────────────────────────────────
 
-def validate_state_files(max_age_hours: int = 24) -> None:
-    """Abort if setup_scores.json or regime.json are missing or older than max_age_hours."""
+def validate_state_files(max_age_hours: int = 80) -> None:
+    """Abort if setup_scores.json or regime.json are missing or older than max_age_hours.
+    80h covers the Friday EOD → Monday entry gap (~65h) with buffer."""
     now = datetime.now(timezone.utc)
     files = {
         "setup_scores.json": SCORES_PATH,
