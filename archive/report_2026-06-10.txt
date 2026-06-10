@@ -1,0 +1,46 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Wednesday, June 10 2026   19:09 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  108,048.03
+  Cash             $   85,369.99
+  Buying power     $  404,978.47
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  CUE     $  20.61 $  27.86 $+5,901.50     814 $  20.61    14  partial
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+1,573.97
+  Open unrealised        $+5,901.50
+  Net (realised+open)    $+7,475.47
+
+  Closed trades                   3
+  Win rate                    66.7%
+  Avg winner             $+1,537.74
+  Avg loser              $-1,501.50
+  Reward/risk ratio           1.02×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (8)
+────────────────────────────────────────────────────────────────
+  ASTC    ★★★★☆  regime_cash: sma_filter
+  RXO     ★★★★☆  regime_cash: sma_filter
+  OKTA    ★★★★☆  regime_cash: sma_filter
+  NTAP    ★★★★☆  regime_cash: sma_filter
+  ASTC    ★★★★☆  regime_cash: sma_filter
+  RXO     ★★★★☆  regime_cash: sma_filter
+  OKTA    ★★★★☆  regime_cash: sma_filter
+  NTAP    ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
