@@ -634,7 +634,10 @@ def reconcile_alpaca(trades: List[Dict]) -> Dict:
 def run() -> None:
     print("=== Position Manager ===")
     now_et = datetime.now(ET)
-    is_eod = now_et.hour >= 16
+    # EOD mode is driven by an explicit env var set only in eod.yml — not by the clock.
+    # Time-based detection caused duplicate EOD summaries when GitHub Actions delayed
+    # the 19:00 UTC monitor run past 4 PM ET.
+    is_eod = os.getenv("EOD_MODE", "0") == "1"
     print(f"Time (ET): {now_et.strftime('%H:%M:%S %Z')}  {'[EOD mode]' if is_eod else '[intraday mode]'}")
 
     trades, skipped = load_trades()
