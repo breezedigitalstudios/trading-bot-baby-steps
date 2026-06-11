@@ -4722,6 +4722,38 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-06-11T17:53:07.950334+00:00"
+    },
+    {
+      "id": "98c6c582-cd02-4fc5-8268-549d534337fe",
+      "date": "2026-06-11",
+      "symbol": "BRUN",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-11T18:36:06.324375+00:00"
+    },
+    {
+      "id": "e16bc9ca-7e5a-40d7-bdb4-c1b0417984b0",
+      "date": "2026-06-11",
+      "symbol": "ASTC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-11T18:36:06.324397+00:00"
+    },
+    {
+      "id": "4cec7b54-5103-41ec-a36e-1ef5036b1a6d",
+      "date": "2026-06-11",
+      "symbol": "VSXY",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-11T18:36:06.324408+00:00"
+    },
+    {
+      "id": "c031b88c-6f30-4686-9448-646c0e60ec60",
+      "date": "2026-06-11",
+      "symbol": "OKTA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-11T18:36:06.324442+00:00"
     }
   ]
 }
