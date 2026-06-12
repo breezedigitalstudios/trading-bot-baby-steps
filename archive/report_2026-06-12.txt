@@ -1,0 +1,52 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Friday, June 12 2026   18:57 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  107,296.08
+  Cash             $  107,296.08
+  Buying power     $  429,184.32
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (1)
+────────────────────────────────────────────────────────────────
+  Symbol  Date            Entry     Exit       P&L Stars   Reason
+  ······························································
+  CUE     2026-06-12   $  20.61 $  26.94 $+5,973.73  ★★★★☆  sma10_close
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised         $+5,973.73
+  All-time realised      $+7,547.70
+  Open unrealised            $+0.00
+  Net (realised+open)    $+7,547.70
+
+  Closed trades                   4
+  Win rate                    75.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,501.50
+  Reward/risk ratio           2.01×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (14)
+────────────────────────────────────────────────────────────────
+  BRUN    ★★★★★  regime_cash: sma_filter
+  ASTC    ★★★★☆  regime_cash: sma_filter
+  UMAC    ★★★★☆  regime_cash: sma_filter
+  SWMR    ★★★★☆  regime_cash: sma_filter
+  VSXY    ★★★★☆  regime_cash: sma_filter
+  SNOW    ★★★★☆  regime_cash: sma_filter
+  OUST    ★★★★☆  regime_cash: sma_filter
+  BRUN    ★★★★★  regime_cash: sma_filter
+  ASTC    ★★★★☆  regime_cash: sma_filter
+  UMAC    ★★★★☆  regime_cash: sma_filter
+  SWMR    ★★★★☆  regime_cash: sma_filter
+  VSXY    ★★★★☆  regime_cash: sma_filter
+  SNOW    ★★★★☆  regime_cash: sma_filter
+  OUST    ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
