@@ -259,7 +259,7 @@
       "shares": 1220,
       "entry_order_id": "3e817ce2-b85c-45fe-976f-719fc0897756",
       "stop_price": 18.44,
-      "status": "sma_exit_pending",
+      "status": "closed",
       "timestamp": "2026-05-21T17:17:27.841856+00:00",
       "stop_order_id": null,
       "fill_price": 20.61,
@@ -271,7 +271,12 @@
       "phase1_date": "2026-05-28",
       "sma_exit_sell_id": "7e70a060-9ee5-4144-8ded-061ec34cba26",
       "sma_exit_close": 27.09,
-      "sma10_at_exit": 27.51
+      "sma10_at_exit": 27.51,
+      "exit_price": 26.94,
+      "exit_date": "2026-06-12",
+      "exit_reason": "sma10_close",
+      "pnl": 5973.73,
+      "r_multiple": null
     },
     {
       "id": "e1c92513-2b8b-4ee3-b9fa-e090d789f0e5",
