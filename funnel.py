@@ -37,6 +37,7 @@ _REASON_RULES = [
     (r"^max daily entries",        "max_daily_entries"),
     (r"^estimated cost .* exceeds","insufficient_capital"),
     (r"^position size computed",   "zero_shares"),
+    (r"^order submission failed",  "submission_failed"),
 ]
 
 REASON_LABELS: Dict[str, str] = {
@@ -53,6 +54,7 @@ REASON_LABELS: Dict[str, str] = {
     "max_daily_entries":    "Max daily entries",
     "insufficient_capital": "Insufficient capital",
     "zero_shares":          "Zero shares computed",
+    "submission_failed":    "Order submission failed",
     "other":                "Other",
 }
 

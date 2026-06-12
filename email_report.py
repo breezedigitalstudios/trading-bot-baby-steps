@@ -342,6 +342,7 @@ _FUNNEL_REASON_LABELS: Dict[str, str] = {
     "max_daily_entries":    "Max daily entries",
     "insufficient_capital": "Insufficient capital",
     "zero_shares":          "Zero shares computed",
+    "submission_failed":    "Order submission failed",
     "other":                "Other",
 }
 
