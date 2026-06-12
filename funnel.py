@@ -133,17 +133,29 @@ def build_funnel(today: str) -> dict:
                     for t in today_trades if t.get("fill_price")],
     }
 
+    # Any setup with no skip and no order — shouldn't happen, flags pipeline gaps
+    accounted = set()
+    for val in skipped.values():
+        accounted.update(s["symbol"] for s in val["symbols"])
+    accounted.update(t["symbol"] for t in today_trades)
+    unprocessed = {
+        "count":   sum(1 for s in high_quality if s["symbol"] not in accounted),
+        "symbols": [{"symbol": s["symbol"], "close": s.get("close")}
+                    for s in high_quality if s["symbol"] not in accounted],
+    }
+
     return {
         "date":          today,
         "generated_at":  datetime.now(timezone.utc).isoformat(),
         "regime":        regime.get("regime", "UNKNOWN"),
         "regime_reason": regime.get("regime_reason", ""),
         "scan_pass":     scan_pass,
-        "setups_4star":  setups_4star,
         "setups_5star":  setups_5star,
+        "setups_4star":  setups_4star,
         "skipped":       skipped,
         "orders_placed": orders_placed,
         "orders_filled": orders_filled,
+        "unprocessed":   unprocessed,
     }
 
 
@@ -161,8 +173,8 @@ def main():
     # Summary to stdout
     print(f"Regime:        {entry['regime']} [{entry['regime_reason']}]")
     print(f"Scan pass:     {entry['scan_pass']['count']} candidates")
-    print(f"4★ setups:     {entry['setups_4star']['count']}")
     print(f"5★ setups:     {entry['setups_5star']['count']}")
+    print(f"4★ setups:     {entry['setups_4star']['count']}")
     if entry["skipped"]:
         print("Skipped today:")
         for key, val in entry["skipped"].items():
@@ -171,6 +183,9 @@ def main():
         print("Skipped today: none")
     print(f"Orders placed: {entry['orders_placed']['count']}")
     print(f"Orders filled: {entry['orders_filled']['count']}")
+    if entry["unprocessed"]["count"]:
+        syms = [s["symbol"] for s in entry["unprocessed"]["symbols"]]
+        print(f"⚠ Unprocessed: {entry['unprocessed']['count']} — {syms}")
     print(f"\nFunnel saved → funnel.json [{today}]")
 
     # Telegram summary
@@ -192,8 +207,8 @@ def main():
         f"Regime: {regime_icon} <b>{regime}</b> [{reason}]",
         "",
         f"Scan pass:   {entry['scan_pass']['count']} candidates",
-        f"  4★ setups: {entry['setups_4star']['count']}  {sym_list(entry['setups_4star']['symbols'])}",
         f"  5★ setups: {entry['setups_5star']['count']}  {sym_list(entry['setups_5star']['symbols'])}",
+        f"  4★ setups: {entry['setups_4star']['count']}  {sym_list(entry['setups_4star']['symbols'])}",
     ]
 
     if entry["skipped"]:
@@ -208,6 +223,13 @@ def main():
         f"Orders placed: {entry['orders_placed']['count']}  {sym_list(entry['orders_placed']['symbols'])}",
         f"Orders filled: {entry['orders_filled']['count']}  {sym_list(entry['orders_filled']['symbols'])}",
     ]
+
+    if entry["unprocessed"]["count"]:
+        lines += [
+            "",
+            f"⚠️ <b>Unprocessed ({entry['unprocessed']['count']}):</b> "
+            f"{sym_list(entry['unprocessed']['symbols'])} — entry executor may not have reached these",
+        ]
 
     sent = send_alert("\n".join(lines))
     print(f"Telegram alert {'sent' if sent else 'skipped (no credentials)'}")

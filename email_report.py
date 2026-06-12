@@ -417,10 +417,10 @@ def section_funnel(today: str) -> str:
     )
 
     # Setups
-    rows += sub_row("4★ setups", e["setups_4star"]["count"],
-                    _fmt_syms(e["setups_4star"]["symbols"]))
     rows += sub_row("5★ setups", e["setups_5star"]["count"],
                     _fmt_syms(e["setups_5star"]["symbols"]))
+    rows += sub_row("4★ setups", e["setups_4star"]["count"],
+                    _fmt_syms(e["setups_4star"]["symbols"]))
 
     # Skipped
     skipped = e.get("skipped", {})
@@ -432,6 +432,15 @@ def section_funnel(today: str) -> str:
         for key, val in skipped.items():
             label = _FUNNEL_REASON_LABELS.get(key, key)
             rows += sub_row(label, val["count"], _fmt_syms(val["symbols"]))
+
+    # Unprocessed — setups with no skip and no order (pipeline gap)
+    unproc = e.get("unprocessed", {})
+    if unproc.get("count"):
+        rows += (f'<tr style="background:#fff7ed">'
+                 f'<td colspan="3" style="padding:6px 14px;font-size:11px;font-weight:700;'
+                 f'color:#92400e;letter-spacing:0.5px;border-bottom:1px solid #f3f4f6">'
+                 f'⚠ UNPROCESSED (entry executor did not reach these)</td></tr>')
+        rows += sub_row("Not reached", unproc["count"], _fmt_syms(unproc["symbols"]))
 
     # Orders
     fill_color = GREEN if e["orders_filled"]["count"] > 0 else GRAY
