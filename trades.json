@@ -4874,6 +4874,70 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-06-12T17:51:11.684226+00:00"
+    },
+    {
+      "id": "270c7b18-f00c-438b-9bb4-146b6349ff7b",
+      "date": "2026-06-15",
+      "symbol": "VSXY",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T18:50:27.014257+00:00"
+    },
+    {
+      "id": "37ab8bf8-8d54-4d15-beda-2deaaeefbc1b",
+      "date": "2026-06-15",
+      "symbol": "UMAC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T18:50:27.014271+00:00"
+    },
+    {
+      "id": "1c0a1da2-f3d1-42b4-8c53-327315680a58",
+      "date": "2026-06-15",
+      "symbol": "BRUN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T18:50:27.014277+00:00"
+    },
+    {
+      "id": "9c8b8f1d-e87b-4ccd-b163-3840dcd5216b",
+      "date": "2026-06-15",
+      "symbol": "HPE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T18:50:27.014287+00:00"
+    },
+    {
+      "id": "c970813a-ff82-45f3-b3d0-bd6f79feeccc",
+      "date": "2026-06-15",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T18:50:27.014292+00:00"
+    },
+    {
+      "id": "fc561627-5046-4c0c-9212-5873b59451ed",
+      "date": "2026-06-15",
+      "symbol": "TWST",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T18:50:27.014297+00:00"
+    },
+    {
+      "id": "f193b227-394d-4d46-9a3d-65f844156e17",
+      "date": "2026-06-15",
+      "symbol": "OKTA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T18:50:27.014301+00:00"
+    },
+    {
+      "id": "7ee74a98-2ac0-4f0f-9d9d-a44b8ad528da",
+      "date": "2026-06-15",
+      "symbol": "BAND",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T18:50:27.014316+00:00"
     }
   ]
 }
