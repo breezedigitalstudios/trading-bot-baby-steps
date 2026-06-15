@@ -4938,6 +4938,70 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-06-15T18:50:27.014316+00:00"
+    },
+    {
+      "id": "4f823b9b-ee72-43dd-9340-5596f32a8f4b",
+      "date": "2026-06-15",
+      "symbol": "VSXY",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T19:31:09.687684+00:00"
+    },
+    {
+      "id": "17f36a72-189c-4a5b-a445-396efcaed512",
+      "date": "2026-06-15",
+      "symbol": "UMAC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T19:31:09.687709+00:00"
+    },
+    {
+      "id": "eaae3a43-3315-4bd8-9d52-15b2d3e7ae90",
+      "date": "2026-06-15",
+      "symbol": "BRUN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T19:31:09.687720+00:00"
+    },
+    {
+      "id": "bb7f2c86-e6a4-4119-b8de-9cf7808f8779",
+      "date": "2026-06-15",
+      "symbol": "HPE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T19:31:09.687736+00:00"
+    },
+    {
+      "id": "d67e1fa9-c0f4-4217-95ca-9254599f0e16",
+      "date": "2026-06-15",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T19:31:09.687746+00:00"
+    },
+    {
+      "id": "90f9ed6c-87e1-49da-858e-36d815f6b622",
+      "date": "2026-06-15",
+      "symbol": "TWST",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T19:31:09.687754+00:00"
+    },
+    {
+      "id": "bc764e30-2dbe-43b2-93dc-edcb84dd7d31",
+      "date": "2026-06-15",
+      "symbol": "OKTA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T19:31:09.687763+00:00"
+    },
+    {
+      "id": "5e929464-2127-497f-9355-3891a70c695e",
+      "date": "2026-06-15",
+      "symbol": "BAND",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-15T19:31:09.687784+00:00"
     }
   ]
 }
