@@ -1,0 +1,86 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Wednesday, June 17 2026   18:58 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  107,295.93
+  Cash             $  107,295.93
+  Buying power     $  429,183.72
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+7,547.70
+  Open unrealised            $+0.00
+  Net (realised+open)    $+7,547.70
+
+  Closed trades                   4
+  Win rate                    75.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,501.50
+  Reward/risk ratio           2.01×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (50)
+────────────────────────────────────────────────────────────────
+  INHD    ★★★★★  regime_cash: sma_filter
+  VSXY    ★★★★★  regime_cash: sma_filter
+  DELL    ★★★★★  regime_cash: sma_filter
+  BRUN    ★★★★★  regime_cash: sma_filter
+  MEC     ★★★★★  regime_cash: sma_filter
+  STI     ★★★★☆  regime_cash: sma_filter
+  ARMG    ★★★★☆  regime_cash: sma_filter
+  DLLL    ★★★★☆  regime_cash: sma_filter
+  MRVU    ★★★★☆  regime_cash: sma_filter
+  MVLL    ★★★★☆  regime_cash: sma_filter
+  UMAC    ★★★★☆  regime_cash: sma_filter
+  VSH     ★★★★☆  regime_cash: sma_filter
+  TNGX    ★★★★☆  regime_cash: sma_filter
+  ALNT    ★★★★☆  regime_cash: sma_filter
+  SNOW    ★★★★☆  regime_cash: sma_filter
+  AMDL    ★★★★☆  regime_cash: sma_filter
+  OUST    ★★★★☆  regime_cash: sma_filter
+  HPE     ★★★★☆  regime_cash: sma_filter
+  PENG    ★★★★☆  regime_cash: sma_filter
+  HUT     ★★★★☆  regime_cash: sma_filter
+  AEHR    ★★★★☆  regime_cash: sma_filter
+  INOD    ★★★★☆  regime_cash: sma_filter
+  AMBQ    ★★★★☆  regime_cash: sma_filter
+  DOCN    ★★★★☆  regime_cash: sma_filter
+  MRAM    ★★★★☆  regime_cash: sma_filter
+  INHD    ★★★★★  regime_cash: sma_filter
+  VSXY    ★★★★★  regime_cash: sma_filter
+  DELL    ★★★★★  regime_cash: sma_filter
+  BRUN    ★★★★★  regime_cash: sma_filter
+  MEC     ★★★★★  regime_cash: sma_filter
+  STI     ★★★★☆  regime_cash: sma_filter
+  ARMG    ★★★★☆  regime_cash: sma_filter
+  DLLL    ★★★★☆  regime_cash: sma_filter
+  MRVU    ★★★★☆  regime_cash: sma_filter
+  MVLL    ★★★★☆  regime_cash: sma_filter
+  UMAC    ★★★★☆  regime_cash: sma_filter
+  VSH     ★★★★☆  regime_cash: sma_filter
+  TNGX    ★★★★☆  regime_cash: sma_filter
+  ALNT    ★★★★☆  regime_cash: sma_filter
+  SNOW    ★★★★☆  regime_cash: sma_filter
+  AMDL    ★★★★☆  regime_cash: sma_filter
+  OUST    ★★★★☆  regime_cash: sma_filter
+  HPE     ★★★★☆  regime_cash: sma_filter
+  PENG    ★★★★☆  regime_cash: sma_filter
+  HUT     ★★★★☆  regime_cash: sma_filter
+  AEHR    ★★★★☆  regime_cash: sma_filter
+  INOD    ★★★★☆  regime_cash: sma_filter
+  AMBQ    ★★★★☆  regime_cash: sma_filter
+  DOCN    ★★★★☆  regime_cash: sma_filter
+  MRAM    ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
