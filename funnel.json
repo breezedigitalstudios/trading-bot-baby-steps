@@ -4133,5 +4133,513 @@
       "count": 0,
       "symbols": []
     }
+  },
+  "2026-06-23": {
+    "date": "2026-06-23",
+    "generated_at": "2026-06-23T22:46:58.759331+00:00",
+    "regime": "CASH",
+    "regime_reason": "sma_filter",
+    "scan_pass": {
+      "count": 79,
+      "symbols": [
+        {
+          "symbol": "INHD",
+          "close": 39.49
+        },
+        {
+          "symbol": "HQ",
+          "close": 38.39
+        },
+        {
+          "symbol": "ARMG",
+          "close": 53.45
+        },
+        {
+          "symbol": "DLLL",
+          "close": 189.88
+        },
+        {
+          "symbol": "MUU",
+          "close": 1231.65
+        },
+        {
+          "symbol": "MULL",
+          "close": 1073.21
+        },
+        {
+          "symbol": "MRVU",
+          "close": 251.4
+        },
+        {
+          "symbol": "MVLL",
+          "close": 188.66
+        },
+        {
+          "symbol": "OCC",
+          "close": 22.24
+        },
+        {
+          "symbol": "HIMZ",
+          "close": 46.64
+        },
+        {
+          "symbol": "WYFI",
+          "close": 44.77
+        },
+        {
+          "symbol": "NBIL",
+          "close": 61.38
+        },
+        {
+          "symbol": "NBIG",
+          "close": 42.85
+        },
+        {
+          "symbol": "INTW",
+          "close": 419.24
+        },
+        {
+          "symbol": "LINT",
+          "close": 265.92
+        },
+        {
+          "symbol": "HOOG",
+          "close": 33.88
+        },
+        {
+          "symbol": "SHAZ",
+          "close": 91.91
+        },
+        {
+          "symbol": "QURE",
+          "close": 44.39
+        },
+        {
+          "symbol": "VSXY",
+          "close": 80.57
+        },
+        {
+          "symbol": "DFTX",
+          "close": 36.67
+        },
+        {
+          "symbol": "ARQQ",
+          "close": 21.42
+        },
+        {
+          "symbol": "ARM",
+          "close": 407.72
+        },
+        {
+          "symbol": "APGE",
+          "close": 132.55
+        },
+        {
+          "symbol": "CRDO",
+          "close": 302.52
+        },
+        {
+          "symbol": "DELL",
+          "close": 418.71
+        },
+        {
+          "symbol": "ALAB",
+          "close": 439.66
+        },
+        {
+          "symbol": "TWST",
+          "close": 85.17
+        },
+        {
+          "symbol": "MU",
+          "close": 1211.38
+        },
+        {
+          "symbol": "VSH",
+          "close": 64.27
+        },
+        {
+          "symbol": "CDNL",
+          "close": 79.1
+        },
+        {
+          "symbol": "UMAC",
+          "close": 22.57
+        },
+        {
+          "symbol": "MRVL",
+          "close": 307.86
+        },
+        {
+          "symbol": "SNDK",
+          "close": 2273.73
+        },
+        {
+          "symbol": "MEC",
+          "close": 34.71
+        },
+        {
+          "symbol": "VELO",
+          "close": 24.31
+        },
+        {
+          "symbol": "CBRL",
+          "close": 46.12
+        },
+        {
+          "symbol": "ALHC",
+          "close": 21.29
+        },
+        {
+          "symbol": "OUST",
+          "close": 47.68
+        },
+        {
+          "symbol": "FCEL",
+          "close": 24.39
+        },
+        {
+          "symbol": "ALNT",
+          "close": 98.78
+        },
+        {
+          "symbol": "SEZL",
+          "close": 156.47
+        },
+        {
+          "symbol": "COHU",
+          "close": 70.07
+        },
+        {
+          "symbol": "UMC",
+          "close": 27.5
+        },
+        {
+          "symbol": "WDC",
+          "close": 732.62
+        },
+        {
+          "symbol": "ICHR",
+          "close": 99.61
+        },
+        {
+          "symbol": "ORKA",
+          "close": 85.38
+        },
+        {
+          "symbol": "UCTT",
+          "close": 123.14
+        },
+        {
+          "symbol": "GLWG",
+          "close": 31.96
+        },
+        {
+          "symbol": "AMDL",
+          "close": 75.72
+        },
+        {
+          "symbol": "MBX",
+          "close": 43.91
+        },
+        {
+          "symbol": "AMUU",
+          "close": 266.6
+        },
+        {
+          "symbol": "SWMR",
+          "close": 45.14
+        },
+        {
+          "symbol": "AGL",
+          "close": 113.11
+        },
+        {
+          "symbol": "VPG",
+          "close": 140.92
+        },
+        {
+          "symbol": "VICR",
+          "close": 365.53
+        },
+        {
+          "symbol": "BE",
+          "close": 345.85
+        },
+        {
+          "symbol": "BRUN",
+          "close": 34.71
+        },
+        {
+          "symbol": "NBIS",
+          "close": 283.61
+        },
+        {
+          "symbol": "STX",
+          "close": 1094.04
+        },
+        {
+          "symbol": "PENG",
+          "close": 67.94
+        },
+        {
+          "symbol": "CRWG",
+          "close": 40.32
+        },
+        {
+          "symbol": "RGTX",
+          "close": 23.29
+        },
+        {
+          "symbol": "INTC",
+          "close": 140.94
+        },
+        {
+          "symbol": "MXL",
+          "close": 96.44
+        },
+        {
+          "symbol": "AEHR",
+          "close": 113.33
+        },
+        {
+          "symbol": "SIMO",
+          "close": 336.9
+        },
+        {
+          "symbol": "AIP",
+          "close": 44.5
+        },
+        {
+          "symbol": "WOLF",
+          "close": 52.97
+        },
+        {
+          "symbol": "IONL",
+          "close": 33.31
+        },
+        {
+          "symbol": "IONX",
+          "close": 62.53
+        },
+        {
+          "symbol": "AMBQ",
+          "close": 88.56
+        },
+        {
+          "symbol": "AXTI",
+          "close": 92.44
+        },
+        {
+          "symbol": "MRAM",
+          "close": 25.53
+        },
+        {
+          "symbol": "NVTS",
+          "close": 23.7
+        },
+        {
+          "symbol": "AAOI",
+          "close": 171.23
+        },
+        {
+          "symbol": "DOCN",
+          "close": 166.24
+        },
+        {
+          "symbol": "APPX",
+          "close": 33.85
+        },
+        {
+          "symbol": "BAND",
+          "close": 50.82
+        },
+        {
+          "symbol": "ORCX",
+          "close": 33.58
+        }
+      ]
+    },
+    "setups_5star": {
+      "count": 6,
+      "symbols": [
+        {
+          "symbol": "INHD",
+          "close": 39.49
+        },
+        {
+          "symbol": "MULL",
+          "close": 1073.21
+        },
+        {
+          "symbol": "MRVU",
+          "close": 251.4
+        },
+        {
+          "symbol": "MVLL",
+          "close": 188.66
+        },
+        {
+          "symbol": "COHU",
+          "close": 70.07
+        },
+        {
+          "symbol": "AEHR",
+          "close": 113.33
+        }
+      ]
+    },
+    "setups_4star": {
+      "count": 13,
+      "symbols": [
+        {
+          "symbol": "DLLL",
+          "close": 189.88
+        },
+        {
+          "symbol": "MUU",
+          "close": 1231.65
+        },
+        {
+          "symbol": "OCC",
+          "close": 22.24
+        },
+        {
+          "symbol": "VSXY",
+          "close": 80.57
+        },
+        {
+          "symbol": "APGE",
+          "close": 132.55
+        },
+        {
+          "symbol": "CRDO",
+          "close": 302.52
+        },
+        {
+          "symbol": "DELL",
+          "close": 418.71
+        },
+        {
+          "symbol": "VSH",
+          "close": 64.27
+        },
+        {
+          "symbol": "MRVL",
+          "close": 307.86
+        },
+        {
+          "symbol": "MEC",
+          "close": 34.71
+        },
+        {
+          "symbol": "VPG",
+          "close": 140.92
+        },
+        {
+          "symbol": "INTC",
+          "close": 140.94
+        },
+        {
+          "symbol": "NVTS",
+          "close": 23.7
+        }
+      ]
+    },
+    "skipped": {
+      "regime_cash": {
+        "count": 19,
+        "symbols": [
+          {
+            "symbol": "INHD",
+            "close": 39.49
+          },
+          {
+            "symbol": "MULL",
+            "close": 1073.21
+          },
+          {
+            "symbol": "MRVU",
+            "close": 251.4
+          },
+          {
+            "symbol": "MVLL",
+            "close": 188.66
+          },
+          {
+            "symbol": "COHU",
+            "close": 70.07
+          },
+          {
+            "symbol": "AEHR",
+            "close": 113.33
+          },
+          {
+            "symbol": "DLLL",
+            "close": 189.88
+          },
+          {
+            "symbol": "MUU",
+            "close": 1231.65
+          },
+          {
+            "symbol": "OCC",
+            "close": 22.24
+          },
+          {
+            "symbol": "VSXY",
+            "close": 80.57
+          },
+          {
+            "symbol": "APGE",
+            "close": 132.55
+          },
+          {
+            "symbol": "CRDO",
+            "close": 302.52
+          },
+          {
+            "symbol": "DELL",
+            "close": 418.71
+          },
+          {
+            "symbol": "VSH",
+            "close": 64.27
+          },
+          {
+            "symbol": "MRVL",
+            "close": 307.86
+          },
+          {
+            "symbol": "MEC",
+            "close": 34.71
+          },
+          {
+            "symbol": "VPG",
+            "close": 140.92
+          },
+          {
+            "symbol": "INTC",
+            "close": 140.94
+          },
+          {
+            "symbol": "NVTS",
+            "close": 23.7
+          }
+        ]
+      }
+    },
+    "orders_placed": {
+      "count": 0,
+      "symbols": []
+    },
+    "orders_filled": {
+      "count": 0,
+      "symbols": []
+    },
+    "unprocessed": {
+      "count": 0,
+      "symbols": []
+    }
   }
 }
