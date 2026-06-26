@@ -7242,6 +7242,78 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-06-25T17:32:57.255453+00:00"
+    },
+    {
+      "id": "1d0a36d1-a7a2-4691-b85b-02adc6c4b8e5",
+      "date": "2026-06-26",
+      "symbol": "INHD",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205517+00:00"
+    },
+    {
+      "id": "d658318a-3cbe-4e33-88d1-cefb9c6e0a0d",
+      "date": "2026-06-26",
+      "symbol": "APGE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205536+00:00"
+    },
+    {
+      "id": "c53f86b0-b051-454d-acfd-1865f6259890",
+      "date": "2026-06-26",
+      "symbol": "VSXY",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205547+00:00"
+    },
+    {
+      "id": "e6ebc434-8c70-4c8a-9845-fb43aa966cae",
+      "date": "2026-06-26",
+      "symbol": "CBRL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205562+00:00"
+    },
+    {
+      "id": "c8df0c9f-0560-48f9-9ffb-369d3590b93e",
+      "date": "2026-06-26",
+      "symbol": "AMDL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205570+00:00"
+    },
+    {
+      "id": "10ed2c53-0068-4ef8-ab77-953e8376d0b4",
+      "date": "2026-06-26",
+      "symbol": "AMUU",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205578+00:00"
+    },
+    {
+      "id": "b2dc21e2-e212-43ef-9522-1fc6c5a5c687",
+      "date": "2026-06-26",
+      "symbol": "CRDO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205585+00:00"
+    },
+    {
+      "id": "82c74087-22fe-4fa7-ad12-4cf6cc5a6a76",
+      "date": "2026-06-26",
+      "symbol": "ATEX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205608+00:00"
+    },
+    {
+      "id": "18ac88e2-ec24-4dc8-bd50-632a68ffa14a",
+      "date": "2026-06-26",
+      "symbol": "VPG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-06-26T16:32:54.205616+00:00"
     }
   ]
 }
