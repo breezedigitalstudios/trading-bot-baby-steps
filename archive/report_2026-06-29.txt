@@ -1,0 +1,70 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Monday, June 29 2026   18:37 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  107,295.93
+  Cash             $  107,295.93
+  Buying power     $  429,183.72
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+7,547.70
+  Open unrealised            $+0.00
+  Net (realised+open)    $+7,547.70
+
+  Closed trades                   4
+  Win rate                    75.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,501.50
+  Reward/risk ratio           2.01×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (34)
+────────────────────────────────────────────────────────────────
+  LQDA    ★★★★★  regime_cash: sma_filter
+  INHD    ★★★★☆  regime_cash: sma_filter
+  ALHC    ★★★★☆  regime_cash: sma_filter
+  APGE    ★★★★☆  regime_cash: sma_filter
+  HOOG    ★★★★☆  regime_cash: sma_filter
+  CBRL    ★★★★☆  regime_cash: sma_filter
+  MRVU    ★★★★☆  regime_cash: sma_filter
+  ACMR    ★★★★☆  regime_cash: sma_filter
+  AMUU    ★★★★☆  regime_cash: sma_filter
+  MRVL    ★★★★☆  regime_cash: sma_filter
+  DELL    ★★★★☆  regime_cash: sma_filter
+  INTC    ★★★★☆  regime_cash: sma_filter
+  ALAB    ★★★★☆  regime_cash: sma_filter
+  ARMG    ★★★★☆  regime_cash: sma_filter
+  WOLF    ★★★★☆  regime_cash: sma_filter
+  ARM     ★★★★☆  regime_cash: sma_filter
+  AEHR    ★★★★☆  regime_cash: sma_filter
+  LQDA    ★★★★★  regime_cash: sma_filter
+  INHD    ★★★★☆  regime_cash: sma_filter
+  ALHC    ★★★★☆  regime_cash: sma_filter
+  APGE    ★★★★☆  regime_cash: sma_filter
+  HOOG    ★★★★☆  regime_cash: sma_filter
+  CBRL    ★★★★☆  regime_cash: sma_filter
+  MRVU    ★★★★☆  regime_cash: sma_filter
+  ACMR    ★★★★☆  regime_cash: sma_filter
+  AMUU    ★★★★☆  regime_cash: sma_filter
+  MRVL    ★★★★☆  regime_cash: sma_filter
+  DELL    ★★★★☆  regime_cash: sma_filter
+  INTC    ★★★★☆  regime_cash: sma_filter
+  ALAB    ★★★★☆  regime_cash: sma_filter
+  ARMG    ★★★★☆  regime_cash: sma_filter
+  WOLF    ★★★★☆  regime_cash: sma_filter
+  ARM     ★★★★☆  regime_cash: sma_filter
+  AEHR    ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
