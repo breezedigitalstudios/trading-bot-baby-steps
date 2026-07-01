@@ -7754,6 +7754,86 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-06-30T17:26:27.508053+00:00"
+    },
+    {
+      "id": "c6c5e310-8383-499d-974d-26ffad3b49a1",
+      "date": "2026-07-01",
+      "symbol": "HOOG",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.441898+00:00"
+    },
+    {
+      "id": "19047a24-061e-4f09-bc1b-5d1c72969ef7",
+      "date": "2026-07-01",
+      "symbol": "INHD",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.441918+00:00"
+    },
+    {
+      "id": "5ba3bb12-4eec-47eb-b30c-aaa490ba22d1",
+      "date": "2026-07-01",
+      "symbol": "HQ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.441928+00:00"
+    },
+    {
+      "id": "704ec143-c2f2-4102-81c4-1d87079e6c93",
+      "date": "2026-07-01",
+      "symbol": "NBIL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.441944+00:00"
+    },
+    {
+      "id": "1e32c218-0648-4006-aa26-2e40620bcdfe",
+      "date": "2026-07-01",
+      "symbol": "ALHC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.441956+00:00"
+    },
+    {
+      "id": "72642d7e-e55b-4847-bfb3-d04275978977",
+      "date": "2026-07-01",
+      "symbol": "OCC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.441963+00:00"
+    },
+    {
+      "id": "d19b9853-4c8a-4f4e-ab05-a929118709ab",
+      "date": "2026-07-01",
+      "symbol": "CBRL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.441970+00:00"
+    },
+    {
+      "id": "f0a17bf5-9349-4cca-9c4a-5464e57edf68",
+      "date": "2026-07-01",
+      "symbol": "MRVL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.441993+00:00"
+    },
+    {
+      "id": "5f073b2c-e6bc-4efe-8dc5-d7bcd28564e9",
+      "date": "2026-07-01",
+      "symbol": "NBIS",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.442001+00:00"
+    },
+    {
+      "id": "c87e0a22-11e4-4193-8d4a-b7a6f80be2b0",
+      "date": "2026-07-01",
+      "symbol": "AEHR",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-01T16:56:19.442009+00:00"
     }
   ]
 }
