@@ -7986,6 +7986,78 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-07-02T16:21:15.367708+00:00"
+    },
+    {
+      "id": "6443c121-2f3f-4b03-9ac1-ba519f17a03b",
+      "date": "2026-07-02",
+      "symbol": "HQ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659827+00:00"
+    },
+    {
+      "id": "093acb26-0db1-4998-8143-9c8d9fee57d0",
+      "date": "2026-07-02",
+      "symbol": "ARQQ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659851+00:00"
+    },
+    {
+      "id": "4e4e5657-f9ce-46c4-b0a7-64ba14d82f8a",
+      "date": "2026-07-02",
+      "symbol": "ALHC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659861+00:00"
+    },
+    {
+      "id": "a6069ab6-63fc-4fde-a217-92331d514d51",
+      "date": "2026-07-02",
+      "symbol": "HOOG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659876+00:00"
+    },
+    {
+      "id": "d4e5df5c-c431-4ee4-9b30-2b69a647e22c",
+      "date": "2026-07-02",
+      "symbol": "QURE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659885+00:00"
+    },
+    {
+      "id": "5a0e886e-3ccd-450a-a7fd-08038f892c77",
+      "date": "2026-07-02",
+      "symbol": "CBRL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659893+00:00"
+    },
+    {
+      "id": "ee473f87-0748-48db-92d8-5e98fed3ff8b",
+      "date": "2026-07-02",
+      "symbol": "LQDA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659900+00:00"
+    },
+    {
+      "id": "cc142a32-0ee6-4f77-8af3-b22050d2fbe1",
+      "date": "2026-07-02",
+      "symbol": "BAND",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659923+00:00"
+    },
+    {
+      "id": "4dea0941-0075-49d0-99bd-bb14f3963d34",
+      "date": "2026-07-02",
+      "symbol": "WOLF",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-02T17:14:07.659932+00:00"
     }
   ]
 }
