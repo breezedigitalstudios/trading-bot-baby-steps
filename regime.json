@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T22:37:02.014339+00:00",
+  "generated_at": "2026-07-03T16:08:03.370441+00:00",
   "regime": "CASH",
   "regime_reason": "sma_filter",
   "qqq_close": 712.6,
@@ -10,7 +10,7 @@
   "sma20_slope_5d": -5.11,
   "sma10_sloping_up": false,
   "sma20_sloping_up": false,
-  "vix": 16.15,
+  "vix": 15.81,
   "vix_threshold": 25,
   "vix_elevated": false
 }
