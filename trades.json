@@ -8226,6 +8226,62 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-07-06T17:22:04.901515+00:00"
+    },
+    {
+      "id": "b94195cc-4185-4f61-a943-323f866f45f9",
+      "date": "2026-07-06",
+      "symbol": "HQ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-06T17:58:17.186683+00:00"
+    },
+    {
+      "id": "0339a7b6-2f87-4daa-8c20-07a7dc9772a7",
+      "date": "2026-07-06",
+      "symbol": "HOOG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-06T17:58:17.186718+00:00"
+    },
+    {
+      "id": "2abc44cf-5d3b-4c46-91c6-2186a350133b",
+      "date": "2026-07-06",
+      "symbol": "ALHC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-06T17:58:17.186732+00:00"
+    },
+    {
+      "id": "fee06a44-e285-4672-a075-82d2ddefdf86",
+      "date": "2026-07-06",
+      "symbol": "NRIX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-06T17:58:17.186746+00:00"
+    },
+    {
+      "id": "c4f0db67-c206-4bee-b4f3-0dc0391a051a",
+      "date": "2026-07-06",
+      "symbol": "QURE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-06T17:58:17.186755+00:00"
+    },
+    {
+      "id": "4560b2dc-f303-4f1e-a340-62b1d8680e9f",
+      "date": "2026-07-06",
+      "symbol": "ALMS",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-06T17:58:17.186763+00:00"
+    },
+    {
+      "id": "b3343e8a-4d8c-4dd6-9202-0415e1a4ce57",
+      "date": "2026-07-06",
+      "symbol": "AGL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-06T17:58:17.186770+00:00"
     }
   ]
 }
