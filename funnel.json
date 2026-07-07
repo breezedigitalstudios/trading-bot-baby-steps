@@ -8992,5 +8992,553 @@
       "count": 0,
       "symbols": []
     }
+  },
+  "2026-07-07": {
+    "date": "2026-07-07",
+    "generated_at": "2026-07-07T22:37:42.880360+00:00",
+    "regime": "CASH",
+    "regime_reason": "sma_filter",
+    "scan_pass": {
+      "count": 95,
+      "symbols": [
+        {
+          "symbol": "INHD",
+          "close": 39.49
+        },
+        {
+          "symbol": "SDOT",
+          "close": 48.79
+        },
+        {
+          "symbol": "HQ",
+          "close": 24.22
+        },
+        {
+          "symbol": "HOOG",
+          "close": 40.86
+        },
+        {
+          "symbol": "HIMZ",
+          "close": 59.37
+        },
+        {
+          "symbol": "MBX",
+          "close": 57.7
+        },
+        {
+          "symbol": "DFTX",
+          "close": 44.33
+        },
+        {
+          "symbol": "FCEL",
+          "close": 29.73
+        },
+        {
+          "symbol": "ABVX",
+          "close": 143.99
+        },
+        {
+          "symbol": "ARQQ",
+          "close": 22.13
+        },
+        {
+          "symbol": "MRNA",
+          "close": 81.8
+        },
+        {
+          "symbol": "ALHC",
+          "close": 24.56
+        },
+        {
+          "symbol": "ATEX",
+          "close": 106.04
+        },
+        {
+          "symbol": "GRPN",
+          "close": 26.57
+        },
+        {
+          "symbol": "NRIX",
+          "close": 24.04
+        },
+        {
+          "symbol": "KYMR",
+          "close": 114.76
+        },
+        {
+          "symbol": "SEZL",
+          "close": 179.05
+        },
+        {
+          "symbol": "DAVE",
+          "close": 396.0
+        },
+        {
+          "symbol": "WYFI",
+          "close": 35.54
+        },
+        {
+          "symbol": "NUTX",
+          "close": 193.54
+        },
+        {
+          "symbol": "PTRN",
+          "close": 28.43
+        },
+        {
+          "symbol": "TENB",
+          "close": 41.29
+        },
+        {
+          "symbol": "QURE",
+          "close": 41.36
+        },
+        {
+          "symbol": "BWIN",
+          "close": 27.09
+        },
+        {
+          "symbol": "DMRA",
+          "close": 29.8
+        },
+        {
+          "symbol": "VOR",
+          "close": 20.1
+        },
+        {
+          "symbol": "ZBIO",
+          "close": 26.45
+        },
+        {
+          "symbol": "RARE",
+          "close": 33.7
+        },
+        {
+          "symbol": "LMND",
+          "close": 78.7
+        },
+        {
+          "symbol": "GSHD",
+          "close": 53.0
+        },
+        {
+          "symbol": "OSCR",
+          "close": 31.44
+        },
+        {
+          "symbol": "CBRL",
+          "close": 50.57
+        },
+        {
+          "symbol": "HNGE",
+          "close": 88.52
+        },
+        {
+          "symbol": "AXON",
+          "close": 622.35
+        },
+        {
+          "symbol": "TNGX",
+          "close": 29.94
+        },
+        {
+          "symbol": "PLTU",
+          "close": 32.24
+        },
+        {
+          "symbol": "ICHR",
+          "close": 95.67
+        },
+        {
+          "symbol": "BCAX",
+          "close": 29.22
+        },
+        {
+          "symbol": "AMDL",
+          "close": 73.79
+        },
+        {
+          "symbol": "SMST",
+          "close": 56.55
+        },
+        {
+          "symbol": "ORKA",
+          "close": 83.13
+        },
+        {
+          "symbol": "AMUU",
+          "close": 258.84
+        },
+        {
+          "symbol": "HIMS",
+          "close": 38.28
+        },
+        {
+          "symbol": "ELF",
+          "close": 73.49
+        },
+        {
+          "symbol": "TWST",
+          "close": 99.93
+        },
+        {
+          "symbol": "BH",
+          "close": 424.23
+        },
+        {
+          "symbol": "GPCR",
+          "close": 54.75
+        },
+        {
+          "symbol": "MMYT",
+          "close": 57.35
+        },
+        {
+          "symbol": "ELVN",
+          "close": 50.01
+        },
+        {
+          "symbol": "LQDA",
+          "close": 79.21
+        },
+        {
+          "symbol": "ALMS",
+          "close": 27.27
+        },
+        {
+          "symbol": "CDNL",
+          "close": 80.09
+        },
+        {
+          "symbol": "LINT",
+          "close": 194.41
+        },
+        {
+          "symbol": "NAVN",
+          "close": 26.3
+        },
+        {
+          "symbol": "ALAB",
+          "close": 432.74
+        },
+        {
+          "symbol": "SHAZ",
+          "close": 79.96
+        },
+        {
+          "symbol": "MXL",
+          "close": 95.68
+        },
+        {
+          "symbol": "OUST",
+          "close": 49.83
+        },
+        {
+          "symbol": "UMC",
+          "close": 25.83
+        },
+        {
+          "symbol": "AGL",
+          "close": 107.6
+        },
+        {
+          "symbol": "SIMO",
+          "close": 318.86
+        },
+        {
+          "symbol": "ACMR",
+          "close": 98.52
+        },
+        {
+          "symbol": "CRDO",
+          "close": 265.55
+        },
+        {
+          "symbol": "CORT",
+          "close": 91.61
+        },
+        {
+          "symbol": "UCTT",
+          "close": 105.53
+        },
+        {
+          "symbol": "BE",
+          "close": 295.05
+        },
+        {
+          "symbol": "AMD",
+          "close": 552.05
+        },
+        {
+          "symbol": "BAND",
+          "close": 60.67
+        },
+        {
+          "symbol": "INTC",
+          "close": 122.2
+        },
+        {
+          "symbol": "XMTR",
+          "close": 94.3
+        },
+        {
+          "symbol": "MUU",
+          "close": 760.0
+        },
+        {
+          "symbol": "WDC",
+          "close": 577.46
+        },
+        {
+          "symbol": "PENG",
+          "close": 67.71
+        },
+        {
+          "symbol": "AXTI",
+          "close": 63.52
+        },
+        {
+          "symbol": "BRUN",
+          "close": 32.31
+        },
+        {
+          "symbol": "DELL",
+          "close": 411.8
+        },
+        {
+          "symbol": "MU",
+          "close": 984.75
+        },
+        {
+          "symbol": "SNDK",
+          "close": 1744.43
+        },
+        {
+          "symbol": "CRWG",
+          "close": 23.29
+        },
+        {
+          "symbol": "AMBQ",
+          "close": 83.82
+        },
+        {
+          "symbol": "CEVA",
+          "close": 44.64
+        },
+        {
+          "symbol": "ARMG",
+          "close": 32.18
+        },
+        {
+          "symbol": "MRVU",
+          "close": 157.71
+        },
+        {
+          "symbol": "VPG",
+          "close": 123.0
+        },
+        {
+          "symbol": "AEHR",
+          "close": 72.33
+        },
+        {
+          "symbol": "AAOI",
+          "close": 123.36
+        },
+        {
+          "symbol": "ARM",
+          "close": 322.24
+        },
+        {
+          "symbol": "NBIG",
+          "close": 22.47
+        },
+        {
+          "symbol": "NBIL",
+          "close": 32.27
+        },
+        {
+          "symbol": "MRVL",
+          "close": 249.27
+        },
+        {
+          "symbol": "IONL",
+          "close": 22.65
+        },
+        {
+          "symbol": "VSH",
+          "close": 46.17
+        },
+        {
+          "symbol": "IONX",
+          "close": 42.37
+        },
+        {
+          "symbol": "TSLS",
+          "close": 50.73
+        },
+        {
+          "symbol": "WOLF",
+          "close": 39.47
+        }
+      ]
+    },
+    "setups_5star": {
+      "count": 5,
+      "symbols": [
+        {
+          "symbol": "HQ",
+          "close": 24.22
+        },
+        {
+          "symbol": "DFTX",
+          "close": 44.33
+        },
+        {
+          "symbol": "TNGX",
+          "close": 29.94
+        },
+        {
+          "symbol": "MMYT",
+          "close": 57.35
+        },
+        {
+          "symbol": "ELVN",
+          "close": 50.01
+        }
+      ]
+    },
+    "setups_4star": {
+      "count": 11,
+      "symbols": [
+        {
+          "symbol": "HOOG",
+          "close": 40.86
+        },
+        {
+          "symbol": "MBX",
+          "close": 57.7
+        },
+        {
+          "symbol": "ARQQ",
+          "close": 22.13
+        },
+        {
+          "symbol": "ALHC",
+          "close": 24.56
+        },
+        {
+          "symbol": "NRIX",
+          "close": 24.04
+        },
+        {
+          "symbol": "KYMR",
+          "close": 114.76
+        },
+        {
+          "symbol": "QURE",
+          "close": 41.36
+        },
+        {
+          "symbol": "BWIN",
+          "close": 27.09
+        },
+        {
+          "symbol": "CBRL",
+          "close": 50.57
+        },
+        {
+          "symbol": "BH",
+          "close": 424.23
+        },
+        {
+          "symbol": "LQDA",
+          "close": 79.21
+        }
+      ]
+    },
+    "skipped": {
+      "regime_cash": {
+        "count": 16,
+        "symbols": [
+          {
+            "symbol": "HQ",
+            "close": 24.22
+          },
+          {
+            "symbol": "DFTX",
+            "close": 44.33
+          },
+          {
+            "symbol": "TNGX",
+            "close": 29.94
+          },
+          {
+            "symbol": "MMYT",
+            "close": 57.35
+          },
+          {
+            "symbol": "ELVN",
+            "close": 50.01
+          },
+          {
+            "symbol": "HOOG",
+            "close": 40.86
+          },
+          {
+            "symbol": "MBX",
+            "close": 57.7
+          },
+          {
+            "symbol": "ARQQ",
+            "close": 22.13
+          },
+          {
+            "symbol": "ALHC",
+            "close": 24.56
+          },
+          {
+            "symbol": "NRIX",
+            "close": 24.04
+          },
+          {
+            "symbol": "KYMR",
+            "close": 114.76
+          },
+          {
+            "symbol": "QURE",
+            "close": 41.36
+          },
+          {
+            "symbol": "BWIN",
+            "close": 27.09
+          },
+          {
+            "symbol": "CBRL",
+            "close": 50.57
+          },
+          {
+            "symbol": "BH",
+            "close": 424.23
+          },
+          {
+            "symbol": "LQDA",
+            "close": 79.21
+          }
+        ]
+      }
+    },
+    "orders_placed": {
+      "count": 0,
+      "symbols": []
+    },
+    "orders_filled": {
+      "count": 0,
+      "symbols": []
+    },
+    "unprocessed": {
+      "count": 0,
+      "symbols": []
+    }
   }
 }
