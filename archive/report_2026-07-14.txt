@@ -1,0 +1,88 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Tuesday, July 14 2026   18:30 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  107,295.93
+  Cash             $  107,295.93
+  Buying power     $  429,183.72
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+7,547.70
+  Open unrealised            $+0.00
+  Net (realised+open)    $+7,547.70
+
+  Closed trades                   4
+  Win rate                    75.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,501.50
+  Reward/risk ratio           2.01×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (52)
+────────────────────────────────────────────────────────────────
+  ABVX    ★★★★★  regime_cash: sma_filter
+  SMST    ★★★★★  regime_cash: sma_filter
+  ELVN    ★★★★★  regime_cash: sma_filter
+  DFTX    ★★★★☆  regime_cash: sma_filter
+  BWIN    ★★★★☆  regime_cash: sma_filter
+  HIMZ    ★★★★☆  regime_cash: sma_filter
+  DAVE    ★★★★☆  regime_cash: sma_filter
+  MMYT    ★★★★☆  regime_cash: sma_filter
+  MRNA    ★★★★☆  regime_cash: sma_filter
+  HNGE    ★★★★☆  regime_cash: sma_filter
+  NSP     ★★★★☆  regime_cash: sma_filter
+  PVLA    ★★★★☆  regime_cash: sma_filter
+  KYMR    ★★★★☆  regime_cash: sma_filter
+  CBZ     ★★★★☆  regime_cash: sma_filter
+  VRNS    ★★★★☆  regime_cash: sma_filter
+  PAY     ★★★★☆  regime_cash: sma_filter
+  DNTH    ★★★★☆  regime_cash: sma_filter
+  FOUR    ★★★★☆  regime_cash: sma_filter
+  NAVN    ★★★★☆  regime_cash: sma_filter
+  ORKA    ★★★★☆  regime_cash: sma_filter
+  SYRE    ★★★★☆  regime_cash: sma_filter
+  AGL     ★★★★☆  regime_cash: sma_filter
+  SNOW    ★★★★☆  regime_cash: sma_filter
+  AMD     ★★★★☆  regime_cash: sma_filter
+  OSCR    ★★★★☆  regime_cash: sma_filter
+  DELL    ★★★★☆  regime_cash: sma_filter
+  ABVX    ★★★★★  regime_cash: sma_filter
+  SMST    ★★★★★  regime_cash: sma_filter
+  ELVN    ★★★★★  regime_cash: sma_filter
+  DFTX    ★★★★☆  regime_cash: sma_filter
+  BWIN    ★★★★☆  regime_cash: sma_filter
+  HIMZ    ★★★★☆  regime_cash: sma_filter
+  DAVE    ★★★★☆  regime_cash: sma_filter
+  MMYT    ★★★★☆  regime_cash: sma_filter
+  MRNA    ★★★★☆  regime_cash: sma_filter
+  HNGE    ★★★★☆  regime_cash: sma_filter
+  NSP     ★★★★☆  regime_cash: sma_filter
+  PVLA    ★★★★☆  regime_cash: sma_filter
+  KYMR    ★★★★☆  regime_cash: sma_filter
+  CBZ     ★★★★☆  regime_cash: sma_filter
+  VRNS    ★★★★☆  regime_cash: sma_filter
+  PAY     ★★★★☆  regime_cash: sma_filter
+  DNTH    ★★★★☆  regime_cash: sma_filter
+  FOUR    ★★★★☆  regime_cash: sma_filter
+  NAVN    ★★★★☆  regime_cash: sma_filter
+  ORKA    ★★★★☆  regime_cash: sma_filter
+  SYRE    ★★★★☆  regime_cash: sma_filter
+  AGL     ★★★★☆  regime_cash: sma_filter
+  SNOW    ★★★★☆  regime_cash: sma_filter
+  AMD     ★★★★☆  regime_cash: sma_filter
+  OSCR    ★★★★☆  regime_cash: sma_filter
+  DELL    ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
