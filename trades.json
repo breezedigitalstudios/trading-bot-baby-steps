@@ -12906,6 +12906,142 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-07-27T17:19:56.752653+00:00"
+    },
+    {
+      "id": "a5d0806e-d979-459f-9bcb-1f8dd431925a",
+      "date": "2026-07-28",
+      "symbol": "ENOV",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921682+00:00"
+    },
+    {
+      "id": "6bede62b-7f70-456e-99f8-d6ae895c7b6b",
+      "date": "2026-07-28",
+      "symbol": "CNMD",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921694+00:00"
+    },
+    {
+      "id": "ec01f2f9-65fe-441f-b35d-6a0e644c7fa4",
+      "date": "2026-07-28",
+      "symbol": "FBRX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921700+00:00"
+    },
+    {
+      "id": "a7e4b42e-f87c-4b78-ba2e-b14a6aa7a1f0",
+      "date": "2026-07-28",
+      "symbol": "CBZ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921710+00:00"
+    },
+    {
+      "id": "94ff4af2-85a9-4e83-8176-e155bfbe804f",
+      "date": "2026-07-28",
+      "symbol": "AAPU",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921715+00:00"
+    },
+    {
+      "id": "7970d876-1d3e-4183-af3c-2e6027c5d102",
+      "date": "2026-07-28",
+      "symbol": "CDNA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921720+00:00"
+    },
+    {
+      "id": "7be9d777-af10-4d9b-b5ec-a61889ec87f9",
+      "date": "2026-07-28",
+      "symbol": "PRGS",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921724+00:00"
+    },
+    {
+      "id": "b01616d6-ca41-463a-b4f7-e547477f7099",
+      "date": "2026-07-28",
+      "symbol": "ELF",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921739+00:00"
+    },
+    {
+      "id": "ab8121e2-3288-4a21-832e-daa930d143a5",
+      "date": "2026-07-28",
+      "symbol": "FCEL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921745+00:00"
+    },
+    {
+      "id": "f342f0b9-c075-4e65-92e0-7498a9ce2249",
+      "date": "2026-07-28",
+      "symbol": "VRNS",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921749+00:00"
+    },
+    {
+      "id": "aeba9c39-91a6-4fbe-95b3-ba8206a5054e",
+      "date": "2026-07-28",
+      "symbol": "FSLY",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921753+00:00"
+    },
+    {
+      "id": "eb42b00b-6e4f-4746-aa57-4d0aa50d5816",
+      "date": "2026-07-28",
+      "symbol": "MBX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921757+00:00"
+    },
+    {
+      "id": "7c559bc2-92e3-4ce7-bb67-350f6907c898",
+      "date": "2026-07-28",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921761+00:00"
+    },
+    {
+      "id": "e837f616-dbb0-476a-8b62-22bdf103b271",
+      "date": "2026-07-28",
+      "symbol": "URGN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921765+00:00"
+    },
+    {
+      "id": "0fb77fa8-ce80-4ad4-b157-f60fc3edd03d",
+      "date": "2026-07-28",
+      "symbol": "ARMG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921770+00:00"
+    },
+    {
+      "id": "5020cf0c-635a-4d18-bad4-8954b43be65c",
+      "date": "2026-07-28",
+      "symbol": "SYRE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921773+00:00"
+    },
+    {
+      "id": "90782e66-7a92-4a6f-a617-1d111c21e487",
+      "date": "2026-07-28",
+      "symbol": "ORKA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-28T16:19:22.921777+00:00"
     }
   ]
 }
