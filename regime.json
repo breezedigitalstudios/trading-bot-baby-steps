@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-30T16:07:49.887623+00:00",
+  "generated_at": "2026-07-30T17:05:50.173865+00:00",
   "regime": "CASH",
   "regime_reason": "sma_filter",
-  "qqq_close": 681.35,
-  "sma10": 688.26,
-  "sma20": 702.14,
+  "qqq_close": 681.94,
+  "sma10": 688.32,
+  "sma20": 702.17,
   "sma10_above_sma20": false,
-  "sma10_slope_5d": -19.57,
-  "sma20_slope_5d": -11.18,
+  "sma10_slope_5d": -19.51,
+  "sma20_slope_5d": -11.15,
   "sma10_sloping_up": false,
   "sma20_sloping_up": false,
-  "vix": 18.66,
+  "vix": 18.27,
   "vix_threshold": 25,
   "vix_elevated": false
 }

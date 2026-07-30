@@ -13490,6 +13490,78 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-07-30T16:07:50.429365+00:00"
+    },
+    {
+      "id": "ae9698fd-bcbe-4f7d-8a78-02cd929f69fc",
+      "date": "2026-07-30",
+      "symbol": "URGN",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062008+00:00"
+    },
+    {
+      "id": "e265c9a3-f437-4a2f-95ff-b3c0e8cf6ca8",
+      "date": "2026-07-30",
+      "symbol": "FBRX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062026+00:00"
+    },
+    {
+      "id": "dfb5445a-db2e-460f-a46c-b6c0f1dfa00e",
+      "date": "2026-07-30",
+      "symbol": "CBZ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062036+00:00"
+    },
+    {
+      "id": "ec113799-be4a-44f6-8fe5-778d0b57d293",
+      "date": "2026-07-30",
+      "symbol": "MAN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062050+00:00"
+    },
+    {
+      "id": "6fb47417-2efc-4788-b2d5-d3bf2605848a",
+      "date": "2026-07-30",
+      "symbol": "CNMD",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062058+00:00"
+    },
+    {
+      "id": "dcca94a5-07a7-4d56-aaa9-a704eb57ac2c",
+      "date": "2026-07-30",
+      "symbol": "TXG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062066+00:00"
+    },
+    {
+      "id": "25e7d99b-0f42-4269-8541-17486d2e2ff7",
+      "date": "2026-07-30",
+      "symbol": "CDNA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062073+00:00"
+    },
+    {
+      "id": "13f5435a-e8fc-42e4-9734-fcbffe49f237",
+      "date": "2026-07-30",
+      "symbol": "ZBIO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062097+00:00"
+    },
+    {
+      "id": "7cc9a5d5-9ce2-48f6-9729-3a635cc591eb",
+      "date": "2026-07-30",
+      "symbol": "GRPN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-30T17:05:51.062106+00:00"
     }
   ]
 }
