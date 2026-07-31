@@ -13602,6 +13602,46 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-07-31T16:17:53.719273+00:00"
+    },
+    {
+      "id": "01851905-1cb8-47c3-ac42-77cd084fd229",
+      "date": "2026-07-31",
+      "symbol": "FBRX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-31T17:08:17.007431+00:00"
+    },
+    {
+      "id": "cd48899c-dd65-4c17-935a-f27f45f1b77f",
+      "date": "2026-07-31",
+      "symbol": "CBZ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-31T17:08:17.007449+00:00"
+    },
+    {
+      "id": "48ee438e-2537-48ec-85f7-a4f84ea7e8dc",
+      "date": "2026-07-31",
+      "symbol": "FIG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-31T17:08:17.007459+00:00"
+    },
+    {
+      "id": "9f50c120-a0df-4c30-aff7-7231828ec0f7",
+      "date": "2026-07-31",
+      "symbol": "MBX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-31T17:08:17.007472+00:00"
+    },
+    {
+      "id": "ea0bd78f-9a82-478e-b958-7ac9eb42d7e6",
+      "date": "2026-07-31",
+      "symbol": "GRPN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-07-31T17:08:17.007481+00:00"
     }
   ]
 }
