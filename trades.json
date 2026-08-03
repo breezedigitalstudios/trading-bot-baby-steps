@@ -13642,6 +13642,70 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-07-31T17:08:17.007481+00:00"
+    },
+    {
+      "id": "926dda11-9a3b-410f-9123-953c1fd9422c",
+      "date": "2026-08-03",
+      "symbol": "CNMD",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T16:57:12.478179+00:00"
+    },
+    {
+      "id": "4efc9b4a-148d-45c9-8e55-d45155dd9615",
+      "date": "2026-08-03",
+      "symbol": "GRPN",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T16:57:12.478196+00:00"
+    },
+    {
+      "id": "75e7da7c-fa90-41ea-8360-304cf404787f",
+      "date": "2026-08-03",
+      "symbol": "FBRX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T16:57:12.478206+00:00"
+    },
+    {
+      "id": "72087e39-fb55-4408-8116-4f661e546bbb",
+      "date": "2026-08-03",
+      "symbol": "CBZ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T16:57:12.478220+00:00"
+    },
+    {
+      "id": "30c80592-86fa-4a00-89f2-cf5444556aa0",
+      "date": "2026-08-03",
+      "symbol": "WEX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T16:57:12.478228+00:00"
+    },
+    {
+      "id": "12ef7d99-e496-42d0-987c-ec7f75eeb5aa",
+      "date": "2026-08-03",
+      "symbol": "FIG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T16:57:12.478236+00:00"
+    },
+    {
+      "id": "9bd02c3a-c919-47b3-a80d-6e625ba1fd93",
+      "date": "2026-08-03",
+      "symbol": "MBX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T16:57:12.478243+00:00"
+    },
+    {
+      "id": "90a3476a-edf7-4ea4-9d36-ce11a89bc1a3",
+      "date": "2026-08-03",
+      "symbol": "NAVN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T16:57:12.478265+00:00"
     }
   ]
 }
