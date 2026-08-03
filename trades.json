@@ -13706,6 +13706,70 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-08-03T16:57:12.478265+00:00"
+    },
+    {
+      "id": "02fa48c7-234d-4b54-a0cb-2019a66ed0b9",
+      "date": "2026-08-03",
+      "symbol": "CNMD",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T17:26:46.538373+00:00"
+    },
+    {
+      "id": "dc4b44dc-e329-4048-b0df-28e60a431261",
+      "date": "2026-08-03",
+      "symbol": "GRPN",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T17:26:46.538390+00:00"
+    },
+    {
+      "id": "834b3948-47ca-4ca1-8781-7a8edd51475d",
+      "date": "2026-08-03",
+      "symbol": "FBRX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T17:26:46.538401+00:00"
+    },
+    {
+      "id": "6331fc53-fb62-401e-81f3-77b9b0e88aa1",
+      "date": "2026-08-03",
+      "symbol": "CBZ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T17:26:46.538414+00:00"
+    },
+    {
+      "id": "8a790ac3-186c-4faa-8a48-374aa20304fb",
+      "date": "2026-08-03",
+      "symbol": "WEX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T17:26:46.538423+00:00"
+    },
+    {
+      "id": "ac1331ff-2cb7-4c10-b4b8-01cc6094add8",
+      "date": "2026-08-03",
+      "symbol": "FIG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T17:26:46.538431+00:00"
+    },
+    {
+      "id": "96441a28-5cb3-419d-abf8-79190fc6b441",
+      "date": "2026-08-03",
+      "symbol": "MBX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T17:26:46.538439+00:00"
+    },
+    {
+      "id": "e1d31cc7-4ea0-4aa3-a1c3-63971fb04a23",
+      "date": "2026-08-03",
+      "symbol": "NAVN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-03T17:26:46.538460+00:00"
     }
   ]
 }
