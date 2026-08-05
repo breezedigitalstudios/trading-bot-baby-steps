@@ -13882,6 +13882,54 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-08-04T17:14:25.230901+00:00"
+    },
+    {
+      "id": "a304441c-9370-4f04-a192-8340c18c788a",
+      "date": "2026-08-05",
+      "symbol": "FBRX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-05T16:16:26.090926+00:00"
+    },
+    {
+      "id": "3cae3380-8ad0-47f3-9318-6ed5febd94af",
+      "date": "2026-08-05",
+      "symbol": "MAN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-05T16:16:26.090940+00:00"
+    },
+    {
+      "id": "d999455d-ec5a-43e1-b312-55079a824b4d",
+      "date": "2026-08-05",
+      "symbol": "ETON",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-05T16:16:26.090948+00:00"
+    },
+    {
+      "id": "13a466ca-2957-476c-bb13-5d1fe0944d03",
+      "date": "2026-08-05",
+      "symbol": "LQDA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-05T16:16:26.090959+00:00"
+    },
+    {
+      "id": "031d4233-df98-4212-842e-c7f84ff4a47b",
+      "date": "2026-08-05",
+      "symbol": "GRPN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-05T16:16:26.090966+00:00"
+    },
+    {
+      "id": "459329db-cc18-4b2b-836b-6540daa37cd9",
+      "date": "2026-08-05",
+      "symbol": "SYRE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-05T16:16:26.090972+00:00"
     }
   ]
 }
