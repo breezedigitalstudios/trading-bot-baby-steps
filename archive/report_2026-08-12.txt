@@ -1,0 +1,100 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Wednesday, August 12 2026   18:10 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  107,295.93
+  Cash             $  107,295.93
+  Buying power     $  429,183.72
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+7,547.70
+  Open unrealised            $+0.00
+  Net (realised+open)    $+7,547.70
+
+  Closed trades                   4
+  Win rate                    75.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,501.50
+  Reward/risk ratio           2.01×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (64)
+────────────────────────────────────────────────────────────────
+  AMDD    ★★★★★  low opening volume (RVOL=0.36x, need ≥1.5x)
+  FBRX    ★★★★★  low opening volume (RVOL=1.03x, need ≥1.5x)
+  MSFU    ★★★★★  low opening volume (RVOL=1.40x, need ≥1.5x)
+  MSFL    ★★★★★  low opening volume (RVOL=0.48x, need ≥1.5x)
+  MAN     ★★★★★  low opening volume (RVOL=0.18x, need ≥1.5x)
+  COAG    ★★★★★  low opening volume (RVOL=0.51x, need ≥1.5x)
+  CORT    ★★★★★  low opening volume (RVOL=0.12x, need ≥1.5x)
+  MNPR    ★★★★★  low opening volume (RVOL=1.04x, need ≥1.5x)
+  CBRL    ★★★★★  low opening volume (RVOL=0.24x, need ≥1.5x)
+  DFNS    ★★★★☆  low opening volume (RVOL=0.01x, need ≥1.5x)
+  EFOR    ★★★★☆  low opening volume (RVOL=0.28x, need ≥1.5x)
+  HZO     ★★★★☆  low opening volume (RVOL=0.59x, need ≥1.5x)
+  RNG     ★★★★☆  low opening volume (RVOL=0.26x, need ≥1.5x)
+  CDNA    ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.5x)
+  BLKB    ★★★★☆  low opening volume (RVOL=0.30x, need ≥1.5x)
+  BAND    ★★★★☆  low opening volume (RVOL=0.29x, need ≥1.5x)
+  TRAX    ★★★★☆  low opening volume (RVOL=0.16x, need ≥1.5x)
+  GSHD    ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.5x)
+  PENG    ★★★★☆  low opening volume (RVOL=0.76x, need ≥1.5x)
+  NAVN    ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.5x)
+  ORKA    ★★★★☆  low opening volume (RVOL=0.40x, need ≥1.5x)
+  QURE    ★★★★☆  low opening volume (RVOL=0.33x, need ≥1.5x)
+  LQDA    ★★★★☆  ORB range $5.10 > ATR $4.87 — risk too wide  [ORB $5.10 vs ATR $4.87]
+  MBX     ★★★★☆  low opening volume (RVOL=0.21x, need ≥1.5x)
+  DELL    ★★★★☆  low opening volume (RVOL=0.76x, need ≥1.5x)
+  MXL     ★★★★☆  low opening volume (RVOL=0.70x, need ≥1.5x)
+  ZBIO    ★★★★☆  low opening volume (RVOL=0.31x, need ≥1.5x)
+  MU      ★★★★☆  low opening volume (RVOL=1.20x, need ≥1.5x)
+  OKTA    ★★★★☆  low opening volume (RVOL=0.98x, need ≥1.5x)
+  MANE    ★★★★☆  ORB range $7.05 > ATR $7.04 — risk too wide  [ORB $7.05 vs ATR $7.04]
+  SYRE    ★★★★☆  low opening volume (RVOL=0.89x, need ≥1.5x)
+  NSP     ★★★★☆  low opening volume (RVOL=0.13x, need ≥1.5x)
+  AMDD    ★★★★★  low opening volume (RVOL=0.36x, need ≥1.5x)
+  FBRX    ★★★★★  low opening volume (RVOL=1.02x, need ≥1.5x)
+  MSFU    ★★★★★  low opening volume (RVOL=1.39x, need ≥1.5x)
+  MSFL    ★★★★★  low opening volume (RVOL=0.48x, need ≥1.5x)
+  MAN     ★★★★★  low opening volume (RVOL=0.18x, need ≥1.5x)
+  COAG    ★★★★★  low opening volume (RVOL=0.51x, need ≥1.5x)
+  CORT    ★★★★★  low opening volume (RVOL=0.12x, need ≥1.5x)
+  MNPR    ★★★★★  low opening volume (RVOL=1.03x, need ≥1.5x)
+  CBRL    ★★★★★  low opening volume (RVOL=0.24x, need ≥1.5x)
+  DFNS    ★★★★☆  low opening volume (RVOL=0.01x, need ≥1.5x)
+  EFOR    ★★★★☆  low opening volume (RVOL=0.28x, need ≥1.5x)
+  HZO     ★★★★☆  low opening volume (RVOL=0.58x, need ≥1.5x)
+  RNG     ★★★★☆  low opening volume (RVOL=0.26x, need ≥1.5x)
+  CDNA    ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.5x)
+  BLKB    ★★★★☆  low opening volume (RVOL=0.30x, need ≥1.5x)
+  BAND    ★★★★☆  low opening volume (RVOL=0.29x, need ≥1.5x)
+  TRAX    ★★★★☆  low opening volume (RVOL=0.16x, need ≥1.5x)
+  GSHD    ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.5x)
+  PENG    ★★★★☆  low opening volume (RVOL=0.76x, need ≥1.5x)
+  NAVN    ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.5x)
+  ORKA    ★★★★☆  low opening volume (RVOL=0.40x, need ≥1.5x)
+  QURE    ★★★★☆  low opening volume (RVOL=0.33x, need ≥1.5x)
+  LQDA    ★★★★☆  ORB range $5.10 > ATR $4.87 — risk too wide  [ORB $5.10 vs ATR $4.87]
+  MBX     ★★★★☆  low opening volume (RVOL=0.21x, need ≥1.5x)
+  DELL    ★★★★☆  low opening volume (RVOL=0.76x, need ≥1.5x)
+  MXL     ★★★★☆  low opening volume (RVOL=0.70x, need ≥1.5x)
+  ZBIO    ★★★★☆  low opening volume (RVOL=0.31x, need ≥1.5x)
+  MU      ★★★★☆  low opening volume (RVOL=1.19x, need ≥1.5x)
+  OKTA    ★★★★☆  low opening volume (RVOL=0.98x, need ≥1.5x)
+  MANE    ★★★★☆  ORB range $7.05 > ATR $7.04 — risk too wide  [ORB $7.05 vs ATR $7.04]
+  SYRE    ★★★★☆  low opening volume (RVOL=0.89x, need ≥1.5x)
+  NSP     ★★★★☆  low opening volume (RVOL=0.13x, need ≥1.5x)
+
+════════════════════════════════════════════════════════════════
