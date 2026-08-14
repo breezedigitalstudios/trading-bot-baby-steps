@@ -1,0 +1,102 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Friday, August 14 2026   17:50 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  107,295.93
+  Cash             $  107,295.93
+  Buying power     $  429,183.72
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+7,547.70
+  Open unrealised            $+0.00
+  Net (realised+open)    $+7,547.70
+
+  Closed trades                   4
+  Win rate                    75.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,501.50
+  Reward/risk ratio           2.01×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (66)
+────────────────────────────────────────────────────────────────
+  DFNS    ★★★★★  low opening volume (RVOL=0.01x, need ≥1.5x)
+  MSFL    ★★★★★  low opening volume (RVOL=0.48x, need ≥1.5x)
+  FEIM    ★★★★★  low opening volume (RVOL=0.21x, need ≥1.5x)
+  SNOW    ★★★★★  low opening volume (RVOL=0.41x, need ≥1.5x)
+  CORT    ★★★★★  low opening volume (RVOL=0.41x, need ≥1.5x)
+  MBX     ★★★★★  low opening volume (RVOL=0.31x, need ≥1.5x)
+  EFOR    ★★★★☆  low opening volume (RVOL=0.17x, need ≥1.5x)
+  RNG     ★★★★☆  low opening volume (RVOL=0.30x, need ≥1.5x)
+  HZO     ★★★★☆  low opening volume (RVOL=0.63x, need ≥1.5x)
+  MSFU    ★★★★☆  low opening volume (RVOL=0.58x, need ≥1.5x)
+  CDNA    ★★★★☆  low opening volume (RVOL=0.62x, need ≥1.5x)
+  XNCR    ★★★★☆  low opening volume (RVOL=0.28x, need ≥1.5x)
+  TWST    ★★★★☆  low opening volume (RVOL=1.00x, need ≥1.5x)
+  BAND    ★★★★☆  low opening volume (RVOL=0.18x, need ≥1.5x)
+  MAN     ★★★★☆  low opening volume (RVOL=0.20x, need ≥1.5x)
+  PAY     ★★★★☆  low opening volume (RVOL=0.17x, need ≥1.5x)
+  QLYS    ★★★★☆  low opening volume (RVOL=0.25x, need ≥1.5x)
+  NSIT    ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.5x)
+  GSHD    ★★★★☆  low opening volume (RVOL=0.11x, need ≥1.5x)
+  MGNI    ★★★★☆  low opening volume (RVOL=0.50x, need ≥1.5x)
+  WGS     ★★★★☆  low opening volume (RVOL=0.29x, need ≥1.5x)
+  COAG    ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.5x)
+  NAVN    ★★★★☆  low opening volume (RVOL=0.31x, need ≥1.5x)
+  QURE    ★★★★☆  low opening volume (RVOL=0.49x, need ≥1.5x)
+  TRAX    ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.5x)
+  PBF     ★★★★☆  low opening volume (RVOL=0.74x, need ≥1.5x)
+  AMDL    ★★★★☆  low opening volume (RVOL=1.30x, need ≥1.5x)
+  AMUU    ★★★★☆  relative strength below market (RS=0.85 vs SPY 1-month)
+  ADPT    ★★★★☆  low opening volume (RVOL=0.39x, need ≥1.5x)
+  CBRL    ★★★★☆  low opening volume (RVOL=0.42x, need ≥1.5x)
+  NSP     ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.5x)
+  AMDD    ★★★★☆  relative strength below market (RS=0.95 vs SPY 1-month)
+  SYRE    ★★★★☆  low opening volume (RVOL=0.88x, need ≥1.5x)
+  DFNS    ★★★★★  low opening volume (RVOL=0.01x, need ≥1.5x)
+  MSFL    ★★★★★  low opening volume (RVOL=0.48x, need ≥1.5x)
+  FEIM    ★★★★★  low opening volume (RVOL=0.21x, need ≥1.5x)
+  SNOW    ★★★★★  low opening volume (RVOL=0.41x, need ≥1.5x)
+  CORT    ★★★★★  low opening volume (RVOL=0.41x, need ≥1.5x)
+  MBX     ★★★★★  low opening volume (RVOL=0.31x, need ≥1.5x)
+  EFOR    ★★★★☆  low opening volume (RVOL=0.17x, need ≥1.5x)
+  RNG     ★★★★☆  low opening volume (RVOL=0.30x, need ≥1.5x)
+  HZO     ★★★★☆  low opening volume (RVOL=0.63x, need ≥1.5x)
+  MSFU    ★★★★☆  low opening volume (RVOL=0.58x, need ≥1.5x)
+  CDNA    ★★★★☆  low opening volume (RVOL=0.62x, need ≥1.5x)
+  XNCR    ★★★★☆  low opening volume (RVOL=0.28x, need ≥1.5x)
+  TWST    ★★★★☆  low opening volume (RVOL=0.99x, need ≥1.5x)
+  BAND    ★★★★☆  low opening volume (RVOL=0.18x, need ≥1.5x)
+  MAN     ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.5x)
+  PAY     ★★★★☆  low opening volume (RVOL=0.17x, need ≥1.5x)
+  QLYS    ★★★★☆  low opening volume (RVOL=0.25x, need ≥1.5x)
+  NSIT    ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.5x)
+  GSHD    ★★★★☆  low opening volume (RVOL=0.11x, need ≥1.5x)
+  MGNI    ★★★★☆  low opening volume (RVOL=0.49x, need ≥1.5x)
+  WGS     ★★★★☆  low opening volume (RVOL=0.29x, need ≥1.5x)
+  COAG    ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.5x)
+  NAVN    ★★★★☆  low opening volume (RVOL=0.31x, need ≥1.5x)
+  QURE    ★★★★☆  low opening volume (RVOL=0.49x, need ≥1.5x)
+  TRAX    ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.5x)
+  PBF     ★★★★☆  low opening volume (RVOL=0.74x, need ≥1.5x)
+  AMDL    ★★★★☆  low opening volume (RVOL=1.30x, need ≥1.5x)
+  AMUU    ★★★★☆  relative strength below market (RS=0.85 vs SPY 1-month)
+  ADPT    ★★★★☆  low opening volume (RVOL=0.39x, need ≥1.5x)
+  CBRL    ★★★★☆  low opening volume (RVOL=0.42x, need ≥1.5x)
+  NSP     ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.5x)
+  AMDD    ★★★★☆  relative strength below market (RS=0.95 vs SPY 1-month)
+  SYRE    ★★★★☆  low opening volume (RVOL=0.88x, need ≥1.5x)
+
+════════════════════════════════════════════════════════════════
