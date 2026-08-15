@@ -8,6 +8,7 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 from utils import save_json
+from supabase_client import sb_upsert
 
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 
@@ -127,6 +128,22 @@ def main():
     result = check_regime()
     save_json(result, REGIME_PATH)
     print(f"\nRegime saved → regime.json")
+    sb_upsert("regime", [{
+        "generated_at":      result["generated_at"],
+        "regime":            result.get("regime", "UNKNOWN"),
+        "regime_reason":     result.get("regime_reason"),
+        "qqq_close":         result.get("qqq_close"),
+        "sma10":             result.get("sma10"),
+        "sma20":             result.get("sma20"),
+        "sma10_above_sma20": result.get("sma10_above_sma20"),
+        "sma10_slope_5d":    result.get("sma10_slope_5d"),
+        "sma20_slope_5d":    result.get("sma20_slope_5d"),
+        "sma10_sloping_up":  result.get("sma10_sloping_up"),
+        "sma20_sloping_up":  result.get("sma20_sloping_up"),
+        "vix":               result.get("vix"),
+        "vix_threshold":     result.get("vix_threshold"),
+        "vix_elevated":      result.get("vix_elevated"),
+    }], "generated_at")
 
 
 if __name__ == "__main__":

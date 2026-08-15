@@ -23,6 +23,7 @@ from datetime import datetime, date, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
 from telegram_alert import send_alert
+from supabase_client import sb_upsert, trade_row, skip_row
 
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import GetOrdersRequest, StopOrderRequest, StopLossRequest
@@ -631,6 +632,8 @@ def run() -> None:
     trades.extend(new_trades)
     skipped.extend(new_skips)
     save_trades(trades, skipped)
+    sb_upsert("trades", [trade_row(t) for t in new_trades], "id")
+    sb_upsert("skips",  [skip_row(s) for s in new_skips],  "id")
 
     print(f"\nSummary: {len(new_trades)} order(s) placed, {len(new_skips)} skipped → trades.json")
     if DRY_RUN:

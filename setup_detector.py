@@ -9,6 +9,7 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 from utils import save_json
+from supabase_client import sb_upsert
 
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 
@@ -166,6 +167,32 @@ def run_detector() -> List[Dict]:
         "all_scored":        all_scored,
     }
     save_json(payload, SCORES_PATH)
+    score_date = datetime.now(timezone.utc).date().isoformat()
+    gen_at     = payload["generated_at"]
+    sb_upsert("setup_scores", [
+        {
+            "score_date":       score_date,
+            "generated_at":     gen_at,
+            "symbol":           s["symbol"],
+            "stars":            s.get("stars"),
+            "close":            s.get("close"),
+            "adr_pct":          s.get("adr_pct"),
+            "dollar_volume":    s.get("dollar_volume"),
+            "momentum_22":      s.get("momentum_22"),
+            "momentum_67":      s.get("momentum_67"),
+            "momentum_126":     s.get("momentum_126"),
+            "ma_aligned":       s.get("breakdown", {}).get("ma_aligned"),
+            "higher_lows":      s.get("breakdown", {}).get("higher_lows"),
+            "range_tightening": s.get("breakdown", {}).get("range_tightening"),
+            "narrow_candle":    s.get("breakdown", {}).get("narrow_candle"),
+            "volume_dryup":     s.get("breakdown", {}).get("volume_dryup"),
+            "rs_vs_spy_1m":     s.get("breakdown", {}).get("rs_vs_spy_1m"),
+            "sma10":            s.get("breakdown", {}).get("sma10"),
+            "sma20":            s.get("breakdown", {}).get("sma20"),
+            "sma50":            s.get("breakdown", {}).get("sma50"),
+        }
+        for s in all_scored
+    ], "score_date,symbol")
 
     print(f"\n{len(high_quality)} high-quality setups (≥{MIN_STARS} stars) → setup_scores.json")
     return high_quality

@@ -22,6 +22,7 @@ from datetime import datetime, date, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
 from telegram_alert import send_alert
+from supabase_client import sb_upsert, trade_row
 
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import (
@@ -68,6 +69,7 @@ def load_trades() -> Tuple[List[Dict], List[Dict]]:
 def save_trades(trades: List[Dict], skipped: List[Dict]) -> None:
     with open(TRADES_PATH, "w") as f:
         json.dump({"trades": trades, "skipped": skipped}, f, indent=2, default=str)
+    sb_upsert("trades", [trade_row(t) for t in trades], "id")
 
 
 # ── Market data helpers ────────────────────────────────────────────────────────

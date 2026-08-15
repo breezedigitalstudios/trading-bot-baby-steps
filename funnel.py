@@ -11,6 +11,7 @@ from datetime import date, datetime, timezone
 from typing import Dict, List
 
 from telegram_alert import send_alert
+from supabase_client import sb_upsert
 
 BASE = os.path.dirname(__file__)
 
@@ -171,6 +172,18 @@ def main():
 
     with open(FUNNEL_PATH, "w") as f:
         json.dump(funnel, f, indent=2)
+    sb_upsert("funnel_daily", [{
+        "funnel_date":         today,
+        "generated_at":        entry.get("generated_at"),
+        "regime":              entry.get("regime"),
+        "regime_reason":       entry.get("regime_reason"),
+        "scan_pass_count":     entry.get("scan_pass", {}).get("count"),
+        "setups_5star_count":  entry.get("setups_5star", {}).get("count"),
+        "setups_4star_count":  entry.get("setups_4star", {}).get("count"),
+        "orders_placed_count": entry.get("orders_placed", {}).get("count"),
+        "orders_filled_count": entry.get("orders_filled", {}).get("count"),
+        "unprocessed_count":   entry.get("unprocessed", {}).get("count"),
+    }], "funnel_date")
 
     # Summary to stdout
     print(f"Regime:        {entry['regime']} [{entry['regime_reason']}]")

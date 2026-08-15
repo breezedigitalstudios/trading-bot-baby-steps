@@ -14,6 +14,7 @@ from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import GetAssetsRequest
 from alpaca.trading.enums import AssetClass, AssetExchange, AssetStatus
 from utils import save_json
+from supabase_client import sb_upsert
 
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 
@@ -162,6 +163,22 @@ def run_scan() -> List[Dict]:
     }
     save_json(payload, WATCHLIST_PATH)
     print(f"\nWatchlist saved → watchlist.json ({len(watchlist)} candidates)")
+    scan_date  = datetime.now(timezone.utc).date().isoformat()
+    gen_at     = payload["generated_at"]
+    sb_upsert("watchlist_candidates", [
+        {
+            "scan_date":    scan_date,
+            "generated_at": gen_at,
+            "symbol":       c["symbol"],
+            "close":        c.get("close"),
+            "momentum_22":  c.get("momentum_22"),
+            "momentum_67":  c.get("momentum_67"),
+            "momentum_126": c.get("momentum_126"),
+            "adr_pct":      c.get("adr_pct"),
+            "dollar_volume":c.get("dollar_volume"),
+        }
+        for c in watchlist
+    ], "scan_date,symbol")
 
     return watchlist
 
