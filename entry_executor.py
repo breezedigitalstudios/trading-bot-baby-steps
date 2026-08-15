@@ -502,11 +502,11 @@ def run() -> None:
         atr, avg_daily_volume = atr_result
         print(f"    ATR: ${atr:.2f}")
 
-        # Relative volume gate: opening-hour volume must be ≥1.5× average hourly volume
+        # Relative volume gate: opening-hour volume must be ≥1.0× average hourly volume
         avg_hourly_volume = avg_daily_volume / 6.5
         rvol = round(orb_volume / avg_hourly_volume, 2) if avg_hourly_volume > 0 else None
-        if rvol is not None and rvol < 1.5:
-            reason = f"low opening volume (RVOL={rvol:.2f}x, need ≥1.5x)"
+        if rvol is not None and rvol < 1.0:
+            reason = f"low opening volume (RVOL={rvol:.2f}x, need ≥1.0x)"
             print(f"    Skip: {reason}")
             new_skips.append(make_skip(symbol, stars, reason,
                                        rvol=rvol,
