@@ -1,0 +1,116 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Monday, August 17 2026   17:51 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  107,149.68
+  Cash             $   85,950.93
+  Buying power     $  403,160.22
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  Symbol     Entry  Current    Unrlzd  Shares     Stop  Days Phase
+  ······························································
+  CRDO    $ 284.60 $ 282.65  $-146.25      75 $ 267.05     0  trailing
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+7,547.70
+  Open unrealised          $-146.25
+  Net (realised+open)    $+7,401.45
+
+  Closed trades                   4
+  Win rate                    75.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,501.50
+  Reward/risk ratio           2.01×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (78)
+────────────────────────────────────────────────────────────────
+  DFNS    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  MSFU    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  MSFL    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  GSHD    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  WGS     ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  MVLL    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  U       ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MULL    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MUU     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  APPN    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  FEIM    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PAYC    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CHYM    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  INTA    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  BAND    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PAY     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CRDO    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PENG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QLYS    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MGNI    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QURE    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  DELL    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MRVL    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  HPE     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  AZTA    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  NAVN    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MU      ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  ALAB    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CORT    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  COAG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  SNOW    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CDNA    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  TRAX    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MAN     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PBF     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MBX     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MANE    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  ADPT    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MNPR    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  NSP     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  DFNS    ★★★★★  low opening volume (RVOL=0.05x, need ≥1.0x)
+  MSFU    ★★★★★  low opening volume (RVOL=0.77x, need ≥1.0x)
+  MSFL    ★★★★★  low opening volume (RVOL=0.48x, need ≥1.0x)
+  GSHD    ★★★★★  low opening volume (RVOL=0.12x, need ≥1.0x)
+  WGS     ★★★★★  low opening volume (RVOL=0.12x, need ≥1.0x)
+  MVLL    ★★★★☆  breakout already occurred — market $31.84 already above ORB high $31.61
+  U       ★★★★☆  low opening volume (RVOL=0.51x, need ≥1.0x)
+  MULL    ★★★★☆  breakout already occurred — market $25.13 already above ORB high $24.96
+  MUU     ★★★★☆  breakout already occurred — market $36.02 already above ORB high $35.80
+  APPN    ★★★★☆  low opening volume (RVOL=0.24x, need ≥1.0x)
+  FEIM    ★★★★☆  low opening volume (RVOL=0.17x, need ≥1.0x)
+  PAYC    ★★★★☆  low opening volume (RVOL=0.18x, need ≥1.0x)
+  CHYM    ★★★★☆  low opening volume (RVOL=0.27x, need ≥1.0x)
+  INTA    ★★★★☆  low opening volume (RVOL=0.26x, need ≥1.0x)
+  BAND    ★★★★☆  low opening volume (RVOL=0.18x, need ≥1.0x)
+  PAY     ★★★★☆  low opening volume (RVOL=0.24x, need ≥1.0x)
+  PENG    ★★★★☆  low opening volume (RVOL=0.84x, need ≥1.0x)
+  QLYS    ★★★★☆  low opening volume (RVOL=0.28x, need ≥1.0x)
+  MGNI    ★★★★☆  low opening volume (RVOL=0.52x, need ≥1.0x)
+  QURE    ★★★★☆  low opening volume (RVOL=0.26x, need ≥1.0x)
+  DELL    ★★★★☆  low opening volume (RVOL=0.89x, need ≥1.0x)
+  MRVL    ★★★★☆  breakout already occurred — market $238.64 already above ORB high $237.77
+  HPE     ★★★★☆  low opening volume (RVOL=0.56x, need ≥1.0x)
+  AZTA    ★★★★☆  low opening volume (RVOL=0.40x, need ≥1.0x)
+  NAVN    ★★★★☆  low opening volume (RVOL=0.20x, need ≥1.0x)
+  MU      ★★★★☆  breakout already occurred — market $1027.5 already above ORB high $1023.80
+  CORT    ★★★★☆  max daily entries reached (2)
+  COAG    ★★★★☆  max daily entries reached (2)
+  SNOW    ★★★★☆  max daily entries reached (2)
+  CDNA    ★★★★☆  max daily entries reached (2)
+  TRAX    ★★★★☆  max daily entries reached (2)
+  MAN     ★★★★☆  max daily entries reached (2)
+  PBF     ★★★★☆  max daily entries reached (2)
+  MBX     ★★★★☆  max daily entries reached (2)
+  MANE    ★★★★☆  max daily entries reached (2)
+  ADPT    ★★★★☆  max daily entries reached (2)
+  MNPR    ★★★★☆  max daily entries reached (2)
+  NSP     ★★★★☆  max daily entries reached (2)
+
+════════════════════════════════════════════════════════════════

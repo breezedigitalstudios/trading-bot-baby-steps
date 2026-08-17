@@ -432,7 +432,7 @@
       "atr": 21.67,
       "shares": 75,
       "entry_order_id": "91a94495-07e8-4723-9c69-363386112beb",
-      "stop_order_id": "507b9e85-4182-48dd-b750-6555a8a95509",
+      "stop_order_id": "29e6f663-dd9a-4e50-ab8c-769a7ddc1a60",
       "stop_price": 267.05,
       "initial_risk_per_share": 21.67,
       "circuit_breaker_halved": false,
@@ -458,8 +458,10 @@
       "stop_price": 333.75,
       "initial_risk_per_share": 32.7,
       "circuit_breaker_halved": false,
-      "status": "pending",
-      "timestamp": "2026-08-17T15:54:08.289470+00:00"
+      "status": "expired",
+      "timestamp": "2026-08-17T15:54:08.289470+00:00",
+      "exit_date": "2026-08-17",
+      "exit_reason": "entry_order_expired"
     }
   ],
   "skipped": [
