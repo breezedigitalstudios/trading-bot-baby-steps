@@ -436,12 +436,17 @@
       "stop_price": 267.05,
       "initial_risk_per_share": 21.67,
       "circuit_breaker_halved": false,
-      "status": "open",
+      "status": "closed",
       "timestamp": "2026-08-17T15:54:04.429601+00:00",
       "fill_price": 284.6,
       "fill_date": "2026-08-17",
       "shares_remaining": 75,
-      "current_stop": 267.05
+      "current_stop": 267.05,
+      "exit_price": 265.39,
+      "exit_date": "2026-08-18",
+      "exit_reason": "stop_hit",
+      "pnl": -1440.75,
+      "r_multiple": -0.89
     },
     {
       "id": "52a1213f-5e7f-4dfa-95a6-3234450d4c8a",
