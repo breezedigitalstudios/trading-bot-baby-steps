@@ -19316,6 +19316,262 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-08-18T15:59:49.300353+00:00"
+    },
+    {
+      "id": "4c52fa5b-5560-4113-9797-a91363b4f1b0",
+      "date": "2026-08-19",
+      "symbol": "MSFU",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.313740+00:00"
+    },
+    {
+      "id": "ed92e012-d48d-496d-8261-61a2a832d0d8",
+      "date": "2026-08-19",
+      "symbol": "MSFL",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.340499+00:00"
+    },
+    {
+      "id": "ade4e87f-8af9-4526-a6ed-24d0a2c3a4b5",
+      "date": "2026-08-19",
+      "symbol": "FIVN",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.364479+00:00"
+    },
+    {
+      "id": "d1751cb3-3abc-4106-8f2f-eecfba71bba0",
+      "date": "2026-08-19",
+      "symbol": "QLYS",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.389245+00:00"
+    },
+    {
+      "id": "2612469c-eba5-4f72-992c-f284fe9600cb",
+      "date": "2026-08-19",
+      "symbol": "QURE",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.413293+00:00"
+    },
+    {
+      "id": "edb0e865-5de5-4a62-b1dc-495ad074faff",
+      "date": "2026-08-19",
+      "symbol": "WGS",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.439918+00:00"
+    },
+    {
+      "id": "84fd628f-d825-4ba7-b6f7-03aa924160e5",
+      "date": "2026-08-19",
+      "symbol": "AZTA",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.465859+00:00"
+    },
+    {
+      "id": "ee8c94e2-070c-4fe0-b4c7-2172a67ad708",
+      "date": "2026-08-19",
+      "symbol": "PBF",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.490487+00:00"
+    },
+    {
+      "id": "a094277b-4ea4-49be-b193-db561f946c24",
+      "date": "2026-08-19",
+      "symbol": "ELF",
+      "stars": 5,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.513715+00:00"
+    },
+    {
+      "id": "1ba08ce6-e14d-42e1-9486-d0b5d1001cff",
+      "date": "2026-08-19",
+      "symbol": "DFNS",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.541546+00:00"
+    },
+    {
+      "id": "45155e0e-3468-4253-ac36-dc2eac97ec81",
+      "date": "2026-08-19",
+      "symbol": "PLTU",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.565629+00:00"
+    },
+    {
+      "id": "1fb34237-26d7-4f95-8cc7-3fbb9c960af9",
+      "date": "2026-08-19",
+      "symbol": "EFOR",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.592618+00:00"
+    },
+    {
+      "id": "ae33a886-ddab-482f-96d2-611e3604073a",
+      "date": "2026-08-19",
+      "symbol": "APPN",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.620212+00:00"
+    },
+    {
+      "id": "adb41c2c-fb53-46bd-8ce7-1c0c26d052ee",
+      "date": "2026-08-19",
+      "symbol": "INTA",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.643930+00:00"
+    },
+    {
+      "id": "4e0b37e8-441e-4cf8-b2d5-8fc081275f67",
+      "date": "2026-08-19",
+      "symbol": "AUGO",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.668456+00:00"
+    },
+    {
+      "id": "67ac887e-667f-4283-bfa3-fbe0a187abbe",
+      "date": "2026-08-19",
+      "symbol": "TNDM",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.693954+00:00"
+    },
+    {
+      "id": "f134d059-648c-43fb-8d09-0a9f7d3b53ef",
+      "date": "2026-08-19",
+      "symbol": "TWST",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.719874+00:00"
+    },
+    {
+      "id": "b723f46f-e7b4-432d-b5b1-a310c869c243",
+      "date": "2026-08-19",
+      "symbol": "PAY",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.743646+00:00"
+    },
+    {
+      "id": "94a0da52-07d6-436b-bcfd-20e790b43651",
+      "date": "2026-08-19",
+      "symbol": "GSHD",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.767882+00:00"
+    },
+    {
+      "id": "1e2a7edd-c6c1-4196-ab1d-e9cb182bb1f7",
+      "date": "2026-08-19",
+      "symbol": "URGN",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.793126+00:00"
+    },
+    {
+      "id": "9fdcca88-a7a6-4ed0-9be1-93762e04771d",
+      "date": "2026-08-19",
+      "symbol": "TXG",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.818289+00:00"
+    },
+    {
+      "id": "59bbfd50-e0fa-4cb4-8b00-6673a953a13e",
+      "date": "2026-08-19",
+      "symbol": "CDNA",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.842156+00:00"
+    },
+    {
+      "id": "62bfcb64-10c9-4cb8-8312-0292ec7fe0b5",
+      "date": "2026-08-19",
+      "symbol": "NAVN",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.865674+00:00"
+    },
+    {
+      "id": "84a74688-f97a-4feb-98c7-be5c984ff31c",
+      "date": "2026-08-19",
+      "symbol": "CORT",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.891383+00:00"
+    },
+    {
+      "id": "3e06f166-e210-4bfa-bc00-b0d8aae6937b",
+      "date": "2026-08-19",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.914937+00:00"
+    },
+    {
+      "id": "e45654ad-7d24-4685-b7d0-d57886e498a8",
+      "date": "2026-08-19",
+      "symbol": "TRAX",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.938049+00:00"
+    },
+    {
+      "id": "b3478cd0-b28d-4a84-9ceb-de2954becd55",
+      "date": "2026-08-19",
+      "symbol": "AMUU",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.961882+00:00"
+    },
+    {
+      "id": "c15d1cc3-ccdf-49c0-bc4b-6a008d5c85a2",
+      "date": "2026-08-19",
+      "symbol": "AMDL",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:49.986104+00:00"
+    },
+    {
+      "id": "4c6fd839-771c-4af7-8633-2ba375b4e21a",
+      "date": "2026-08-19",
+      "symbol": "MAN",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:50.011121+00:00"
+    },
+    {
+      "id": "f1a15b67-f73f-4455-976e-57fbd8282dbd",
+      "date": "2026-08-19",
+      "symbol": "MNPR",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:50.049229+00:00"
+    },
+    {
+      "id": "8d601746-cb6a-4021-bc8d-bea5b8da3f62",
+      "date": "2026-08-19",
+      "symbol": "ADPT",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:50.072610+00:00"
+    },
+    {
+      "id": "d9ee6453-3dab-49b2-befe-9bb8aeb2bb87",
+      "date": "2026-08-19",
+      "symbol": "NSP",
+      "stars": 4,
+      "reason": "no ORB data available (market closed or pre-10:30 AM)",
+      "timestamp": "2026-08-19T15:03:50.100556+00:00"
     }
   ]
 }
