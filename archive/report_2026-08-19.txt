@@ -1,0 +1,99 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Wednesday, August 19 2026   17:51 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  105,854.72
+  Cash             $  105,854.72
+  Buying power     $  423,418.88
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+6,106.95
+  Open unrealised            $+0.00
+  Net (realised+open)    $+6,106.95
+
+  Closed trades                   5
+  Win rate                    60.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,471.12
+  Reward/risk ratio           2.05×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (63)
+────────────────────────────────────────────────────────────────
+  MSFU    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  MSFL    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  FIVN    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  QLYS    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  QURE    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  WGS     ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  AZTA    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  PBF     ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  ELF     ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  DFNS    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PLTU    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  EFOR    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  APPN    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  INTA    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  AUGO    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  TNDM    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  TWST    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PAY     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  GSHD    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  URGN    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  TXG     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CDNA    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  NAVN    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CORT    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  SNOW    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  TRAX    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  AMUU    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  AMDL    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MAN     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MNPR    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  ADPT    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  NSP     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  MSFU    ★★★★★  breakout already occurred — market $36.42 already above ORB high $35.73
+  MSFL    ★★★★★  low opening volume (RVOL=0.32x, need ≥1.0x)
+  FIVN    ★★★★★  low opening volume (RVOL=0.20x, need ≥1.0x)
+  QLYS    ★★★★★  low opening volume (RVOL=0.16x, need ≥1.0x)
+  QURE    ★★★★★  low opening volume (RVOL=0.39x, need ≥1.0x)
+  AZTA    ★★★★★  low opening volume (RVOL=0.53x, need ≥1.0x)
+  PBF     ★★★★★  low opening volume (RVOL=0.40x, need ≥1.0x)
+  ELF     ★★★★★  low opening volume (RVOL=0.47x, need ≥1.0x)
+  DFNS    ★★★★☆  low opening volume (RVOL=0.04x, need ≥1.0x)
+  PLTU    ★★★★☆  low opening volume (RVOL=0.54x, need ≥1.0x)
+  EFOR    ★★★★☆  low opening volume (RVOL=0.14x, need ≥1.0x)
+  APPN    ★★★★☆  low opening volume (RVOL=0.42x, need ≥1.0x)
+  INTA    ★★★★☆  low opening volume (RVOL=0.47x, need ≥1.0x)
+  AUGO    ★★★★☆  breakout already occurred — market $84.74 already above ORB high $82.82
+  TNDM    ★★★★☆  low opening volume (RVOL=0.75x, need ≥1.0x)
+  TWST    ★★★★☆  ORB range $16.51 > ATR $10.15 — risk too wide  [ORB $16.51 vs ATR $10.15]
+  PAY     ★★★★☆  low opening volume (RVOL=0.37x, need ≥1.0x)
+  GSHD    ★★★★☆  low opening volume (RVOL=0.18x, need ≥1.0x)
+  URGN    ★★★★☆  breakout already occurred — market $50.11 already above ORB high $49.98
+  TXG     ★★★★☆  ORB range $4.25 > ATR $3.96 — risk too wide  [ORB $4.25 vs ATR $3.96]
+  CDNA    ★★★★☆  low opening volume (RVOL=0.50x, need ≥1.0x)
+  NAVN    ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.0x)
+  CORT    ★★★★☆  low opening volume (RVOL=0.62x, need ≥1.0x)
+  SNOW    ★★★★☆  low opening volume (RVOL=0.69x, need ≥1.0x)
+  TRAX    ★★★★☆  low opening volume (RVOL=0.41x, need ≥1.0x)
+  AMUU    ★★★★☆  relative strength below market (RS=0.73 vs SPY 1-month)
+  AMDL    ★★★★☆  relative strength below market (RS=0.73 vs SPY 1-month)
+  MAN     ★★★★☆  low opening volume (RVOL=0.45x, need ≥1.0x)
+  MNPR    ★★★★☆  low opening volume (RVOL=0.74x, need ≥1.0x)
+  ADPT    ★★★★☆  low opening volume (RVOL=0.38x, need ≥1.0x)
+  NSP     ★★★★☆  low opening volume (RVOL=0.07x, need ≥1.0x)
+
+════════════════════════════════════════════════════════════════
