@@ -20238,6 +20238,409 @@
       "stars": 4,
       "reason": "no ORB data available (market closed or pre-10:30 AM)",
       "timestamp": "2026-08-20T15:07:08.655432+00:00"
+    },
+    {
+      "id": "2a5c9e86-af0a-4247-b135-ee43e9e3989e",
+      "date": "2026-08-20",
+      "symbol": "PAY",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.68x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:23.057061+00:00",
+      "detail": {
+        "rvol": 0.68,
+        "orb_volume": 134788,
+        "avg_hourly_volume": 198333.0
+      }
+    },
+    {
+      "id": "73ccaad1-c507-49c0-bd5c-70b60685b9a1",
+      "date": "2026-08-20",
+      "symbol": "WGS",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.40x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:23.356966+00:00",
+      "detail": {
+        "rvol": 0.4,
+        "orb_volume": 50131,
+        "avg_hourly_volume": 125312.0
+      }
+    },
+    {
+      "id": "a8c06655-7f71-42dc-b0e9-96586e35874c",
+      "date": "2026-08-20",
+      "symbol": "DFNS",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.02x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:23.458136+00:00",
+      "detail": {
+        "rvol": 0.02,
+        "orb_volume": 31188,
+        "avg_hourly_volume": 1320688.0
+      }
+    },
+    {
+      "id": "06cefd77-9301-4aa4-a7c9-9222aea82c13",
+      "date": "2026-08-20",
+      "symbol": "PLTU",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.33x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:23.596242+00:00",
+      "detail": {
+        "rvol": 0.33,
+        "orb_volume": 132204,
+        "avg_hourly_volume": 404451.0
+      }
+    },
+    {
+      "id": "0bfeb4ab-fc65-48b6-a904-6939747af993",
+      "date": "2026-08-20",
+      "symbol": "EFOR",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.16x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:23.703641+00:00",
+      "detail": {
+        "rvol": 0.16,
+        "orb_volume": 24087,
+        "avg_hourly_volume": 152846.0
+      }
+    },
+    {
+      "id": "7fe8575b-fcce-447e-bece-0b8e04c00023",
+      "date": "2026-08-20",
+      "symbol": "APPN",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.20x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:23.810564+00:00",
+      "detail": {
+        "rvol": 0.2,
+        "orb_volume": 25954,
+        "avg_hourly_volume": 128712.0
+      }
+    },
+    {
+      "id": "611ce117-6c44-4be0-8ddc-084fe14fc6f4",
+      "date": "2026-08-20",
+      "symbol": "U",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.76x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:24.389449+00:00",
+      "detail": {
+        "rvol": 0.76,
+        "orb_volume": 1453370,
+        "avg_hourly_volume": 1906686.0
+      }
+    },
+    {
+      "id": "c6cac11c-d832-446d-95f3-6b65a0db2215",
+      "date": "2026-08-20",
+      "symbol": "MSFU",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.61x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:25.123882+00:00",
+      "detail": {
+        "rvol": 0.61,
+        "orb_volume": 598973,
+        "avg_hourly_volume": 982008.0
+      }
+    },
+    {
+      "id": "030b8b8f-a9c6-48ff-8068-543093dab7d7",
+      "date": "2026-08-20",
+      "symbol": "MSFL",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.19x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:25.194417+00:00",
+      "detail": {
+        "rvol": 0.19,
+        "orb_volume": 39269,
+        "avg_hourly_volume": 205586.0
+      }
+    },
+    {
+      "id": "07d59903-f209-4409-8c47-3f33602fb093",
+      "date": "2026-08-20",
+      "symbol": "FIVN",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.19x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:25.335679+00:00",
+      "detail": {
+        "rvol": 0.19,
+        "orb_volume": 101833,
+        "avg_hourly_volume": 543520.0
+      }
+    },
+    {
+      "id": "b360940a-8fa8-430a-b7c1-50dbd208d666",
+      "date": "2026-08-20",
+      "symbol": "INTA",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.36x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:25.737176+00:00",
+      "detail": {
+        "rvol": 0.36,
+        "orb_volume": 43431,
+        "avg_hourly_volume": 119731.0
+      }
+    },
+    {
+      "id": "064bcc9d-819c-4e56-a10a-fcd0b3714a02",
+      "date": "2026-08-20",
+      "symbol": "PLPC",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.21x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:26.219967+00:00",
+      "detail": {
+        "rvol": 0.21,
+        "orb_volume": 3786,
+        "avg_hourly_volume": 17844.0
+      }
+    },
+    {
+      "id": "da864e55-1c8f-4d35-bc0a-7e4527b379b4",
+      "date": "2026-08-20",
+      "symbol": "PPTA",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.77x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:26.418658+00:00",
+      "detail": {
+        "rvol": 0.77,
+        "orb_volume": 141159,
+        "avg_hourly_volume": 183555.0
+      }
+    },
+    {
+      "id": "2f4b050c-8d45-45cc-bea1-f34cf3ab12e7",
+      "date": "2026-08-20",
+      "symbol": "BLKB",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.43x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:26.917811+00:00",
+      "detail": {
+        "rvol": 0.43,
+        "orb_volume": 45269,
+        "avg_hourly_volume": 105128.0
+      }
+    },
+    {
+      "id": "ddbfec96-85b9-4a73-bd90-44d4ddbcbfcd",
+      "date": "2026-08-20",
+      "symbol": "TXG",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.61x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:27.456989+00:00",
+      "detail": {
+        "rvol": 0.61,
+        "orb_volume": 281178,
+        "avg_hourly_volume": 458852.0
+      }
+    },
+    {
+      "id": "96555623-dbc5-48b1-a967-63c3ad7542e2",
+      "date": "2026-08-20",
+      "symbol": "TNDM",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.21x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:28.076719+00:00",
+      "detail": {
+        "rvol": 0.21,
+        "orb_volume": 70103,
+        "avg_hourly_volume": 339615.0
+      }
+    },
+    {
+      "id": "1fdc9534-1844-4a3d-9bf8-d80a006b285f",
+      "date": "2026-08-20",
+      "symbol": "QLYS",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.33x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:28.163126+00:00",
+      "detail": {
+        "rvol": 0.33,
+        "orb_volume": 39126,
+        "avg_hourly_volume": 117434.0
+      }
+    },
+    {
+      "id": "4179ed6e-2f31-42e0-adce-ca783e6faaa2",
+      "date": "2026-08-20",
+      "symbol": "GSHD",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.12x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:28.677331+00:00",
+      "detail": {
+        "rvol": 0.12,
+        "orb_volume": 9081,
+        "avg_hourly_volume": 74561.0
+      }
+    },
+    {
+      "id": "0198d441-d5d5-475a-8a7a-b16e0618df6f",
+      "date": "2026-08-20",
+      "symbol": "AZTA",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.39x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:29.237495+00:00",
+      "detail": {
+        "rvol": 0.39,
+        "orb_volume": 40349,
+        "avg_hourly_volume": 103705.0
+      }
+    },
+    {
+      "id": "5c0e8c31-0818-4a20-af81-97fe8691ca1c",
+      "date": "2026-08-20",
+      "symbol": "W",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.42x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:29.356906+00:00",
+      "detail": {
+        "rvol": 0.42,
+        "orb_volume": 250647,
+        "avg_hourly_volume": 599222.0
+      }
+    },
+    {
+      "id": "3528254e-d3d7-40dc-bc85-a23a920a5e21",
+      "date": "2026-08-20",
+      "symbol": "ELF",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.51x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:29.432620+00:00",
+      "detail": {
+        "rvol": 0.51,
+        "orb_volume": 199296,
+        "avg_hourly_volume": 389316.0
+      }
+    },
+    {
+      "id": "9826709a-91cf-4cde-92b7-6cedeb42484e",
+      "date": "2026-08-20",
+      "symbol": "CDNA",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.56x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:29.533134+00:00",
+      "detail": {
+        "rvol": 0.56,
+        "orb_volume": 98565,
+        "avg_hourly_volume": 174975.0
+      }
+    },
+    {
+      "id": "dcb37ad3-cc9d-4f10-bdbb-322dadb843f1",
+      "date": "2026-08-20",
+      "symbol": "CORT",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.16x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:29.622705+00:00",
+      "detail": {
+        "rvol": 0.16,
+        "orb_volume": 27340,
+        "avg_hourly_volume": 176387.0
+      }
+    },
+    {
+      "id": "dc6f6615-6708-4029-bdc5-efed8d2e9ca4",
+      "date": "2026-08-20",
+      "symbol": "NAVN",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.34x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:30.444964+00:00",
+      "detail": {
+        "rvol": 0.34,
+        "orb_volume": 119115,
+        "avg_hourly_volume": 350250.0
+      }
+    },
+    {
+      "id": "dfc9120e-d681-4fb6-9760-bcf49ee45621",
+      "date": "2026-08-20",
+      "symbol": "TRAX",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.12x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:30.804811+00:00",
+      "detail": {
+        "rvol": 0.12,
+        "orb_volume": 13489,
+        "avg_hourly_volume": 109907.0
+      }
+    },
+    {
+      "id": "94244ce1-4590-4f34-ae1a-c173e1473108",
+      "date": "2026-08-20",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.34x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:31.669589+00:00",
+      "detail": {
+        "rvol": 0.34,
+        "orb_volume": 254300,
+        "avg_hourly_volume": 748269.0
+      }
+    },
+    {
+      "id": "349a8028-6836-4de5-810c-fdc2d96bae50",
+      "date": "2026-08-20",
+      "symbol": "PBF",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.18x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:32.116509+00:00",
+      "detail": {
+        "rvol": 0.18,
+        "orb_volume": 85800,
+        "avg_hourly_volume": 488993.0
+      }
+    },
+    {
+      "id": "a9b59aa7-6fd5-4d7e-bd5e-b16c9cbd7e20",
+      "date": "2026-08-20",
+      "symbol": "MNPR",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.51x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:32.809971+00:00",
+      "detail": {
+        "rvol": 0.51,
+        "orb_volume": 21928,
+        "avg_hourly_volume": 42946.0
+      }
+    },
+    {
+      "id": "bbf165be-c46b-4ffa-b2bc-c86683037ddf",
+      "date": "2026-08-20",
+      "symbol": "ADPT",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.39x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:33.171607+00:00",
+      "detail": {
+        "rvol": 0.39,
+        "orb_volume": 147680,
+        "avg_hourly_volume": 377963.0
+      }
+    },
+    {
+      "id": "c9466f43-9954-4baa-ae24-3b9b5bd19d83",
+      "date": "2026-08-20",
+      "symbol": "NSP",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.22x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:33.273386+00:00",
+      "detail": {
+        "rvol": 0.22,
+        "orb_volume": 19326,
+        "avg_hourly_volume": 86140.0
+      }
+    },
+    {
+      "id": "4b2e7e1e-ae64-4299-abc5-791c0cebc077",
+      "date": "2026-08-20",
+      "symbol": "AGL",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.20x, need \u22651.0x)",
+      "timestamp": "2026-08-20T16:02:33.354154+00:00",
+      "detail": {
+        "rvol": 0.2,
+        "orb_volume": 11959,
+        "avg_hourly_volume": 58500.0
+      }
     }
   ]
 }
