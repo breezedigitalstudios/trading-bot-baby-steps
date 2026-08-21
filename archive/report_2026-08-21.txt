@@ -1,0 +1,106 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Friday, August 21 2026   17:50 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  105,854.72
+  Cash             $  105,854.72
+  Buying power     $  423,418.88
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+6,106.95
+  Open unrealised            $+0.00
+  Net (realised+open)    $+6,106.95
+
+  Closed trades                   5
+  Win rate                    60.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,471.12
+  Reward/risk ratio           2.05×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (70)
+────────────────────────────────────────────────────────────────
+  APPN    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  EFOR    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  MSFU    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  MSFL    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  INTA    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  FIVN    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  BLKB    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  HURN    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  PAY     ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  NAVN    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  SNOW    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  HPE     ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  DFTX    ★★★★★  no ORB data available (market closed or pre-10:30 AM)
+  DFNS    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PLTU    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  LIFE    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  RNG     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  U       ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PAYC    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CHYM    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  WDAY    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PCOR    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PLPC    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  TXG     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  WGS     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QLYS    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  QURE    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CORT    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  CDNA    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  ELF     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  DELL    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PBF     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  ADPT    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  PENG    ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  NSP     ★★★★☆  no ORB data available (market closed or pre-10:30 AM)
+  APPN    ★★★★★  low opening volume (RVOL=0.47x, need ≥1.0x)
+  EFOR    ★★★★★  low opening volume (RVOL=0.13x, need ≥1.0x)
+  MSFU    ★★★★★  low opening volume (RVOL=0.71x, need ≥1.0x)
+  MSFL    ★★★★★  low opening volume (RVOL=0.27x, need ≥1.0x)
+  INTA    ★★★★★  low opening volume (RVOL=0.57x, need ≥1.0x)
+  FIVN    ★★★★★  low opening volume (RVOL=0.25x, need ≥1.0x)
+  BLKB    ★★★★★  low opening volume (RVOL=0.15x, need ≥1.0x)
+  HURN    ★★★★★  low opening volume (RVOL=0.43x, need ≥1.0x)
+  PAY     ★★★★★  low opening volume (RVOL=0.22x, need ≥1.0x)
+  NAVN    ★★★★★  low opening volume (RVOL=0.31x, need ≥1.0x)
+  SNOW    ★★★★★  low opening volume (RVOL=0.49x, need ≥1.0x)
+  HPE     ★★★★★  low opening volume (RVOL=0.46x, need ≥1.0x)
+  DFTX    ★★★★★  low opening volume (RVOL=0.45x, need ≥1.0x)
+  DFNS    ★★★★☆  low opening volume (RVOL=0.05x, need ≥1.0x)
+  PLTU    ★★★★☆  low opening volume (RVOL=0.26x, need ≥1.0x)
+  LIFE    ★★★★☆  low opening volume (RVOL=0.10x, need ≥1.0x)
+  RNG     ★★★★☆  low opening volume (RVOL=0.61x, need ≥1.0x)
+  U       ★★★★☆  low opening volume (RVOL=0.26x, need ≥1.0x)
+  PAYC    ★★★★☆  low opening volume (RVOL=0.20x, need ≥1.0x)
+  CHYM    ★★★★☆  low opening volume (RVOL=0.21x, need ≥1.0x)
+  WDAY    ★★★★☆  low opening volume (RVOL=0.27x, need ≥1.0x)
+  PCOR    ★★★★☆  low opening volume (RVOL=0.12x, need ≥1.0x)
+  PLPC    ★★★★☆  low opening volume (RVOL=0.36x, need ≥1.0x)
+  TXG     ★★★★☆  low opening volume (RVOL=0.63x, need ≥1.0x)
+  WGS     ★★★★☆  low opening volume (RVOL=0.22x, need ≥1.0x)
+  QLYS    ★★★★☆  low opening volume (RVOL=0.26x, need ≥1.0x)
+  QURE    ★★★★☆  low opening volume (RVOL=0.46x, need ≥1.0x)
+  CORT    ★★★★☆  low opening volume (RVOL=0.19x, need ≥1.0x)
+  CDNA    ★★★★☆  low opening volume (RVOL=0.43x, need ≥1.0x)
+  ELF     ★★★★☆  low opening volume (RVOL=0.28x, need ≥1.0x)
+  DELL    ★★★★☆  low opening volume (RVOL=0.54x, need ≥1.0x)
+  PBF     ★★★★☆  low opening volume (RVOL=0.49x, need ≥1.0x)
+  ADPT    ★★★★☆  low opening volume (RVOL=0.53x, need ≥1.0x)
+  PENG    ★★★★☆  low opening volume (RVOL=0.35x, need ≥1.0x)
+  NSP     ★★★★☆  low opening volume (RVOL=0.11x, need ≥1.0x)
+
+════════════════════════════════════════════════════════════════
