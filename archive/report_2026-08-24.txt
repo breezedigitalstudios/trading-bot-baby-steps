@@ -1,0 +1,112 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Monday, August 24 2026   17:54 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  105,854.72
+  Cash             $  105,854.72
+  Buying power     $  423,418.88
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+6,106.95
+  Open unrealised            $+0.00
+  Net (realised+open)    $+6,106.95
+
+  Closed trades                   5
+  Win rate                    60.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,471.12
+  Reward/risk ratio           2.05×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (76)
+────────────────────────────────────────────────────────────────
+  U       ★★★★★  regime_cash: sma_filter
+  BWIN    ★★★★★  regime_cash: sma_filter
+  HPE     ★★★★★  regime_cash: sma_filter
+  PTIR    ★★★★☆  regime_cash: sma_filter
+  PLTU    ★★★★☆  regime_cash: sma_filter
+  LIFE    ★★★★☆  regime_cash: sma_filter
+  RNG     ★★★★☆  regime_cash: sma_filter
+  APPN    ★★★★☆  regime_cash: sma_filter
+  EFOR    ★★★★☆  regime_cash: sma_filter
+  PAYC    ★★★★☆  regime_cash: sma_filter
+  CHYM    ★★★★☆  regime_cash: sma_filter
+  INTA    ★★★★☆  regime_cash: sma_filter
+  MULL    ★★★★☆  regime_cash: sma_filter
+  MUU     ★★★★☆  regime_cash: sma_filter
+  SNDK    ★★★★☆  regime_cash: sma_filter
+  MSFU    ★★★★☆  regime_cash: sma_filter
+  MSFL    ★★★★☆  regime_cash: sma_filter
+  FIVN    ★★★★☆  regime_cash: sma_filter
+  WDAY    ★★★★☆  regime_cash: sma_filter
+  HURN    ★★★★☆  regime_cash: sma_filter
+  WGS     ★★★★☆  regime_cash: sma_filter
+  QLYS    ★★★★☆  regime_cash: sma_filter
+  ELF     ★★★★☆  regime_cash: sma_filter
+  QURE    ★★★★☆  regime_cash: sma_filter
+  EAT     ★★★★☆  regime_cash: sma_filter
+  CORT    ★★★★☆  regime_cash: sma_filter
+  NAVN    ★★★★☆  regime_cash: sma_filter
+  SNOW    ★★★★☆  regime_cash: sma_filter
+  MU      ★★★★☆  regime_cash: sma_filter
+  FROG    ★★★★☆  regime_cash: sma_filter
+  PBF     ★★★★☆  regime_cash: sma_filter
+  OSCR    ★★★★☆  regime_cash: sma_filter
+  DELL    ★★★★☆  regime_cash: sma_filter
+  PENG    ★★★★☆  regime_cash: sma_filter
+  MBX     ★★★★☆  regime_cash: sma_filter
+  SYRE    ★★★★☆  regime_cash: sma_filter
+  AGL     ★★★★☆  regime_cash: sma_filter
+  DFTX    ★★★★☆  regime_cash: sma_filter
+  U       ★★★★★  regime_cash: sma_filter
+  BWIN    ★★★★★  regime_cash: sma_filter
+  HPE     ★★★★★  regime_cash: sma_filter
+  PTIR    ★★★★☆  regime_cash: sma_filter
+  PLTU    ★★★★☆  regime_cash: sma_filter
+  LIFE    ★★★★☆  regime_cash: sma_filter
+  RNG     ★★★★☆  regime_cash: sma_filter
+  APPN    ★★★★☆  regime_cash: sma_filter
+  EFOR    ★★★★☆  regime_cash: sma_filter
+  PAYC    ★★★★☆  regime_cash: sma_filter
+  CHYM    ★★★★☆  regime_cash: sma_filter
+  INTA    ★★★★☆  regime_cash: sma_filter
+  MULL    ★★★★☆  regime_cash: sma_filter
+  MUU     ★★★★☆  regime_cash: sma_filter
+  SNDK    ★★★★☆  regime_cash: sma_filter
+  MSFU    ★★★★☆  regime_cash: sma_filter
+  MSFL    ★★★★☆  regime_cash: sma_filter
+  FIVN    ★★★★☆  regime_cash: sma_filter
+  WDAY    ★★★★☆  regime_cash: sma_filter
+  HURN    ★★★★☆  regime_cash: sma_filter
+  WGS     ★★★★☆  regime_cash: sma_filter
+  QLYS    ★★★★☆  regime_cash: sma_filter
+  ELF     ★★★★☆  regime_cash: sma_filter
+  QURE    ★★★★☆  regime_cash: sma_filter
+  EAT     ★★★★☆  regime_cash: sma_filter
+  CORT    ★★★★☆  regime_cash: sma_filter
+  NAVN    ★★★★☆  regime_cash: sma_filter
+  SNOW    ★★★★☆  regime_cash: sma_filter
+  MU      ★★★★☆  regime_cash: sma_filter
+  FROG    ★★★★☆  regime_cash: sma_filter
+  PBF     ★★★★☆  regime_cash: sma_filter
+  OSCR    ★★★★☆  regime_cash: sma_filter
+  DELL    ★★★★☆  regime_cash: sma_filter
+  PENG    ★★★★☆  regime_cash: sma_filter
+  MBX     ★★★★☆  regime_cash: sma_filter
+  SYRE    ★★★★☆  regime_cash: sma_filter
+  AGL     ★★★★☆  regime_cash: sma_filter
+  DFTX    ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
