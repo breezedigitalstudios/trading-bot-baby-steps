@@ -22584,6 +22584,190 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-08-26T16:02:16.009609+00:00"
+    },
+    {
+      "id": "8c0cebb3-4cbe-43f3-ac48-0be835778318",
+      "date": "2026-08-26",
+      "symbol": "CHYM",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975576+00:00"
+    },
+    {
+      "id": "eb63fb54-1cee-4276-8a6b-1774d0b5e2a7",
+      "date": "2026-08-26",
+      "symbol": "INTA",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975596+00:00"
+    },
+    {
+      "id": "049a9e87-0677-40e8-812f-aef71369f6c4",
+      "date": "2026-08-26",
+      "symbol": "DELL",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975608+00:00"
+    },
+    {
+      "id": "79c6be82-57cd-4965-8e01-e175aa9c8505",
+      "date": "2026-08-26",
+      "symbol": "HPE",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975622+00:00"
+    },
+    {
+      "id": "a4606ddc-a842-4c76-a085-e97ee82ee1e4",
+      "date": "2026-08-26",
+      "symbol": "QMCO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975630+00:00"
+    },
+    {
+      "id": "49e5ca9d-3960-41c1-873a-f89e243ede09",
+      "date": "2026-08-26",
+      "symbol": "NBIL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975638+00:00"
+    },
+    {
+      "id": "14a3f59e-b7c1-40c7-87a4-566c99be7d0e",
+      "date": "2026-08-26",
+      "symbol": "WIX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975646+00:00"
+    },
+    {
+      "id": "b43ca78f-271c-4205-990b-65f05dc7ab01",
+      "date": "2026-08-26",
+      "symbol": "APPN",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975666+00:00"
+    },
+    {
+      "id": "bed0bf61-c78f-4166-9e5d-1799350152ca",
+      "date": "2026-08-26",
+      "symbol": "MSFU",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975675+00:00"
+    },
+    {
+      "id": "64f93e66-71a7-47e8-a27f-4b52e9e946c5",
+      "date": "2026-08-26",
+      "symbol": "SHAZ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975683+00:00"
+    },
+    {
+      "id": "1aa8359b-d947-4cb7-b15f-ce45f7316974",
+      "date": "2026-08-26",
+      "symbol": "MSFL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975690+00:00"
+    },
+    {
+      "id": "57ee8e5c-bfa5-42ed-b4bf-ebfb425a821d",
+      "date": "2026-08-26",
+      "symbol": "VOYG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975697+00:00"
+    },
+    {
+      "id": "38975625-ad07-4f1c-8bb1-a027be32af70",
+      "date": "2026-08-26",
+      "symbol": "DLLL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975704+00:00"
+    },
+    {
+      "id": "17b2abd1-7043-4b3f-a3ce-b5d2abb5889e",
+      "date": "2026-08-26",
+      "symbol": "U",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975711+00:00"
+    },
+    {
+      "id": "b25c02de-9445-4048-8e31-67450e69895f",
+      "date": "2026-08-26",
+      "symbol": "WGS",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975718+00:00"
+    },
+    {
+      "id": "aa904667-2972-4abc-bba5-845472512a36",
+      "date": "2026-08-26",
+      "symbol": "ELF",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975725+00:00"
+    },
+    {
+      "id": "ee390747-f0c9-4697-bec9-55a3ae23b1cc",
+      "date": "2026-08-26",
+      "symbol": "RNG",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975731+00:00"
+    },
+    {
+      "id": "1d89d21e-ba08-469b-9ab1-91d93becc6f2",
+      "date": "2026-08-26",
+      "symbol": "EAT",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975738+00:00"
+    },
+    {
+      "id": "86271de1-e3fc-492b-875c-b61941033c18",
+      "date": "2026-08-26",
+      "symbol": "CRDO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975745+00:00"
+    },
+    {
+      "id": "76b490a8-f053-409b-86f7-e6a11468949c",
+      "date": "2026-08-26",
+      "symbol": "MU",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975751+00:00"
+    },
+    {
+      "id": "c35d448d-9609-4620-847c-836d85371eb5",
+      "date": "2026-08-26",
+      "symbol": "GSHD",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975758+00:00"
+    },
+    {
+      "id": "19ab6274-c7b1-4c5e-a5e8-3ced788df6e6",
+      "date": "2026-08-26",
+      "symbol": "SYRE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975765+00:00"
+    },
+    {
+      "id": "15521524-a338-4431-883f-b220e7fa2e13",
+      "date": "2026-08-26",
+      "symbol": "DFTX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-26T16:36:42.975771+00:00"
     }
   ]
 }
