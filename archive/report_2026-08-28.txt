@@ -1,0 +1,63 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Friday, August 28 2026   01:32 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  105,854.72
+  Cash             $  105,854.72
+  Buying power     $  423,418.88
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+6,106.95
+  Open unrealised            $+0.00
+  Net (realised+open)    $+6,106.95
+
+  Closed trades                   5
+  Win rate                    60.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,471.12
+  Reward/risk ratio           2.05×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (27)
+────────────────────────────────────────────────────────────────
+  CHYM    ★★★★★  regime_cash: sma_filter
+  INTA    ★★★★★  regime_cash: sma_filter
+  DELL    ★★★★★  regime_cash: sma_filter
+  HPE     ★★★★★  regime_cash: sma_filter
+  ADPT    ★★★★★  regime_cash: sma_filter
+  GSHD    ★★★★★  regime_cash: sma_filter
+  QMCO    ★★★★☆  regime_cash: sma_filter
+  NBIL    ★★★★☆  regime_cash: sma_filter
+  TEAM    ★★★★☆  regime_cash: sma_filter
+  DLLL    ★★★★☆  regime_cash: sma_filter
+  WIX     ★★★★☆  regime_cash: sma_filter
+  SHAZ    ★★★★☆  regime_cash: sma_filter
+  MULL    ★★★★☆  regime_cash: sma_filter
+  MUU     ★★★★☆  regime_cash: sma_filter
+  SNDK    ★★★★☆  regime_cash: sma_filter
+  CELH    ★★★★☆  regime_cash: sma_filter
+  XNCR    ★★★★☆  regime_cash: sma_filter
+  U       ★★★★☆  regime_cash: sma_filter
+  NBIS    ★★★★☆  regime_cash: sma_filter
+  EFOR    ★★★★☆  regime_cash: sma_filter
+  ELF     ★★★★☆  regime_cash: sma_filter
+  BAND    ★★★★☆  regime_cash: sma_filter
+  CRDO    ★★★★☆  regime_cash: sma_filter
+  MU      ★★★★☆  regime_cash: sma_filter
+  RNG     ★★★★☆  regime_cash: sma_filter
+  PAY     ★★★★☆  regime_cash: sma_filter
+  NSP     ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
