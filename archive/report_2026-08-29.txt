@@ -1,0 +1,58 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Friday, August 28 2026   23:15 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  105,854.72
+  Cash             $  105,854.72
+  Buying power     $  423,418.88
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+6,106.95
+  Open unrealised            $+0.00
+  Net (realised+open)    $+6,106.95
+
+  Closed trades                   5
+  Win rate                    60.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,471.12
+  Reward/risk ratio           2.05×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (22)
+────────────────────────────────────────────────────────────────
+  QMCO    ★★★★★  regime_cash: sma_filter
+  AUGO    ★★★★★  regime_cash: sma_filter
+  ETON    ★★★★★  regime_cash: sma_filter
+  WGS     ★★★★★  regime_cash: sma_filter
+  ELF     ★★★★★  regime_cash: sma_filter
+  DELL    ★★★★★  regime_cash: sma_filter
+  HPE     ★★★★★  regime_cash: sma_filter
+  ADPT    ★★★★★  regime_cash: sma_filter
+  AMLX    ★★★★☆  regime_cash: sma_filter
+  DXYZ    ★★★★☆  regime_cash: sma_filter
+  WIX     ★★★★☆  regime_cash: sma_filter
+  LITE    ★★★★☆  regime_cash: sma_filter
+  DLLL    ★★★★☆  regime_cash: sma_filter
+  CHYM    ★★★★☆  regime_cash: sma_filter
+  SHAZ    ★★★★☆  regime_cash: sma_filter
+  EFOR    ★★★★☆  regime_cash: sma_filter
+  CRDO    ★★★★☆  regime_cash: sma_filter
+  BLKB    ★★★★☆  regime_cash: sma_filter
+  FIVN    ★★★★☆  regime_cash: sma_filter
+  ZBIO    ★★★★☆  regime_cash: sma_filter
+  GSHD    ★★★★☆  regime_cash: sma_filter
+  AGL     ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
