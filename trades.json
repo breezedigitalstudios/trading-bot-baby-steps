@@ -23768,6 +23768,222 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-08-31T20:19:06.795476+00:00"
+    },
+    {
+      "id": "0b736ca3-269d-451e-98c1-3f29e77c336c",
+      "date": "2026-08-31",
+      "symbol": "HTFL",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.015971+00:00"
+    },
+    {
+      "id": "855b4dd5-f9a0-4995-a9a5-c62e52c4dab1",
+      "date": "2026-08-31",
+      "symbol": "INTA",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.015989+00:00"
+    },
+    {
+      "id": "4244f194-9349-4ad7-a7fe-7c4a5572d27c",
+      "date": "2026-08-31",
+      "symbol": "RNG",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.015999+00:00"
+    },
+    {
+      "id": "53168148-a81b-4e4d-b5d8-8db23cdd9f13",
+      "date": "2026-08-31",
+      "symbol": "BWIN",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016012+00:00"
+    },
+    {
+      "id": "0522e583-30bd-40fe-ac37-88cd3da722bd",
+      "date": "2026-08-31",
+      "symbol": "PTIR",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016021+00:00"
+    },
+    {
+      "id": "1bb2c945-be09-4af9-8075-e9c899a05786",
+      "date": "2026-08-31",
+      "symbol": "QMCO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016029+00:00"
+    },
+    {
+      "id": "04a2211d-f3ad-4dad-b798-80b712524582",
+      "date": "2026-08-31",
+      "symbol": "AMLX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016036+00:00"
+    },
+    {
+      "id": "8b8686d6-0dde-4f3f-85c2-9cb4d77ea0ec",
+      "date": "2026-08-31",
+      "symbol": "WIX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016056+00:00"
+    },
+    {
+      "id": "f59665b8-147c-4741-9b1c-f9d817f9012e",
+      "date": "2026-08-31",
+      "symbol": "DXYZ",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016065+00:00"
+    },
+    {
+      "id": "58d93f08-a3b5-4364-8c22-33e216a34e66",
+      "date": "2026-08-31",
+      "symbol": "PLTR",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016073+00:00"
+    },
+    {
+      "id": "66f871a9-26e2-4209-bb70-3d45512771ec",
+      "date": "2026-08-31",
+      "symbol": "CHYM",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016080+00:00"
+    },
+    {
+      "id": "a9382c58-89dc-4fdb-a4e6-546f066ea1ac",
+      "date": "2026-08-31",
+      "symbol": "FIGR",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016087+00:00"
+    },
+    {
+      "id": "cd5a71d5-8cbb-4b5f-86bb-f9a0bcd8ecda",
+      "date": "2026-08-31",
+      "symbol": "ETON",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016111+00:00"
+    },
+    {
+      "id": "bde85cc9-b8d7-4b57-896b-75573a5920cd",
+      "date": "2026-08-31",
+      "symbol": "ZETA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016121+00:00"
+    },
+    {
+      "id": "0186847f-1df9-43fa-840f-f2c2ddc70bb8",
+      "date": "2026-08-31",
+      "symbol": "ZLAB",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016129+00:00"
+    },
+    {
+      "id": "ad0940a2-b9eb-4bdc-bc5d-75f435584974",
+      "date": "2026-08-31",
+      "symbol": "QLYS",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016135+00:00"
+    },
+    {
+      "id": "80be66e8-c9bd-4234-b392-7f51b1848ff9",
+      "date": "2026-08-31",
+      "symbol": "U",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016142+00:00"
+    },
+    {
+      "id": "2b93b38f-7cd9-459f-b20b-0a6729b49493",
+      "date": "2026-08-31",
+      "symbol": "WGS",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016148+00:00"
+    },
+    {
+      "id": "d10885fc-6ff0-4f13-bd80-8733965068cc",
+      "date": "2026-08-31",
+      "symbol": "ELF",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016155+00:00"
+    },
+    {
+      "id": "1bb6cc40-423d-4153-b62d-260bea32c6a9",
+      "date": "2026-08-31",
+      "symbol": "NBIL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016165+00:00"
+    },
+    {
+      "id": "c8355d17-ee58-47a0-bd91-8d5bf23e45ac",
+      "date": "2026-08-31",
+      "symbol": "BLKB",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016172+00:00"
+    },
+    {
+      "id": "4505d05f-1a69-4547-a739-10d171d48f52",
+      "date": "2026-08-31",
+      "symbol": "QURE",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016179+00:00"
+    },
+    {
+      "id": "e3514594-9634-4052-b1b1-aa9b54a031c6",
+      "date": "2026-08-31",
+      "symbol": "GSHD",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016185+00:00"
+    },
+    {
+      "id": "77541436-9b6e-4809-bc3f-5d2e0e4504fc",
+      "date": "2026-08-31",
+      "symbol": "ATEX",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016191+00:00"
+    },
+    {
+      "id": "56fbc922-c04b-4081-a630-9c277dfabd2c",
+      "date": "2026-08-31",
+      "symbol": "ADPT",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016198+00:00"
+    },
+    {
+      "id": "c43cae4a-ae6e-4ae6-8681-3a8b137adf57",
+      "date": "2026-08-31",
+      "symbol": "ZBIO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016204+00:00"
+    },
+    {
+      "id": "cfa64d20-04e2-4f66-9bf5-a50d1bef8e7a",
+      "date": "2026-08-31",
+      "symbol": "AGL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-08-31T21:02:29.016211+00:00"
     }
   ]
 }
