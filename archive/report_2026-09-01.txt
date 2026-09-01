@@ -1,6 +1,6 @@
 ════════════════════════════════════════════════════════════════
   TRADING BOT — DAILY REPORT
-  Monday, August 31 2026   20:43 EDT
+  Tuesday, September 01 2026   19:28 EDT
 ════════════════════════════════════════════════════════════════
 
 ACCOUNT
@@ -30,8 +30,63 @@ P&L SUMMARY
   Avg loser              $-1,471.12
   Reward/risk ratio           2.05×
 
-SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (0)
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (56)
 ────────────────────────────────────────────────────────────────
-  None.
+  WIX     ★★★★★  regime_cash: sma_filter
+  INTA    ★★★★★  regime_cash: sma_filter
+  RNG     ★★★★★  regime_cash: sma_filter
+  BLKB    ★★★★★  regime_cash: sma_filter
+  QMCO    ★★★★☆  regime_cash: sma_filter
+  PTIR    ★★★★☆  regime_cash: sma_filter
+  HTFL    ★★★★☆  regime_cash: sma_filter
+  LIFE    ★★★★☆  regime_cash: sma_filter
+  AMLX    ★★★★☆  regime_cash: sma_filter
+  PLTR    ★★★★☆  regime_cash: sma_filter
+  FIGR    ★★★★☆  regime_cash: sma_filter
+  MULL    ★★★★☆  regime_cash: sma_filter
+  ETON    ★★★★☆  regime_cash: sma_filter
+  MUU     ★★★★☆  regime_cash: sma_filter
+  CHYM    ★★★★☆  regime_cash: sma_filter
+  ZETA    ★★★★☆  regime_cash: sma_filter
+  DXYZ    ★★★★☆  regime_cash: sma_filter
+  BRZE    ★★★★☆  regime_cash: sma_filter
+  GWRE    ★★★★☆  regime_cash: sma_filter
+  ORCX    ★★★★☆  regime_cash: sma_filter
+  MU      ★★★★☆  regime_cash: sma_filter
+  EFOR    ★★★★☆  regime_cash: sma_filter
+  NBIL    ★★★★☆  regime_cash: sma_filter
+  BWIN    ★★★★☆  regime_cash: sma_filter
+  ZBIO    ★★★★☆  regime_cash: sma_filter
+  GSHD    ★★★★☆  regime_cash: sma_filter
+  ALAB    ★★★★☆  regime_cash: sma_filter
+  AMDL    ★★★★☆  regime_cash: sma_filter
+  WIX     ★★★★★  regime_cash: sma_filter
+  INTA    ★★★★★  regime_cash: sma_filter
+  RNG     ★★★★★  regime_cash: sma_filter
+  BLKB    ★★★★★  regime_cash: sma_filter
+  QMCO    ★★★★☆  regime_cash: sma_filter
+  PTIR    ★★★★☆  regime_cash: sma_filter
+  HTFL    ★★★★☆  regime_cash: sma_filter
+  LIFE    ★★★★☆  regime_cash: sma_filter
+  AMLX    ★★★★☆  regime_cash: sma_filter
+  PLTR    ★★★★☆  regime_cash: sma_filter
+  FIGR    ★★★★☆  regime_cash: sma_filter
+  MULL    ★★★★☆  regime_cash: sma_filter
+  ETON    ★★★★☆  regime_cash: sma_filter
+  MUU     ★★★★☆  regime_cash: sma_filter
+  CHYM    ★★★★☆  regime_cash: sma_filter
+  ZETA    ★★★★☆  regime_cash: sma_filter
+  DXYZ    ★★★★☆  regime_cash: sma_filter
+  BRZE    ★★★★☆  regime_cash: sma_filter
+  GWRE    ★★★★☆  regime_cash: sma_filter
+  ORCX    ★★★★☆  regime_cash: sma_filter
+  MU      ★★★★☆  regime_cash: sma_filter
+  EFOR    ★★★★☆  regime_cash: sma_filter
+  NBIL    ★★★★☆  regime_cash: sma_filter
+  BWIN    ★★★★☆  regime_cash: sma_filter
+  ZBIO    ★★★★☆  regime_cash: sma_filter
+  GSHD    ★★★★☆  regime_cash: sma_filter
+  ALAB    ★★★★☆  regime_cash: sma_filter
+  AMDL    ★★★★☆  regime_cash: sma_filter
 
 ════════════════════════════════════════════════════════════════
