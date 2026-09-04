@@ -1,0 +1,64 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Friday, September 04 2026   19:11 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  105,854.72
+  Cash             $  105,854.72
+  Buying power     $  423,418.88
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+6,106.95
+  Open unrealised            $+0.00
+  Net (realised+open)    $+6,106.95
+
+  Closed trades                   5
+  Win rate                    60.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,471.12
+  Reward/risk ratio           2.05×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (28)
+────────────────────────────────────────────────────────────────
+  LIFE    ★★★★★  regime_cash: sma_filter
+  ZBIO    ★★★★★  regime_cash: sma_filter
+  MRNA    ★★★★☆  regime_cash: sma_filter
+  HTFL    ★★★★☆  regime_cash: sma_filter
+  AMLX    ★★★★☆  regime_cash: sma_filter
+  BLSH    ★★★★☆  regime_cash: sma_filter
+  INBX    ★★★★☆  regime_cash: sma_filter
+  ZLAB    ★★★★☆  regime_cash: sma_filter
+  ETON    ★★★★☆  regime_cash: sma_filter
+  ANF     ★★★★☆  regime_cash: sma_filter
+  SPCX    ★★★★☆  regime_cash: sma_filter
+  WGS     ★★★★☆  regime_cash: sma_filter
+  ANDG    ★★★★☆  regime_cash: sma_filter
+  FIVN    ★★★★☆  regime_cash: sma_filter
+  LIFE    ★★★★★  regime_cash: sma_filter
+  ZBIO    ★★★★★  regime_cash: sma_filter
+  MRNA    ★★★★☆  regime_cash: sma_filter
+  HTFL    ★★★★☆  regime_cash: sma_filter
+  AMLX    ★★★★☆  regime_cash: sma_filter
+  BLSH    ★★★★☆  regime_cash: sma_filter
+  INBX    ★★★★☆  regime_cash: sma_filter
+  ZLAB    ★★★★☆  regime_cash: sma_filter
+  ETON    ★★★★☆  regime_cash: sma_filter
+  ANF     ★★★★☆  regime_cash: sma_filter
+  SPCX    ★★★★☆  regime_cash: sma_filter
+  WGS     ★★★★☆  regime_cash: sma_filter
+  ANDG    ★★★★☆  regime_cash: sma_filter
+  FIVN    ★★★★☆  regime_cash: sma_filter
+
+════════════════════════════════════════════════════════════════
