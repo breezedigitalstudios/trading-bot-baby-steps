@@ -26416,6 +26416,86 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-09-10T18:39:44.809650+00:00"
+    },
+    {
+      "id": "124381f0-2ed5-48f9-a8cb-4d494040415e",
+      "date": "2026-09-11",
+      "symbol": "MRNA",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299101+00:00"
+    },
+    {
+      "id": "31341270-2652-44ae-af55-5ea2a52a536c",
+      "date": "2026-09-11",
+      "symbol": "SOLT",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299118+00:00"
+    },
+    {
+      "id": "2855a048-d17f-44bd-9d87-525740ba05db",
+      "date": "2026-09-11",
+      "symbol": "ANF",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299128+00:00"
+    },
+    {
+      "id": "2849909f-5123-4a25-89de-a42ed3fe2358",
+      "date": "2026-09-11",
+      "symbol": "SMTC",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299141+00:00"
+    },
+    {
+      "id": "3b264736-2a7e-420f-b1b0-0f4c915c0fcf",
+      "date": "2026-09-11",
+      "symbol": "SNDK",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299151+00:00"
+    },
+    {
+      "id": "92d9ff9b-07d8-4157-87b8-a69f6e18c763",
+      "date": "2026-09-11",
+      "symbol": "OKTA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299159+00:00"
+    },
+    {
+      "id": "4968cf65-47b8-4e53-92a1-d6b92423ca38",
+      "date": "2026-09-11",
+      "symbol": "CRCL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299167+00:00"
+    },
+    {
+      "id": "529f348e-4ccd-43ab-a2e2-e46707f8283f",
+      "date": "2026-09-11",
+      "symbol": "MRVU",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299187+00:00"
+    },
+    {
+      "id": "fccac4ca-61b5-4f57-be5e-b1b707fa812d",
+      "date": "2026-09-11",
+      "symbol": "TEAM",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299196+00:00"
+    },
+    {
+      "id": "7ee3af6c-db53-4fd5-b22c-5397434215fe",
+      "date": "2026-09-11",
+      "symbol": "AYA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-11T17:51:54.299204+00:00"
     }
   ]
 }
