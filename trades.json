@@ -26912,6 +26912,86 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-09-15T18:25:51.985987+00:00"
+    },
+    {
+      "id": "ffb43edd-b486-48da-9e9e-ffd129990554",
+      "date": "2026-09-15",
+      "symbol": "ASST",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831735+00:00"
+    },
+    {
+      "id": "3f756ffd-e04e-4023-800d-2b865c0ee2d0",
+      "date": "2026-09-15",
+      "symbol": "MRNA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831753+00:00"
+    },
+    {
+      "id": "3dd24e16-1546-4a0b-9fe8-dbabfa7daa23",
+      "date": "2026-09-15",
+      "symbol": "SOLT",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831763+00:00"
+    },
+    {
+      "id": "87324a86-63e2-498f-93f9-bc2f5fddded5",
+      "date": "2026-09-15",
+      "symbol": "MSTR",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831777+00:00"
+    },
+    {
+      "id": "528581c1-b061-4454-a4c0-d97967503c50",
+      "date": "2026-09-15",
+      "symbol": "BMNR",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831786+00:00"
+    },
+    {
+      "id": "3299bd11-9d90-4185-83c3-f50ee060e0e6",
+      "date": "2026-09-15",
+      "symbol": "ANF",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831794+00:00"
+    },
+    {
+      "id": "889a52e2-a138-4df0-a136-a762a8fd8235",
+      "date": "2026-09-15",
+      "symbol": "CRCL",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831803+00:00"
+    },
+    {
+      "id": "711026ae-8569-4c68-9a43-5d071b43b5d5",
+      "date": "2026-09-15",
+      "symbol": "TEAM",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831825+00:00"
+    },
+    {
+      "id": "69c2f6ea-c4d0-4150-97d1-d2f97420ccde",
+      "date": "2026-09-15",
+      "symbol": "GTLB",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831834+00:00"
+    },
+    {
+      "id": "69c10555-4465-4672-a35d-a80d32d3c597",
+      "date": "2026-09-15",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-15T19:10:16.831842+00:00"
     }
   ]
 }
