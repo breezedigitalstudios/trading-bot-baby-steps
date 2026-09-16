@@ -27056,6 +27056,70 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-09-16T18:22:25.133772+00:00"
+    },
+    {
+      "id": "65dc6c0a-4c82-4434-8d96-679886b10932",
+      "date": "2026-09-16",
+      "symbol": "SMTC",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T19:03:12.965001+00:00"
+    },
+    {
+      "id": "acf74c67-aa9b-44e4-a211-7e709cd37463",
+      "date": "2026-09-16",
+      "symbol": "MRNA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T19:03:12.965019+00:00"
+    },
+    {
+      "id": "273ca17d-60ee-4a8d-9cf1-5433a8909955",
+      "date": "2026-09-16",
+      "symbol": "ASST",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T19:03:12.965029+00:00"
+    },
+    {
+      "id": "07c834a4-3593-4c92-aafc-734a4c1ee881",
+      "date": "2026-09-16",
+      "symbol": "MSTR",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T19:03:12.965042+00:00"
+    },
+    {
+      "id": "30b521a0-126d-49eb-904b-1594bbacd750",
+      "date": "2026-09-16",
+      "symbol": "ANF",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T19:03:12.965051+00:00"
+    },
+    {
+      "id": "60ef1a2a-afda-4a14-99c9-b9f9630b0e68",
+      "date": "2026-09-16",
+      "symbol": "GTLB",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T19:03:12.965059+00:00"
+    },
+    {
+      "id": "bf7e97da-cd1c-41ed-ae21-e053300f33f5",
+      "date": "2026-09-16",
+      "symbol": "TEAM",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T19:03:12.965066+00:00"
+    },
+    {
+      "id": "697b5d60-d42c-4ab0-a228-7693f37b009a",
+      "date": "2026-09-16",
+      "symbol": "QMCO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T19:03:12.965086+00:00"
     }
   ]
 }
