@@ -26992,6 +26992,70 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-09-15T19:10:16.831842+00:00"
+    },
+    {
+      "id": "350d2a6e-fa66-4efd-bee4-1d9bc8c4f48d",
+      "date": "2026-09-16",
+      "symbol": "SMTC",
+      "stars": 5,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T18:22:25.133705+00:00"
+    },
+    {
+      "id": "932b15c6-9a87-49fc-b068-d086c8e9d2be",
+      "date": "2026-09-16",
+      "symbol": "MRNA",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T18:22:25.133719+00:00"
+    },
+    {
+      "id": "291e515b-ae49-4aa1-93b6-145718cc9326",
+      "date": "2026-09-16",
+      "symbol": "ASST",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T18:22:25.133727+00:00"
+    },
+    {
+      "id": "865cc2b9-6689-431d-b111-ec0e04086877",
+      "date": "2026-09-16",
+      "symbol": "MSTR",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T18:22:25.133737+00:00"
+    },
+    {
+      "id": "113d66cf-16c2-4922-a64f-89ba0a69e14a",
+      "date": "2026-09-16",
+      "symbol": "ANF",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T18:22:25.133744+00:00"
+    },
+    {
+      "id": "96045902-4f91-48b4-a2fa-fc1c3a02b66a",
+      "date": "2026-09-16",
+      "symbol": "GTLB",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T18:22:25.133750+00:00"
+    },
+    {
+      "id": "bfc21992-03dc-4af7-907c-51b501e3d6fa",
+      "date": "2026-09-16",
+      "symbol": "TEAM",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T18:22:25.133755+00:00"
+    },
+    {
+      "id": "c6d424bf-0ab8-4c0b-b802-ba1cacf635d1",
+      "date": "2026-09-16",
+      "symbol": "QMCO",
+      "stars": 4,
+      "reason": "regime_cash: sma_filter",
+      "timestamp": "2026-09-16T18:22:25.133772+00:00"
     }
   ]
 }
