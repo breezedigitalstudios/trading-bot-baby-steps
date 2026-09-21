@@ -543,8 +543,10 @@
       "stop_price": 36.56,
       "initial_risk_per_share": 4.45,
       "circuit_breaker_halved": false,
-      "status": "pending",
-      "timestamp": "2026-09-21T19:40:55.077790+00:00"
+      "status": "expired",
+      "timestamp": "2026-09-21T19:40:55.077790+00:00",
+      "exit_date": "2026-09-21",
+      "exit_reason": "entry_order_expired"
     }
   ],
   "skipped": [
