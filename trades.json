@@ -527,6 +527,24 @@
       "timestamp": "2026-08-19T16:00:06.554206+00:00",
       "exit_date": "2026-08-19",
       "exit_reason": "entry_order_expired"
+    },
+    {
+      "id": "77012cae-1b32-4103-8367-a856626cb834",
+      "date": "2026-09-21",
+      "symbol": "DLLL",
+      "stars": 4,
+      "orb_high": 39.8,
+      "orb_low": 36.56,
+      "orb_range": 3.24,
+      "atr": 4.45,
+      "shares": 531,
+      "entry_order_id": "3a43d9d7-0364-4115-8de6-d45a5fc1419a",
+      "stop_order_id": "f08d036f-b4f5-4747-ac97-751b335ab173",
+      "stop_price": 36.56,
+      "initial_risk_per_share": 4.45,
+      "circuit_breaker_halved": false,
+      "status": "pending",
+      "timestamp": "2026-09-21T19:40:55.077790+00:00"
     }
   ],
   "skipped": [
@@ -27408,6 +27426,105 @@
       "stars": 4,
       "reason": "regime_cash: sma_filter",
       "timestamp": "2026-09-18T18:37:14.514779+00:00"
+    },
+    {
+      "id": "ba6b074f-e6f6-4ea2-a6d2-2066cbeeb633",
+      "date": "2026-09-21",
+      "symbol": "CDNA",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.28x, need \u22651.0x)",
+      "timestamp": "2026-09-21T19:40:54.234120+00:00",
+      "detail": {
+        "rvol": 0.28,
+        "orb_volume": 46755,
+        "avg_hourly_volume": 166917.0
+      }
+    },
+    {
+      "id": "6ab56f96-aec1-4689-8dc7-0d09afe3dbbe",
+      "date": "2026-09-21",
+      "symbol": "ASST",
+      "stars": 4,
+      "reason": "ORB range $2.93 > ATR $2.17 \u2014 risk too wide",
+      "timestamp": "2026-09-21T19:40:54.302481+00:00",
+      "detail": {
+        "orb_high": 32.12,
+        "orb_low": 29.19,
+        "orb_range": 2.93,
+        "atr": 2.17
+      }
+    },
+    {
+      "id": "06627e33-ea19-4437-8c20-6bc138cec62e",
+      "date": "2026-09-21",
+      "symbol": "MVLL",
+      "stars": 4,
+      "reason": "relative strength below market (RS=0.90 vs SPY 1-month)",
+      "timestamp": "2026-09-21T19:40:55.692307+00:00",
+      "detail": {
+        "rs_vs_spy_1m": 0.898
+      }
+    },
+    {
+      "id": "a7aeff89-164c-48f5-9ba5-e2416faf4dff",
+      "date": "2026-09-21",
+      "symbol": "AXTI",
+      "stars": 4,
+      "reason": "relative strength below market (RS=0.96 vs SPY 1-month)",
+      "timestamp": "2026-09-21T19:40:55.770172+00:00",
+      "detail": {
+        "rs_vs_spy_1m": 0.958
+      }
+    },
+    {
+      "id": "1514135d-11da-41ca-81c2-c81cd99cbabd",
+      "date": "2026-09-21",
+      "symbol": "QMCO",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.98x, need \u22651.0x)",
+      "timestamp": "2026-09-21T19:40:56.009189+00:00",
+      "detail": {
+        "rvol": 0.98,
+        "orb_volume": 150867,
+        "avg_hourly_volume": 153562.0
+      }
+    },
+    {
+      "id": "dc35d470-61d4-4912-851e-50ad73b6adbe",
+      "date": "2026-09-21",
+      "symbol": "GTLB",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.22x, need \u22651.0x)",
+      "timestamp": "2026-09-21T19:40:56.192729+00:00",
+      "detail": {
+        "rvol": 0.22,
+        "orb_volume": 194491,
+        "avg_hourly_volume": 885408.0
+      }
+    },
+    {
+      "id": "405d4403-9839-4e31-a2b0-37c5dc4c405e",
+      "date": "2026-09-21",
+      "symbol": "MRVL",
+      "stars": 4,
+      "reason": "relative strength below market (RS=0.97 vs SPY 1-month)",
+      "timestamp": "2026-09-21T19:40:56.318309+00:00",
+      "detail": {
+        "rs_vs_spy_1m": 0.974
+      }
+    },
+    {
+      "id": "f1f623df-b486-4474-9401-97ede5a9e785",
+      "date": "2026-09-21",
+      "symbol": "TEAM",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.62x, need \u22651.0x)",
+      "timestamp": "2026-09-21T19:40:56.422846+00:00",
+      "detail": {
+        "rvol": 0.62,
+        "orb_volume": 348875,
+        "avg_hourly_volume": 565472.0
+      }
     }
   ]
 }
