@@ -1,6 +1,6 @@
 ════════════════════════════════════════════════════════════════
   TRADING BOT — DAILY REPORT
-  Monday, September 21 2026   20:13 EDT
+  Tuesday, September 22 2026   19:43 EDT
 ════════════════════════════════════════════════════════════════
 
 ACCOUNT
@@ -30,8 +30,23 @@ P&L SUMMARY
   Avg loser              $-1,471.12
   Reward/risk ratio           2.05×
 
-SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (0)
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (16)
 ────────────────────────────────────────────────────────────────
-  None.
+  GTLB    ★★★★★  low opening volume (RVOL=0.28x, need ≥1.0x)
+  CDNA    ★★★★★  low opening volume (RVOL=0.26x, need ≥1.0x)
+  MVLL    ★★★★☆  ORB range $3.14 > ATR $3.08 — risk too wide  [ORB $3.14 vs ATR $3.08]
+  MRVL    ★★★★☆  low opening volume (RVOL=0.97x, need ≥1.0x)
+  TEAM    ★★★★☆  low opening volume (RVOL=0.54x, need ≥1.0x)
+  APPN    ★★★★☆  low opening volume (RVOL=0.33x, need ≥1.0x)
+  HNGE    ★★★★☆  low opening volume (RVOL=0.15x, need ≥1.0x)
+  GTLB    ★★★★★  max daily entries reached (2)
+  CDNA    ★★★★★  max daily entries reached (2)
+  DLLL    ★★★★☆  max daily entries reached (2)
+  MVLL    ★★★★☆  max daily entries reached (2)
+  MRVL    ★★★★☆  max daily entries reached (2)
+  TEAM    ★★★★☆  max daily entries reached (2)
+  APPN    ★★★★☆  max daily entries reached (2)
+  HNGE    ★★★★☆  max daily entries reached (2)
+  SNOW    ★★★★☆  max daily entries reached (2)
 
 ════════════════════════════════════════════════════════════════
