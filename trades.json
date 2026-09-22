@@ -547,6 +547,42 @@
       "timestamp": "2026-09-21T19:40:55.077790+00:00",
       "exit_date": "2026-09-21",
       "exit_reason": "entry_order_expired"
+    },
+    {
+      "id": "bbb1e2ef-4102-4666-89f3-c2655276c01b",
+      "date": "2026-09-22",
+      "symbol": "DLLL",
+      "stars": 4,
+      "orb_high": 37.4,
+      "orb_low": 36.13,
+      "orb_range": 1.27,
+      "atr": 4.38,
+      "shares": 566,
+      "entry_order_id": "4186c38b-5210-4a19-8255-29c9f988e184",
+      "stop_order_id": "91f3d790-ad3a-4196-afcf-f6efc9704c44",
+      "stop_price": 36.13,
+      "initial_risk_per_share": 4.38,
+      "circuit_breaker_halved": false,
+      "status": "pending",
+      "timestamp": "2026-09-22T18:14:15.615454+00:00"
+    },
+    {
+      "id": "da306116-d8cc-4843-b245-e0da6c8e9417",
+      "date": "2026-09-22",
+      "symbol": "SNOW",
+      "stars": 4,
+      "orb_high": 346.79,
+      "orb_low": 337.04,
+      "orb_range": 9.75,
+      "atr": 18.59,
+      "shares": 61,
+      "entry_order_id": "9bd6c59e-fb61-40bf-9cd4-f9f1d9f30cfd",
+      "stop_order_id": "5c7230c8-da93-44a0-a590-a4305c7efa75",
+      "stop_price": 337.04,
+      "initial_risk_per_share": 18.59,
+      "circuit_breaker_halved": false,
+      "status": "pending",
+      "timestamp": "2026-09-22T18:14:17.336149+00:00"
     }
   ],
   "skipped": [
@@ -27633,6 +27669,98 @@
         "rvol": 0.61,
         "orb_volume": 348875,
         "avg_hourly_volume": 573365.0
+      }
+    },
+    {
+      "id": "3981dd07-976e-4993-94e1-4eb146454288",
+      "date": "2026-09-22",
+      "symbol": "GTLB",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.28x, need \u22651.0x)",
+      "timestamp": "2026-09-22T18:14:14.634064+00:00",
+      "detail": {
+        "rvol": 0.28,
+        "orb_volume": 248889,
+        "avg_hourly_volume": 877925.0
+      }
+    },
+    {
+      "id": "35ed8a3e-0223-4b18-a5d9-86c04b0d881c",
+      "date": "2026-09-22",
+      "symbol": "CDNA",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.26x, need \u22651.0x)",
+      "timestamp": "2026-09-22T18:14:14.815541+00:00",
+      "detail": {
+        "rvol": 0.26,
+        "orb_volume": 44282,
+        "avg_hourly_volume": 168291.0
+      }
+    },
+    {
+      "id": "4dc54a63-58dd-485c-8778-aab2c01183a9",
+      "date": "2026-09-22",
+      "symbol": "MVLL",
+      "stars": 4,
+      "reason": "ORB range $3.14 > ATR $3.08 \u2014 risk too wide",
+      "timestamp": "2026-09-22T18:14:16.183851+00:00",
+      "detail": {
+        "orb_high": 36.08,
+        "orb_low": 32.94,
+        "orb_range": 3.14,
+        "atr": 3.08
+      }
+    },
+    {
+      "id": "6f53c11f-1971-499b-8a9d-b1621d81a5ca",
+      "date": "2026-09-22",
+      "symbol": "MRVL",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.97x, need \u22651.0x)",
+      "timestamp": "2026-09-22T18:14:16.344780+00:00",
+      "detail": {
+        "rvol": 0.97,
+        "orb_volume": 3233420,
+        "avg_hourly_volume": 3328477.0
+      }
+    },
+    {
+      "id": "bd1f4d8b-1ce8-4429-959c-8d695a383896",
+      "date": "2026-09-22",
+      "symbol": "TEAM",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.54x, need \u22651.0x)",
+      "timestamp": "2026-09-22T18:14:16.513557+00:00",
+      "detail": {
+        "rvol": 0.54,
+        "orb_volume": 308696,
+        "avg_hourly_volume": 568384.0
+      }
+    },
+    {
+      "id": "e39c2d27-d7c0-4619-9788-ba7567c17391",
+      "date": "2026-09-22",
+      "symbol": "APPN",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.33x, need \u22651.0x)",
+      "timestamp": "2026-09-22T18:14:16.686884+00:00",
+      "detail": {
+        "rvol": 0.33,
+        "orb_volume": 48399,
+        "avg_hourly_volume": 146149.0
+      }
+    },
+    {
+      "id": "70e4cdc8-89a2-4463-a99e-3556508024c4",
+      "date": "2026-09-22",
+      "symbol": "HNGE",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.15x, need \u22651.0x)",
+      "timestamp": "2026-09-22T18:14:16.831844+00:00",
+      "detail": {
+        "rvol": 0.15,
+        "orb_volume": 44531,
+        "avg_hourly_volume": 303337.0
       }
     }
   ]
