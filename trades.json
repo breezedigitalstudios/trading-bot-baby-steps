@@ -27762,6 +27762,78 @@
         "orb_volume": 44531,
         "avg_hourly_volume": 303337.0
       }
+    },
+    {
+      "id": "63b5f8b3-b9c6-4c00-b2e0-7028b73a02ba",
+      "date": "2026-09-22",
+      "symbol": "GTLB",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.775898+00:00"
+    },
+    {
+      "id": "17967b98-5334-4390-83ae-c213c19b082f",
+      "date": "2026-09-22",
+      "symbol": "CDNA",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.775918+00:00"
+    },
+    {
+      "id": "515f06bb-f066-449b-b5db-e8502ddb7d6b",
+      "date": "2026-09-22",
+      "symbol": "DLLL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.775931+00:00"
+    },
+    {
+      "id": "18148564-9e00-477e-bec4-696febb241bf",
+      "date": "2026-09-22",
+      "symbol": "MVLL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.775946+00:00"
+    },
+    {
+      "id": "68e07573-7826-4b2f-8890-8899e02912ba",
+      "date": "2026-09-22",
+      "symbol": "MRVL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.775958+00:00"
+    },
+    {
+      "id": "30203ebc-f478-42c8-9215-c44944f0fe11",
+      "date": "2026-09-22",
+      "symbol": "TEAM",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.775969+00:00"
+    },
+    {
+      "id": "fc227d37-5c7c-41c8-bbfd-8b34fabfd0a9",
+      "date": "2026-09-22",
+      "symbol": "APPN",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.775979+00:00"
+    },
+    {
+      "id": "6d91f69c-3f47-4ce3-9e2a-286f82c1c452",
+      "date": "2026-09-22",
+      "symbol": "HNGE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.776002+00:00"
+    },
+    {
+      "id": "f55412ed-1dcb-4106-aa87-e56ea7e3c713",
+      "date": "2026-09-22",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-22T19:05:05.776013+00:00"
     }
   ]
 }
