@@ -27964,6 +27964,86 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-09-23T18:34:31.613107+00:00"
+    },
+    {
+      "id": "cb0a0a11-8e6a-491f-a708-81eaeae26825",
+      "date": "2026-09-23",
+      "symbol": "CRWL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556151+00:00"
+    },
+    {
+      "id": "12a2c9cc-a138-4e35-9b59-9c09fd067d20",
+      "date": "2026-09-23",
+      "symbol": "DLLL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556162+00:00"
+    },
+    {
+      "id": "78ec4410-a6e9-4d7c-b634-85af3781bcf5",
+      "date": "2026-09-23",
+      "symbol": "SWKS",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556168+00:00"
+    },
+    {
+      "id": "13385502-e946-4c6d-939b-8ea2ace7cfba",
+      "date": "2026-09-23",
+      "symbol": "HPE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556178+00:00"
+    },
+    {
+      "id": "a8eaae30-8756-4798-b7e8-a9587e2d3058",
+      "date": "2026-09-23",
+      "symbol": "PLTU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556184+00:00"
+    },
+    {
+      "id": "1778c240-64c8-4ab9-aac2-634e8702c419",
+      "date": "2026-09-23",
+      "symbol": "GTLB",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556190+00:00"
+    },
+    {
+      "id": "46208950-14a6-42e1-b1ed-e5d6d61867df",
+      "date": "2026-09-23",
+      "symbol": "PLSE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556195+00:00"
+    },
+    {
+      "id": "2650a5fa-78a1-4dce-8fb5-49f8c92db27a",
+      "date": "2026-09-23",
+      "symbol": "HNGE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556212+00:00"
+    },
+    {
+      "id": "e5b2207e-0431-4779-8c6b-9292c948829a",
+      "date": "2026-09-23",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556219+00:00"
+    },
+    {
+      "id": "ab77125c-ab25-4b49-bc50-51e82af5c6e5",
+      "date": "2026-09-23",
+      "symbol": "AMLX",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T19:11:20.556224+00:00"
     }
   ]
 }
