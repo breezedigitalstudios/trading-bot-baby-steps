@@ -587,6 +587,42 @@
       "timestamp": "2026-09-22T18:14:17.336149+00:00",
       "exit_date": "2026-09-22",
       "exit_reason": "entry_order_expired"
+    },
+    {
+      "id": "3be49a57-b0c3-486c-bf24-01eb0af072be",
+      "date": "2026-09-23",
+      "symbol": "DLLL",
+      "stars": 4,
+      "orb_high": 36.84,
+      "orb_low": 34.43,
+      "orb_range": 2.41,
+      "atr": 4.11,
+      "shares": 574,
+      "entry_order_id": "12eb3f92-4cac-4129-b5a7-84bd14b3b1c3",
+      "stop_order_id": "4e70d53b-5deb-46ae-bc0a-a0ccba609797",
+      "stop_price": 34.43,
+      "initial_risk_per_share": 4.11,
+      "circuit_breaker_halved": false,
+      "status": "pending",
+      "timestamp": "2026-09-23T18:34:28.230938+00:00"
+    },
+    {
+      "id": "ec73998a-f0d5-4a59-ad09-1578b284aa58",
+      "date": "2026-09-23",
+      "symbol": "PLSE",
+      "stars": 4,
+      "orb_high": 56.74,
+      "orb_low": 53.75,
+      "orb_range": 2.99,
+      "atr": 4.64,
+      "shares": 373,
+      "entry_order_id": "c88aa7ef-e93c-4301-8df1-9ae0a841465b",
+      "stop_order_id": "fc5b0fd9-f88a-4bef-9609-b356c871356e",
+      "stop_price": 53.75,
+      "initial_risk_per_share": 4.64,
+      "circuit_breaker_halved": false,
+      "status": "pending",
+      "timestamp": "2026-09-23T18:34:31.180590+00:00"
     }
   ],
   "skipped": [
@@ -27838,6 +27874,96 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-09-22T19:05:05.776013+00:00"
+    },
+    {
+      "id": "c5c5fd4b-7a7a-4072-a276-600615e6fa68",
+      "date": "2026-09-23",
+      "symbol": "CRWL",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.76x, need \u22651.0x)",
+      "timestamp": "2026-09-23T18:34:27.320432+00:00",
+      "detail": {
+        "rvol": 0.76,
+        "orb_volume": 31951,
+        "avg_hourly_volume": 42265.0
+      }
+    },
+    {
+      "id": "307ee2be-e2f7-4a87-8cd3-023e200155bc",
+      "date": "2026-09-23",
+      "symbol": "SWKS",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.27x, need \u22651.0x)",
+      "timestamp": "2026-09-23T18:34:30.300840+00:00",
+      "detail": {
+        "rvol": 0.27,
+        "orb_volume": 332586,
+        "avg_hourly_volume": 1246029.0
+      }
+    },
+    {
+      "id": "52dfc8bb-6232-410d-be12-995ac7d8cb35",
+      "date": "2026-09-23",
+      "symbol": "HPE",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.54x, need \u22651.0x)",
+      "timestamp": "2026-09-23T18:34:30.425441+00:00",
+      "detail": {
+        "rvol": 0.54,
+        "orb_volume": 2286410,
+        "avg_hourly_volume": 4204444.0
+      }
+    },
+    {
+      "id": "02436a77-6cb2-4c99-8008-f82a561f0c63",
+      "date": "2026-09-23",
+      "symbol": "PLTU",
+      "stars": 4,
+      "reason": "ORB range $6.25 > ATR $3.87 \u2014 risk too wide",
+      "timestamp": "2026-09-23T18:34:30.560085+00:00",
+      "detail": {
+        "orb_high": 60.25,
+        "orb_low": 54.0,
+        "orb_range": 6.25,
+        "atr": 3.87
+      }
+    },
+    {
+      "id": "a7903fc7-900c-422f-94b8-11ad10a0c23c",
+      "date": "2026-09-23",
+      "symbol": "GTLB",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.26x, need \u22651.0x)",
+      "timestamp": "2026-09-23T18:34:30.671773+00:00",
+      "detail": {
+        "rvol": 0.26,
+        "orb_volume": 230927,
+        "avg_hourly_volume": 883756.0
+      }
+    },
+    {
+      "id": "99f11967-6ce1-4946-8326-689c3da0e285",
+      "date": "2026-09-23",
+      "symbol": "HNGE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T18:34:31.613067+00:00"
+    },
+    {
+      "id": "ea607453-bf7a-4e55-a0c9-77db6f0f6f8e",
+      "date": "2026-09-23",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T18:34:31.613093+00:00"
+    },
+    {
+      "id": "d48dbb36-077a-47a7-91e5-d0324e9130d0",
+      "date": "2026-09-23",
+      "symbol": "AMLX",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-23T18:34:31.613107+00:00"
     }
   ]
 }
