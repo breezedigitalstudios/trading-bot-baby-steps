@@ -1,0 +1,54 @@
+════════════════════════════════════════════════════════════════
+  TRADING BOT — DAILY REPORT
+  Thursday, September 24 2026   19:58 EDT
+════════════════════════════════════════════════════════════════
+
+ACCOUNT
+────────────────────────────────────────────────────────────────
+  Portfolio value  $  105,854.72
+  Cash             $  105,854.72
+  Buying power     $  423,418.88
+
+OPEN POSITIONS
+────────────────────────────────────────────────────────────────
+  None.
+
+CLOSED TODAY (0)
+────────────────────────────────────────────────────────────────
+  None.
+
+P&L SUMMARY
+────────────────────────────────────────────────────────────────
+  Today realised             $+0.00
+  All-time realised      $+6,106.95
+  Open unrealised            $+0.00
+  Net (realised+open)    $+6,106.95
+
+  Closed trades                   5
+  Win rate                    60.0%
+  Avg winner             $+3,016.40
+  Avg loser              $-1,471.12
+  Reward/risk ratio           2.05×
+
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (18)
+────────────────────────────────────────────────────────────────
+  GTLB    ★★★★★  low opening volume (RVOL=0.42x, need ≥1.0x)
+  DLLL    ★★★★☆  low opening volume (RVOL=0.74x, need ≥1.0x)
+  ASST    ★★★★☆  low opening volume (RVOL=0.70x, need ≥1.0x)
+  HPE     ★★★★☆  low opening volume (RVOL=0.53x, need ≥1.0x)
+  ZS      ★★★★☆  low opening volume (RVOL=0.48x, need ≥1.0x)
+  BLSH    ★★★★☆  low opening volume (RVOL=0.37x, need ≥1.0x)
+  DELL    ★★★★☆  low opening volume (RVOL=0.60x, need ≥1.0x)
+  PLSE    ★★★★☆  low opening volume (RVOL=0.36x, need ≥1.0x)
+  SNOW    ★★★★☆  low opening volume (RVOL=0.49x, need ≥1.0x)
+  GTLB    ★★★★★  low opening volume (RVOL=0.42x, need ≥1.0x)
+  DLLL    ★★★★☆  low opening volume (RVOL=0.73x, need ≥1.0x)
+  ASST    ★★★★☆  low opening volume (RVOL=0.70x, need ≥1.0x)
+  HPE     ★★★★☆  low opening volume (RVOL=0.52x, need ≥1.0x)
+  ZS      ★★★★☆  low opening volume (RVOL=0.48x, need ≥1.0x)
+  BLSH    ★★★★☆  low opening volume (RVOL=0.37x, need ≥1.0x)
+  DELL    ★★★★☆  low opening volume (RVOL=0.60x, need ≥1.0x)
+  PLSE    ★★★★☆  low opening volume (RVOL=0.36x, need ≥1.0x)
+  SNOW    ★★★★☆  low opening volume (RVOL=0.49x, need ≥1.0x)
+
+════════════════════════════════════════════════════════════════
