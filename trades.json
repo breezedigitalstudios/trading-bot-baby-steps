@@ -28423,6 +28423,147 @@
         "orb_volume": 593481,
         "avg_hourly_volume": 844261.0
       }
+    },
+    {
+      "id": "18fadd96-27a6-4638-a07b-ea0bf9a1515c",
+      "date": "2026-09-25",
+      "symbol": "DLLL",
+      "stars": 5,
+      "reason": "breakout already occurred \u2014 market $36.05 already above ORB high $35.43",
+      "timestamp": "2026-09-25T19:30:01.125772+00:00",
+      "detail": {
+        "orb_high": 35.43,
+        "orb_low": 33.16
+      }
+    },
+    {
+      "id": "e9be04d8-007a-4879-845c-d264c5ec9361",
+      "date": "2026-09-25",
+      "symbol": "SKUU",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.82x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:01.214237+00:00",
+      "detail": {
+        "rvol": 0.82,
+        "orb_volume": 259078,
+        "avg_hourly_volume": 316441.0
+      }
+    },
+    {
+      "id": "996358c9-3a22-4599-a798-15ae88bff506",
+      "date": "2026-09-25",
+      "symbol": "RBRK",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.35x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:01.388930+00:00",
+      "detail": {
+        "rvol": 0.35,
+        "orb_volume": 198213,
+        "avg_hourly_volume": 565436.0
+      }
+    },
+    {
+      "id": "765a6db9-8f81-4e78-85ac-a6632f7882a7",
+      "date": "2026-09-25",
+      "symbol": "DELL",
+      "stars": 5,
+      "reason": "breakout already occurred \u2014 market $565.55 already above ORB high $560.49",
+      "timestamp": "2026-09-25T19:30:02.018078+00:00",
+      "detail": {
+        "orb_high": 560.49,
+        "orb_low": 541.24
+      }
+    },
+    {
+      "id": "830c3e13-2e67-4952-995f-be514af43c81",
+      "date": "2026-09-25",
+      "symbol": "GTLB",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.33x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:02.121832+00:00",
+      "detail": {
+        "rvol": 0.33,
+        "orb_volume": 300602,
+        "avg_hourly_volume": 901946.0
+      }
+    },
+    {
+      "id": "35abe2de-4a9a-4760-9fa3-86f1f982fa69",
+      "date": "2026-09-25",
+      "symbol": "CRWL",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.27x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:02.357224+00:00",
+      "detail": {
+        "rvol": 0.27,
+        "orb_volume": 10102,
+        "avg_hourly_volume": 37198.0
+      }
+    },
+    {
+      "id": "7fa506a4-0e14-44b3-a4b8-af91a81dde41",
+      "date": "2026-09-25",
+      "symbol": "BBNX",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.20x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:02.584973+00:00",
+      "detail": {
+        "rvol": 0.2,
+        "orb_volume": 43550,
+        "avg_hourly_volume": 221657.0
+      }
+    },
+    {
+      "id": "40e8206b-1908-4743-b6f6-542b521f092f",
+      "date": "2026-09-25",
+      "symbol": "HPE",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.75x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:02.705127+00:00",
+      "detail": {
+        "rvol": 0.75,
+        "orb_volume": 3220262,
+        "avg_hourly_volume": 4299838.0
+      }
+    },
+    {
+      "id": "4bae14b3-1593-4912-8175-4bd8546ddc65",
+      "date": "2026-09-25",
+      "symbol": "PANW",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.85x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:02.785764+00:00",
+      "detail": {
+        "rvol": 0.85,
+        "orb_volume": 917887,
+        "avg_hourly_volume": 1082793.0
+      }
+    },
+    {
+      "id": "1fbf55b1-dc8e-4767-b8b0-dfe5aca60d7c",
+      "date": "2026-09-25",
+      "symbol": "PLSE",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.20x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:02.934829+00:00",
+      "detail": {
+        "rvol": 0.2,
+        "orb_volume": 21405,
+        "avg_hourly_volume": 108131.0
+      }
+    },
+    {
+      "id": "ca7c6fad-32f0-4386-9130-2e2e53adcc6b",
+      "date": "2026-09-25",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.70x, need \u22651.0x)",
+      "timestamp": "2026-09-25T19:30:03.468989+00:00",
+      "detail": {
+        "rvol": 0.7,
+        "orb_volume": 593481,
+        "avg_hourly_volume": 845912.0
+      }
     }
   ]
 }
