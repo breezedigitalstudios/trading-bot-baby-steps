@@ -28716,6 +28716,118 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-09-28T20:42:09.788352+00:00"
+    },
+    {
+      "id": "c261730d-5983-4cee-a5af-5e3623402133",
+      "date": "2026-09-28",
+      "symbol": "CRWD",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.608911+00:00"
+    },
+    {
+      "id": "bd087e15-dccc-4fb9-969d-c1bbe9cced27",
+      "date": "2026-09-28",
+      "symbol": "BBNX",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.608933+00:00"
+    },
+    {
+      "id": "fbf3f27d-5a28-4680-a1df-3ba3f39a9568",
+      "date": "2026-09-28",
+      "symbol": "HTFL",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.608945+00:00"
+    },
+    {
+      "id": "aa0be781-011b-4ca3-8594-3daac70c879b",
+      "date": "2026-09-28",
+      "symbol": "DLLL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.608961+00:00"
+    },
+    {
+      "id": "fb0840e3-5a3f-41a7-b028-67391a24f746",
+      "date": "2026-09-28",
+      "symbol": "ASST",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.608972+00:00"
+    },
+    {
+      "id": "0d880118-296b-4a9c-bfeb-1144c4b85e8e",
+      "date": "2026-09-28",
+      "symbol": "SKUU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.608982+00:00"
+    },
+    {
+      "id": "f0e3cd44-3128-468f-bcf6-479daca7f2e3",
+      "date": "2026-09-28",
+      "symbol": "FPS",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.608991+00:00"
+    },
+    {
+      "id": "94578f6c-094e-4cde-8fc6-55a01736101e",
+      "date": "2026-09-28",
+      "symbol": "SWKS",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.609015+00:00"
+    },
+    {
+      "id": "c220a55f-c739-4d91-98a1-630dec9a8fd3",
+      "date": "2026-09-28",
+      "symbol": "HPE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.609026+00:00"
+    },
+    {
+      "id": "410eac99-4b6d-4489-afd9-abab4c77284d",
+      "date": "2026-09-28",
+      "symbol": "DELL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.609035+00:00"
+    },
+    {
+      "id": "ec10ea02-2305-4d9f-9c57-2a8aaf148997",
+      "date": "2026-09-28",
+      "symbol": "RBRK",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.609043+00:00"
+    },
+    {
+      "id": "dead5223-6975-43ad-b6b1-e8a6db50fe5b",
+      "date": "2026-09-28",
+      "symbol": "PANW",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.609052+00:00"
+    },
+    {
+      "id": "56150d0e-5721-4db5-be2d-6ee1939906a5",
+      "date": "2026-09-28",
+      "symbol": "HNGE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.609060+00:00"
+    },
+    {
+      "id": "4400dcac-0ae6-4f27-a412-09bd50bb8c7b",
+      "date": "2026-09-28",
+      "symbol": "SNOW",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-28T21:21:25.609068+00:00"
     }
   ]
 }
