@@ -683,8 +683,10 @@
       "stop_price": 36.57,
       "initial_risk_per_share": 2.71,
       "circuit_breaker_halved": false,
-      "status": "pending",
-      "timestamp": "2026-09-30T19:35:22.967768+00:00"
+      "status": "expired",
+      "timestamp": "2026-09-30T19:35:22.967768+00:00",
+      "exit_date": "2026-09-30",
+      "exit_reason": "entry_order_expired"
     },
     {
       "id": "889091d9-177a-4381-8813-13207a052b8f",
@@ -701,8 +703,10 @@
       "stop_price": 63.59,
       "initial_risk_per_share": 3.86,
       "circuit_breaker_halved": false,
-      "status": "pending",
-      "timestamp": "2026-09-30T19:35:23.731641+00:00"
+      "status": "expired",
+      "timestamp": "2026-09-30T19:35:23.731641+00:00",
+      "exit_date": "2026-09-30",
+      "exit_reason": "entry_order_expired"
     }
   ],
   "skipped": [
