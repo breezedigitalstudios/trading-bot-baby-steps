@@ -667,6 +667,42 @@
       "timestamp": "2026-09-28T20:42:09.382208+00:00",
       "exit_date": "2026-09-29",
       "exit_reason": "entry_order_stale"
+    },
+    {
+      "id": "2d27e90a-d5de-4250-a1a1-9d19659f5111",
+      "date": "2026-09-30",
+      "symbol": "MUU",
+      "stars": 4,
+      "orb_high": 37.87,
+      "orb_low": 36.57,
+      "orb_range": 1.3,
+      "atr": 2.71,
+      "shares": 556,
+      "entry_order_id": "73511f39-491d-4593-b08d-254f073e0684",
+      "stop_order_id": "ef494dea-227f-474c-bcf8-d672a4f73eb6",
+      "stop_price": 36.57,
+      "initial_risk_per_share": 2.71,
+      "circuit_breaker_halved": false,
+      "status": "pending",
+      "timestamp": "2026-09-30T19:35:22.967768+00:00"
+    },
+    {
+      "id": "889091d9-177a-4381-8813-13207a052b8f",
+      "date": "2026-09-30",
+      "symbol": "HPE",
+      "stars": 4,
+      "orb_high": 67.1,
+      "orb_low": 63.59,
+      "orb_range": 3.51,
+      "atr": 3.86,
+      "shares": 314,
+      "entry_order_id": "56c9ddc2-e432-4903-85f2-d504527a660b",
+      "stop_order_id": "aca104fd-be14-460b-8206-8bed30c7d776",
+      "stop_price": 63.59,
+      "initial_risk_per_share": 3.86,
+      "circuit_breaker_halved": false,
+      "status": "pending",
+      "timestamp": "2026-09-30T19:35:23.731641+00:00"
     }
   ],
   "skipped": [
@@ -29120,6 +29156,216 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-09-29T20:11:42.529117+00:00"
+    },
+    {
+      "id": "71e6f006-e5ee-46f4-96a3-6b663b19bb87",
+      "date": "2026-09-30",
+      "symbol": "ASST",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.89x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:21.452128+00:00",
+      "detail": {
+        "rvol": 0.89,
+        "orb_volume": 1252183,
+        "avg_hourly_volume": 1411262.0
+      }
+    },
+    {
+      "id": "9f8aa8da-19ca-4b19-9aac-3c421b1f9fb8",
+      "date": "2026-09-30",
+      "symbol": "DELL",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.62x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:21.498178+00:00",
+      "detail": {
+        "rvol": 0.62,
+        "orb_volume": 1025994,
+        "avg_hourly_volume": 1651199.0
+      }
+    },
+    {
+      "id": "2cb69bdc-566c-4069-81a1-72b64ced6b1a",
+      "date": "2026-09-30",
+      "symbol": "SIMO",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.38x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:21.565174+00:00",
+      "detail": {
+        "rvol": 0.38,
+        "orb_volume": 43324,
+        "avg_hourly_volume": 115067.0
+      }
+    },
+    {
+      "id": "6ac84836-5382-4815-be83-6ad37c4e9369",
+      "date": "2026-09-30",
+      "symbol": "SNDK",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.66x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:21.754446+00:00",
+      "detail": {
+        "rvol": 0.66,
+        "orb_volume": 949072,
+        "avg_hourly_volume": 1447445.0
+      }
+    },
+    {
+      "id": "6c13e5a8-bc86-4c72-8ed8-5202e78e6184",
+      "date": "2026-09-30",
+      "symbol": "EFOR",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.26x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:21.932056+00:00",
+      "detail": {
+        "rvol": 0.26,
+        "orb_volume": 27976,
+        "avg_hourly_volume": 106128.0
+      }
+    },
+    {
+      "id": "a88833c6-5277-439a-8f8b-cf0702fba2f0",
+      "date": "2026-09-30",
+      "symbol": "DLLL",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.79x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:22.125679+00:00",
+      "detail": {
+        "rvol": 0.79,
+        "orb_volume": 331726,
+        "avg_hourly_volume": 419203.0
+      }
+    },
+    {
+      "id": "eaca29a0-0c15-4574-a21a-4bc2a4f4abcc",
+      "date": "2026-09-30",
+      "symbol": "COHU",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.39x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:22.162978+00:00",
+      "detail": {
+        "rvol": 0.39,
+        "orb_volume": 57914,
+        "avg_hourly_volume": 147581.0
+      }
+    },
+    {
+      "id": "97f16a42-a1b5-4177-8018-af6561a0062e",
+      "date": "2026-09-30",
+      "symbol": "BAND",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.25x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:22.380836+00:00",
+      "detail": {
+        "rvol": 0.25,
+        "orb_volume": 35329,
+        "avg_hourly_volume": 142800.0
+      }
+    },
+    {
+      "id": "fd0e7bff-9908-431a-855e-c6547ff9d911",
+      "date": "2026-09-30",
+      "symbol": "SWKS",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.34x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:23.361580+00:00",
+      "detail": {
+        "rvol": 0.34,
+        "orb_volume": 376135,
+        "avg_hourly_volume": 1121529.0
+      }
+    },
+    {
+      "id": "8788f479-6942-443c-8cef-2b7c55de3f3d",
+      "date": "2026-09-30",
+      "symbol": "CAI",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.22x, need \u22651.0x)",
+      "timestamp": "2026-09-30T19:35:23.427663+00:00",
+      "detail": {
+        "rvol": 0.22,
+        "orb_volume": 171579,
+        "avg_hourly_volume": 788436.0
+      }
+    },
+    {
+      "id": "e0b27eea-8500-423d-95af-7c12f657b54c",
+      "date": "2026-09-30",
+      "symbol": "SKUU",
+      "stars": 4,
+      "reason": "already holding this stock",
+      "timestamp": "2026-09-30T19:35:23.427681+00:00"
+    },
+    {
+      "id": "959a8d07-f376-4b4b-96da-316af86b969d",
+      "date": "2026-09-30",
+      "symbol": "RBRK",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097594+00:00"
+    },
+    {
+      "id": "ce3c97a0-563c-44e0-a5f8-75287c47e5ef",
+      "date": "2026-09-30",
+      "symbol": "DOCN",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097614+00:00"
+    },
+    {
+      "id": "4189c211-6de8-4ac0-a1fc-c0fb7eac2d67",
+      "date": "2026-09-30",
+      "symbol": "MRVL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097623+00:00"
+    },
+    {
+      "id": "c15625f4-5d34-440d-8d1d-8138f2978abb",
+      "date": "2026-09-30",
+      "symbol": "PLTU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097631+00:00"
+    },
+    {
+      "id": "84ecce44-43d0-449a-9114-313c861a4018",
+      "date": "2026-09-30",
+      "symbol": "MSTR",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097773+00:00"
+    },
+    {
+      "id": "cd1471dd-61d2-4c25-8bf5-218bf54e924d",
+      "date": "2026-09-30",
+      "symbol": "PANW",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097784+00:00"
+    },
+    {
+      "id": "17142e40-07ca-4f58-8788-ea83f55925b3",
+      "date": "2026-09-30",
+      "symbol": "BMNR",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097792+00:00"
+    },
+    {
+      "id": "57318040-5870-4b14-b543-37c050e3b001",
+      "date": "2026-09-30",
+      "symbol": "HTFL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097798+00:00"
+    },
+    {
+      "id": "2cce4dc3-f925-4b0c-a5f2-cc445870e9ce",
+      "date": "2026-09-30",
+      "symbol": "APPN",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T19:35:24.097805+00:00"
     }
   ]
 }
