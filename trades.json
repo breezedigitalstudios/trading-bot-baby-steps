@@ -29366,6 +29366,182 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-09-30T19:35:24.097805+00:00"
+    },
+    {
+      "id": "0c900428-5c33-49f6-b51a-a335ff070d32",
+      "date": "2026-09-30",
+      "symbol": "ASST",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296762+00:00"
+    },
+    {
+      "id": "753e941b-382a-4107-95a6-cb3df713e0f3",
+      "date": "2026-09-30",
+      "symbol": "DELL",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296787+00:00"
+    },
+    {
+      "id": "28faaaf2-a2b5-46f2-a21b-c1a7d9d1e5b6",
+      "date": "2026-09-30",
+      "symbol": "SIMO",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296801+00:00"
+    },
+    {
+      "id": "660fa549-8cd4-443c-94c5-29edd2b3a7d1",
+      "date": "2026-09-30",
+      "symbol": "SNDK",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296821+00:00"
+    },
+    {
+      "id": "f2161f71-c995-46e9-8df7-42f9a4bf4120",
+      "date": "2026-09-30",
+      "symbol": "EFOR",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296834+00:00"
+    },
+    {
+      "id": "d0c74a78-edf6-4858-a6b7-3f8cc7eed281",
+      "date": "2026-09-30",
+      "symbol": "DLLL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296848+00:00"
+    },
+    {
+      "id": "b0a4e7a3-0dac-48d9-9879-a0bdaf2607cf",
+      "date": "2026-09-30",
+      "symbol": "COHU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296860+00:00"
+    },
+    {
+      "id": "a8e77ca2-497d-45db-a0c8-34ec3cd685ed",
+      "date": "2026-09-30",
+      "symbol": "BAND",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296889+00:00"
+    },
+    {
+      "id": "014d5571-f0ec-4e17-aa27-26afd3cc5914",
+      "date": "2026-09-30",
+      "symbol": "MUU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296903+00:00"
+    },
+    {
+      "id": "7b311522-fd29-46ff-8836-8596290e21be",
+      "date": "2026-09-30",
+      "symbol": "SWKS",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296920+00:00"
+    },
+    {
+      "id": "2e865076-e2e0-42fb-8c5b-3fd46e101725",
+      "date": "2026-09-30",
+      "symbol": "CAI",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296932+00:00"
+    },
+    {
+      "id": "a62c82df-abab-4186-a2e8-d0df46336fff",
+      "date": "2026-09-30",
+      "symbol": "SKUU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296943+00:00"
+    },
+    {
+      "id": "9662d04f-18ca-4344-9557-39e2ddabe8be",
+      "date": "2026-09-30",
+      "symbol": "HPE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296954+00:00"
+    },
+    {
+      "id": "24cc4595-0a04-49be-9ef2-8a6c62fde858",
+      "date": "2026-09-30",
+      "symbol": "RBRK",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296965+00:00"
+    },
+    {
+      "id": "0dcbf14d-7950-499e-95cc-d3b3da241890",
+      "date": "2026-09-30",
+      "symbol": "DOCN",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296977+00:00"
+    },
+    {
+      "id": "cd9b2b21-fae5-4b06-a9b5-55fac836b88a",
+      "date": "2026-09-30",
+      "symbol": "MRVL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296988+00:00"
+    },
+    {
+      "id": "a74c16ef-2880-4ec0-ab6c-e9fa507ff4d2",
+      "date": "2026-09-30",
+      "symbol": "PLTU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.296998+00:00"
+    },
+    {
+      "id": "e068427e-83c6-47a1-94f9-7c66e4010a5c",
+      "date": "2026-09-30",
+      "symbol": "MSTR",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.297007+00:00"
+    },
+    {
+      "id": "ee579b62-6739-4aa9-af07-4bc8a9582561",
+      "date": "2026-09-30",
+      "symbol": "PANW",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.297015+00:00"
+    },
+    {
+      "id": "766d9d50-04b8-4554-b849-e6faa7a4919d",
+      "date": "2026-09-30",
+      "symbol": "BMNR",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.297024+00:00"
+    },
+    {
+      "id": "9055f4bc-a9d3-4e15-b2e7-c7e68e11b9df",
+      "date": "2026-09-30",
+      "symbol": "HTFL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.297032+00:00"
+    },
+    {
+      "id": "97fceab0-204d-41dc-87e1-32eed2afdd73",
+      "date": "2026-09-30",
+      "symbol": "APPN",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-09-30T20:16:46.297040+00:00"
     }
   ]
 }
