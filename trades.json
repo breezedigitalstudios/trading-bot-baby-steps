@@ -30986,6 +30986,198 @@
       "stars": 4,
       "reason": "max daily entries reached (2)",
       "timestamp": "2026-10-05T21:36:06.158117+00:00"
+    },
+    {
+      "id": "97c490fa-5ec3-45ce-889e-c41d5c073eb0",
+      "date": "2026-10-05",
+      "symbol": "PS",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427689+00:00"
+    },
+    {
+      "id": "b8075b34-b3a4-4467-900c-5b7c2f50b922",
+      "date": "2026-10-05",
+      "symbol": "SKUU",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427706+00:00"
+    },
+    {
+      "id": "e0036818-eb24-4a98-a0d7-8ddccfa7ae23",
+      "date": "2026-10-05",
+      "symbol": "RBRK",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427716+00:00"
+    },
+    {
+      "id": "2316027c-fe99-4655-853e-7ad7d414dd2d",
+      "date": "2026-10-05",
+      "symbol": "OKTA",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427728+00:00"
+    },
+    {
+      "id": "ca4a3144-8df3-45f2-923b-de3d0b65c7c4",
+      "date": "2026-10-05",
+      "symbol": "PANW",
+      "stars": 5,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427736+00:00"
+    },
+    {
+      "id": "55bbc902-8a4d-47fd-a96f-4617e9b4a042",
+      "date": "2026-10-05",
+      "symbol": "FBL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427744+00:00"
+    },
+    {
+      "id": "355f09d3-cb88-40c2-a0f8-87dbe41d7e26",
+      "date": "2026-10-05",
+      "symbol": "METU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427751+00:00"
+    },
+    {
+      "id": "976d91f2-31b4-484c-b777-57483d4564bb",
+      "date": "2026-10-05",
+      "symbol": "P",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427770+00:00"
+    },
+    {
+      "id": "bc589ec0-7dff-47fd-b666-a58a4a049257",
+      "date": "2026-10-05",
+      "symbol": "BAND",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427779+00:00"
+    },
+    {
+      "id": "10fc1cce-ed81-4c1b-a92c-f4314df961a3",
+      "date": "2026-10-05",
+      "symbol": "FEIM",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427786+00:00"
+    },
+    {
+      "id": "f50cc453-88c0-4045-832a-29533c1b3e00",
+      "date": "2026-10-05",
+      "symbol": "NBIL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427793+00:00"
+    },
+    {
+      "id": "7f1d270d-61ae-4259-9a44-cf1d9f71a280",
+      "date": "2026-10-05",
+      "symbol": "FPS",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427803+00:00"
+    },
+    {
+      "id": "1f5cbf4b-5a33-44c9-974f-60329ae29387",
+      "date": "2026-10-05",
+      "symbol": "RMBS",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427809+00:00"
+    },
+    {
+      "id": "8b7bcec9-8b0e-4981-b141-0e3f6f8d57a9",
+      "date": "2026-10-05",
+      "symbol": "ALAB",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427815+00:00"
+    },
+    {
+      "id": "36397b8b-8261-4b77-9abf-4a94b86cfc69",
+      "date": "2026-10-05",
+      "symbol": "PTIR",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427822+00:00"
+    },
+    {
+      "id": "41705822-5f5c-4357-aeef-652745181e33",
+      "date": "2026-10-05",
+      "symbol": "PLTU",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427829+00:00"
+    },
+    {
+      "id": "0956e4a1-0a67-48c5-a0a7-77eb01b747e6",
+      "date": "2026-10-05",
+      "symbol": "QLYS",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427837+00:00"
+    },
+    {
+      "id": "57b0b2f4-4575-457a-9e0e-83895a5c0a78",
+      "date": "2026-10-05",
+      "symbol": "ECO",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427843+00:00"
+    },
+    {
+      "id": "9f425e36-f976-48e8-b8a4-d84535e970d9",
+      "date": "2026-10-05",
+      "symbol": "XMTR",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427850+00:00"
+    },
+    {
+      "id": "0af288fc-8957-448a-9cae-daac2d181112",
+      "date": "2026-10-05",
+      "symbol": "CAI",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427857+00:00"
+    },
+    {
+      "id": "4f27e48a-6804-4739-94e4-a444363408d9",
+      "date": "2026-10-05",
+      "symbol": "SNDK",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427863+00:00"
+    },
+    {
+      "id": "9c2cc491-c32d-4247-a3a0-29c0788a860e",
+      "date": "2026-10-05",
+      "symbol": "HNGE",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427870+00:00"
+    },
+    {
+      "id": "0c6f848e-d26d-4753-b446-688ef631cf3d",
+      "date": "2026-10-05",
+      "symbol": "HTFL",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427876+00:00"
+    },
+    {
+      "id": "245e2437-1b98-48ab-b7b4-baaf619bf5db",
+      "date": "2026-10-05",
+      "symbol": "CORT",
+      "stars": 4,
+      "reason": "max daily entries reached (2)",
+      "timestamp": "2026-10-05T22:09:28.427882+00:00"
     }
   ]
 }
