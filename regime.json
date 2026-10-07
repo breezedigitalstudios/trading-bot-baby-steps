@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:06:28.665700+00:00",
+  "generated_at": "2026-10-07T20:45:30.270084+00:00",
   "regime": "TRADE",
   "regime_reason": "sma_filter",
   "qqq_close": 757.73,
@@ -10,7 +10,7 @@
   "sma20_slope_5d": 9.23,
   "sma10_sloping_up": true,
   "sma20_sloping_up": true,
-  "vix": 15.02,
+  "vix": 15.08,
   "vix_threshold": 25,
   "vix_elevated": false
 }

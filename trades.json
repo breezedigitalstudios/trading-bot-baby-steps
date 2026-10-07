@@ -32075,6 +32075,371 @@
         "orb_volume": 39654,
         "avg_hourly_volume": 272982.0
       }
+    },
+    {
+      "id": "2c8fc2bc-afd8-4d11-a45b-e0fe7f803336",
+      "date": "2026-10-07",
+      "symbol": "FEIM",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.36x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:32.817098+00:00",
+      "detail": {
+        "rvol": 0.36,
+        "orb_volume": 23596,
+        "avg_hourly_volume": 66239.0
+      }
+    },
+    {
+      "id": "ab84785b-b4e2-4ee4-bc82-41016ff33a45",
+      "date": "2026-10-07",
+      "symbol": "FBL",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.49x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:32.945350+00:00",
+      "detail": {
+        "rvol": 0.49,
+        "orb_volume": 80719,
+        "avg_hourly_volume": 163640.0
+      }
+    },
+    {
+      "id": "69d06665-f0a2-40f4-8347-d8cb48ecb4af",
+      "date": "2026-10-07",
+      "symbol": "METU",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.55x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:33.077451+00:00",
+      "detail": {
+        "rvol": 0.55,
+        "orb_volume": 461420,
+        "avg_hourly_volume": 834494.0
+      }
+    },
+    {
+      "id": "d74422b2-0d63-483c-820d-ac6461c3f7d1",
+      "date": "2026-10-07",
+      "symbol": "TENB",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.64x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:33.207329+00:00",
+      "detail": {
+        "rvol": 0.64,
+        "orb_volume": 464593,
+        "avg_hourly_volume": 730738.0
+      }
+    },
+    {
+      "id": "a4ae2fa4-9776-454d-8774-4d14188dbdd3",
+      "date": "2026-10-07",
+      "symbol": "ASST",
+      "stars": 5,
+      "reason": "low opening volume (RVOL=0.99x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:33.337939+00:00",
+      "detail": {
+        "rvol": 0.99,
+        "orb_volume": 1320779,
+        "avg_hourly_volume": 1329482.0
+      }
+    },
+    {
+      "id": "1a159f7b-4962-4e91-87ba-8402b4c76d96",
+      "date": "2026-10-07",
+      "symbol": "AMDL",
+      "stars": 4,
+      "reason": "estimated cost $20,504.16 exceeds available capital $15,992.48",
+      "timestamp": "2026-10-07T20:45:34.272824+00:00",
+      "detail": {
+        "cost_estimate": 20504.16,
+        "available": 15992.48
+      }
+    },
+    {
+      "id": "e9b72e34-4f5e-4dab-a0ed-bfffe7de5a94",
+      "date": "2026-10-07",
+      "symbol": "PS",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.32x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:34.410136+00:00",
+      "detail": {
+        "rvol": 0.32,
+        "orb_volume": 36836,
+        "avg_hourly_volume": 115115.0
+      }
+    },
+    {
+      "id": "aa5dd550-ccee-4b09-aff3-22a28c51e148",
+      "date": "2026-10-07",
+      "symbol": "SRZN",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.33x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:34.547178+00:00",
+      "detail": {
+        "rvol": 0.33,
+        "orb_volume": 50936,
+        "avg_hourly_volume": 155869.0
+      }
+    },
+    {
+      "id": "0ee35508-29e2-4f43-9a68-e06a4ad60e9c",
+      "date": "2026-10-07",
+      "symbol": "P",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.33x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:34.806159+00:00",
+      "detail": {
+        "rvol": 0.33,
+        "orb_volume": 406777,
+        "avg_hourly_volume": 1229006.0
+      }
+    },
+    {
+      "id": "72af16aa-5d6e-46d4-95dc-1fd93cca4a07",
+      "date": "2026-10-07",
+      "symbol": "SOLT",
+      "stars": 4,
+      "reason": "estimated cost $20,538.06 exceeds available capital $15,992.48",
+      "timestamp": "2026-10-07T20:45:35.482344+00:00",
+      "detail": {
+        "cost_estimate": 20538.06,
+        "available": 15992.48
+      }
+    },
+    {
+      "id": "42f2ae4d-0282-4392-b564-b0d18b9cf324",
+      "date": "2026-10-07",
+      "symbol": "ARMG",
+      "stars": 4,
+      "reason": "estimated cost $20,523.87 exceeds available capital $15,992.48",
+      "timestamp": "2026-10-07T20:45:36.144943+00:00",
+      "detail": {
+        "cost_estimate": 20523.87,
+        "available": 15992.48
+      }
+    },
+    {
+      "id": "0bcfeaf3-6e6e-4c95-a5da-aaf69d871bd4",
+      "date": "2026-10-07",
+      "symbol": "AXTI",
+      "stars": 4,
+      "reason": "estimated cost $20,472.12 exceeds available capital $15,992.48",
+      "timestamp": "2026-10-07T20:45:36.792272+00:00",
+      "detail": {
+        "cost_estimate": 20472.12,
+        "available": 15992.48
+      }
+    },
+    {
+      "id": "bed63713-4f17-4c33-99d5-cb5f22ec9fd8",
+      "date": "2026-10-07",
+      "symbol": "SEI",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.47x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:36.973645+00:00",
+      "detail": {
+        "rvol": 0.47,
+        "orb_volume": 190413,
+        "avg_hourly_volume": 402978.0
+      }
+    },
+    {
+      "id": "d3c9406b-35a9-420b-ad05-ac72dfab855a",
+      "date": "2026-10-07",
+      "symbol": "FPS",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.60x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:37.234265+00:00",
+      "detail": {
+        "rvol": 0.6,
+        "orb_volume": 1076629,
+        "avg_hourly_volume": 1779987.0
+      }
+    },
+    {
+      "id": "ee5c502c-78d7-471d-a3a9-f7ef743ec4ff",
+      "date": "2026-10-07",
+      "symbol": "RBRK",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.69x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:37.387814+00:00",
+      "detail": {
+        "rvol": 0.69,
+        "orb_volume": 336563,
+        "avg_hourly_volume": 488960.0
+      }
+    },
+    {
+      "id": "242aed25-2de0-41e5-8c47-da566634cad4",
+      "date": "2026-10-07",
+      "symbol": "RMBS",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.22x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:37.519213+00:00",
+      "detail": {
+        "rvol": 0.22,
+        "orb_volume": 88101,
+        "avg_hourly_volume": 394793.0
+      }
+    },
+    {
+      "id": "ec8da10b-e68f-418e-a7d7-ec97ca4580be",
+      "date": "2026-10-07",
+      "symbol": "CEVA",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.26x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:37.647819+00:00",
+      "detail": {
+        "rvol": 0.26,
+        "orb_volume": 25498,
+        "avg_hourly_volume": 97139.0
+      }
+    },
+    {
+      "id": "16c92853-7649-46ef-80f3-307b920e4864",
+      "date": "2026-10-07",
+      "symbol": "DDOG",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.31x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:37.863696+00:00",
+      "detail": {
+        "rvol": 0.31,
+        "orb_volume": 140531,
+        "avg_hourly_volume": 457900.0
+      }
+    },
+    {
+      "id": "b3f3aa85-ab10-48af-970a-bfc1f0e72d3a",
+      "date": "2026-10-07",
+      "symbol": "PTIR",
+      "stars": 4,
+      "reason": "already holding this stock",
+      "timestamp": "2026-10-07T20:45:37.863715+00:00"
+    },
+    {
+      "id": "21dfbc53-d1c4-45ed-a9c7-8bf99690d2f1",
+      "date": "2026-10-07",
+      "symbol": "PLTU",
+      "stars": 4,
+      "reason": "estimated cost $20,503.08 exceeds available capital $15,992.48",
+      "timestamp": "2026-10-07T20:45:38.516504+00:00",
+      "detail": {
+        "cost_estimate": 20503.08,
+        "available": 15992.48
+      }
+    },
+    {
+      "id": "688e57bd-e6c6-4125-aec7-e3b0c36e3ca0",
+      "date": "2026-10-07",
+      "symbol": "XMTR",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.41x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:38.707158+00:00",
+      "detail": {
+        "rvol": 0.41,
+        "orb_volume": 58186,
+        "avg_hourly_volume": 141916.0
+      }
+    },
+    {
+      "id": "f828fae1-f949-4977-aa87-a8c4ebb3d0d0",
+      "date": "2026-10-07",
+      "symbol": "OKTA",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.43x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:38.845181+00:00",
+      "detail": {
+        "rvol": 0.43,
+        "orb_volume": 259632,
+        "avg_hourly_volume": 602373.0
+      }
+    },
+    {
+      "id": "0229aede-c4e7-439c-84da-8c157cc41945",
+      "date": "2026-10-07",
+      "symbol": "PANW",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.61x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:38.972595+00:00",
+      "detail": {
+        "rvol": 0.61,
+        "orb_volume": 581286,
+        "avg_hourly_volume": 947593.0
+      }
+    },
+    {
+      "id": "173134de-0066-4452-b6bc-20cacbbceb02",
+      "date": "2026-10-07",
+      "symbol": "BE",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.74x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:39.139484+00:00",
+      "detail": {
+        "rvol": 0.74,
+        "orb_volume": 1876253,
+        "avg_hourly_volume": 2542508.0
+      }
+    },
+    {
+      "id": "e28be71b-12e0-433c-bbae-2b3229c9c259",
+      "date": "2026-10-07",
+      "symbol": "SMCI",
+      "stars": 4,
+      "reason": "estimated cost $20,543.31 exceeds available capital $15,992.48",
+      "timestamp": "2026-10-07T20:45:39.618628+00:00",
+      "detail": {
+        "cost_estimate": 20543.31,
+        "available": 15992.48
+      }
+    },
+    {
+      "id": "244acbe5-4b84-43ad-a210-192fb0ac2706",
+      "date": "2026-10-07",
+      "symbol": "VIA",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.23x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:39.777740+00:00",
+      "detail": {
+        "rvol": 0.23,
+        "orb_volume": 33841,
+        "avg_hourly_volume": 146155.0
+      }
+    },
+    {
+      "id": "ae1778b4-d4e7-4f13-b7ae-f7186b9d6995",
+      "date": "2026-10-07",
+      "symbol": "MSFU",
+      "stars": 4,
+      "reason": "estimated cost $20,510.01 exceeds available capital $15,992.48",
+      "timestamp": "2026-10-07T20:45:40.398685+00:00",
+      "detail": {
+        "cost_estimate": 20510.01,
+        "available": 15992.48
+      }
+    },
+    {
+      "id": "faf866f5-344c-45d9-b80b-2ac985f0f773",
+      "date": "2026-10-07",
+      "symbol": "RNG",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.21x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:40.639792+00:00",
+      "detail": {
+        "rvol": 0.21,
+        "orb_volume": 50080,
+        "avg_hourly_volume": 241818.0
+      }
+    },
+    {
+      "id": "d72e02c0-fa34-4342-b3f7-518dc420472d",
+      "date": "2026-10-07",
+      "symbol": "CORT",
+      "stars": 4,
+      "reason": "low opening volume (RVOL=0.15x, need \u22651.0x)",
+      "timestamp": "2026-10-07T20:45:40.821659+00:00",
+      "detail": {
+        "rvol": 0.15,
+        "orb_volume": 39654,
+        "avg_hourly_volume": 272982.0
+      }
     }
   ]
 }
