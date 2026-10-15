@@ -1,13 +1,13 @@
 ════════════════════════════════════════════════════════════════
   TRADING BOT — DAILY REPORT
-  Wednesday, October 14 2026   20:01 EDT
+  Thursday, October 15 2026   19:45 EDT
 ════════════════════════════════════════════════════════════════
 
 ACCOUNT
 ────────────────────────────────────────────────────────────────
-  Portfolio value  $   87,328.15
+  Portfolio value  $   89,084.61
   Cash             $   41,673.47
-  Buying power     $  294,526.99
+  Buying power     $  299,445.07
 
 OPEN POSITIONS
 ────────────────────────────────────────────────────────────────
@@ -21,8 +21,8 @@ P&L SUMMARY
 ────────────────────────────────────────────────────────────────
   Today realised             $+0.00
   All-time realised      $+6,106.95
-  Open unrealised       $-18,526.55
-  Net (realised+open)   $-12,419.60
+  Open unrealised       $-16,770.09
+  Net (realised+open)   $-10,663.14
 
   Closed trades                   5
   Win rate                    60.0%
@@ -30,8 +30,37 @@ P&L SUMMARY
   Avg loser              $-1,471.12
   Reward/risk ratio           2.05×
 
-SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (0)
+SKIPPED TODAY — ≥4★ SETUPS NOT TRADED (30)
 ────────────────────────────────────────────────────────────────
-  None.
+  GRAL    ★★★★★  regime_cash: sma_filter
+  DINO    ★★★★★  regime_cash: sma_filter
+  EFOR    ★★★★★  regime_cash: sma_filter
+  KOD     ★★★★☆  regime_cash: sma_filter
+  RXO     ★★★★☆  regime_cash: sma_filter
+  LIND    ★★★★☆  regime_cash: sma_filter
+  ILMN    ★★★★☆  regime_cash: sma_filter
+  NAVN    ★★★★☆  regime_cash: sma_filter
+  CVI     ★★★★☆  regime_cash: sma_filter
+  VLO     ★★★★☆  regime_cash: sma_filter
+  CDNA    ★★★★☆  regime_cash: sma_filter
+  VIA     ★★★★☆  regime_cash: sma_filter
+  TEAM    ★★★★☆  regime_cash: sma_filter
+  AZTA    ★★★★☆  regime_cash: sma_filter
+  ZETA    ★★★★☆  regime_cash: sma_filter
+  GRAL    ★★★★★  regime_cash: sma_filter
+  DINO    ★★★★★  regime_cash: sma_filter
+  EFOR    ★★★★★  regime_cash: sma_filter
+  KOD     ★★★★☆  regime_cash: sma_filter
+  RXO     ★★★★☆  regime_cash: sma_filter
+  LIND    ★★★★☆  regime_cash: sma_filter
+  ILMN    ★★★★☆  regime_cash: sma_filter
+  NAVN    ★★★★☆  regime_cash: sma_filter
+  CVI     ★★★★☆  regime_cash: sma_filter
+  VLO     ★★★★☆  regime_cash: sma_filter
+  CDNA    ★★★★☆  regime_cash: sma_filter
+  VIA     ★★★★☆  regime_cash: sma_filter
+  TEAM    ★★★★☆  regime_cash: sma_filter
+  AZTA    ★★★★☆  regime_cash: sma_filter
+  ZETA    ★★★★☆  regime_cash: sma_filter
 
 ════════════════════════════════════════════════════════════════
